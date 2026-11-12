@@ -1,0 +1,21 @@
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+
+# Local environments, captures, and third-party research copies
+/.venv*/
+/.tmp*/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.sqlite*
+*.db
+/runs/
+/research-backups/
+/research-evidence/
+/research-repositories/
+/research-runtime-checkpoints/
+*.pdf
+*.epub
+*.zip

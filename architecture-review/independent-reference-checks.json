@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-06",
+  "environment": "Windows, Codex Node.js REPL, JS integer cents",
+  "scope": "Independent synthetic arithmetic and in-memory fold only. No upstream engine, data feed, external API, database or actual fee test.",
+  "results": [
+    {
+      "name": "cash round trip, cents",
+      "input": {
+        "cash": 100000,
+        "qty": 2,
+        "buy": 10100,
+        "sell": 10300,
+        "feePct": 1
+      },
+      "actual": 99992,
+      "expected": 99992
+    },
+    {
+      "name": "IOC/FOK depth",
+      "input": {
+        "depth": [
+          [
+            2,
+            101
+          ],
+          [
+            3,
+            102
+          ]
+        ],
+        "request": 10
+      },
+      "actual": [
+        5,
+        5,
+        0,
+        508
+      ],
+      "expected": [
+        5,
+        5,
+        0,
+        508
+      ]
+    },
+    {
+      "name": "same OHLC, two outcomes",
+      "input": {
+        "paths": [
+          [
+            100,
+            110,
+            90,
+            102
+          ],
+          [
+            100,
+            90,
+            110,
+            102
+          ]
+        ],
+        "stop": 95,
+        "target": 105
+      },
+      "actual": [
+        105,
+        95
+      ],
+      "expected": [
+        105,
+        95
+      ]
+    },
+    {
+      "name": "in-memory duplicate fill fold",
+      "input": {
+        "initialCash": 100000,
+        "events": [
+          [
+            "f1",
+            2,
+            20200
+          ],
+          [
+            "f1",
+            2,
+            20200
+          ],
+          [
+            "f2",
+            1,
+            10300
+          ]
+        ]
+      },
+      "actual": [
+        69500,
+        3
+      ],
+      "expected": [
+        69500,
+        3
+      ]
+    },
+    {
+      "name": "same gross move, fee sensitivity, cents",
+      "input": {
+        "buy": 10000,
+        "sell": 10100,
+        "etfFeePerSide": 35,
+        "spotTakerBps": 80
+      },
+      "actual": [
+        30,
+        -61,
+        0
+      ],
+      "expected": [
+        30,
+        -61,
+        0
+      ]
+    }
+  ]
+}

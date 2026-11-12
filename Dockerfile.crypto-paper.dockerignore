@@ -1,0 +1,10 @@
+**
+!crypto_paper/
+!crypto_paper/*.py
+!crypto_paper/*.json
+!crypto_paper/requirements.lock
+!fixtures/
+!fixtures/crypto/
+!fixtures/crypto/*.json
+!docker/
+!docker/crypto_probe.py

@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "command": "paper",
+  "policy": "observe",
+  "duration_sec": 86400,
+  "force_reconnect_at_sec": 21600,
+  "venue": "Kraken Spot",
+  "instrument": "BTC/USD",
+  "scope": "local simulation",
+  "initial_usd": "10000",
+  "increase_cap": "0.025",
+  "exposure_cap": "0.10",
+  "daily_loss_cap": "0.01",
+  "drawdown_cap": "0.04",
+  "fee_model": "kraken-spot-tier1-2026-11-07",
+  "fee": "0.008",
+  "latency_ms": 250,
+  "ttl_sec": 5,
+  "depth": 10,
+  "interval_min": [
+    240,
+    1440
+  ]
+}

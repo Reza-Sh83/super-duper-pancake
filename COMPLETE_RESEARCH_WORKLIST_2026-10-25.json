@@ -1,0 +1,316 @@
+{
+  "books": [
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB01",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [],
+      "checked_scope_count": 112,
+      "retained_units": 68,
+      "evidence": "update-2026-10-21\\deep-papers\\instructgpt\\evidence.json",
+      "title": "2203.02155v1.pdf",
+      "artifact_sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "UNREAD_OR_ASSET_UNMAPPED",
+      "id": "LB02",
+      "completion_definition": null,
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "checked_scope_count": 0,
+      "retained_units": 21,
+      "evidence": null,
+      "title": "Advanced Machine Learning Algorithms for Complex Financial Applications (Irfan Mohammad) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "artifact_sha256": "b67545514088990d8c0bdbc5948360f9d3cb164ef17acd22f467e90e7cde4af1",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB03",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "This deliverable is an original analytical synthesis, not a reproduction or translation of the book.",
+        "Contact-sheet visual inspection establishes content/structure and checks salient formulas/code, not line-by-line transcription of every code image.",
+        "Duplicate image occurrences were reviewed by exact SHA-256 identity; they were not opened a second time."
+      ],
+      "checked_scope_count": 776,
+      "retained_units": 7,
+      "evidence": "update-2026-10-21\\deep-books\\afml\\evidence.json",
+      "title": "Advances in Financial Machine Learning (Marcos M. López de Prado) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "artifact_sha256": "3763828c757aebbf741e094f20407ae5798e1ee4193589c4a59cec313e4808f1",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB04",
+      "completion_definition": "Retained 362-page PDF text and visual content analysis; not full companion-repository, data, training/backtest or cited-source reproduction.",
+      "remaining": [
+        "Full companion repository audit, data reconstruction and reproduction of reported training/backtest metrics remain open.",
+        "Cited-source chain and empirical market/profit claims are not exhaustively independently verified."
+      ],
+      "checked_scope_count": 724,
+      "retained_units": 362,
+      "evidence": "update-2026-10-21\\deep-books\\kaabar\\evidence.json",
+      "title": "Deep Learning for Finance Creating Machine  Deep Learning Models for Trading in Python (Sofien Kaabar) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "068e6191cf6c5f6f0aed13d0bae8d06137048f33d6a8d9ca16ff32b51bec81d3",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "PARTIAL_RECORDED_SCOPE",
+      "id": "LB05",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "All remaining page images and graphical details",
+        "Companion website registered code and tick data",
+        "Independent full reading/replication of every cited underlying work",
+        "Broker fills, live profitability and current market/regulatory specifications"
+      ],
+      "checked_scope_count": 398,
+      "retained_units": 354,
+      "evidence": "update-2026-10-21\\deep-books\\aldridge\\evidence.json",
+      "title": "High-Frequency Trading - A Practical Guide to Algorithmic Strategies and Trading Systems (Wiley Trading). (Irene Aldridge) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "3640706d4edf8480cc02d41962bf54312d347f5d3cd13ef360290582847b1e49",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB06",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "Independent reproduction of the companion notebooks, datasets, and empirical claims remains open; book-specific metrics remain author-reported unless separately verified."
+      ],
+      "checked_scope_count": 1102,
+      "retained_units": 827,
+      "evidence": "update-2026-10-21\\deep-books\\jansen\\evidence.json",
+      "title": "Machine Learning for Trading (Stefan Jansen) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "ddcbddd989a5813d16a4e7da0969d6f38b0e2629dac04a7b13c7c0ab21cd16f0",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "PARTIAL_RECORDED_SCOPE",
+      "id": "LB07",
+      "completion_definition": null,
+      "remaining": [
+        "179 visual pages, companion code/data and historical performance reproduction remain open; exact checklist in review_detail"
+      ],
+      "checked_scope_count": 231,
+      "retained_units": 205,
+      "evidence": null,
+      "title": "Machine Learning in Trading Step by step implementation of Machine Learning models (Quantitative Learning, QuantInsti  Shah etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "8f68930591d1506d98916771c796acf1dc90f71a63cf86f47adf85a74617e880",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB08",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "LB18 is a separate 660-page scan with different bytes; this LB08 completion provides no automatic page-level coverage for LB18. Parent alignment file remains candidate-only."
+      ],
+      "checked_scope_count": 768,
+      "retained_units": 657,
+      "evidence": "update-2026-10-21\\deep-books\\harris\\evidence.json",
+      "title": "Trading and Exchanges Market Microstructure for Practitioners - FULL - (Larry Harris) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "f222769f84db515cb154a678517f3d585b30c7a1dea22be360e847d4ed69f437",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "UNREAD_OR_ASSET_UNMAPPED",
+      "id": "LB09",
+      "completion_definition": null,
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "checked_scope_count": 0,
+      "retained_units": 16,
+      "evidence": null,
+      "title": "9781107091146_frontmatter.pdf",
+      "artifact_sha256": "c240b7992da1d154772e19d8d1492036859950f0e12d9a79d3b7b4fb68665416",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB10",
+      "completion_definition": "Analysis of all161retainedtextpages, all18numberedfigures/all8numberedtables and principalimageequations; overprintedpage63bodyrecoveredfromprimaryNBERpage62. Not everypageimagecheck, citedchain, formalproofaudit or empiricalreproduction.",
+      "remaining": [
+        "Read separately cited studies and separately supplied supplements as independent sources",
+        "Reproduce empirical claims with licensed point-in-time data, full trial logs and net execution assumptions",
+        "A full theorem-proof audit or every-page pixel comparison is not claimed"
+      ],
+      "checked_scope_count": 200,
+      "retained_units": 161,
+      "evidence": "update-2026-10-21\\deep-books\\kelly\\evidence.json",
+      "title": "BFI_WP_2023-100.pdf",
+      "artifact_sha256": "900a6683cfb2240d916d36e3a85c7fb0c5659ff55634893905d6b59f7942e58d",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB11",
+      "completion_definition": "Complete retained supplied volume: all 218 page-text units, all 12 numbered figures on original rendered pages, notes/glossary/bibliography/index read; no claim that all cited literature, publisher supplements or original studies were read or reproduced. Non-figure page layouts were not exhaustively audited.",
+      "remaining": [
+        "Remaining visuals, supplements and empirical reproduction are not complete"
+      ],
+      "checked_scope_count": 231,
+      "retained_units": 218,
+      "evidence": "update-2026-10-21\\deep-books\\rosenbaum\\evidence.json",
+      "title": "Causal Inference (Paul R. Rosenbaum) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "1fc34a29bfc01e47bbe7fd25e6a7e627c34daea699c28f195a08ba4a72dff1df",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB12",
+      "completion_definition": "Complete for retained EPUB content: all 3,807 extracted body-text lines read and all 839 unique embedded assets opened and substantively adjudicated at original size, covering 933 placements. Excludes running embedded code, reproducing cited empirical studies, or independently auditing cited sources.",
+      "remaining": [],
+      "checked_scope_count": 863,
+      "retained_units": 22,
+      "evidence": "update-2026-10-21\\deep-books\\cunningham\\evidence.json",
+      "title": "Causal Inference (Scott Cunningham) (z-library.sk, 1lib.sk, z-lib.sk)(1).epub",
+      "artifact_sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB13",
+      "completion_definition": "retained EPUB text/visual content analysis, not full code/data/paper reproduction or all cited-source verification",
+      "remaining": [
+        "{\"item\": \"Resolve Chapter 11 fuzzy-RDD cutoff inconsistency using the source dataset or author clarification.\", \"limitation\": \"The EPUB includes no CSV; prose/figure/displayed model use $5,000, while the final helper call passes $10,000. The reported estimate cannot be reproduced from retained files.\"}",
+        "{\"item\": \"Reproduce Chapter 10 switchback standard errors on the original example data.\", \"limitation\": \"The printed lag-sum SE omits cross-coefficient covariance; the underlying CSV is not bundled in the EPUB.\"}",
+        "{\"item\": \"Verify claims and recommended procedures against all cited research papers and current library versions.\", \"limitation\": \"This completed scope analyzed the retained book and its visual assets; it did not independently retrieve/reproduce every cited source or software dependency.\"}"
+      ],
+      "checked_scope_count": 356,
+      "retained_units": 25,
+      "evidence": "update-2026-10-21\\deep-books\\facure\\evidence.json",
+      "title": "Causal Inference in Python Applying Causal Inference in the Tech Industry (Final Release) (Matheus Facure) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "artifact_sha256": "8ed34e8218b8bbc3a7d210a8a13270451601ce45b41411bb0ec1aa7f3ea8e220",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "RECORDED_ANALYSIS_COMPLETE_VERIFY_SCOPE",
+      "id": "LB14",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "No unread retained text pages remain in the local February 21, 2020 LB14 PDF.",
+        "Bibliography pp.297–311 were screened for navigation only; cited works were not independently verified or read.",
+        "Companion code, patient-level data, the separate 2025 edition, and any trading experiment are outside this retained-source review."
+      ],
+      "checked_scope_count": 397,
+      "retained_units": 311,
+      "evidence": "update-2026-10-21\\deep-books\\longitudinal\\evidence.json",
+      "title": "Causal Inference What If (Miguel A. Hernán, James M. Robins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "9d16e8505ffc5037d02a025ed919566ea5dc750c2cdd1183a2dcfd419183138e",
+      "prior_analysis_complete": true,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "PARTIAL_RECORDED_SCOPE",
+      "id": "LB15",
+      "completion_definition": null,
+      "remaining": [
+        "Earlier extreme-value and PSR derivations not independently reconstructed",
+        "All original Monte Carlo/code results not replicated"
+      ],
+      "checked_scope_count": 36,
+      "retained_units": 22,
+      "evidence": "update-2026-10-21\\deep-papers\\statistical\\evidence.json",
+      "title": "deflated-sharpe.pdf",
+      "artifact_sha256": "ca4a1e834a2954b84eb560776e903329cd9cef318d458aadf6d67bc8166d10b5",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "PARTIAL_RECORDED_SCOPE",
+      "id": "LB16",
+      "completion_definition": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "remaining": [
+        "Exhaustive image and equation visual inspection outside30selected pages",
+        "SAS implementation execution and supplementary materials",
+        "Business-case raw data and intervention identification",
+        "Independent full reading of all works cited by the book"
+      ],
+      "checked_scope_count": 200,
+      "retained_units": 170,
+      "evidence": "update-2026-10-21\\deep-books\\pinheiro\\evidence.json",
+      "title": "Introduction to Statistical and Machine Learning Methods for Data Science (Dr. Carlos Andre Reis Andre Reis Pinheiro etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "40e18f75b0c12476195d09df878395e4759688cef35fe69203afc0cd27531935",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "UNREAD_OR_ASSET_UNMAPPED",
+      "id": "LB17",
+      "completion_definition": null,
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "checked_scope_count": 0,
+      "retained_units": 582,
+      "evidence": null,
+      "title": "Learning From Data - An Introduction to Statistical Reasoning, Third Edition (Arthur Glenberg, Arthur M. Glenberg etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "39a7b3ec95043833f9eb207dd2a6dfb89e6ce852e6f63b8798614cd51eeafafe",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    },
+    {
+      "reproduction_status": "NOT_ALL_ORIGINAL_EXPERIMENTS_CERTIFIED",
+      "reading_status": "UNREAD_OR_ASSET_UNMAPPED",
+      "id": "LB18",
+      "completion_definition": null,
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "checked_scope_count": 0,
+      "retained_units": 660,
+      "evidence": null,
+      "title": "TRADING  EXCHANGES MARKET MICROSTRUCTURE FOR PRACTITIONERS (Unknown) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "d05857d45d1f49961513abc20cfa95ef6681a3bdc5d883e84dfd9dd295105781",
+      "prior_analysis_complete": false,
+      "whole_book_and_all_experiments_complete": false
+    }
+  ],
+  "source_register_sha256": "654e81fa136baf9933119ac6b7509b0cc3eb40ffa47d71712fca7bea718975d8",
+  "policy": "Completion requires exact stated reading, visuals and experiment evidence; missing source/data/access is an unmet dependency, never PASS. An analysis-complete flag does not certify every experiment or cited work.",
+  "genuine_missing_full_texts": [
+    "Cartea/Jaimungal/Penalva 2015 full body",
+    "Jansen second edition 2020"
+  ],
+  "date": "2026-10-25",
+  "user_request": "Complete all retained books and experiments; no false closure",
+  "online_book_identities": [
+    "B02-islp",
+    "BOOK24-WHATIF-20260819"
+  ]
+}

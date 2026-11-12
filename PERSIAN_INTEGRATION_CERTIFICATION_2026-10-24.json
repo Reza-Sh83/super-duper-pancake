@@ -1,0 +1,242 @@
+{
+  "checked_utc": "2026-10-23T21:29:22.003059+00:00",
+  "status": "RETAINED_SUBSTANTIVE_FINDINGS_RECONCILED",
+  "scope": "Retained authored research findings and their scientific qualifications from Oct20–24; not all primary-source content or unrecoverable transient tool output",
+  "english_sha256": "93252d6d12a41afcd5b96147288ce189f1406bf8205cf351fa3e789404e4893a",
+  "html_sha256": "f150927b49b581987ee2db9610d8d0c305732a4134a8ad884e1873ca3aba96be",
+  "manuscript_sha256": "99c779e4b19e5daa474a41399dee28341e4dfe168df24e8daca78c3b6a51273a",
+  "contiguous_book_note_coverage": [
+    {
+      "path": "update-2026-10-21\\deep-books\\afml\\notes.md",
+      "sha256": "233D9A68AC789EEF60B6A1833C1B8C99FBFB07A59C610856EC4F01CCBAFFB23F",
+      "lines": 141,
+      "sections": 29
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\aldridge\\reading-notes.md",
+      "sha256": "36DA25E3EFCEF7EACDA9A7285FE58C4BF78B2DE805AEE9AC1B4F40D2CBA40D42",
+      "lines": 57,
+      "sections": 14
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\reading-notes.md",
+      "sha256": "D713FE9DE1025FA2C52C5AE08FCFADA978D686B04FDA05653D3F59A0B0032638",
+      "lines": 457,
+      "sections": 90
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\numeric_checks.md",
+      "sha256": "49C55EC25DB73022B9C850B2690F74CD917A1D208A8ABCC6C17BA6005C6C897C",
+      "lines": 8,
+      "sections": 3
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\cunningham.fa.before-consolidation-2026-10-23.md",
+      "sha256": "4442636C30F3DF68A5D74409F7743ACEC969B63D180938A74C04DB926B45DD48",
+      "lines": 198,
+      "sections": 5
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\cunningham.en.before-consolidation-2026-10-23.md",
+      "sha256": "6EB0FEA898A1DD1D865F0B525ECEB03F0B2B966D4B947087B5AD975C33FF643D",
+      "lines": 198,
+      "sections": 5
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\facure\\reading-notes.md",
+      "sha256": "37447275E743FA8D570AC5252B5FDD85C727BF6ECA022EA3CB7F1ED8994A7841",
+      "lines": 404,
+      "sections": 34
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\harris\\reading-log.md",
+      "sha256": "18DDA7CB3D1134D00FAEDD4EBD5658A6F0B0810BE7FC401D08AE9FDA6CAE9924",
+      "lines": 152,
+      "sections": 76
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\longitudinal\\progress.md",
+      "sha256": "E87A9A314A379C265161727D5C6090B1FA1D6B1E652A28CA1489AA433B0FD290",
+      "lines": 21,
+      "sections": 11
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\longitudinal\\visual-review\\current-run-review.md",
+      "sha256": "8EADF4DA919AF1FC1AC17A8CC3C620EEAB3224ADB85EF3F05B1B64A264192C89",
+      "lines": 94,
+      "sections": 3
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\instructgpt\\reading-log.md",
+      "sha256": "3D9A54D0CABA562E43307AE15ADAE7370B7D569B5B362FA4F9FC56B2CEE2F87A",
+      "lines": 17,
+      "sections": 4
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\deeplob\\repository\\README.md",
+      "sha256": "AB1541A54A60275B7675A2299C173C3ECE9F8B59B43665C66ACAB3FFBFFA6074",
+      "lines": 4,
+      "sections": 2
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\final-integrity-verification-2026-10-23.md",
+      "sha256": "3BC31B1EE3F6869DD22BD2D5AC10A7E1F56F266261F544AA7B6266451AC523A6",
+      "lines": 15,
+      "sections": 1
+    },
+    {
+      "path": "update-2026-10-21/deep-books/jansen/reading-notes.md",
+      "sha256": "f1d7f9a6da4fc065b294ddc12a27a67df6c5690b9d79db9698c96805e7409bbc",
+      "lines": 340,
+      "sections": 89
+    },
+    {
+      "path": "update-2026-10-21/deep-books/kaabar/reading-notes.md",
+      "sha256": "75e3067ca43b94ba60127b1d749061a4450de63896e3241ea51ecf35fae4ee7d",
+      "lines": 273,
+      "sections": 33
+    }
+  ],
+  "book_note_files": 15,
+  "book_note_sections": 399,
+  "selected_metadata_field_reviews": [
+    {
+      "path": "update-2026-10-21\\deep-papers\\deeplob\\checks.json",
+      "sha256": "FDA3DB02461CBEF712F806E084F6750CF32A49D5E65D6E78367F520A860CD60A",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\deeplob\\evidence.json",
+      "sha256": "717DAD33B7D91F676DB2B9FE6A8B11922ECB25C72AED0433FFAF02EA3091EABC",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\deeplob\\repository\\source-check-results.json",
+      "sha256": "07344E74A9143FD0C03A9228915766E310C5BD48D1F727FA754A58BFB5CB3DDF",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\deeplob\\repository\\code-evidence.json",
+      "sha256": "414F5522F0C5524888B55344A493D049A711C97651E1E08B182A2F52AC236727",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\statistical\\checks.json",
+      "sha256": "AE779AADDCF276F1D873BC1F0D2C4AA8DBBECD581B3DB6524439404E43A79267",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\statistical\\evidence.json",
+      "sha256": "24A9ACA38652A887E70F477EC2507F5CF598F237CEAA8570F5CD6B8BBD64B0EC",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\microstructure\\reward-checks.json",
+      "sha256": "4A8C1AF2DB5BDB75FB18317E5AC0D5622A12B15F1821386C301173179BCA8F1B",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\microstructure\\evidence.json",
+      "sha256": "287B44EFEF7EBE5A32FCE6FD2F2EE5E9C75D6B5A37928946967B8E5768535B4E",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-papers\\instructgpt\\progress.json",
+      "sha256": "D9EFCCE1CB5483ADDE019783C68BE37D745B79DF644BF428ED2C10FF1E34CED5",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\afml\\progress.json",
+      "sha256": "A902B8CA209741C1E60A38BC06C77FF10C1ADC06FEDDA8330CA52019E813075C",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\afml\\numeric-checks.json",
+      "sha256": "A06A96C4E7E0BB713B78D3D3C12D5BBC4C3D7E3DE359D96A817CDF357F3C3CE0",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\aldridge\\progress.json",
+      "sha256": "D4E00F730D250959C61F0DF66994593DF214FD3848029B9AB580D547C3CDA3F0",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\aldridge\\numeric-checks.json",
+      "sha256": "EDF94DD74D4F7AC9723234EA33B0D23D3496014231EBFBA1F47C94F7F0A58D00",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\cunningham\\progress.json",
+      "sha256": "5AAF1362DCE5749FF34F6745E74307486E8A0F32C4EDD65F5ACF775FA455797E",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\facure\\progress.json",
+      "sha256": "41120AEA701B2E0C804A264F5C9E88C62DFF54E34845A44B41E9EDEF8DFD40F5",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    },
+    {
+      "path": "update-2026-10-21\\deep-books\\harris\\progress.json",
+      "sha256": "7B78AED19390618E818989960B5861E4C9CD884129A4757670D387A0647F2C90",
+      "review_scope": "Selected findings/check/status fields only; full semantic reading of page/asset/hash inventories is not certified"
+    }
+  ],
+  "final_review_chapters_matched": 21,
+  "rendered_text_blocks_matched": 3104,
+  "unresolved_supported_integration_gaps": 0,
+  "resolved_omissions": [
+    {
+      "source": "update-2026-10-21/deep-books/kaabar/reading-notes.md",
+      "start_line": 91,
+      "end_line": 95,
+      "status": "RESOLVED_IN_BILINGUAL_FINAL_CHAPTER",
+      "persian_source": "update-2026-10-21/deep-books/kaabar/kaabar.fa.md",
+      "english_source": "update-2026-10-21/deep-books/kaabar/kaabar.en.md",
+      "required_persian_text": "واحد زمان در مثال چاپی پیش‌بینی.",
+      "primary_page_checks": [
+        {
+          "path": "audit-all-2026-10-20/local-books/LB04/0195.txt",
+          "sha256": "a2bf005ac4db73b5db2828ba5169f4bc41d93dddc5ecd40d1dba5267dc6c8192",
+          "scope": "Direct retained page-text reread of daily definition versus printed H1 call; not model reproduction"
+        },
+        {
+          "path": "audit-all-2026-10-20/local-books/LB04/0197.txt",
+          "sha256": "e2c114c8423f16e7873b17ab728c176465e83ecd1e1c1aa7464af958386b801d",
+          "scope": "Direct retained page-text reread of daily definition versus printed H1 call; not model reproduction"
+        }
+      ]
+    },
+    {
+      "source": "update-2026-10-21/runtime-recheck-2026-10-22.json",
+      "status": "OPERATIONAL_CLARIFICATION_ADDED",
+      "persian_source": "update-2026-10-21/social-memory/social-memory.fa.md",
+      "required_persian_text": "پنج سرویس موجودِ نامرتبط"
+    }
+  ],
+  "added_clarification": "Kaabar daily-lag/H1 printed-code mismatch added to EN section36 / FA chapter31; Docker autostart/rollback boundary added to EN25 / FA20. No model/service reproduction.",
+  "research_workstreams_complete": false,
+  "evidence_files": {
+    "integration-certification-2026-10-24/books/claim-audit.md": "0f00243aedf7da6a7633e46c149f5712439f0ebc00e9f13a8cb9f7ac56edeebf",
+    "integration-certification-2026-10-24/books/input-sha256.md": "120c492199797cb55af0f077c96735b4fff8e9c2cce30e014f628edc533a97a4",
+    "integration-certification-2026-10-24/books/notes-roster.md": "476bc6e5a38db81ab8699c6c0a3bb34204d141c30c2f3458521bf2f861f0ba51",
+    "integration-certification-2026-10-24/books/section-coverage.json": "7ff22b3aadcdee0c1c53cc1b90ab8e478065ca2df897b62a84a5eccc6d6bb981",
+    "integration-certification-2026-10-24/books/section-coverage.md": "00289dba8f95da0bebc54615ecf3f36b50fb0d069d00b624d030ed5baf89dacb",
+    "integration-certification-2026-10-24/books-additional/integration-report.md": "b9a1510bc16557c36df37c395a56c7e019e1f5267559b1411ffda0d1f26d43b1",
+    "integration-certification-2026-10-24/books-additional/proposed-addendum.en.md": "528a96197eb55cd0882fcb451a57b728240dca70716cf5d64380b08acaad424c",
+    "integration-certification-2026-10-24/books-additional/proposed-addendum.fa.md": "052d3ffb3680f78d7703dd11d01671eb87fddba996545832e9fd913f6903a735",
+    "integration-certification-2026-10-24/books-additional/section-coverage.json": "38eb63a0f152d856f1fb9114f7e39a03009079a477c60378c2451397940a4fdb",
+    "integration-certification-2026-10-24/operations/manifest.json": "7d9602aed4f4a19755b4535b63a2e68be46fc56456bfd588a2736276d12ffda8",
+    "integration-certification-2026-10-24/operations/rrsi-gap.en.md": "13f278761893a018dff06bf3acaa3888d22e2e005a7c4dc9ee8feb3cdce42c15",
+    "integration-certification-2026-10-24/operations/rrsi-gap.fa.md": "5ff53c5c9f1b78cfdbff6de70613d86c0d334a1a3fcacd5653f00dc610482722",
+    "integration-certification-2026-10-24/operations/semantic-audit.md": "89a55249608dd9f67a8005f1bfbaf0605c4de8cdb8ca2aa9244a87f6f1dda85d",
+    "integration-certification-2026-10-24/prior-recent/integration-report.md": "3e1cf27b9b3114229a548b7c9164ea28b359d9fc598a22054773eb26ff77dcee",
+    "integration-certification-2026-10-24/prior-recent/source-sha-inventory.json": "cab0292ca542610c3a98ab7faebd068d7e710e87ea1f89a908e4c4b8cf8ade9f",
+    "integration-certification-2026-10-24/root/independent-checks.json": "e303f0ee70523f6a156655d234837fb3fbb88e770103da2e496f6e108d6965e7",
+    "integration-certification-2026-10-24/root/resolutions.json": "bccce626ed42f53e82a409de213eb93eb306b36f3d077f1294e3d1981e00bff4"
+  },
+  "exclusions": [
+    "Raw source books/papers are not republished in full",
+    "Detailed numeric arrays, asset ledgers, installation/stack traces and superseded drafts remain evidence files; supported substantive conclusions and limits are in the study",
+    "This is not a certification of reading all references, reproducing all experiments, or verifying real trading profit"
+  ]
+}

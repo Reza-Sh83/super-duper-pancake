@@ -1,0 +1,1400 @@
+{
+  "date": "2026-10-23",
+  "status": "RESEARCH_ACTIVE_USER_RESUMED_SUPPLEMENTARY_SOCIAL_QUEUE_AUDIT",
+  "research_must_not_resume_until_user_requests": false,
+  "prior_state": "RESEARCH_STOP_STATE_2026-10-22.json",
+  "english_source_sha256": "237eedde329a76806898a50c649f5b2a78efe91f87e3ab069bf88acf88d3eefb",
+  "html_sha256": "9cd5e1a1d1e30207739426353f6e9bc36c8c7e4c64e05fc5f83e8bad9cbe4efc",
+  "register_sha256": "d2c6f28a9df5123de00baa91ebeac7207421319cbd036b7352860c5edc170e9a",
+  "register_counts": {
+    "records": 1957,
+    "scoped_source_completions": 17,
+    "checked_units": 6908
+  },
+  "completed_source_ids": [
+    "A011",
+    "A018",
+    "A034",
+    "X04-getreal",
+    "X05-replay-vs-interactive",
+    "LB01",
+    "LB03",
+    "LB04",
+    "LB06",
+    "LB08",
+    "LB10",
+    "LB11",
+    "LB12",
+    "LB13",
+    "LB14",
+    "I08",
+    "CITED-f51d5acbfa70"
+  ],
+  "new_retained_content_completions": {
+    "LB04": {
+      "sha256": "068e6191cf6c5f6f0aed13d0bae8d06137048f33d6a8d9ca16ff32b51bec81d3",
+      "scope": "Retained 362-page PDF text and visual content analysis; not full companion-repository, data, training/backtest or cited-source reproduction.",
+      "evidence": "update-2026-10-21\\deep-books\\kaabar\\evidence.json",
+      "external_remaining": [
+        "Full companion repository audit, data reconstruction and reproduction of reported training/backtest metrics remain open.",
+        "Cited-source chain and empirical market/profit claims are not exhaustively independently verified."
+      ]
+    },
+    "LB12": {
+      "sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+      "scope": "Complete for retained EPUB content: all 3,807 extracted body-text lines read and all 839 unique embedded assets opened and substantively adjudicated at original size, covering 933 placements. Excludes running embedded code, reproducing cited empirical studies, or independently auditing cited sources.",
+      "evidence": "update-2026-10-21\\deep-books\\cunningham\\evidence.json",
+      "external_remaining": []
+    },
+    "LB13": {
+      "sha256": "8ed34e8218b8bbc3a7d210a8a13270451601ce45b41411bb0ec1aa7f3ea8e220",
+      "scope": "retained EPUB text/visual content analysis, not full code/data/paper reproduction or all cited-source verification",
+      "evidence": "update-2026-10-21\\deep-books\\facure\\evidence.json",
+      "external_remaining": [
+        "{\"item\": \"Resolve Chapter 11 fuzzy-RDD cutoff inconsistency using the source dataset or author clarification.\", \"limitation\": \"The EPUB includes no CSV; prose/figure/displayed model use $5,000, while the final helper call passes $10,000. The reported estimate cannot be reproduced from retained files.\"}",
+        "{\"item\": \"Reproduce Chapter 10 switchback standard errors on the original example data.\", \"limitation\": \"The printed lag-sum SE omits cross-coefficient covariance; the underlying CSV is not bundled in the EPUB.\"}",
+        "{\"item\": \"Verify claims and recommended procedures against all cited research papers and current library versions.\", \"limitation\": \"This completed scope analyzed the retained book and its visual assets; it did not independently retrieve/reproduce every cited source or software dependency.\"}"
+      ]
+    },
+    "LB14": {
+      "sha256": "9d16e8505ffc5037d02a025ed919566ea5dc750c2cdd1183a2dcfd419183138e",
+      "scope": "Recorded retained-book text/visual scope only; independent experiments, companion services and cited works remain separate",
+      "evidence": "update-2026-10-21\\deep-books\\longitudinal\\evidence.json",
+      "external_remaining": [
+        "No unread retained text pages remain in the local February 21, 2020 LB14 PDF.",
+        "Bibliography pp.297–311 were screened for navigation only; cited works were not independently verified or read.",
+        "Companion code, patient-level data, the separate 2025 edition, and any trading experiment are outside this retained-source review."
+      ]
+    }
+  },
+  "agents_running": [
+    "cunningham_resume: social-review",
+    "facure_resume: supplementary-audit",
+    "whatif_resume: queue-audit"
+  ],
+  "agents_completed": [
+    "cunningham_resume",
+    "facure_resume",
+    "whatif_resume"
+  ],
+  "agent_model": "gpt-6-luna / high as requested by user",
+  "open_book_checkpoints": [
+    {
+      "id": "LB02",
+      "title": "Advanced Machine Learning Algorithms for Complex Financial Applications (Irfan Mohammad) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "artifact_sha256": "b67545514088990d8c0bdbc5948360f9d3cb164ef17acd22f467e90e7cde4af1",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB05",
+      "title": "High-Frequency Trading - A Practical Guide to Algorithmic Strategies and Trading Systems (Wiley Trading). (Irene Aldridge) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "3640706d4edf8480cc02d41962bf54312d347f5d3cd13ef360290582847b1e49",
+      "remaining": [
+        "All remaining page images and graphical details",
+        "Companion website registered code and tick data",
+        "Independent full reading/replication of every cited underlying work",
+        "Broker fills, live profitability and current market/regulatory specifications"
+      ],
+      "evidence": "update-2026-10-21\\deep-books\\aldridge\\evidence.json"
+    },
+    {
+      "id": "LB07",
+      "title": "Machine Learning in Trading Step by step implementation of Machine Learning models (Quantitative Learning, QuantInsti  Shah etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "8f68930591d1506d98916771c796acf1dc90f71a63cf86f47adf85a74617e880",
+      "remaining": [
+        "179 visual pages, companion code/data and historical performance reproduction remain open; exact checklist in review_detail"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB09",
+      "title": "9781107091146_frontmatter.pdf",
+      "artifact_sha256": "c240b7992da1d154772e19d8d1492036859950f0e12d9a79d3b7b4fb68665416",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB15",
+      "title": "deflated-sharpe.pdf",
+      "artifact_sha256": "ca4a1e834a2954b84eb560776e903329cd9cef318d458aadf6d67bc8166d10b5",
+      "remaining": [
+        "Earlier extreme-value and PSR derivations not independently reconstructed",
+        "All original Monte Carlo/code results not replicated"
+      ],
+      "evidence": "update-2026-10-21\\deep-papers\\statistical\\evidence.json"
+    },
+    {
+      "id": "LB16",
+      "title": "Introduction to Statistical and Machine Learning Methods for Data Science (Dr. Carlos Andre Reis Andre Reis Pinheiro etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "40e18f75b0c12476195d09df878395e4759688cef35fe69203afc0cd27531935",
+      "remaining": [
+        "Exhaustive image and equation visual inspection outside30selected pages",
+        "SAS implementation execution and supplementary materials",
+        "Business-case raw data and intervention identification",
+        "Independent full reading of all works cited by the book"
+      ],
+      "evidence": "update-2026-10-21\\deep-books\\pinheiro\\evidence.json"
+    },
+    {
+      "id": "LB17",
+      "title": "Learning From Data - An Introduction to Statistical Reasoning, Third Edition (Arthur Glenberg, Arthur M. Glenberg etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "39a7b3ec95043833f9eb207dd2a6dfb89e6ce852e6f63b8798614cd51eeafafe",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB18",
+      "title": "TRADING  EXCHANGES MARKET MICROSTRUCTURE FOR PRACTITIONERS (Unknown) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "d05857d45d1f49961513abc20cfa95ef6681a3bdc5d883e84dfd9dd295105781",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    }
+  ],
+  "resume_policy": [
+    "Read this state and latest handoff before work",
+    "Match immutable source ID/version/hash; reuse checked unchanged scopes",
+    "Reading, retrieval, extraction, triage, visual-content analysis and experimental reproduction remain separate",
+    "Do not reopen a whole source merely because extraction fingerprints differ; reconcile source identity and extractor provenance",
+    "No shared Docker Desktop start: unrelated services autostarted in the prior incident",
+    "English first, Persian second, offline browser QA, package and byte-equal delivery"
+  ],
+  "missing_full_books_already_confirmed_unavailable": [
+    "Cartea, Jaimungal, Penalva — Algorithmic and High-Frequency Trading (Cambridge 2015): frontmatter and separate official excerpt only",
+    "Stefan Jansen — Machine Learning for Algorithmic Trading, second edition (Packt 2020): third edition is a distinct source"
+  ],
+  "library_identity_recheck": {
+    "checked_utc": "2026-10-23T14:36:34.234670+00:00",
+    "scope": "Immediate user library; rg recursive PDF/EPUB scan excluding backups and code dependencies separately found the same19root files",
+    "file_count": 19,
+    "unique_artifacts": 18,
+    "new_unknown_artifacts": 0,
+    "files": [
+      {
+        "path": "D:\\python_project\\trade\\2203.02155v1.pdf",
+        "bytes": 1797405,
+        "sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98",
+        "known_source_id": "LB01",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\9781107091146_frontmatter.pdf",
+        "bytes": 172435,
+        "sha256": "c240b7992da1d154772e19d8d1492036859950f0e12d9a79d3b7b4fb68665416",
+        "known_source_id": "LB09",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Advanced Machine Learning Algorithms for Complex Financial Applications (Irfan Mohammad) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 13479483,
+        "sha256": "b67545514088990d8c0bdbc5948360f9d3cb164ef17acd22f467e90e7cde4af1",
+        "known_source_id": "LB02",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Advances in Financial Machine Learning (Marcos M. López de Prado) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 14190659,
+        "sha256": "3763828c757aebbf741e094f20407ae5798e1ee4193589c4a59cec313e4808f1",
+        "known_source_id": "LB03",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\BFI_WP_2023-100.pdf",
+        "bytes": 3633748,
+        "sha256": "900a6683cfb2240d916d36e3a85c7fb0c5659ff55634893905d6b59f7942e58d",
+        "known_source_id": "LB10",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Paul R. Rosenbaum) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 5917975,
+        "sha256": "1fc34a29bfc01e47bbe7fd25e6a7e627c34daea699c28f195a08ba4a72dff1df",
+        "known_source_id": "LB11",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Scott Cunningham) (z-library.sk, 1lib.sk, z-lib.sk)(1).epub",
+        "bytes": 48272822,
+        "sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+        "known_source_id": "LB12",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Scott Cunningham) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 48272822,
+        "sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+        "known_source_id": "LB12",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference in Python Applying Causal Inference in the Tech Industry (Final Release) (Matheus Facure) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 9952388,
+        "sha256": "8ed34e8218b8bbc3a7d210a8a13270451601ce45b41411bb0ec1aa7f3ea8e220",
+        "known_source_id": "LB13",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference What If (Miguel A. Hernán, James M. Robins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 6258096,
+        "sha256": "9d16e8505ffc5037d02a025ed919566ea5dc750c2cdd1183a2dcfd419183138e",
+        "known_source_id": "LB14",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Deep Learning for Finance Creating Machine  Deep Learning Models for Trading in Python (Sofien Kaabar) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 9142971,
+        "sha256": "068e6191cf6c5f6f0aed13d0bae8d06137048f33d6a8d9ca16ff32b51bec81d3",
+        "known_source_id": "LB04",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\deflated-sharpe.pdf",
+        "bytes": 1048118,
+        "sha256": "ca4a1e834a2954b84eb560776e903329cd9cef318d458aadf6d67bc8166d10b5",
+        "known_source_id": "LB15",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\High-Frequency Trading - A Practical Guide to Algorithmic Strategies and Trading Systems (Wiley Trading). (Irene Aldridge) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 2925041,
+        "sha256": "3640706d4edf8480cc02d41962bf54312d347f5d3cd13ef360290582847b1e49",
+        "known_source_id": "LB05",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Introduction to Statistical and Machine Learning Methods for Data Science (Dr. Carlos Andre Reis Andre Reis Pinheiro etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 19491774,
+        "sha256": "40e18f75b0c12476195d09df878395e4759688cef35fe69203afc0cd27531935",
+        "known_source_id": "LB16",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Learning From Data - An Introduction to Statistical Reasoning, Third Edition (Arthur Glenberg, Arthur M. Glenberg etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 9824444,
+        "sha256": "39a7b3ec95043833f9eb207dd2a6dfb89e6ce852e6f63b8798614cd51eeafafe",
+        "known_source_id": "LB17",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Machine Learning for Trading (Stefan Jansen) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 39604867,
+        "sha256": "ddcbddd989a5813d16a4e7da0969d6f38b0e2629dac04a7b13c7c0ab21cd16f0",
+        "known_source_id": "LB06",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Machine Learning in Trading Step by step implementation of Machine Learning models (Quantitative Learning, QuantInsti  Shah etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 6044790,
+        "sha256": "8f68930591d1506d98916771c796acf1dc90f71a63cf86f47adf85a74617e880",
+        "known_source_id": "LB07",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\TRADING  EXCHANGES MARKET MICROSTRUCTURE FOR PRACTITIONERS (Unknown) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 43317168,
+        "sha256": "d05857d45d1f49961513abc20cfa95ef6681a3bdc5d883e84dfd9dd295105781",
+        "known_source_id": "LB18",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Trading and Exchanges Market Microstructure for Practitioners - FULL - (Larry Harris) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 12051734,
+        "sha256": "f222769f84db515cb154a678517f3d585b30c7a1dea22be360e847d4ed69f437",
+        "known_source_id": "LB08",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      }
+    ]
+  },
+  "whole_project_complete": false,
+  "final_browser_verification": {
+    "rtl": "rtl",
+    "font": true,
+    "fontFamily": "Parastoo, serif",
+    "diagrams": 21,
+    "diagramState": "ready",
+    "charts": 7,
+    "tables": 272,
+    "horizontalOverflow": false,
+    "englishParagraphs": [],
+    "headings": 43,
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "searchMatches": 3,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "brokenAnchors": []
+  },
+  "new_book_browser_verification": {
+    "offline": true,
+    "books": {
+      "LB04": "one checked retained-source record",
+      "LB12": "one checked retained-source record",
+      "LB13": "one checked retained-source record",
+      "LB14": "one checked retained-source record"
+    },
+    "screenshots": 5
+  },
+  "final_build_manifest": {
+    "sourceSha256": "237eedde329a76806898a50c649f5b2a78efe91f87e3ab069bf88acf88d3eefb",
+    "sourceLines": 6830,
+    "originalUrlOccurrences": 2390,
+    "uniqueRawUrls": 1902,
+    "inventoryRecords": 1353,
+    "originalInputRecords": 44,
+    "addedInputRecords": 50,
+    "quantFiles": 29,
+    "sourceHashes": 262,
+    "manuscriptWords": 109055,
+    "diagrams": 21,
+    "charts": 7,
+    "mathExpressions": 7,
+    "htmlBytes": 6512830,
+    "chapters": 43
+  },
+  "snapshot_files": {
+    "update-2026-10-21\\deep-books\\afml\\afml.en.md": {
+      "sha256": "22d7d3b2a6c7e00398b178561f50ce19881a29bbd64c0bca62643211c7dec988",
+      "bytes": 18497
+    },
+    "update-2026-10-21\\deep-books\\afml\\afml.fa.md": {
+      "sha256": "1b17c5b81041adbac10e03325e29d71a0f40ed974a541e47e370d71fb4fdbdda",
+      "bytes": 30190
+    },
+    "update-2026-10-21\\deep-books\\afml\\evidence.json": {
+      "sha256": "240d9399d8e38c3b3c80ca88cb019e5f9d83470f2922810ed2157dc2a425427d",
+      "bytes": 6446
+    },
+    "update-2026-10-21\\deep-books\\afml\\image-audit.json": {
+      "sha256": "7e84e9c61c678839faf7bdc03dcea6b5bc85896a1f2e3e0da61e120c040b2ec8",
+      "bytes": 475964
+    },
+    "update-2026-10-21\\deep-books\\afml\\images.json": {
+      "sha256": "834dbd1212a982b3b47a6ea368df98d3f1425071f0986ad60299ea30ff26210d",
+      "bytes": 959779
+    },
+    "update-2026-10-21\\deep-books\\afml\\images.py": {
+      "sha256": "b2e886eeb9edecf7e24cc2d11901e498ab72970920dfb65bb69897be4d29f5ac",
+      "bytes": 1267
+    },
+    "update-2026-10-21\\deep-books\\afml\\notes.md": {
+      "sha256": "233d9a68ac789eef60b6a1833c1b8c99fbfb07a59c610856ec4f01ccbaffb23f",
+      "bytes": 35711
+    },
+    "update-2026-10-21\\deep-books\\afml\\numeric-checks.json": {
+      "sha256": "a06a96c4e7e0bb713b78d3d3c12d5bbc4c3d7e3de359d96a817cdf357f3c3ce0",
+      "bytes": 2082
+    },
+    "update-2026-10-21\\deep-books\\afml\\progress.json": {
+      "sha256": "a902b8ca209741c1e60a38bc06c77ff10c1adc06fedda8330ca52019e813075c",
+      "bytes": 341146
+    },
+    "update-2026-10-21\\deep-books\\afml\\read.py": {
+      "sha256": "93c9d224d425e9f9002044b9a58150778df52011d00a0c2ca3c999cbf85dc51b",
+      "bytes": 1368
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\aldridge.en.md": {
+      "sha256": "48470ce9d28e9bdb4d5b7282023746b489d8b39a1c3ac4a4552d4eab3e8654b3",
+      "bytes": 19548
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\aldridge.fa.md": {
+      "sha256": "09d02799b5a79140424082474b97f758510edebff1761ab26c59bbdcd6309f25",
+      "bytes": 28144
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\count.py": {
+      "sha256": "f4025e2459b1673f7ee533eefba2bd2f7bf6e67ea32e26a2478985e2308bc75c",
+      "bytes": 467
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\evidence.json": {
+      "sha256": "70af0715738db64bde46034b555bd293211273b7d64c213d57602297f9d47c5a",
+      "bytes": 127456
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\numeric-checks.json": {
+      "sha256": "edf94dd74d4f7ac9723234ea33b0d23d3496014231ebfba1f47c94f7f0a58d00",
+      "bytes": 665
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\progress.json": {
+      "sha256": "d4e00f730d250959c61f0df66994593df214fd3848029b9ab580d547c3cda3f0",
+      "bytes": 1410
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\reading-notes.md": {
+      "sha256": "36da25e3efcef7eacda9a7285fe58c4bf78b2de805aee9ac1b4f40d2cba40d42",
+      "bytes": 10992
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\read_pages.py": {
+      "sha256": "30da2f67bb9995c6396e9671e3c00d293553cf7269b968dd263f4f7ca11f113c",
+      "bytes": 223
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\render.py": {
+      "sha256": "40697088ec48808d5dece95566313f9ff54c600bd81b88d30c04b4d88c9f0558",
+      "bytes": 448
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\render_figures.py": {
+      "sha256": "85aa48a07109e177011dcd2d05330cc61b84a7d5bce075712cd5cf4e3930afa8",
+      "bytes": 409
+    },
+    "update-2026-10-21\\deep-books\\aldridge\\verify_and_register.py": {
+      "sha256": "63f809339f0a7500bec8dbcb375765dd57c73789875e8ba25a289a95ef1d2d34",
+      "bytes": 6610
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\cunningham.en.before-consolidation-2026-10-23.md": {
+      "sha256": "6eb0fea898a1dd1d865f0b525eceb03f0b2b966d4b947087b5ad975c33ff643d",
+      "bytes": 47521
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\cunningham.en.md": {
+      "sha256": "437c2feb55429877a998452ec26459c78d8ecef443254a901ce6532df78b3918",
+      "bytes": 16867
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\cunningham.fa.before-consolidation-2026-10-23.md": {
+      "sha256": "4442636c30f3df68a5d74409f7743acec969b63d180938a74c04db926b45dd48",
+      "bytes": 74183
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\cunningham.fa.md": {
+      "sha256": "2404c68f83904536e73661414b7df615a8526810f0d4db0ed19bfb16fe5f6d66",
+      "bytes": 25208
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\evidence.json": {
+      "sha256": "98b6fe98238d6718c9d3d57bdb4717f4c17dac0fbafb258bb2b321f87bd67f66",
+      "bytes": 15670
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\final-integrity-verification-2026-10-23.md": {
+      "sha256": "3bc31b1ee3f6869dd22bd2d5ac10a7e1f56f266261f544aa7b6266451ac523a6",
+      "bytes": 2189
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\images.json": {
+      "sha256": "b2e12450f2d865c4e3f4e77674be908cdb7248eefb1eb5d0f0b62bc010763004",
+      "bytes": 839160
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\image_dimensions.json": {
+      "sha256": "d57225f78f211f6933f629c723637a524e78e6ed9258cae1966bf88ebb984d5d",
+      "bytes": 205000
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\image_review.json": {
+      "sha256": "cf0ba377c04878fcd57ac99b669d864bd6a0047e3d7b1cbce82d2fc64f409092",
+      "bytes": 1413369
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\make_eq_sheet.py": {
+      "sha256": "4b785d8f102c950265b450aa8d56365c7dfbb0a77d6514641e8611c68b06b728",
+      "bytes": 1074
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\make_sheets.py": {
+      "sha256": "917e7258e2203deff7e28841fbc4324a6e79c98a78d774ae6105586c1027c46c",
+      "bytes": 2033
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\numeric_checks.md": {
+      "sha256": "49c55ec25db73022b9c850b2690f74cd917a1d208a8abcc6c17ba6005c6c897c",
+      "bytes": 1634
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\numeric_checks.py": {
+      "sha256": "bded27f689ebc1190f44e74916c3aa96c24a1ffade701268298af30cd6b5bece",
+      "bytes": 1887
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\progress.json": {
+      "sha256": "5aaf1362dce5749ff34f6745e74307486e8a0f32c4edd65f5acf775fa455797e",
+      "bytes": 2753
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\read.py": {
+      "sha256": "a7f473fefffde92dfc3b183963267c7c099b238f3c241659b95270f56c4050d1",
+      "bytes": 769
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\reading-notes.md": {
+      "sha256": "d713fe9de1025fa2c52c5ae08fcfada978d686b04fda05653d3f59a0b0032638",
+      "bytes": 72088
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\record_batch.py": {
+      "sha256": "3925f859a866ad5127510888ea09faf8422d28745f50edb7efd6b8fda7fd7c75",
+      "bytes": 3647
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\record_equations.py": {
+      "sha256": "35f700324cb92dfdd31c7a6eaeb089042e79adae978babb644f09734af29e6e3",
+      "bytes": 3740
+    },
+    "update-2026-10-21\\deep-books\\facure\\asset-inventory.json": {
+      "sha256": "461f0f0ca524b493c26b799c0a47a0ee98b70df2be0310b38ee662d3cefcf921",
+      "bytes": 146279
+    },
+    "update-2026-10-21\\deep-books\\facure\\copy_source.py": {
+      "sha256": "e6e6b2f3ee829da30ade5a8670cd46bba4ae01080ae56f17c1f18369f2e24034",
+      "bytes": 405
+    },
+    "update-2026-10-21\\deep-books\\facure\\evidence.json": {
+      "sha256": "59176ea72e42b7bc39bcf6e7114fa1649c91fb90b6c156f28bcf192ff253aef9",
+      "bytes": 260352
+    },
+    "update-2026-10-21\\deep-books\\facure\\facure.en.md": {
+      "sha256": "fcc8c03897131443f50fc06eff99ca72b5d13ffe16acc3a2cfd92eb2adab4972",
+      "bytes": 33328
+    },
+    "update-2026-10-21\\deep-books\\facure\\facure.fa.md": {
+      "sha256": "4bd474dda6eb1ce71ee776feadab0541ef0e641e0d7382f7a930d0a98edc6a95",
+      "bytes": 52963
+    },
+    "update-2026-10-21\\deep-books\\facure\\final-check-results.json": {
+      "sha256": "5f9aa3c24416ea250a349232010267b091aa0f08c4eb234e360b1a8dd67570ee",
+      "bytes": 1247
+    },
+    "update-2026-10-21\\deep-books\\facure\\final_checks.py": {
+      "sha256": "5281814854b4fcbd3242873d022bb5368e4577e7614582898004dfbca0fd31da",
+      "bytes": 6116
+    },
+    "update-2026-10-21\\deep-books\\facure\\initialize_facure.py": {
+      "sha256": "1d8be378096401a210879cd7c38302ed3cb4fbd579252c9a56269af09393c9c4",
+      "bytes": 6011
+    },
+    "update-2026-10-21\\deep-books\\facure\\inspect_assets.py": {
+      "sha256": "f9dea9abbb1d594bb2230a85f324cd12074d9ccd383566573abe1aa91048c0fe",
+      "bytes": 463
+    },
+    "update-2026-10-21\\deep-books\\facure\\inspect_epub.py": {
+      "sha256": "da4ea0c83948ee50e191624c89819ca359de07f559bca6df423d249c5009f67f",
+      "bytes": 745
+    },
+    "update-2026-10-21\\deep-books\\facure\\inspect_evidence.py": {
+      "sha256": "62adb50ebe5738093456add3f0c6366f0bb2cc6554746b45ec1b25e9065d9ed0",
+      "bytes": 638
+    },
+    "update-2026-10-21\\deep-books\\facure\\progress.json": {
+      "sha256": "41120aea701b2e0c804a264f5c9e88c62dff54e34845a44b41e9edef8dfd40f5",
+      "bytes": 17726
+    },
+    "update-2026-10-21\\deep-books\\facure\\reading-notes.md": {
+      "sha256": "37447275e743fa8d570ac5252b5fdd85c727bf6eca022ea3cb7f1ed8994a7841",
+      "bytes": 104059
+    },
+    "update-2026-10-21\\deep-books\\facure\\record_chunk.py": {
+      "sha256": "762cd8467f150d3d97836ac94ce179f4b3c601292ac7aaaf855941ba106bda0c",
+      "bytes": 2329
+    },
+    "update-2026-10-21\\deep-books\\facure\\unitsummary.py": {
+      "sha256": "5bdcefef5504cb4930c95a3eb68ba6be7c6d8b66a983d0dc7f784570ca9135a2",
+      "bytes": 399
+    },
+    "update-2026-10-21\\deep-books\\harris\\evidence.json": {
+      "sha256": "85fcdfe32b8b8922a8a9da6d667a66fae509a05e5b2d22e9653954d2c8ccc598",
+      "bytes": 307019
+    },
+    "update-2026-10-21\\deep-books\\harris\\harris.en.md": {
+      "sha256": "b50c56abbb634a69e93bde47caaa081c655bc95f2f3fa9cdcf95bb3ae2d6ef64",
+      "bytes": 169371
+    },
+    "update-2026-10-21\\deep-books\\harris\\harris.fa.md": {
+      "sha256": "f02b520fa8e280d954cd6dedf172dbdde110c0d197a925f7804eaa6586daa726",
+      "bytes": 272229
+    },
+    "update-2026-10-21\\deep-books\\harris\\progress.json": {
+      "sha256": "7b78aed19390618e818989960b5861e4c9cd884129a4757670d387a0647f2c90",
+      "bytes": 14251
+    },
+    "update-2026-10-21\\deep-books\\harris\\reading-log.md": {
+      "sha256": "18dda7cb3d1134d00faedd4ebd5658a6f0b0810be7fc401d08ae9fda6cae9924",
+      "bytes": 20423
+    },
+    "update-2026-10-21\\deep-books\\jansen\\add_primary.py": {
+      "sha256": "9715880c4a572b53c013be92ff9174e14bc0edc3ab0554a49e882a988e2889f8",
+      "bytes": 3757
+    },
+    "update-2026-10-21\\deep-books\\jansen\\caption-inventory.json": {
+      "sha256": "30059207af6759392ab284baead018ebb21a535013e339b65b66ee20a3bbcb16",
+      "bytes": 47456
+    },
+    "update-2026-10-21\\deep-books\\jansen\\chapter-page-map.json": {
+      "sha256": "fb1a6bb9a88ca3b9cd8a779a0db62b3e9bb57103d0986c96a01ee7d1533fec49",
+      "bytes": 12690
+    },
+    "update-2026-10-21\\deep-books\\jansen\\checkpoint.py": {
+      "sha256": "609e92f73bcf6b675ffe247e9b787d34d34ddd75762a5ae0bbdd28771632af78",
+      "bytes": 1538
+    },
+    "update-2026-10-21\\deep-books\\jansen\\citation-resolution.json": {
+      "sha256": "5f4473b39ae898120637691d26335b0c2a67b9ef1c17ddbdeae07177cd9d5a90",
+      "bytes": 1289
+    },
+    "update-2026-10-21\\deep-books\\jansen\\close_gaps.py": {
+      "sha256": "abb8ea34915eef3db2d26b07963c8ae17c651c71fb45f60d8eda42f6d66c9d06",
+      "bytes": 1706
+    },
+    "update-2026-10-21\\deep-books\\jansen\\debug.py": {
+      "sha256": "45ced11392dcda9e35c4169ed620fc32dcbea89fc4e6a0eb0bae751a5c2288fe",
+      "bytes": 665
+    },
+    "update-2026-10-21\\deep-books\\jansen\\equation_scan.py": {
+      "sha256": "02fc72fcfe793fce33df5300223a8111256924b30184a7fd5ed15d2e0b58d83d",
+      "bytes": 757
+    },
+    "update-2026-10-21\\deep-books\\jansen\\evidence.json": {
+      "sha256": "717f0ff49b3da421db75e7db757093b13ae4c463218cc829c78e976e3d21bae7",
+      "bytes": 171095
+    },
+    "update-2026-10-21\\deep-books\\jansen\\finalize_evidence.py": {
+      "sha256": "07da591ac6ae3bb9ab6ba874b9875254f3f1b1af342ad54e10039e80b868bcd6",
+      "bytes": 2088
+    },
+    "update-2026-10-21\\deep-books\\jansen\\final_check.py": {
+      "sha256": "5279243aab5c06165a070d50d218c73f11482a6f6644e511916e98a2b853729c",
+      "bytes": 1001
+    },
+    "update-2026-10-21\\deep-books\\jansen\\inspect_facure.py": {
+      "sha256": "a4ff9fb1b0dbc7e2236ce32a11c09dea4f49a163da440fd3359e2bdaf772855e",
+      "bytes": 727
+    },
+    "update-2026-10-21\\deep-books\\jansen\\inventory.py": {
+      "sha256": "80dc92c8194f81ccee2e2ccc6295cb9a6f2ba17c057d27601f591e55d76a67e4",
+      "bytes": 1109
+    },
+    "update-2026-10-21\\deep-books\\jansen\\jansen.en.md": {
+      "sha256": "baf9fde8fe8827716da80c0c5b99772346bc7a72d6f8bd5bc98aa1681110078c",
+      "bytes": 17735
+    },
+    "update-2026-10-21\\deep-books\\jansen\\jansen.fa.md": {
+      "sha256": "7f2a68adbe7cb79645d9b415573ab024ba7eb8ebdeac21f32c7fd22f675416bf",
+      "bytes": 29234
+    },
+    "update-2026-10-21\\deep-books\\jansen\\make_contacts.py": {
+      "sha256": "1f10b5ce79215983de32227fe2e87f90338abdd87ed1528f02d559216fb2bfd1",
+      "bytes": 1370
+    },
+    "update-2026-10-21\\deep-books\\jansen\\progress.json": {
+      "sha256": "42fe48b080a9d21618bf1da938851a11c904f851e0ee45e57dea36012bb99f3a",
+      "bytes": 4358
+    },
+    "update-2026-10-21\\deep-books\\jansen\\reading-notes.md": {
+      "sha256": "f1d7f9a6da4fc065b294ddc12a27a67df6c5690b9d79db9698c96805e7409bbc",
+      "bytes": 97295
+    },
+    "update-2026-10-21\\deep-books\\jansen\\testdep.py": {
+      "sha256": "747cc436543c4bcb6175c31e2183a30c7a984cb13a8e40b3aa811ae18c727e76",
+      "bytes": 173
+    },
+    "update-2026-10-21\\deep-books\\jansen\\update_all_visual.py": {
+      "sha256": "d2413539722bdbef35757e8cc3d45b9eab372949f80ac4c8be70586340342054",
+      "bytes": 2893
+    },
+    "update-2026-10-21\\deep-books\\jansen\\update_visual.py": {
+      "sha256": "d643a53d61051e53f66e18ba426103999afb7f4effe2fdc711c914a9370aeaf1",
+      "bytes": 1268
+    },
+    "update-2026-10-21\\deep-books\\jansen\\validate.py": {
+      "sha256": "ee8ca88d3771b34619dbd6cad4cd4df07a1c1ccf2c4cdc7d1dcf6f95ae0a724e",
+      "bytes": 1554
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\caption-inventory.json": {
+      "sha256": "758644079b48ef9788178c05b014f0ca3067022e087e312c4d0eedb402f5f9e1",
+      "bytes": 27029
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\combined-content-integrity.json": {
+      "sha256": "70fae4002de4bf6ea446591304376ec18de60469f95e8260c6649c76f5b4895c",
+      "bytes": 748
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\evidence.json": {
+      "sha256": "34816a34d34a7d46e176e4e75197b4c01a1b4f237441b37e5b541f883d138436",
+      "bytes": 104870
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\kaabar.en.md": {
+      "sha256": "4f91edb19a7e3d0a60e0b51ff55e074c67376243dc5dd12ea110c4ae3a82860e",
+      "bytes": 28741
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\kaabar.fa.md": {
+      "sha256": "2e65c006b8fdd4d82650bb55d6372486c1ace79113ec2a889ce4850303c62461",
+      "bytes": 45934
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\progress.json": {
+      "sha256": "513c530458bcdb0c19205078c9f908040f181524488af6b5f97b2452cf93c029",
+      "bytes": 5854
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\reading-notes.md": {
+      "sha256": "75e3067ca43b94ba60127b1d749061a4450de63896e3241ea51ecf35fae4ee7d",
+      "bytes": 52202
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\render_selected.py": {
+      "sha256": "1534679b067ebdb7aed79fcb9d52b77bad9e7489a175c00e70c00c89e6df2926",
+      "bytes": 746
+    },
+    "update-2026-10-21\\deep-books\\kelly\\evidence.json": {
+      "sha256": "b3d6fb61ca3f33fdfc5d3c717bd76789af05f0a7446d3884fd84ee3c58b58696",
+      "bytes": 87479
+    },
+    "update-2026-10-21\\deep-books\\kelly\\evidence_build.py": {
+      "sha256": "c1360cc2099d790677dcee71119f719ae7f7d4e5cfe0ce758b884eada76328fb",
+      "bytes": 4569
+    },
+    "update-2026-10-21\\deep-books\\kelly\\kelly.en.md": {
+      "sha256": "b86c72cecf169ffaf3a835727f37fc7893e5f0833a2c7ad1d528508495aae388",
+      "bytes": 19709
+    },
+    "update-2026-10-21\\deep-books\\kelly\\kelly.fa.md": {
+      "sha256": "17a8e1bab4f4165ed3154bb21539d5f8ab39a8df452cf359a74c0e6330f5df93",
+      "bytes": 28759
+    },
+    "update-2026-10-21\\deep-books\\kelly\\progress.json": {
+      "sha256": "a157a20aedfee375ff0fc8d6e7a0ce2ff5770be4772fea2a1b2b8296c563bd9f",
+      "bytes": 792
+    },
+    "update-2026-10-21\\deep-books\\kelly\\validate.py": {
+      "sha256": "28d201212d1940959ec7588c17de0f77fdb27bf00e9c287d1f839c77ca444d6e",
+      "bytes": 2801
+    },
+    "update-2026-10-21\\deep-books\\kelly\\validation-results.json": {
+      "sha256": "d4151470bc5f7e19a59530d481deea9cdc7bd1272e5967a7e2877411bc7aeea0",
+      "bytes": 2379
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\evidence.json": {
+      "sha256": "defa4507eda011994d2a3cf26b077da9c3854e547359011a3685a345bebdc5d6",
+      "bytes": 216002
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\excerpt-evidence.json": {
+      "sha256": "afd7050e793229ba2e4b119b712b4b7ffeec80941b47e30639a0db677a24c5e5",
+      "bytes": 751
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\longitudinal.en.md": {
+      "sha256": "b5e7e95bc3fbea0444174041fb2c547ebf5189492be02a3a25d7a9fbe13b1a74",
+      "bytes": 31260
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\longitudinal.fa.md": {
+      "sha256": "052228e649222ca3829374632c7312ac210ee5096a44d0ef6a13fd161bae2523",
+      "bytes": 48700
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\progress.md": {
+      "sha256": "e87a9a314a379c265161727d5c6090b1fa1d6b1e652a28ca1489aa433b0fd290",
+      "bytes": 3190
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\results.json": {
+      "sha256": "aa72a42cc48f6d9a6308694de297b77e6c9043792f0914a49e9092e074273ab2",
+      "bytes": 1592
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\update_audit.py": {
+      "sha256": "d78b1a25e2a112c1770119e8dba12e7d9ebf472e7d33a0d5b90b90109f7588ae",
+      "bytes": 16778
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\build_evidence.py": {
+      "sha256": "a4c46828d118cabb20c65031abfec09bf3c04d256332bf4297244cc130d2d4a0",
+      "bytes": 5554
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\evidence.json": {
+      "sha256": "e9734fc890f219fceb8c006e0b8615e33d2d8fe3e146022ea182b9c8de605af2",
+      "bytes": 106267
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\pinheiro.en.md": {
+      "sha256": "947b770fc0106776493b4361859706683ef144649a771405c18db7d6312addc1",
+      "bytes": 16662
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\pinheiro.fa.md": {
+      "sha256": "d2da081142e762333b0508f3f647744c3764cca34ccead9984fe67da34137704",
+      "bytes": 25374
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\progress.json": {
+      "sha256": "62deb39fb2b14964feb2db4b97e30bd24ac68cc91579b71ef1152e55d89661e9",
+      "bytes": 746
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\render.py": {
+      "sha256": "2def3f1fbf8c57587d35ad92db4714f91ee221f383ef2e50a8b9ccdac6ab13dd",
+      "bytes": 853
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\validate.py": {
+      "sha256": "cf76bdecc9cc2765b2b6774da9df0c526ae934615d3c57c613ee052b3614c40e",
+      "bytes": 2677
+    },
+    "update-2026-10-21\\deep-books\\pinheiro\\validation-results.json": {
+      "sha256": "3f49f84b9bb4a0d268b1f52d471e76f79a8702cad14a4b56ab02a4d686036389",
+      "bytes": 2340
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\checks.json": {
+      "sha256": "48d33c5981bb0fcfa5ae70299894e21502361b03ec08de025b44d14badd80fbd",
+      "bytes": 1062
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\checks.py": {
+      "sha256": "53daa1f9fd26b2d6b2ce7b66689d194113e388e02c333f92bb1850f97c3fbf01",
+      "bytes": 1478
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\evidence.json": {
+      "sha256": "f96c88b83e6174691e4267b29fbc39f6c3201db2b900167bb6bc8bcaf80d9bfa",
+      "bytes": 52451
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\finalize.py": {
+      "sha256": "f9db324192672a5c35d64dcc23eb90c976373a2c883a5d9dd298ab9fb690d925",
+      "bytes": 2961
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\prepare.py": {
+      "sha256": "2ade9fa3c5e08912ad803d7ec96a60625413a775cbf404ac739aac9eeac04609",
+      "bytes": 1289
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\reading-progress.json": {
+      "sha256": "60abd52d98d58d9a43efb16a1a63a42bea6c57c12b55e8a2f2c4edf2342a92ac",
+      "bytes": 48382
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\rosenbaum.en.md": {
+      "sha256": "2e3153a64d200c2dbe49fa9760426b252c93dca38d2ce5eb0b0638be73cf63ec",
+      "bytes": 18663
+    },
+    "update-2026-10-21\\deep-books\\rosenbaum\\rosenbaum.fa.md": {
+      "sha256": "48d53bb3ba6e7b70247ed1e0368991188db3f4c5a170bd4e379afdbaaf41e990",
+      "bytes": 28570
+    },
+    "update-2026-10-21\\deep-books\\jansen\\root-audit\\agent-chapter-page-map.json": {
+      "sha256": "d46478f66248b980ac0bbf93a65b5afae12e0544d719946bf3e838b26396466d",
+      "bytes": 5992
+    },
+    "update-2026-10-21\\deep-books\\jansen\\root-audit\\agent-citation-resolution.json": {
+      "sha256": "efad1dcbace74e24ea6e07a06fa3a8f147ee7f42e3b48fe0da436211efbfd608",
+      "bytes": 4165
+    },
+    "update-2026-10-21\\deep-books\\jansen\\root-audit\\citation-audit.json": {
+      "sha256": "92b9730e2c1aee33faebcbe2a58cc9be3032d1e7791fbd1900d5732132dc8008",
+      "bytes": 1737
+    },
+    "update-2026-10-21\\deep-books\\jansen\\root-audit\\verification-results.json": {
+      "sha256": "321d51d23ccafddd3fccf954a18a4cf48dd3f80f1d3e8d8c9b97b3f68a1d9c63",
+      "bytes": 890
+    },
+    "update-2026-10-21\\deep-books\\jansen\\root-audit\\verify_citations.py": {
+      "sha256": "d4e2bd757762fc7d5e832f3fa200db0ac0a370c1afb8af73f7c109c0b19dd498",
+      "bytes": 1999
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\append_page_notes.py": {
+      "sha256": "29069876ebd2ee384f9a1cb2dd4b0460cd1fe113edf4cf67a953763d42a4eb8c",
+      "bytes": 5446
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\append_page_notes_2.py": {
+      "sha256": "b5f45ee386355e037ddde69fd2df8b3dad4107204d7833b0aa99d0682bb60173",
+      "bytes": 5198
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\append_remaining_notes.py": {
+      "sha256": "7be3bc97bda211b165803f418fedab4ae67f6fc26fced1ca8cc1272d5896737e",
+      "bytes": 16661
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\finalize_notes.py": {
+      "sha256": "1bee04e945c7cf7c2bed76e2b9341e8b5ca6c4f680a0f70c4829e985e490b627",
+      "bytes": 1221
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\integrity-check.json": {
+      "sha256": "c29141437a7258b562ed69d78ae710ec7d52169fcff272b91d814fa16f9dc1d5",
+      "bytes": 1348
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\make_sheets.py": {
+      "sha256": "dec4f105f73c102a5f35bfe4230659235f6eece8f0144d1f84346547f15a1763",
+      "bytes": 876
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\page-manifest.json": {
+      "sha256": "81f1b9356103a0941c95afbe8673917b94aaa991cbfb3cfbdf594691e1d46825",
+      "bytes": 81065
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\page-review-notes.json": {
+      "sha256": "228f6a6569b2834c3316673ad38f57be5db1b54b6c9db333a553a673ba3c56d0",
+      "bytes": 35641
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\record_notes.py": {
+      "sha256": "8c9348f7a19303444bd7209e2c6f0353a2c83d993b6e7004f1f0756b6e91e6fa",
+      "bytes": 3393
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\render_remaining.py": {
+      "sha256": "acf8a018b6b737aeb0419389ae1d438a0a74f2a24545940b5a12dbbf21c857ff",
+      "bytes": 2372
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\review-completion.md": {
+      "sha256": "c57b520584107ebd494d33e4859c8866cd2a41807cf0df6f2930a0ada789634f",
+      "bytes": 1768
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\remaining-visual-review\\verify_remaining_review.py": {
+      "sha256": "373596909dc884f531e69d57286febfb1b36751e6699f7239913503d77232733",
+      "bytes": 3481
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\check_interpretations.py": {
+      "sha256": "7dd7d5e915bbacedee94387fbdd16c7fde81333e7e8c288d55b2bf6504311838",
+      "bytes": 2139
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\check_printed_lag_boundary.py": {
+      "sha256": "d73b091eb0e67f83666bbd0d7de966146266b5328850882ed412fd96dd5d7d87",
+      "bytes": 2154
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\interpretation-check-results.json": {
+      "sha256": "ee97dc3adf4313fcae63da65454044e38fae4dff79c12144cfe3340fc3ddf827",
+      "bytes": 637
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\inventory.json": {
+      "sha256": "11106885812c0b45ab9e4efa725919d5bde48f11ad97d2a986c05937d145179f",
+      "bytes": 40150
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\math-inventory.json": {
+      "sha256": "4d1ac56c74ddd84ff4a0594c9b3a984f274a74d11404d8039394c8cb038bb089",
+      "bytes": 21926
+    },
+    "update-2026-10-21\\deep-books\\kaabar\\root-visual-2026-10-23\\printed-lag-boundary-results.json": {
+      "sha256": "9722145b9a35aeee3a237f74b82e2e154bc05dcccfc0a5f8ac148ae9115836b5",
+      "bytes": 1887
+    },
+    "update-2026-10-21\\deep-books\\kelly\\root-visual\\bfi-source-recovery.json": {
+      "sha256": "add9f539fc03b3bfc58651d3523383f49b41a04e7f68296680a95cfcd5bc5758",
+      "bytes": 317
+    },
+    "update-2026-10-21\\deep-books\\kelly\\root-visual\\nber-recovery.json": {
+      "sha256": "7a0174caca23003f55cc7d16cff674d2d545d92a7eaa41365f9fbfeb4310c8d5",
+      "bytes": 345
+    },
+    "update-2026-10-21\\deep-books\\kelly\\root-visual\\visual-followup-evidence.json": {
+      "sha256": "cc7f7dfacbc374da7d7a3c72395da46a3f953d676a671aef787e5a1e70c80b42",
+      "bytes": 2632
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\visual-review\\current-run-review.md": {
+      "sha256": "8eadf4da919af1fc1ac17a8cc3c620eeab3224adb85ef3f05b1b64a264192c89",
+      "bytes": 9951
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\checks.json": {
+      "sha256": "fda3db02461cbef712f806e084f6750cf32a49d5e65d6e78367f520a860cd60a",
+      "bytes": 629
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\checks.py": {
+      "sha256": "4889e3d76aca5605f04e25ec7523cbf1b9b7099e59f7c8ca677623c230752e90",
+      "bytes": 1710
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\deeplob.en.md": {
+      "sha256": "2b041ec4577fc52ac569118052780cebacabfa946724e54efb3640a406b05aa4",
+      "bytes": 10063
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\deeplob.fa.md": {
+      "sha256": "138e6eacff95b6f4816644073af4af62ce657599e895b9b4218d648c928d82ab",
+      "bytes": 17861
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\evidence.json": {
+      "sha256": "717dad33b7d91f676db2b9fe6a8b11922ecb25c72aed0433ffaf02ea3091eabc",
+      "bytes": 6108
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\progress.json": {
+      "sha256": "e7021986ad89e281f533b6270245c74f52cc63323d9fa40f9f3a8a516fcdb5f1",
+      "bytes": 1148
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\evidence.json": {
+      "sha256": "8c8446cee9018ad9e8730e5f5d8fe1ed9fc97b39d6ad1e5fcd64f2301db4ec34",
+      "bytes": 47638
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\instructgpt.en.md": {
+      "sha256": "143c814ba98eab873af5302f7e0e085ef56159859ab4fd327c217a90a869f4e2",
+      "bytes": 10097
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\instructgpt.fa.md": {
+      "sha256": "f02b5fb15e222ceb72212e5ee4bef0345820a7d9c64cb98e7d37863ac0b08105",
+      "bytes": 17690
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\progress.json": {
+      "sha256": "d9efcce1cb5483adde019783c68be37d745b79df644bf428ed2c10ff1e34ced5",
+      "bytes": 4226
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\reading-log.md": {
+      "sha256": "3d9a54d0caba562e43307ae15adae7370b7d569b5b362fa4f9fc56b2cee2f87a",
+      "bytes": 1784
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\abides-pin.json": {
+      "sha256": "4800249cddc9373440485652b27dbc9c4a7fd8a7259fa16044626b6356e579b6",
+      "bytes": 137
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\abides-tree.json": {
+      "sha256": "312d4c7c9cff3de227badc8ccaa941824d36d25138d49c37e47850a2868cf4ea",
+      "bytes": 38282
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\check_rewards.py": {
+      "sha256": "9e7a49041ad8dabc357381d90752dbf40e06574d011a9eb37020c57aad92a138",
+      "bytes": 2763
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\evidence.json": {
+      "sha256": "287b44efef7ebe5a32fce6fd2f2ee5e9c75d6b5a37928946967b8e5768535b4e",
+      "bytes": 22447
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\fetch_utils.py": {
+      "sha256": "4d24c1b870e41002a3df7e654c2c489f0de48cc2c569ea633343012f4952ab49",
+      "bytes": 490
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\fix_math.py": {
+      "sha256": "9cbd2d7f3210ef40976962bee6a3a9b6f52901ce22199928dc79b922e784a808",
+      "bytes": 458
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\make_evidence.py": {
+      "sha256": "173f5881c59d8a8fdf75aaba4135024b6315742e57a79a521a8717518ab5d3d5",
+      "bytes": 4776
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\microstructure.en.md": {
+      "sha256": "2ea33928c58f6e13f0d2cdd7ecfc7879952c75ca8a5e59fe406579c34383b73f",
+      "bytes": 18419
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\microstructure.fa.md": {
+      "sha256": "5ec294ff5d4e0fba220f7074bb82e390e7226fcc1e7a8f08c50f4bf73fc7aed3",
+      "bytes": 24890
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\prepare.py": {
+      "sha256": "8c294a5ba73262e7531bc2ccca8b5260a2c0831f211c6a5e1e6c144d4d4abb1b",
+      "bytes": 1003
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\readofi.py": {
+      "sha256": "c6171ae8a3bfab39ab243aa87dec17128df47f0232fcf01afb9ca8ece70aa05c",
+      "bytes": 278
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\render.py": {
+      "sha256": "188606fe7e992f9995d4b64aff5ac7fd3ee8cd015a4cae383a62050477fefd33",
+      "bytes": 633
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\render_figures.py": {
+      "sha256": "1aaba0042099fe3fdd78774f091605deadca722e8ac40092a4b4ad453a921e1e",
+      "bytes": 297
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\render_last.py": {
+      "sha256": "f6f5dffc830ce463f3c0ec981d6ceb239e80458c56fe6a892b27fdde0e073564",
+      "bytes": 178
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\render_remaining.py": {
+      "sha256": "94e0aba2aaeb29d4049c694af5d5b0b4450de7fb5c79ad9b13e27e1cf0c1f71b",
+      "bytes": 246
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\retrieve.py": {
+      "sha256": "23f52cf1ef633a3572995eab55f1b2fe4cfbfd9d60565df907228991bc06efa5",
+      "bytes": 1216
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\reward-checks.json": {
+      "sha256": "4a8c1af2db5bdb75fb18317e5ac0d5622a12b15f1821386c301173179bca8f1b",
+      "bytes": 2139
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\checks.json": {
+      "sha256": "ae779aaddcf276f1d873bc1f0d2c4aa8dbbecd581b3db6524439404e43a79267",
+      "bytes": 2918
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\checks.py": {
+      "sha256": "ebbc44d3eb24b837d9b9637d03de03c3d92b80e58158424640a476dc84a8c100",
+      "bytes": 3934
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\evidence.json": {
+      "sha256": "24a9aca38652a887e70f477ec2507f5cf598f237ceaa8570f5cd6b8bbd64b0ec",
+      "bytes": 77304
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\papers.en.md": {
+      "sha256": "bc8fcdcefb8bff0b2c27e458a5aba01831f4aa45b3a2aa5cfa2429e42eb0d194",
+      "bytes": 22231
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\papers.fa.md": {
+      "sha256": "0eb0d56cbc9296fdab062c7df7684f8ad5d0e04536e4e9dd246575c09a7e0f26",
+      "bytes": 31193
+    },
+    "update-2026-10-21\\deep-papers\\statistical\\record_evidence.py": {
+      "sha256": "617992c9acc0dd6cd738fb378108d087739fb6ce0c5f4033b39cee47214392b9",
+      "bytes": 5223
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\check_source.py": {
+      "sha256": "53e1182a62ad80b3e7d3e6f7bc76df732b3fdedf2bc4938ec1d578c0bf2a5050",
+      "bytes": 2606
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\code-evidence.json": {
+      "sha256": "414f5522f0c5524888b55344a493d049a711c97651e1e08b182a2f52ac236727",
+      "bytes": 3768
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\commit.json": {
+      "sha256": "bb7e666374dd1fbb9762e487f0fbe47156fcc00b903bb3996ffe05d30a28db7b",
+      "bytes": 9956
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\files.json": {
+      "sha256": "dc91e62d554e62d22e3b84241f9d34a749cb307e5e3995c7faf9e1e61c9c13d6",
+      "bytes": 1411
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\README.md": {
+      "sha256": "ab1541a54a60275b7675a2299c173c3ece9f8b59b43665c66acab3ffbffa6074",
+      "bytes": 476
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\source-check-results.json": {
+      "sha256": "07344e74a9143fd0c03a9228915766e310c5bd48d1f727fa754a58bfb5cb3ddf",
+      "bytes": 1397
+    },
+    "update-2026-10-21\\deep-papers\\deeplob\\repository\\tree.json": {
+      "sha256": "3a01566ab329f59ef0eb80b310fe13e9e9ea0524a83b5e7bad3d9ada51d55078",
+      "bytes": 3375
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\source\\abides-gym\\abides_gym\\envs\\markets_daily_investor_environment_v0.py": {
+      "sha256": "4a81f125c0b4dad7c8030bca8c8e1b89dc37289393d0cf87297d85ea8de0ed16",
+      "bytes": 18901
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\source\\abides-gym\\abides_gym\\envs\\markets_execution_environment_v0.py": {
+      "sha256": "a533eecf6499c2bb569e56ab04910736c4405c27929d9bb6b6a85295fbca7409",
+      "bytes": 24723
+    },
+    "update-2026-10-21\\deep-papers\\microstructure\\source\\abides-markets\\abides_markets\\agents\\utils.py": {
+      "sha256": "2cf56551df8ae393ddbc628409ea5e0e01a398d55abe01163d3838e3c1802b29",
+      "bytes": 6370
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\check_digester_boundaries.py": {
+      "sha256": "c339d664c494f0ec0e51a0d34a076de956b416ddd0f81ca3cfda935df1250726",
+      "bytes": 2328
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\check_empty_projects.py": {
+      "sha256": "484103ebb238d1f32a709b6815252fe71274fb48eeb3a782928065297f12d77e",
+      "bytes": 1262
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\continuation-evidence.json": {
+      "sha256": "4967371ef5a5e7adad51d2481063f6fd79f652d76c90e018303135cf1c4243f2",
+      "bytes": 3410
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\digester-boundary-results.json": {
+      "sha256": "bf33e5ad5613d3bba3d892d9c9eaa8aee39e043d7c591b5a4fdca4e422080176",
+      "bytes": 643
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\empty-project-result.json": {
+      "sha256": "1c5239bf0080629a89fd3885a14c6e8c5f1e999fa7e5f214831a2c33347e5338",
+      "bytes": 303
+    },
+    "update-2026-10-21\\access-recovery\\crossref-08985658b3b1a2aa.json": {
+      "sha256": "6f4cfd8bca71e1cd422ee5ee1ed127c31a1dcd5cf5de4f569fd4526ebfed7878",
+      "bytes": 1354
+    },
+    "update-2026-10-21\\access-recovery\\crossref-09dbabab8b84829a.json": {
+      "sha256": "fb5beea83af45467e51e08d8a45cd7bf0cbaf9da6ec682b646e24d182cee83ba",
+      "bytes": 6505
+    },
+    "update-2026-10-21\\access-recovery\\crossref-0ddb5773608c62a8.json": {
+      "sha256": "1548e88bd09f98dcf6451c56ea2924f69bee742c5fa4617bb8b021b7f38d0379",
+      "bytes": 3623
+    },
+    "update-2026-10-21\\access-recovery\\crossref-13a86012ce363493.json": {
+      "sha256": "0743c64c128c069bdbbcaa048be0513a36e4415b72ffebce04216a36171f9939",
+      "bytes": 18606
+    },
+    "update-2026-10-21\\access-recovery\\crossref-1b25d16fb2b19624.json": {
+      "sha256": "67c8a67ce3c1bd4316afa1dfc47b8586cfbcd12b56a60ca41d108dfabfc09b60",
+      "bytes": 1516
+    },
+    "update-2026-10-21\\access-recovery\\crossref-1e7f0ba2d1823f8e.json": {
+      "sha256": "8c6e77c16fc66dcc9a2e4db325c65916e48767af00c5856c3dd731b331437a55",
+      "bytes": 8673
+    },
+    "update-2026-10-21\\access-recovery\\crossref-20b41b10a99f1626.json": {
+      "sha256": "6430d385bc6a2f4fb606771c1adea19e6c38092f1ea4c6945839cdd9a6b5a7d3",
+      "bytes": 20221
+    },
+    "update-2026-10-21\\access-recovery\\crossref-27564463af3f057c.json": {
+      "sha256": "16031d6792f57e0981fb2e4434ee21eecbb3276e277b91dbd43a8c2fa5792ca3",
+      "bytes": 1363
+    },
+    "update-2026-10-21\\access-recovery\\crossref-2b09b4911a8902fc.json": {
+      "sha256": "0198b9edf6fa5a0a3f23017f192b1f9c977de337eb630840c24464be5242450e",
+      "bytes": 5790
+    },
+    "update-2026-10-21\\access-recovery\\crossref-2b9db68e0126b11e.json": {
+      "sha256": "034f2a0c15e872bd17c520ad5dd6eb7fde2d2a471d8c9d30778d0bd54d54d60f",
+      "bytes": 6595
+    },
+    "update-2026-10-21\\access-recovery\\crossref-2e7472e571447d84.json": {
+      "sha256": "b181f4c6d9ae375ff6a66527844fbbad3809042729484435dbb2ec06353e8753",
+      "bytes": 2476
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3418284fce381c84.json": {
+      "sha256": "58186a6a4a5e6b220282d7b530e232fe931663ab34154995d845e17f8ee4f874",
+      "bytes": 5652
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3b2f2041352976d9.json": {
+      "sha256": "cbff9a5b5bcb111010cce6cbe4a21326958425f780c84eaa530e8a2325bf0c57",
+      "bytes": 31466
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3c4ebaf506a62e23.json": {
+      "sha256": "86d6dcdfa9d027d7eb240174225108ae70ada7fe8c42b2e0ad8f2bab18277f67",
+      "bytes": 8534
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3ce38e1323137cd5.json": {
+      "sha256": "a5050a5aac7ea829061580d422796389c2322b4c5ecf3fb916aecc833a0589a6",
+      "bytes": 2632
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3dc8272f2b6c4a80.json": {
+      "sha256": "1e9d41c1ff9374728f9dc697a0c811cc89a450105acd4b9fa62bc7fa233d3662",
+      "bytes": 8587
+    },
+    "update-2026-10-21\\access-recovery\\crossref-3e3ed6c7e0a5f219.json": {
+      "sha256": "3c0e331d91c6626e0fae3ca220b4e93a0be10d6bc4860457ccec07d50d1d1a82",
+      "bytes": 6700
+    },
+    "update-2026-10-21\\access-recovery\\crossref-42bbbbfa95a02b42.json": {
+      "sha256": "b6ec9c169b2dffd4ca0c187b9f07eed77f06f87f378c9e9dd4d8b91df2bbe35a",
+      "bytes": 13631
+    },
+    "update-2026-10-21\\access-recovery\\crossref-457223da32345ed6.json": {
+      "sha256": "b116948593c02e1f869648884c8120c0f0c0146a4fc217ebc39a169b46d97527",
+      "bytes": 7081
+    },
+    "update-2026-10-21\\access-recovery\\crossref-47fae180a06c700c.json": {
+      "sha256": "b2a0a8ea2fb93e851aff37502c470c2715cfbe9e9732ad40dbb2e221d274cffe",
+      "bytes": 7677
+    },
+    "update-2026-10-21\\access-recovery\\crossref-485f33e031c152b3.json": {
+      "sha256": "4ac4cdaf6e4f922d7207c8d37d23295e03030d16d9fd18bcc8815be31261f058",
+      "bytes": 8752
+    },
+    "update-2026-10-21\\access-recovery\\crossref-4d21348c102efcdc.json": {
+      "sha256": "f3a7eacf642ef6b4f2b948d3c12e7235e25cbf2408ae01a8e72b0f98066d5a27",
+      "bytes": 1512
+    },
+    "update-2026-10-21\\access-recovery\\crossref-5003d9b3b71a1a3a.json": {
+      "sha256": "5164ef47f1309e390192c27dc8d2fe9e408bb4560bad316480741f1a92dace30",
+      "bytes": 5762
+    },
+    "update-2026-10-21\\access-recovery\\crossref-50f9c3cba4c252a7.json": {
+      "sha256": "49c24356c8d7c91e7700705733bfe076936494fc8ba5d473e8c15c5332514cd9",
+      "bytes": 1966
+    },
+    "update-2026-10-21\\access-recovery\\crossref-5113e4990b081a43.json": {
+      "sha256": "a7a694fa67413ce3f3216209ed6d81c4a4a701b33f8557a6ecad280799198513",
+      "bytes": 3470
+    },
+    "update-2026-10-21\\access-recovery\\crossref-51bbb52982e7df5b.json": {
+      "sha256": "2fa63f9c1a82ccf7e5c997709d5ff4ada46086a55d01ee0a76bee1e34c83bc50",
+      "bytes": 3003
+    },
+    "update-2026-10-21\\access-recovery\\crossref-5531a7127844736d.json": {
+      "sha256": "c81dc588c7dca49cfe3cbb3b76c248b29a9cec546bccaf2d26028be7415ca53b",
+      "bytes": 2014
+    },
+    "update-2026-10-21\\access-recovery\\crossref-5f5906d612fd7d3a.json": {
+      "sha256": "ea7b9525da9be28f7b919f6e946698b935591f3467029d13f7d94ef334c27af6",
+      "bytes": 3207
+    },
+    "update-2026-10-21\\access-recovery\\crossref-6083a59198356050.json": {
+      "sha256": "adfc8780a27274eb95c908f1c2d09f33cdcff8ea14b3c747718410d154a7b388",
+      "bytes": 8183
+    },
+    "update-2026-10-21\\access-recovery\\crossref-61f290cfe0346251.json": {
+      "sha256": "e2262aec3f1b2e48e838c1dcc9102c3af5bb5d8f0638c7f3f6f57acd55df7a9a",
+      "bytes": 5591
+    },
+    "update-2026-10-21\\access-recovery\\crossref-625e543c34ef74b6.json": {
+      "sha256": "b1c99763664daa800f7f30eb19139580d0b7d80942d6c034ce8a4d937d02b7ab",
+      "bytes": 1935
+    },
+    "update-2026-10-21\\access-recovery\\crossref-686cd33010250c14.json": {
+      "sha256": "4a966f6097937bf91677a647562346d1f5234f30adfb8d7edb01d60627c05d83",
+      "bytes": 12488
+    },
+    "update-2026-10-21\\access-recovery\\crossref-6a46667913302916.json": {
+      "sha256": "097bde2dfe8c860794d6d83f2be29b3cbb96fbdf4b24367f2d1674f41a0dbd1b",
+      "bytes": 1891
+    },
+    "update-2026-10-21\\access-recovery\\crossref-6cc9aa1a37ba1aa9.json": {
+      "sha256": "5f72449a3ea5cf765abaccbe7e115fb322f8883078d11de8526118ee2cd588f1",
+      "bytes": 5930
+    },
+    "update-2026-10-21\\access-recovery\\crossref-73381799479d72c1.json": {
+      "sha256": "fc9de130323e1ed122ed43dbaaf04ed0b2e1371769e98135967be6747be0f0ad",
+      "bytes": 19575
+    },
+    "update-2026-10-21\\access-recovery\\crossref-7626e54431811597.json": {
+      "sha256": "eafafdae5c79958a392e5728974089c4ee21a3547041f9f3684868536e76d434",
+      "bytes": 5894
+    },
+    "update-2026-10-21\\access-recovery\\crossref-779c289355febc4e.json": {
+      "sha256": "520042e0df7f8e05a393cb09ae651e1250e307ec92d7ce3f5730fed04e9ea97c",
+      "bytes": 1505
+    },
+    "update-2026-10-21\\access-recovery\\crossref-7dfa79a80307d9c9.json": {
+      "sha256": "46aeb5e6dcea2fe86f450f9550a97ea7ac8aa88247024136b122220681fed915",
+      "bytes": 1900
+    },
+    "update-2026-10-21\\access-recovery\\crossref-8ceab085d46c09d1.json": {
+      "sha256": "8ed8ede1617e1bb260b5ab11e634ac8877ee9540016fd3012df6197031ea3911",
+      "bytes": 5170
+    },
+    "update-2026-10-21\\access-recovery\\crossref-8e63e19af8f34b75.json": {
+      "sha256": "e5984b0b5bda03e70e68a13e94cf12afc2ee3b6519dd1b0df55b349cae052b66",
+      "bytes": 15574
+    },
+    "update-2026-10-21\\access-recovery\\crossref-953c95c3fd4929f3.json": {
+      "sha256": "7b63fa26af2eb6aa51ff6fa23df751fea984b6585dd0cb2c0615c9870f3c9205",
+      "bytes": 2810
+    },
+    "update-2026-10-21\\access-recovery\\crossref-977e1b44a866ddfb.json": {
+      "sha256": "94a3a2f306cb300d213a338eeba130f98ca490b8062d52722d0a361266391e46",
+      "bytes": 11149
+    },
+    "update-2026-10-21\\access-recovery\\crossref-99947812562d04ca.json": {
+      "sha256": "8057347c897304a50dfbfb01b201448ce6f441d02d08b0ac3023660b11e31e3f",
+      "bytes": 6141
+    },
+    "update-2026-10-21\\access-recovery\\crossref-a441db3326220eb4.json": {
+      "sha256": "4f37824e9cf31d63935937e2c4c7e12833d0cc8f0045b4c1068be718eadb6ffa",
+      "bytes": 5467
+    },
+    "update-2026-10-21\\access-recovery\\crossref-a4931a9f9cc140e8.json": {
+      "sha256": "27886d94b49b49315659cc052ecff9543d530dcc2eff3f97a12479952b773b21",
+      "bytes": 2278
+    },
+    "update-2026-10-21\\access-recovery\\crossref-a7b38eef8951f258.json": {
+      "sha256": "a1f00146ce44cb12cff3058c927e2a82c97b0de5821c801eb303e2cd91181468",
+      "bytes": 19270
+    },
+    "update-2026-10-21\\access-recovery\\crossref-a9b22fc028be97ab.json": {
+      "sha256": "2449aa2d4bc0e4cb06d50923cde924dc151ba1ed79736c6d5da73bf3f9615ce5",
+      "bytes": 3419
+    },
+    "update-2026-10-21\\access-recovery\\crossref-b14445ce8da473ed.json": {
+      "sha256": "f3b415f1b041662f4e9f0c3086d2fd2ffb8329d2ba0c7acf52bbf363ada24451",
+      "bytes": 7005
+    },
+    "update-2026-10-21\\access-recovery\\crossref-b4cb4e304083d701.json": {
+      "sha256": "b101b8f01ee3a9b7d0b32c776e5d853a125769deaa1d6f62fda7eae97faf6ad0",
+      "bytes": 11750
+    },
+    "update-2026-10-21\\access-recovery\\crossref-b5ab8347395cb91e.json": {
+      "sha256": "1545e0c5a8693b6bef94fa10933fa6fc0ef4942fc584fe44e60d49083a3f4092",
+      "bytes": 5190
+    },
+    "update-2026-10-21\\access-recovery\\crossref-bb0edb0bddca3e8e.json": {
+      "sha256": "a19528ebb28616daf297897d12a395cecabe0fa65fbf9a764cba8ab3f2b70b11",
+      "bytes": 2033
+    },
+    "update-2026-10-21\\access-recovery\\crossref-c0691d62fd197a4b.json": {
+      "sha256": "b28a6e75b80d7ed0fdabbe4121bd208df1341b22774834a8aca7b7613bcb4cbc",
+      "bytes": 1334
+    },
+    "update-2026-10-21\\access-recovery\\crossref-c2457917b8000033.json": {
+      "sha256": "59b613aaca0a8f353881d621019734a1e2c41c4f5f695ca5cd599d04441ba4d6",
+      "bytes": 10382
+    },
+    "update-2026-10-21\\access-recovery\\crossref-c4aa5af7e18377a6.json": {
+      "sha256": "3cc67a12ecc9a3f83449fca7781519c1ee688422fb087e26803c2bba5d294d3f",
+      "bytes": 11651
+    },
+    "update-2026-10-21\\access-recovery\\crossref-c85fa95731e16e03.json": {
+      "sha256": "c7a6edd442184bcde2b3731a836678110fcb713da2bfeff168fadffb12c67025",
+      "bytes": 11953
+    },
+    "update-2026-10-21\\access-recovery\\crossref-d032363acfa90a7a.json": {
+      "sha256": "5c092b44a6f8bb579b4535553377e76dd0db4e0863d30c0fe9c84b468babb4a0",
+      "bytes": 9462
+    },
+    "update-2026-10-21\\access-recovery\\crossref-d8e6faf64685f499.json": {
+      "sha256": "bf4e1b6e9ba47170645ac91df55805f9640ff3e17aba0b08379946f7bf159bd4",
+      "bytes": 3468
+    },
+    "update-2026-10-21\\access-recovery\\crossref-ecfea6be226305b2.json": {
+      "sha256": "0594fefc543561287481545245480094157626c904d4161ad45e307e3879f5d4",
+      "bytes": 2347
+    },
+    "update-2026-10-21\\access-recovery\\crossref-eec1c1a87a976869.json": {
+      "sha256": "b0be25421a64866fe863108bd4f046d8ba66c169e433d177c000bcda46b8b141",
+      "bytes": 14900
+    },
+    "update-2026-10-21\\access-recovery\\crossref-f6af3a93f69ce7eb.json": {
+      "sha256": "9b6059139130798842d2c547a2c5d1c3e2d65b398ba499fafc98842049f39c7d",
+      "bytes": 2612
+    },
+    "update-2026-10-21\\access-recovery\\crossref-ff5e159e695a6a8c.json": {
+      "sha256": "ea3d262bb41162569a5f8eb51ead2531a6cbd1982a735f57b64e4420139bd436",
+      "bytes": 12527
+    },
+    "update-2026-10-21\\access-recovery\\recovery-manifest.json": {
+      "sha256": "cc49bc57fd1a6b1656bfe77589ba4774da7cbd2bd9c100bede8a5fd44990ab4c",
+      "bytes": 173487
+    },
+    "update-2026-10-21\\access-recovery\\summary.json": {
+      "sha256": "5c1abe64df7717642fcfadfd938e7a263d01e7ecae93b09dbb676779b6ec1e8e",
+      "bytes": 225
+    }
+  },
+  "delivery_authority": "delivery-verification.json; final ZIP and D/cache byte equality checked by deliver-deep-edition.py",
+  "prior_delivered_checkpoint": "backups/2026-10-23-before-supplementary/RESEARCH_RESUME_STATE_2026-10-23.json"
+}

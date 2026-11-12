@@ -1,0 +1,4693 @@
+{
+  "date": "2026-10-25",
+  "saved_utc": "2026-10-25T11:18:44.459117+00:00",
+  "status": "BOOK_LAB_FOLLOWUP_INTEGRATED_REMAINING_WORK_OPEN",
+  "whole_project_complete": false,
+  "research_must_not_resume_until_user_requests": false,
+  "prior_delivered_checkpoint": "backups/2026-10-23-before-supplementary/",
+  "english_source_sha256": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+  "html_sha256": "9d49d6a684673702752dd074222d5958cc876f6f8041816aa6377dec046e07dc",
+  "register_sha256": "654e81fa136baf9933119ac6b7509b0cc3eb40ffa47d71712fca7bea718975d8",
+  "register_counts": {
+    "records": 2011,
+    "scoped_source_completions": 28,
+    "checked_units": 8916
+  },
+  "agents_running": [],
+  "agents_completed": [
+    "islp_9to13_lite",
+    "whatif_finish_23_lite"
+  ],
+  "agent_model": "gpt-6-luna / high, reused as requested",
+  "new_completed_analysis_records": [
+    "REV23-MEYER-V3",
+    "REV23-FINANCIAL-TSFM-V1",
+    "SUPP-BRODERSEN-2015-AOAS",
+    "SUPP-BERGMEIR-2024-FORESIGHT73",
+    "REV23-TRADINGAGENTS-V7",
+    "REV23-HYNDMAN-FOUNDATION",
+    "REV23-HYNDMAN-ROLLING-MASE",
+    "REV23-HYNDMAN-WAPE"
+  ],
+  "new_checked_units": 218,
+  "new_evidence_root": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa\\update-2026-10-23",
+  "snapshot_files": {
+    "update-2026-10-23/integration-check-results.json": {
+      "sha256": "717c05fb6ad7d3d70734fcf7cda0de31e906fe0c87657a1d915b95391b8fd518",
+      "bytes": 304
+    },
+    "update-2026-10-23/library-reconciliation-2026-10-24.json": {
+      "sha256": "99a3f1c159b570c34ecc11202cf441df756c9c31d2012e2bee7d50cd33599567",
+      "bytes": 7147
+    },
+    "update-2026-10-23/reviewed-source-records.json": {
+      "sha256": "7993ab2f7ce5b47b932e7f90a95b9e78dcff0c2a4057ba104e5040aa7a99005a",
+      "bytes": 126257
+    },
+    "update-2026-10-23/forecast-source-audit/alternate-retrieval-manifest.json": {
+      "sha256": "4a9dfd2e9d764c964dd2daf4b5a7e282e00a72c22ce1e9f3fa78359b12ae9e7c",
+      "bytes": 1680
+    },
+    "update-2026-10-23/forecast-source-audit/check_review_claims.py": {
+      "sha256": "0d2a5bd67a9e9f5a60d7fab60ffbd4e7a4456fcd266d9aaa2d8580e10c52495e",
+      "bytes": 4966
+    },
+    "update-2026-10-23/forecast-source-audit/chronos2-modelcard.md": {
+      "sha256": "c7b29bc88f5bc3ebc6e7213b6353be80090d671fefa4aa74ed20498838c16558",
+      "bytes": 7773
+    },
+    "update-2026-10-23/forecast-source-audit/combined-reading-certificate.json": {
+      "sha256": "9e550f01c454d0fd323aaa63717136fd5d3c402bf987d08cf5c750483adf1aa2",
+      "bytes": 35160
+    },
+    "update-2026-10-23/forecast-source-audit/forecast-audit.en.md": {
+      "sha256": "defc0fff195457916990dd4bf52e287884119f8a51831e4a8f1bb8ac20228156",
+      "bytes": 9711
+    },
+    "update-2026-10-23/forecast-source-audit/forecast-audit.fa.md": {
+      "sha256": "f2758d5ae2212586a3fe043bcf95752ae6a94f54b643e88fe780ef2285bfddda",
+      "bytes": 13907
+    },
+    "update-2026-10-23/forecast-source-audit/independent-check-results.json": {
+      "sha256": "aeb81a049c56f941b091892d42226b65cc698d3b061d212bd38583ee09e113a3",
+      "bytes": 17641
+    },
+    "update-2026-10-23/forecast-source-audit/meyer-repository-head.json": {
+      "sha256": "d0b24ebc832d16681743405f5575af94a1da2a326246e9383c96f0123680cf1f",
+      "bytes": 6200
+    },
+    "update-2026-10-23/forecast-source-audit/meyer-repository-snapshot-manifest.json": {
+      "sha256": "43d847662550de29c69008d83937f6388a4f2265b98a09a05232f93a410b4d75",
+      "bytes": 14573
+    },
+    "update-2026-10-23/forecast-source-audit/meyer-repository-tree.json": {
+      "sha256": "acb48c963495580b66282407750c48cecf231d70083450f757689fc99bed4be3",
+      "bytes": 25312
+    },
+    "update-2026-10-23/forecast-source-audit/reading-progress.json": {
+      "sha256": "b3b64ec2254b7b37c5349b29cf8011dab0e1d6a2646b2829537bba0a3115c7e2",
+      "bytes": 1862
+    },
+    "update-2026-10-23/forecast-source-audit/retrieval-manifest.json": {
+      "sha256": "d0fd55210a4db4c5db33131685afbd87a10f2ed393c8bfce487e3fc8bffefb39",
+      "bytes": 3073
+    },
+    "update-2026-10-23/forecast-source-audit/root-theory-visual-review.json": {
+      "sha256": "e2440d7cc7a545628b4dbd7f1fe8e5e24a1fc6c4d694fe8aaf3b09b5b59f7f9e",
+      "bytes": 1700
+    },
+    "update-2026-10-23/integrated-review/evidence.json": {
+      "sha256": "51c0659d3dab8b48cb398a88dc2b9640e9990381b8721e5042c1acfc94503491",
+      "bytes": 1095
+    },
+    "update-2026-10-23/integrated-review/integrated-review.en.md": {
+      "sha256": "f514a49e287ff5bd6479fdc1c4b98f46ab16620ca64747cb81b539d284e7b3b1",
+      "bytes": 55447
+    },
+    "update-2026-10-23/integrated-review/integrated-review.fa.md": {
+      "sha256": "bcdcaa991896acc69f0868c1e0679f8929420e72f4d96a262da589a33f2695de",
+      "bytes": 74321
+    },
+    "update-2026-10-23/queue-audit/build_evidence.py": {
+      "sha256": "ea40acc26c771ac131f1484df3169f5fdac8dc0a083aed62749fa63371a098b4",
+      "bytes": 8855
+    },
+    "update-2026-10-23/queue-audit/captured_ces_payems_vintages.csv": {
+      "sha256": "98e4c814711434493fde6d38a911d6655433ef146ed65379014f9125e12c9471",
+      "bytes": 886
+    },
+    "update-2026-10-23/queue-audit/evidence.json": {
+      "sha256": "f84ee567e887c8d69b1b8ffcc8bcf47eb913c68b40c7105517ba9c2884148313",
+      "bytes": 28453
+    },
+    "update-2026-10-23/queue-audit/experiment-results.json": {
+      "sha256": "51d2fdcc7cc1e873c7cf2111f4879ac986ef1545ae05c1ce2c72f7f645578103",
+      "bytes": 4151
+    },
+    "update-2026-10-23/queue-audit/queue-audit-addendum.en.md": {
+      "sha256": "df9b5d7d9b69df495d12fd26cacd8d544952ba91b65384929deca3fb3039e1e1",
+      "bytes": 6670
+    },
+    "update-2026-10-23/queue-audit/queue-audit-addendum.fa.md": {
+      "sha256": "cbb2c2b8012635032d0d52f304e675863c007d16293c58212aae8c0f4e99b7b5",
+      "bytes": 9979
+    },
+    "update-2026-10-23/queue-audit/queue-checklist.json": {
+      "sha256": "863d242f9475addaf9b10db6180e959e33403995f93a7acfeec432231260ad64",
+      "bytes": 19060
+    },
+    "update-2026-10-23/queue-audit/README.md": {
+      "sha256": "b4f8cd0838301a5a7bd3e23dd57ef9ce976d81193ab1ad461aa167945b9d9134",
+      "bytes": 1535
+    },
+    "update-2026-10-23/queue-audit/run_vintage_audit.py": {
+      "sha256": "991dbb6a1ccff4f1fa921237619191a3ae1e13aab53e3aee46d3cd2bbb84270b",
+      "bytes": 7228
+    },
+    "update-2026-10-23/queue-audit/source-capture.md": {
+      "sha256": "4cfc5066a9d185a19ba43f8ca8658a907d5998b78a7e83923341ae69d49d4014",
+      "bytes": 3756
+    },
+    "update-2026-10-23/social-review/add_official_crosscheck.py": {
+      "sha256": "fc3e2b9f0c390d192a8674fb6aa2f5bca5892342013ac95a5a59964fb708efc6",
+      "bytes": 2669
+    },
+    "update-2026-10-23/social-review/add_tradingagents_review.py": {
+      "sha256": "65da7cc0ab4dc2ee3c61fcf54d083b2b025ba0060078d241ce29177e8fceed59",
+      "bytes": 7402
+    },
+    "update-2026-10-23/social-review/build_evidence.py": {
+      "sha256": "c770b1ae3be62934a5557c2ef90beda8c310a9dcabb45525e63c09e26dcb6986",
+      "bytes": 13620
+    },
+    "update-2026-10-23/social-review/build_inventory.py": {
+      "sha256": "556967e267f76de59c213a165693d2ff7eb23c7f5e4af16308d2209ca3f0169e",
+      "bytes": 4370
+    },
+    "update-2026-10-23/social-review/evidence.json": {
+      "sha256": "0d3e85a0bdd2d47bc5f8c950c6111b239627c8be81c485384da9388cda13f5dd",
+      "bytes": 41747
+    },
+    "update-2026-10-23/social-review/extend-verification.py": {
+      "sha256": "69333fd4029ce53af3e56b6794dd711732f6c33062dc78c911524f39ac55ab2f",
+      "bytes": 3031
+    },
+    "update-2026-10-23/social-review/finalize-paper-audit.py": {
+      "sha256": "368b9647f8b4ad2dc3c6c6bc4b0ac5bd79ad9146a15e4e773d761bb77c4da491",
+      "bytes": 23673
+    },
+    "update-2026-10-23/social-review/insert_tradingagents_addenda.py": {
+      "sha256": "a35702e1e474ccfb9dec4ad6005cb50aa81accf6119242b83a1e74109abcd426",
+      "bytes": 6745
+    },
+    "update-2026-10-23/social-review/integrity-check.json": {
+      "sha256": "80ac788de1d48eb673567e5a71f1183c5322e97b23ba9f04573bc7bf4712b29b",
+      "bytes": 4958
+    },
+    "update-2026-10-23/social-review/paper-v7-integrity.json": {
+      "sha256": "abaceb8aa75022cdf75ad3ac5063eb7b788676b64ee30b3bee67ce7eaeab0fec",
+      "bytes": 7928
+    },
+    "update-2026-10-23/social-review/pin_candidate_review.py": {
+      "sha256": "0e456fc7300692b747ad1668fd6bec3c286394f731d1638e56b0bbbb1251d3ae",
+      "bytes": 4510
+    },
+    "update-2026-10-23/social-review/record_extra_failures.py": {
+      "sha256": "0a90b83935eb7b1b2e0b12001cd0096d81cebe6b49fcfaae3615bfda57b07936",
+      "bytes": 606
+    },
+    "update-2026-10-23/social-review/social-corpus-inventory.json": {
+      "sha256": "b13dece68a8ca37d79e38928de2ed5c4acc4e32f6f75df28ae1136d190af652b",
+      "bytes": 118723
+    },
+    "update-2026-10-23/social-review/social-review.en.md": {
+      "sha256": "36a3f323003358a1bd04caed0d8fee162c303a1fda0ed6d24599f3e335d9984e",
+      "bytes": 18439
+    },
+    "update-2026-10-23/social-review/social-review.fa.md": {
+      "sha256": "2637c210addf267bbfaabc17ca2e073b738a0c61460a6cf990fc20f60b6b5c7b",
+      "bytes": 26974
+    },
+    "update-2026-10-23/social-review/update_addenda.py": {
+      "sha256": "775fa0937df17778064451923031297730d562e7f58fda3a799284403c046e54",
+      "bytes": 8814
+    },
+    "update-2026-10-23/social-review/verify_artifacts.py": {
+      "sha256": "e26963d91a822a26ed5ff15da06f59d208c1d66a72ba841bc096ec361da162f3",
+      "bytes": 6471
+    },
+    "update-2026-10-23/supplementary-audit/coverage-matrix.md": {
+      "sha256": "af0bd7e41eb87722b8acb8a0d5331fd3ebe62bb974f24a16b133968e1ec50a68",
+      "bytes": 12957
+    },
+    "update-2026-10-23/supplementary-audit/evidence.json": {
+      "sha256": "054f19d59d3dbd54a1e748ac598b64334b1c637a261b08091ff2108e534e08ff",
+      "bytes": 11002
+    },
+    "update-2026-10-23/supplementary-audit/integrity-results.json": {
+      "sha256": "d35ae26d4affd691c0d40527ab1bf62c99e98d0160c66ca98cd2248eb444e78a",
+      "bytes": 3554
+    },
+    "update-2026-10-23/supplementary-audit/integrity_check.py": {
+      "sha256": "443b5e0880800910b03f71af699560a92c483493dd0d6f15570ec7dfe94a2115",
+      "bytes": 5078
+    },
+    "update-2026-10-23/supplementary-audit/requested-sections-fa.md": {
+      "sha256": "8e9046638751057f32857d45dfde2ea8a0ebdc6a21cb6e5850e0cf37548c075b",
+      "bytes": 6823
+    },
+    "update-2026-10-23/supplementary-audit/teaching-addenda-en-fa.md": {
+      "sha256": "7a505658621a0f371ad9c01d3f4fe2672719c5478cf6eb8a6b56f597c56a66ef",
+      "bytes": 18031
+    },
+    "update-2026-10-23/forecast-source-audit/financial-review-agent/integrity-results.json": {
+      "sha256": "88c5e00d5d6ce5c3fbed6b7f007fd1c1db62c154602b082a8340dc23ea6a1732",
+      "bytes": 6740
+    },
+    "update-2026-10-23/forecast-source-audit/financial-review-agent/integrity_check.py": {
+      "sha256": "87190671feefe25ef77e08afeda5af792c1b6fc56a2e3bea85c582390d606daf",
+      "bytes": 11972
+    },
+    "update-2026-10-23/forecast-source-audit/financial-review-agent/remaining-page-manifest.json": {
+      "sha256": "0229fb640e3fb9cd1501d3687bc6ed51f58910269454af389efab8e306651a9e",
+      "bytes": 15160
+    },
+    "update-2026-10-23/forecast-source-audit/financial-review-agent/review-notes.json": {
+      "sha256": "0b5ab270533fc3f5d30cc8e69912fe444b2d62826310405389cfc60ff13cb108",
+      "bytes": 13202
+    },
+    "update-2026-10-23/forecast-source-audit/financial-review-agent/teaching-addendum-en-fa.md": {
+      "sha256": "588dbc957d18e47f221453bb8652f3854335ea66559f70e971da387cc5c2799f",
+      "bytes": 11790
+    },
+    "update-2026-10-23/forecast-source-audit/financial-tsfm-v1/page-manifest.json": {
+      "sha256": "0e79d99ff4556bc3a8c0681c1b1f31104e63cad2df47cdd58689abaa2a67efaf",
+      "bytes": 7126
+    },
+    "update-2026-10-23/forecast-source-audit/meyer-v3/page-manifest.json": {
+      "sha256": "48c4c0ce522d46a14aab6f682e9763b529c967b15a5be9fd0cd26eb9e153f68f",
+      "bytes": 4544
+    },
+    "update-2026-10-23/forecast-source-audit/meyer-v3/visual-manifest.json": {
+      "sha256": "6d8e43f775ad575acd73117c76b3b9fed34f39cae4ddb1ee999c1b8235f797ab",
+      "bytes": 6211
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/CHANGELOG.md": {
+      "sha256": "d544d0aa994328b91de9c09f4551a28afa41784e7fe4263d41c8d905edce4df5",
+      "bytes": 28684
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/main.py": {
+      "sha256": "dd3bfdc6a21f8328ccea510f87dbe5a718e7af92f61fae9a3469d6fcb9e6233d",
+      "bytes": 775
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/README.md": {
+      "sha256": "f4eedc5c0652d8967dd5771ea08315ea49630e8d7f10ef8e5992e5653ad48552",
+      "bytes": 17910
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/test.py": {
+      "sha256": "e9ee796baaf640db1f9a10ca5c4d77c4dee56fba8d2f0e490fe64c30ccdf11ef",
+      "bytes": 433
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/announcements.py": {
+      "sha256": "3b27e0e310f49c3d45e2d0ac77f88c4eba83a1b5f22de9c564079b391f041d2d",
+      "bytes": 1560
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/config.py": {
+      "sha256": "5ac253b3ac67be7c7a94f7cbae67b85567a345db4e25c2c5283f0e48fb2e0e08",
+      "bytes": 306
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/main.py": {
+      "sha256": "f018ccfcc957bb355e52c58430e79186b7936de51e4b72d5b37488a603b82539",
+      "bytes": 58271
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/models.py": {
+      "sha256": "dc67edddb64098bdfdd90ca44592f6e5ae64aa03d17b533f2723fd1e89410192",
+      "bytes": 375
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/stats_handler.py": {
+      "sha256": "ef90a873f50e3c124a7200b3fba0c58426550395d35e818632d574923a1a972b",
+      "bytes": 2430
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/utils.py": {
+      "sha256": "2aecffd9da9d8868bcccf1280785ca27467494b6a3b33398199d1fb2c8743fac",
+      "bytes": 26342
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/cli/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/scripts/smoke_structured_output.py": {
+      "sha256": "a54f4c7cbd33d35c1eb26f4585a0e85d87cec21febf772bc786c72aea210b3ff",
+      "bytes": 7007
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/conftest.py": {
+      "sha256": "ffe7f6ef54212bc5ccc9258aaa2008365ffddd89b7f0ad87efd94ff51bcfbdc9",
+      "bytes": 2052
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_alpha_vantage_hardening.py": {
+      "sha256": "af3a5b3d8b666082784469ff5a2a5d974a8be2139c89449cde3085ecfffc72ae",
+      "bytes": 4040
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_analyst_execution.py": {
+      "sha256": "c4ba11f92a65912443079a37f43bb5e55d1ff01329a80cf012a06145e6254161",
+      "bytes": 3470
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_anthropic_effort.py": {
+      "sha256": "75493d14737cce0d43a6ba2c383be7dd691de5ab33d61bab8cdc64524ed8b442",
+      "bytes": 3957
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_api_key_env.py": {
+      "sha256": "f1571e66bb86f5a6cd843e0c1ac5ea5e99c647b0fd54bedcc06f06e6e9035f3c",
+      "bytes": 5726
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_bedrock_provider.py": {
+      "sha256": "f756459fcbba9ae87a543d59d792f9bb9d927cb8abac1b23132a635de2f9f675",
+      "bytes": 3186
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_capabilities.py": {
+      "sha256": "4bab7820de117efb08171aca4fa859d27a10d6a361770b06510b887e4d985b42",
+      "bytes": 6680
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_checkpoint_lifecycle.py": {
+      "sha256": "7c589eae31e48b329d699acde6372ceccaa3d7026554c91a5abaf00d375bd93a",
+      "bytes": 5410
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_checkpoint_resume.py": {
+      "sha256": "c61b8dd15d310159a6305e852ce5335049fc20cddfc00ecb2696c1946a13f4c1",
+      "bytes": 8792
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_cli_config_precedence.py": {
+      "sha256": "31740e8292f396352e985a8dacc411ab99d36fe6aa984f5c7359deaa9771b74a",
+      "bytes": 2900
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_cli_env_skip.py": {
+      "sha256": "67a7707db0ae884ba6b9f52e7ab5fb6e66ca58c09be2e63f9a5099322118b81d",
+      "bytes": 7287
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_cli_no_console.py": {
+      "sha256": "be01ef42545099f631a38794fba02ff2d6998447c13736d5b84f42de5ee2ccf0",
+      "bytes": 2194
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_cli_symbol_handling.py": {
+      "sha256": "787a058e4f91e171042396960ebac177a6a03baf39bef992ef3657785eca0905",
+      "bytes": 2157
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_crypto_asset_mode.py": {
+      "sha256": "7a11703e253bebd4b9029f1de4bf2626d0cd261fdb6d40c45ff2909cbe575983",
+      "bytes": 1820
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_dataflows_config.py": {
+      "sha256": "a40a70d666f0c1f5dd2de1b6a87c56af1c75cce3535a5a65d418f78c21865702",
+      "bytes": 2436
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_date_boundaries.py": {
+      "sha256": "277c5978f6e30fac82cf18f18529f489b626bfb39dfb5025b3c8d6a5830baa8b",
+      "bytes": 2197
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_debate_opening.py": {
+      "sha256": "c25b3e833b9336979f172f9099322c392aba4cc85f54947a1c68af70a3534f77",
+      "bytes": 4278
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_deepseek_reasoning.py": {
+      "sha256": "9f2f5b58fa896f053864d81c010ce6f0abc9072ea6502b69b2e8b5fd3ee75748",
+      "bytes": 10166
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_env_overrides.py": {
+      "sha256": "cc9e78a5ea9d8fb88fb64ca6a7de0b880bf1f56979fa839623c36b9ff6acb5ca",
+      "bytes": 5356
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_fred.py": {
+      "sha256": "1999298f939a2726cc2f583bd77dc9b48462b250cf0bb18e97b167eea650d4a6",
+      "bytes": 8989
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_google_api_key.py": {
+      "sha256": "9442a1c30f3039542de935c250bed1704c6985592cce8f20d14a183add70e597",
+      "bytes": 1198
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_google_thinking_level.py": {
+      "sha256": "d953166d93ac679ac784e1a3668fea79e3cb6c61ba33970ce1a2cdea080f4291",
+      "bytes": 1568
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_i18n_coverage.py": {
+      "sha256": "c5c55417cf9c1a56582ac550aa947674a7e1b813f98348a11ded5d4c1972f9ae",
+      "bytes": 2211
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_instrument_identity.py": {
+      "sha256": "36394934c87e7e7fe5fd2e94d28ad819a4e3789cfb1b895404479906c4e7a389",
+      "bytes": 7062
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_llm_max_retries.py": {
+      "sha256": "e7a9a3142d19ab3750fdcff5b5dc5ba636782e0c9f76b64b91f379de38a51f0a",
+      "bytes": 3488
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_llm_max_tokens.py": {
+      "sha256": "8292967da9743c71eb6a1d3e5f43ecf8f9a8765e1f1190f1c5513a8773de22bf",
+      "bytes": 4442
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_market_data_validator.py": {
+      "sha256": "62636b3cc5f61b7f190f8811c09cae13a52b57fdd9d1280918d2ed0ed14308cb",
+      "bytes": 3395
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_market_toolnode.py": {
+      "sha256": "7839e9a79417b338381172ab679dd0a1be151c72823bdc98094b670a9be5c7fc",
+      "bytes": 1037
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_memory_log.py": {
+      "sha256": "dc3e6e2ac3260dae3be8c748081c164e17b5b45b512f60ecdb8e0595fa081385",
+      "bytes": 43079
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_memory_pointintime.py": {
+      "sha256": "66bdfd0da0a4454676d7c23b66c1f235401506668299c769a239132718f70060",
+      "bytes": 4084
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_minimax.py": {
+      "sha256": "5256097b27f77195d25cb8f1939235909cf6a5b767b1476cac3c7c8bac1dc7b1",
+      "bytes": 2999
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_model_validation.py": {
+      "sha256": "b1371171a211afca306ad5922ef282b7a713489781129373661320398fd5190e",
+      "bytes": 1973
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_news_analyst_prompt.py": {
+      "sha256": "f04aeee1640ea66c545d551a2342b01f2d2f45e26a6a392379d3b68eb53c7b9e",
+      "bytes": 776
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_news_lookahead.py": {
+      "sha256": "04e8ceeb803e41a8cfec83de844352112bc61d91bdb47b319bc8a18e387dda7f",
+      "bytes": 4497
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_no_data_handling.py": {
+      "sha256": "2764ae819d2cc77014cee430a4dc6e6a8f96fed54878a84262a3f956dab6826c",
+      "bytes": 3614
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_ohlcv_cache_freshness.py": {
+      "sha256": "d2fee4d60d4de833375fe9635c21ae82fef4c23f22c9b89e859a55336c6751d4",
+      "bytes": 4471
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_ohlcv_latest_bar.py": {
+      "sha256": "a381d92db5560938c6ceb496aa550591bd19f772ccbf50407b13a4e931195818",
+      "bytes": 6002
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_ollama_base_url.py": {
+      "sha256": "165ffffce297c5fd471fe591fb18fe3de9ad43c7605abe2ea412635ce368e68b",
+      "bytes": 7440
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_openai_compatible_provider.py": {
+      "sha256": "383dc7c0bb466d07fc26e2d6a469187ed2272786a83cfbbc1001c6becc2017c6",
+      "bytes": 4481
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_openai_reasoning_effort.py": {
+      "sha256": "1656757fcd58fb96887a25b5d00f77fe1fbcfe4859e92d7bc04c66693ae052b6",
+      "bytes": 1477
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_openai_responses_base_url.py": {
+      "sha256": "c21a64794149a68577e64cae1e2f894ec2c4bf752e2c44134ace625a0a95be5e",
+      "bytes": 1756
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_openrouter_model_select.py": {
+      "sha256": "f599bae64e551714097abd92f661457ce8eeb25eeb3fb8c305346cf7850be62a",
+      "bytes": 5144
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_polymarket.py": {
+      "sha256": "06f893402c59f75c7141443c758af1936d677f5cfcb06deab3af8fad3ab35004",
+      "bytes": 5258
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_provider_registry.py": {
+      "sha256": "0ce85c041c40b76d53c1820215491a96eadcef65317323738a661a2fb887819f",
+      "bytes": 2932
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_reddit_fallback.py": {
+      "sha256": "99992db121a8a47c0decbce1b56c98062c6d4af0564bff6d5af532738a891aaa",
+      "bytes": 8745
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_reporting.py": {
+      "sha256": "d62d6458fe5ef2bb0aef35cd28dd90cd3f151e7826f1e372b2354c5c218a340d",
+      "bytes": 2018
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_risk_router_path_map.py": {
+      "sha256": "1d1de4239386f39a31106b372a46267a51242aa2e29985ac96f73cf7fa02449f",
+      "bytes": 3224
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_safe_ticker_component.py": {
+      "sha256": "c74761130145db17811e6318f583e970352e7280fc3928b37942cdb4ccde7c8d",
+      "bytes": 2257
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_signal_processing.py": {
+      "sha256": "0461b77ac53a454fa4ec7ca13a827632b31ffc25c3b0137d3c632ed1e8b9b9c9",
+      "bytes": 5668
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_social_lookahead.py": {
+      "sha256": "ca1a4c8265230c6344114fca61d62376b94ec9a3018c41a55413b6199f30cec5",
+      "bytes": 4848
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_stockstats_date_column.py": {
+      "sha256": "8eca810e46d2ec181e9a8e51facbf6d04c229463fe16422403514ea050794611",
+      "bytes": 2719
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_stocktwits_resilience.py": {
+      "sha256": "ca5ad7b13cc7bf8663dfa5486b78899f3230480dfc7304197de75f1893a45c06",
+      "bytes": 2452
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_structured_agents.py": {
+      "sha256": "f6da27a46abf9973609e5fffdaf42e822fd0e6e19d0bb938dc712dd90ffef77c",
+      "bytes": 17927
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_structured_agent_prompts.py": {
+      "sha256": "2bf2208eb99daaa15d0013572dba1acfe64133350c8f3914c22b85201c939c77",
+      "bytes": 5752
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_symbol_normalization_paths.py": {
+      "sha256": "478de309d3cc45d7e83cdddb03d55d3668d8a3499d783cbf6387dbf8d3c6ba99",
+      "bytes": 2881
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_symbol_utils.py": {
+      "sha256": "e88eabe1c77c5214c4720a661b711dd134396eed79a466dd5ec87be4862840a0",
+      "bytes": 3999
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_temperature_config.py": {
+      "sha256": "4912f9ccf1ca799737baebc86865b6cf3bb98aadb36e906cca4299d27c5ef98e",
+      "bytes": 3245
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_ticker_symbol_handling.py": {
+      "sha256": "19c472ce30ff5255ea8550a0aaba11f1cb6d650898c008b84de8708e3ec68ec4",
+      "bytes": 1044
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_vendor_errors.py": {
+      "sha256": "d54d409f98ea2ea70b6726bc362b694ccec9692756c4a298f05b9b477cd42f93",
+      "bytes": 4266
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_vendor_routing.py": {
+      "sha256": "1c225bc60fc368196ca5792c00db85190c7650a8987037ca2bf39f6a425c1aa2",
+      "bytes": 5474
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/test_yfinance_stale_ohlcv_guard.py": {
+      "sha256": "b62f8d0dec7643d41e9e48b616713604ea121e1b6b97fe5e36c41f6a9449a400",
+      "bytes": 4022
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tests/__init__.py": {
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "bytes": 2
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/default_config.py": {
+      "sha256": "e1e4261ca519781f6974bd8c8ea428da71ec3226ba1a91561243275fd562c4f2",
+      "bytes": 8924
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/reporting.py": {
+      "sha256": "4a952661c6ff9e66f546682ae56444e4e8dd1f85cef67441044e959f25747e49",
+      "bytes": 5504
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/__init__.py": {
+      "sha256": "72bae46cd8d91b6f4455babae5736676593af2ad5b1fa4c171b974fa577fafd1",
+      "bytes": 1731
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/schemas.py": {
+      "sha256": "fba6db81a890b6b8005c7b2354e829b0a52ee64d05cbae216938d8ff52eef2f7",
+      "bytes": 13395
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/__init__.py": {
+      "sha256": "fc1c3b84d2d8a7c58263d8ec08eedb54dff57747250e2ce12a364aca2207c65c",
+      "bytes": 1554
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage.py": {
+      "sha256": "004b10e43594d188153a255ee8b865aae1952034605943331371f1cf7bc1be72",
+      "bytes": 707
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage_common.py": {
+      "sha256": "70a1f75187f8626f40a44c29e1ca5354e083b7c8eaec7484110b205e76c7297b",
+      "bytes": 5632
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage_fundamentals.py": {
+      "sha256": "f31d4ce4d57e5d2610cdf010b5eaaa154077577c8bbda6262240a51b469010d2",
+      "bytes": 2383
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage_indicator.py": {
+      "sha256": "3470055386d9a2cd4cece6a38768708ae649fb31da8d1f91e94a6b8bd4e45b64",
+      "bytes": 10915
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage_news.py": {
+      "sha256": "4ebb1af4196223ad4ae5a846c812c83c7a275241c0fa2b69c2982609edbac3e6",
+      "bytes": 2423
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/alpha_vantage_stock.py": {
+      "sha256": "1027d00c0713dda116b67d9cf97def79812ed6924862e779cc0c0d7b3b4ffc72",
+      "bytes": 1352
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/config.py": {
+      "sha256": "c498661b6ab17a087ca93c9148e80e62e5f9bdcfee017f5424ce826e6ded855d",
+      "bytes": 1199
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/date_window.py": {
+      "sha256": "712bddb2d79b1f17692c3eb7693b61d4f0e97781c22a69b49f98f19eba460131",
+      "bytes": 1378
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/errors.py": {
+      "sha256": "456570572c89446cc814f1eceaf9a7fd1c740f35dce2e3dda755dbf89e99e280",
+      "bytes": 2262
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/fred.py": {
+      "sha256": "0d01e890cfc67a3c05f87e447f96df93e731ff2bfce7c3395eb3be57762652cb",
+      "bytes": 9479
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/interface.py": {
+      "sha256": "deb9c97edb5ac6bc6720cc71655aab1c11fe610be2f60537ea4de97b234c9a4f",
+      "bytes": 10551
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/market_data_validator.py": {
+      "sha256": "491a879b02ffa836acfce9be871d93f7725cad1430f9d2995b8d84dde46a5a4d",
+      "bytes": 4860
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/polymarket.py": {
+      "sha256": "67f01692351a6d984fca51c6da692496c4e489c50a8ba0240a0294ce3d91e810",
+      "bytes": 4938
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/reddit.py": {
+      "sha256": "2484e8dc64890df8a5a9de6ec58c07d75e459f5673a4d963dd3177af52d31e92",
+      "bytes": 11488
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/stockstats_utils.py": {
+      "sha256": "a7f6bef5ac6eb4db7e183da660d15fa2eecc1d4d7ab15cdf64ef31c15d6265ec",
+      "bytes": 12943
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/stocktwits.py": {
+      "sha256": "ecd02c2c94da7808e4ba5b767ee52226626d47a850b774c7fb8253a0325aecf6",
+      "bytes": 5591
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/symbol_utils.py": {
+      "sha256": "f6daed7d72befe77a7ac7873ea104fb3a21c2c496065759371df56dfd29c249c",
+      "bytes": 6013
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/utils.py": {
+      "sha256": "f4b164166ef6fa8d906bbe606812cfd451f5af873975e7a33123d9d0b8d821e6",
+      "bytes": 2818
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/yfinance_news.py": {
+      "sha256": "7da4bc469f8068d6ef418e56e9d7a425f037d3df14b2d5948871310175e28378",
+      "bytes": 7687
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/y_finance.py": {
+      "sha256": "e3648d2a4388ffa9fe7881cb49981b30d9d111fad6e9ba0fb6831c244ea65734",
+      "bytes": 19291
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/dataflows/__init__.py": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/analyst_execution.py": {
+      "sha256": "0e80cdd649fcf9ccf50905fe7e2fccde313278161fc9463b0d5b33bce5756dac",
+      "bytes": 4447
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/checkpointer.py": {
+      "sha256": "e14c21710abc27f541bdc97b9cb91fa7f5f09873d2ed4d36b698ad90ead7a790",
+      "bytes": 3406
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/conditional_logic.py": {
+      "sha256": "ce04e08a1a6b76f435c987472b1d75f52a87dedb3d6a4a7543e294e38db04078",
+      "bytes": 3083
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/propagation.py": {
+      "sha256": "2ca8fbaa7bd7fea16a84e39a5b7a82de7f59fae50e551766ea439736b60f6065",
+      "bytes": 2961
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/reflection.py": {
+      "sha256": "ec55003eb71590f0bc511c043ea9e245061850ad2c0f8f3c23adb6af7fca3b4d",
+      "bytes": 2476
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/setup.py": {
+      "sha256": "c7acfc0d63a5a5a07506a73db41edc47b42a7a86b68e6073c7e42a032fb9983b",
+      "bytes": 6410
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/signal_processing.py": {
+      "sha256": "0777068663a2f7c424bf59d7bd61026169c3e14f9df21484ebc1b39990d2f664",
+      "bytes": 1746
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/trading_graph.py": {
+      "sha256": "e255eb589032ec8ca80cd0a129205fa4ff8bf2fcfcddd374aeb374a46f95c8e2",
+      "bytes": 27990
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/graph/__init__.py": {
+      "sha256": "f0b001c466b7e4b89daa02d73612708a4e2c02951a33e20e3913ef18f199f442",
+      "bytes": 434
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/anthropic_client.py": {
+      "sha256": "ecc72a34014310ea277cd02af33be5630b356f101983c3fd7aea515c21e70a02",
+      "bytes": 2887
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/api_key_env.py": {
+      "sha256": "7f834fc4bbb0d14cc3843f44253c1ebb2384d968ef6e0847f699aa11917dc398",
+      "bytes": 2301
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/azure_client.py": {
+      "sha256": "a0a7b9cfd86a9c8669360e7c40c70f525d7c5dfa76945747781f72efc9a19407",
+      "bytes": 1667
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/base_client.py": {
+      "sha256": "bf799cf5944909bc2785719a154da4b19932b87d09d3f1e13ba51794615b3239",
+      "bytes": 2131
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/bedrock_client.py": {
+      "sha256": "51fa12b9391effa1c9ae07b588a823bec5e64cd9bab48864431a8aec322a6da0",
+      "bytes": 3098
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/capabilities.py": {
+      "sha256": "fdf7e3e4403d14b7b70d5a00d88f1414ea965afb44f600578ad60ae3601fc203",
+      "bytes": 5790
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/factory.py": {
+      "sha256": "f7b69a05478f176b6c3cce4c972867e9e60da6500e2aa800cc6bb3114a6f782b",
+      "bytes": 1881
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/google_client.py": {
+      "sha256": "ce02aa7b40688f218e9e5486b750b143946dda7403dff9282a3958cb68a9a148",
+      "bytes": 2317
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/model_catalog.py": {
+      "sha256": "8ebbda0861f1296a4672723788871597fa3b77ea46c0fdd709731068f738746c",
+      "bytes": 9601
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/openai_client.py": {
+      "sha256": "fb4fb5ca0b4b776e28f2f5ce1aa5cb4408ebac4752cec7f9ed7b8c865713844a",
+      "bytes": 16378
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/validators.py": {
+      "sha256": "d3a5967c8e2ece573c823f93e1f8b28f44c63906fef48208f9a6c1045d5f98a4",
+      "bytes": 996
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/llm_clients/__init__.py": {
+      "sha256": "9242ea07db99aa8c14a9291bbbe19752d80d1ec1fe59826063d7280a8d91c50f",
+      "bytes": 132
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/analysts/fundamentals_analyst.py": {
+      "sha256": "0cdc67016279c73c44770b503530552c52c6da276dc22f6db1e8aafacca67837",
+      "bytes": 3374
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/analysts/market_analyst.py": {
+      "sha256": "2220e4b07e3f543bcb4e61b3c3e2f9dc5731caa1f4de81fd5f1978b9be7fc8ac",
+      "bytes": 6882
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/analysts/news_analyst.py": {
+      "sha256": "d6c5f4e2d6adf76423428a45516092984d33a2b06fa396ac86d7a137a53e8e54",
+      "bytes": 3647
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/analysts/sentiment_analyst.py": {
+      "sha256": "3b8aebff23eb06052bf3e279dd53142235d5c6b633ed06012166f034362fe837",
+      "bytes": 10453
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/analysts/social_media_analyst.py": {
+      "sha256": "02963942bc3f812fd0de36f8318e0992a7c7dc670b9aba94a7b9f771b8189fad",
+      "bytes": 810
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/managers/portfolio_manager.py": {
+      "sha256": "88dd59ec282f247a9c917b5ee6d15547a6786ce51339d4a6e604369186825ca3",
+      "bytes": 3534
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/managers/research_manager.py": {
+      "sha256": "7ab9072ddd2b3768e234b469b8c39730bdbe48f59153c025934e2ffea6004ebd",
+      "bytes": 2609
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/researchers/bear_researcher.py": {
+      "sha256": "16f034e78ad928073d7aaf60dc2e961db5c55dbb415d5e87fa1276888bef573a",
+      "bytes": 3399
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/researchers/bull_researcher.py": {
+      "sha256": "647f625d5b357f68e4d7c2caabbd3ac49d62befe16a291cb89ae6061792c21b7",
+      "bytes": 3321
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/risk_mgmt/aggressive_debator.py": {
+      "sha256": "b4bc62074a95e2948f32b2a135187b9a709caf25ecaefe93006be017ab55c371",
+      "bytes": 4122
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/risk_mgmt/conservative_debator.py": {
+      "sha256": "132a53e93b0b752548957f10c9b344e36cdc760d1014c514b10acf9b63732306",
+      "bytes": 4027
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/risk_mgmt/neutral_debator.py": {
+      "sha256": "acb55bae6f3306d4db87bf01d7ca81dfb2117bebdf598dc5b99853ffae167d56",
+      "bytes": 3882
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/trader/trader.py": {
+      "sha256": "6d4d2dc5e9c9ed0d5bf9082f94b9d200285212de9d9c21ad5b490e7da1bc07a6",
+      "bytes": 3188
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/agent_states.py": {
+      "sha256": "579426f30ae024b4693812f20032b1e95aec116078b8af8ef698b2c6ff0baf4a",
+      "bytes": 3306
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/agent_utils.py": {
+      "sha256": "b6cfdb85d2cac797b3ef5b045deb157dc5fe9241b7e902721df55f6f61026358",
+      "bytes": 9115
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/core_stock_tools.py": {
+      "sha256": "1b553d61298b186555ad6b0b4069cad3662084aae79c9c4dc0e8489c35d9906b",
+      "bytes": 917
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/fundamental_data_tools.py": {
+      "sha256": "037cb26431f88923bd70a018d158c72e57bf3d6682d65bf371351be3ceb28114",
+      "bytes": 3002
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/macro_data_tools.py": {
+      "sha256": "c2e8901b05c1494b2c25d5e54f360a86e26e902538635646558f10aacdfc3d17",
+      "bytes": 1417
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/market_data_validation_tools.py": {
+      "sha256": "912859a62260149a43d846e90d9897d8aaf09c650feca5ac301ab92d7dd0496c",
+      "bytes": 947
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/memory.py": {
+      "sha256": "66644c9a6960ad1b6f81d49f30bac4003aadf68913ffff1fac5580254a89a770",
+      "bytes": 13543
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/news_data_tools.py": {
+      "sha256": "188b5387ee2e840f1811ba1ec91912a2a63dc47eaf0808037643ec1d3c692dad",
+      "bytes": 2152
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/prediction_markets_tools.py": {
+      "sha256": "d87a96d6c7f4fa85fa0c235d2654c895f21f54a7e3b0b7bfe8220a905dfa536a",
+      "bytes": 1136
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/rating.py": {
+      "sha256": "09fd9c75b0260cb56ecc0dadbb3003895974d7baa4ecb042e0f6c53af03f0457",
+      "bytes": 3279
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/structured.py": {
+      "sha256": "f10268eba3ecd10fc5e1666e202592ae688ae984eb86592f9f9147b7231c527c",
+      "bytes": 3634
+    },
+    "update-2026-10-23/social-review/candidate-tradingagents-v0.4.0/tradingagents/agents/utils/technical_indicators_tools.py": {
+      "sha256": "ec6c7917490e10487e7c3c428128404627d4efc7badef601218740a5c23f9941",
+      "bytes": 1583
+    },
+    "update-2026-10-23/supplementary-audit/bergmeir2024/page-manifest.json": {
+      "sha256": "81fb9fb45c0f5473abcff58998e78f647ca159c6b598aa5fc33d904d134dc796",
+      "bytes": 1351
+    },
+    "update-2026-10-23/supplementary-audit/brodersen2015/page-manifest.json": {
+      "sha256": "4c4d1296c78feffc2a9cfee8a610887e8eb501ca9545bf96215df3142802eb2a",
+      "bytes": 4733
+    }
+  },
+  "all_twelve_parent_workstreams_open": true,
+  "queue_checklist": [
+    {
+      "id": 1,
+      "name": "Social P&L reconstruction",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Complete the bounded public activity history, preserving the existing continuation cursor and cutoff.",
+        "Reconcile opening and closing cash, positions and transfers against an authoritative transaction/chain ledger.",
+        "Resolve collateral units, splits, merges, redemptions, rebates, fees and position marks without double-counting.",
+        "Establish historical address control only from adequate dated evidence; otherwise label it unresolved."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/social-memory/wallet1-history-summary.json",
+          "level": "content read",
+          "finding": "cutoff 2026-10-21T00:00:00Z; 25,000 rows; page-budget reached"
+        },
+        {
+          "path": "update-2026-10-21/social-memory/wallet2-history-summary.json",
+          "level": "content read",
+          "finding": "same cutoff; 12,869 rows; API pagination exhausted, not an independent chain audit"
+        },
+        {
+          "path": "update-2026-10-21/social-memory/cashflow-results.json",
+          "level": "content read",
+          "finding": "exact-decimal synthetic ledger; profit 7.52 under stated assumptions, not a real-wallet estimate"
+        },
+        {
+          "path": "RESEARCH.original.md §25.1–25.2",
+          "level": "content read",
+          "finding": "wallet identity, cutoff, row-count limits and accounting caveats"
+        }
+      ],
+      "concrete_next_step": "Resume wallet1 from its last recorded cursor without repeating page one; then identify the exact on-chain transactions needed to reconcile a small event window end-to-end before scaling the ledger.",
+      "dependencies": [
+        "Retained cursor and source API availability/rate limits",
+        "Public chain indexer or node data with collateral/token transfer semantics",
+        "Dated wallet-control evidence if attribution is attempted",
+        "Opening/closing position state at the same cutoff"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Time, point-in-time and data vintage",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Preserve event/observation time, first-publication time, receipt/ingestion time, revision/vintage and units.",
+        "At every decision timestamp, select only values available by that instant; define equality/clock ordering.",
+        "Reject unknown timestamps, stale snapshots and future revisions rather than silently filling them.",
+        "Audit the upstream source-to-derived-feature chain on real data, not only fixtures."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/statistics/sources/data/tests/test_dated_inputs.py",
+          "level": "targeted source read",
+          "finding": "tests nanosecond boundary, two revisions, ambiguous timestamps and dated identity"
+        },
+        {
+          "path": "update-2026-10-21/statistics/results.json",
+          "level": "content read",
+          "finding": "synthetic seeded statistical experiment; not real upstream data ingestion"
+        },
+        {
+          "path": "update-2026-10-23/queue-audit/captured_ces_payems_vintages.csv",
+          "level": "new pinned real-source subset",
+          "finding": "three BLS rows for January 2018 PAYEMS; official release time is distinguished from retrospective boundary proxy; receive-clock field explicitly empty; CSV SHA in experiment-results.json"
+        },
+        {
+          "path": "update-2026-10-23/queue-audit/experiment-results.json",
+          "level": "new execution",
+          "finding": "ten assertions pass; empirical selector rejects retrospective proxy, records receipt clock missing, and returns unknown for unsampled dates"
+        }
+      ],
+      "concrete_next_step": "Expand the BLS slice to consecutive monthly releases from the official vintage files and record both release-time and local receive-time; compare the captured snapshots to every published vintage before using it as a feature feed.",
+      "dependencies": [
+        "BLS public vintage files/API or archived releases",
+        "A locally retrievable, hashable source export; current web reader access does not provide raw HTML bytes",
+        "Timezone-aware release clock and known receive-clock logs",
+        "Policy for stale values, timestamp ties, missing vintages and annual benchmarks"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "DSR, PBO, CV and SPA",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Reproduce every cited paper/package result from pinned data/code and exact statistic conventions.",
+        "Validate null size, power, dependence, trial counts and uncertainty with independent datasets/seeds.",
+        "Match the documented definitions of DSR/PSR, PBO/CPCV, purging/embargo and White RC/SPA; explain implementation differences."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/statistics/results.json",
+          "level": "content read",
+          "finding": "seeded NumPy synthetic DSR/PBO/purging/bootstrap results explicitly scoped as non-replication"
+        },
+        {
+          "path": "update-2026-10-21/deep-papers/statistical/checks.json",
+          "level": "content read",
+          "finding": "selected DSR equation and counterexample checks; original full experiments remain open"
+        },
+        {
+          "path": "update-2026-10-21/statistics/evidence.json",
+          "level": "content read",
+          "finding": "scoped source reads with package execution/reproduction still false"
+        }
+      ],
+      "concrete_next_step": "Select one original result table and reproduce it from its exact source data and pinned implementation, with a separate uncertainty analysis across independent datasets.",
+      "dependencies": [
+        "Original datasets and complete source/supplements",
+        "Pinned compatible package versions and dependency runtime",
+        "Exact trial and seed logs",
+        "Independent repeated data samples"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Cash, orders and fills",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Specify order lifecycle, partial fills, cancellation, stop/target ordering, quote/depth and fee semantics.",
+        "Reconcile cash, inventory, funding, borrow and fees event-by-event.",
+        "Run a full engine process on suitable real tick/trade/quote data and report residual risk and uncertainty."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/execution/evidence.json",
+          "level": "scope read",
+          "finding": "selected engine source review; repositories explicitly not fully reviewed"
+        },
+        {
+          "path": "update-2026-10-21/social-memory/cashflow-results.json",
+          "level": "content read",
+          "finding": "synthetic accounting invariant only"
+        },
+        {
+          "path": "RESEARCH.original.md §24.9",
+          "level": "content read",
+          "finding": "fill/replay acceptance boundary remains explicit"
+        }
+      ],
+      "concrete_next_step": "Choose one pinned venue/feed and implement a replay test for partial fill followed by cancel/replace and delayed acknowledgement, comparing the ledger to an independent event reconstruction.",
+      "dependencies": [
+        "Licensed or public tick-level quote/trade feed with depth as needed",
+        "Current venue fee/market rules",
+        "Pinned engine and connector runtime",
+        "No live account or real-order access is required for the proposed replay"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Engine parity",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Run LEAN, vectorbt, Qlib and Freqtrade on the same frozen input feed and declared configuration.",
+        "Match timestamps, units, signal schedule, cash, order type, fees, fills and position sizing.",
+        "Export and reconcile every order/fill/position difference; state tolerances and version/license constraints."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/execution/evidence.json",
+          "level": "scope read",
+          "finding": "pinned source excerpts and incomplete repositories; not a four-engine same-feed run"
+        },
+        {
+          "path": "update-2026-10-21/statistics/evidence.json",
+          "level": "metadata/source-scope read",
+          "finding": "pinned packages and selected file reviews, not whole-engine parity"
+        },
+        {
+          "path": "RESEARCH.original.md §24.9",
+          "level": "content read",
+          "finding": "specification tests do not satisfy whole-engine parity gate"
+        }
+      ],
+      "concrete_next_step": "Freeze a one-instrument, short-period OHLCV feed and one deterministic signal, then implement the same market/limit-order contract in two engines first and diff their event ledgers.",
+      "dependencies": [
+        "Compatible pinned engine versions",
+        "Identical licensed data and timezone/calendar conventions",
+        "Declared fee/slippage model",
+        "Runtime and licensing review; avoid adding ecosystems before the two-engine contract is specified"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Social posts, replies and attached media",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Resolve the named missing image-only code, replies/comments, edits/deletions, O01 unnamed links and N02 unnamed repository where public evidence permits.",
+        "Preserve post IDs, author, revision/access date and source hashes; distinguish unavailable content from verified absence.",
+        "Do not bypass authentication, paywalls or access controls."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/social-memory/article-code-check-results.json",
+          "level": "content read",
+          "finding": "nine bounded code-fixture groups; not replies/media or profit verification"
+        },
+        {
+          "path": "update-2026-10-21/social-memory/article-code-evidence.json",
+          "level": "listed; its full entity ledger was not re-audited",
+          "finding": "durable parent/hash ledger named by the addendum"
+        },
+        {
+          "path": "RESEARCH.original.md §25.5–25.6",
+          "level": "content read",
+          "finding": "17 captured attached article files and remaining image/reply/revision scope"
+        }
+      ],
+      "concrete_next_step": "Create a source-by-source unresolved media/reply list with post IDs and test only publicly accessible links; record each inaccessible item as unresolved with its reason.",
+      "dependencies": [
+        "Public post/media/reply endpoints and rate limits",
+        "Existing post IDs and captured article map",
+        "No user credentials or restricted-content workarounds"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Memory and harness contracts",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Test actual production service behavior for persistence, tenant authorization, as-of filtering and deletion across external indexes/backups.",
+        "Inject crashes around provider side effects and verify reconciliation or provider idempotency.",
+        "Run cold-process concurrency/recovery tests with service-level resource and security checks."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/social-memory/memory-contract-results.json",
+          "level": "content read",
+          "finding": "eight SQLite/reference checks pass; no Hindsight/LangGraph/PostgreSQL/LLM/remote provider"
+        },
+        {
+          "path": "RESEARCH.original.md §25.3",
+          "level": "content read",
+          "finding": "precise assumptions and external-service limitations"
+        }
+      ],
+      "concrete_next_step": "When an isolated service runtime is explicitly available, run one controlled crash-after-remote-acceptance test and reconcile via the real provider's immutable idempotency key; do not start shared Docker services.",
+      "dependencies": [
+        "Isolated service runtime and permitted test namespace",
+        "Provider sandbox or deterministic fake with documented idempotency semantics",
+        "Tenant and deletion policy",
+        "Shared Docker Desktop is explicitly prohibited by current handoff; do not start it"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Market microstructure",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Estimate queue, latency, adverse selection and capacity from event/tick data with calibrated feed clocks.",
+        "Separate modeled reward/market-simulation results from real-market execution evidence.",
+        "Reproduce cited OFI/DeepLOB claims on their source data/implementation or clearly limit conclusions."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/deep-papers/microstructure/evidence.json",
+          "level": "content read",
+          "finding": "selected paper analysis and visual scope; not full real-feed experiment"
+        },
+        {
+          "path": "update-2026-10-21/deep-papers/microstructure/reward-checks.json",
+          "level": "listed, content not re-executed",
+          "finding": "bounded simulator reward checks named by the source evidence"
+        },
+        {
+          "path": "update-2026-10-21/deep-papers/deeplob/evidence.json",
+          "level": "listed only",
+          "finding": "paper/repository scope remains distinct from market-data validation"
+        }
+      ],
+      "concrete_next_step": "Obtain a permitted, timestamped level-2 sample and measure event-clock gaps, queue position bounds and fill sensitivity under a predeclared replay rule.",
+      "dependencies": [
+        "Suitable level-2/event data with licensing and timestamp provenance",
+        "Venue matching/priority rules",
+        "Calibrated latency assumptions",
+        "Capacity denominator and fees"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Financial agents",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Run repeated prospective decision episodes with frozen model/version, time-valid data and logs.",
+        "Compare equal-budget no-agent, no-tool, no-memory and masked-identity controls.",
+        "Report execution costs, invalid/refused actions, uncertainty clustered by independent periods and out-of-distribution performance.",
+        "Audit possible model pretraining knowledge and post-test selection."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "RESEARCH.original.md §25.4",
+          "level": "content read",
+          "finding": "detailed falsifiable design contract; explicitly says no such forward experiment was run"
+        },
+        {
+          "path": "RESEARCH_RESUME_STATE_2026-10-23.json",
+          "level": "content read",
+          "finding": "no financial-agent experiment completion claim"
+        }
+      ],
+      "concrete_next_step": "Prepare a non-trading prospective episode schema and preregister one low-risk task with one fixed model snapshot, equalized ablations and future-collected outcomes before running any agent.",
+      "dependencies": [
+        "Permitted model access and stable snapshot/version identifiers",
+        "Forward-collected episodes or defensible post-cutoff data",
+        "Equal budget accounting and experiment logging",
+        "Independent episode blocks"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Portfolio allocation and generated data",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Keep predictive signals fixed while comparing simple and optimized allocators.",
+        "Fit covariance and transforms only on training data; enforce hard constraints exactly.",
+        "Evaluate turnover, costs, capacity, drawdowns and tail dependence on real out-of-sample data.",
+        "Use negative controls to reveal memorizing synthetic generators and report their limitations."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "update-2026-10-21/statistics/results.json",
+          "level": "content read, selected scope",
+          "finding": "synthetic seeded statistics/portfolio experiments; not real market out-of-sample validation"
+        },
+        {
+          "path": "update-2026-10-21/statistics/evidence.json",
+          "level": "content read",
+          "finding": "selected package source review explicitly not full package reproduction"
+        }
+      ],
+      "concrete_next_step": "On one frozen public historical asset panel, compare equal-weight, volatility-scaled and one optimized allocator using a chronological split and train-only covariance, with costs/turnover assertions.",
+      "dependencies": [
+        "Point-in-time asset universe and price/return data including delistings",
+        "Corporate actions, costs and rebalance calendar",
+        "Pinned optimizer/runtime",
+        "Sufficient OOS periods and declared capacity assumptions"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Legacy QuantResearch source and numerical audit",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Identify and version all retained legacy scripts and their licenses/dependencies.",
+        "Port each selected algorithm without silently changing its mathematical contract.",
+        "Reproduce original numerical tables/claims on the corresponding historical data and compare with independently implemented baselines."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "11-statistics.fa.md §16",
+          "level": "targeted content read",
+          "finding": "selected input-contract discrepancies and explicit non-coverage of full Python 2/SciPy execution"
+        },
+        {
+          "path": "RESEARCH.fa.md §16",
+          "level": "targeted content read",
+          "finding": "the retained local numerical checks do not close a complete legacy port or original-table reproduction"
+        },
+        {
+          "path": "RESEARCH_HANDOFF_2026-10-23.md",
+          "level": "content read",
+          "finding": "full modernization, license interpretation and historical replication remain open"
+        }
+      ],
+      "concrete_next_step": "Choose one legacy function with a pinned source hash, map its original input/output contract and license, then compare an independent modern implementation on a published hand-checkable example.",
+      "dependencies": [
+        "Exact historical source and licensing terms",
+        "Compatible dependency versions or documented replacements",
+        "Original data/example and expected outputs",
+        "No broad ecosystem install until a specific compatibility need is approved"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Complete bibliography and source-chain review",
+      "status": "OPEN",
+      "acceptance_criteria": [
+        "Resolve the full original URL/citation inventory to versioned primary objects.",
+        "Track exact read scopes separately from retrieval, extraction, abstract review and full reproduction.",
+        "Complete every required chapter, figure, proof and supplement for the declared scope; record inaccessible sources without upgrading them to complete.",
+        "Reproduce empirical claims only from pinned data/code and identify cross-source contradictions."
+      ],
+      "artifacts_checked": [
+        {
+          "path": "RESEARCH_RESUME_STATE_2026-10-23.json",
+          "level": "content read",
+          "finding": "17 scoped source completions among 1,957 records; project-wide complete=false"
+        },
+        {
+          "path": "RESEARCH.original.md §25.6",
+          "level": "content read",
+          "finding": "exact row limits; 18 distinct local file hashes and two confirmed unavailable full-book editions"
+        },
+        {
+          "path": "13-social-memory.fa.md §20.7",
+          "level": "content read",
+          "finding": "all twelve queue rows and their open scopes"
+        },
+        {
+          "path": "D:/python_project/trade/SOURCE_REVIEW_REGISTER.json",
+          "level": "not accessible in this subtask environment",
+          "finding": "D: drive is absent here; machine resume-state snapshot read instead, so underlying register rows were not independently opened"
+        }
+      ],
+      "concrete_next_step": "From a host that exposes the register, reconcile all 1,957 records against their immutable hashes and compare each open URL/citation to the exact edition, supplement and checked-unit ledger; start with the explicitly missing Cartea 2015 and Jansen 2020 full texts only if they become available.",
+      "dependencies": [
+        "Access to D: machine register or an exported copy",
+        "Public/open full text or lawful access for unresolved sources",
+        "Exact paper/book editions and supplements",
+        "No paywall or authentication bypass"
+      ],
+      "current_register_followup": {
+        "date": "2026-10-25",
+        "counts": {
+          "records": 2011,
+          "scoped_source_completions": 28,
+          "checked_units": 8916
+        },
+        "sha256": "654e81fa136baf9933119ac6b7509b0cc3eb40ffa47d71712fca7bea718975d8",
+        "note": "Current register was read; earlier unavailable-D observation remains historical."
+      }
+    }
+  ],
+  "open_books": [
+    {
+      "id": "LB02",
+      "title": "Advanced Machine Learning Algorithms for Complex Financial Applications (Irfan Mohammad) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+      "artifact_sha256": "b67545514088990d8c0bdbc5948360f9d3cb164ef17acd22f467e90e7cde4af1",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB05",
+      "title": "High-Frequency Trading - A Practical Guide to Algorithmic Strategies and Trading Systems (Wiley Trading). (Irene Aldridge) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "3640706d4edf8480cc02d41962bf54312d347f5d3cd13ef360290582847b1e49",
+      "remaining": [
+        "All remaining page images and graphical details",
+        "Companion website registered code and tick data",
+        "Independent full reading/replication of every cited underlying work",
+        "Broker fills, live profitability and current market/regulatory specifications"
+      ],
+      "evidence": "update-2026-10-21\\deep-books\\aldridge\\evidence.json"
+    },
+    {
+      "id": "LB07",
+      "title": "Machine Learning in Trading Step by step implementation of Machine Learning models (Quantitative Learning, QuantInsti  Shah etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "8f68930591d1506d98916771c796acf1dc90f71a63cf86f47adf85a74617e880",
+      "remaining": [
+        "179 visual pages, companion code/data and historical performance reproduction remain open; exact checklist in review_detail"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB09",
+      "title": "9781107091146_frontmatter.pdf",
+      "artifact_sha256": "c240b7992da1d154772e19d8d1492036859950f0e12d9a79d3b7b4fb68665416",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB15",
+      "title": "deflated-sharpe.pdf",
+      "artifact_sha256": "ca4a1e834a2954b84eb560776e903329cd9cef318d458aadf6d67bc8166d10b5",
+      "remaining": [
+        "Earlier extreme-value and PSR derivations not independently reconstructed",
+        "All original Monte Carlo/code results not replicated"
+      ],
+      "evidence": "update-2026-10-21\\deep-papers\\statistical\\evidence.json"
+    },
+    {
+      "id": "LB16",
+      "title": "Introduction to Statistical and Machine Learning Methods for Data Science (Dr. Carlos Andre Reis Andre Reis Pinheiro etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "40e18f75b0c12476195d09df878395e4759688cef35fe69203afc0cd27531935",
+      "remaining": [
+        "Exhaustive image and equation visual inspection outside30selected pages",
+        "SAS implementation execution and supplementary materials",
+        "Business-case raw data and intervention identification",
+        "Independent full reading of all works cited by the book"
+      ],
+      "evidence": "update-2026-10-21\\deep-books\\pinheiro\\evidence.json"
+    },
+    {
+      "id": "LB17",
+      "title": "Learning From Data - An Introduction to Statistical Reasoning, Third Edition (Arthur Glenberg, Arthur M. Glenberg etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "39a7b3ec95043833f9eb207dd2a6dfb89e6ce852e6f63b8798614cd51eeafafe",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    },
+    {
+      "id": "LB18",
+      "title": "TRADING  EXCHANGES MARKET MICROSTRUCTURE FOR PRACTITIONERS (Unknown) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+      "artifact_sha256": "d05857d45d1f49961513abc20cfa95ef6681a3bdc5d883e84dfd9dd295105781",
+      "remaining": [
+        "Read all chapters and inspect figures/equations; record each reviewed range separately"
+      ],
+      "evidence": null
+    }
+  ],
+  "library_identity_recheck": {
+    "checked_utc": "2026-10-23T20:38:17.854782+00:00",
+    "scope": "Immediate user library; only subdirectories are graft and research-backups, excluded from new-book identity scan",
+    "files": [
+      {
+        "path": "D:\\python_project\\trade\\2203.02155v1.pdf",
+        "bytes": 1797405,
+        "sha256": "c1984bb50a5b90fddb895fdc3a0f72e5bc977148c9f63ef6040cbe7a3e1f0d98",
+        "known_source_id": "LB01",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\9781107091146_frontmatter.pdf",
+        "bytes": 172435,
+        "sha256": "c240b7992da1d154772e19d8d1492036859950f0e12d9a79d3b7b4fb68665416",
+        "known_source_id": "LB09",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Advanced Machine Learning Algorithms for Complex Financial Applications (Irfan Mohammad) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 13479483,
+        "sha256": "b67545514088990d8c0bdbc5948360f9d3cb164ef17acd22f467e90e7cde4af1",
+        "known_source_id": "LB02",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Advances in Financial Machine Learning (Marcos M. López de Prado) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 14190659,
+        "sha256": "3763828c757aebbf741e094f20407ae5798e1ee4193589c4a59cec313e4808f1",
+        "known_source_id": "LB03",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\BFI_WP_2023-100.pdf",
+        "bytes": 3633748,
+        "sha256": "900a6683cfb2240d916d36e3a85c7fb0c5659ff55634893905d6b59f7942e58d",
+        "known_source_id": "LB10",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Paul R. Rosenbaum) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 5917975,
+        "sha256": "1fc34a29bfc01e47bbe7fd25e6a7e627c34daea699c28f195a08ba4a72dff1df",
+        "known_source_id": "LB11",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Scott Cunningham) (z-library.sk, 1lib.sk, z-lib.sk)(1).epub",
+        "bytes": 48272822,
+        "sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+        "known_source_id": "LB12",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference (Scott Cunningham) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 48272822,
+        "sha256": "5bbfb7150c0e1db403b40c51cf8bd716e2bbee58494f08680680559c481e8e53",
+        "known_source_id": "LB12",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference in Python Applying Causal Inference in the Tech Industry (Final Release) (Matheus Facure) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+        "bytes": 9952388,
+        "sha256": "8ed34e8218b8bbc3a7d210a8a13270451601ce45b41411bb0ec1aa7f3ea8e220",
+        "known_source_id": "LB13",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Causal Inference What If (Miguel A. Hernán, James M. Robins) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 6258096,
+        "sha256": "9d16e8505ffc5037d02a025ed919566ea5dc750c2cdd1183a2dcfd419183138e",
+        "known_source_id": "LB14",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Deep Learning for Finance Creating Machine  Deep Learning Models for Trading in Python (Sofien Kaabar) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 9142971,
+        "sha256": "068e6191cf6c5f6f0aed13d0bae8d06137048f33d6a8d9ca16ff32b51bec81d3",
+        "known_source_id": "LB04",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\deflated-sharpe.pdf",
+        "bytes": 1048118,
+        "sha256": "ca4a1e834a2954b84eb560776e903329cd9cef318d458aadf6d67bc8166d10b5",
+        "known_source_id": "LB15",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\High-Frequency Trading - A Practical Guide to Algorithmic Strategies and Trading Systems (Wiley Trading). (Irene Aldridge) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 2925041,
+        "sha256": "3640706d4edf8480cc02d41962bf54312d347f5d3cd13ef360290582847b1e49",
+        "known_source_id": "LB05",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Introduction to Statistical and Machine Learning Methods for Data Science (Dr. Carlos Andre Reis Andre Reis Pinheiro etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 19491774,
+        "sha256": "40e18f75b0c12476195d09df878395e4759688cef35fe69203afc0cd27531935",
+        "known_source_id": "LB16",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Learning From Data - An Introduction to Statistical Reasoning, Third Edition (Arthur Glenberg, Arthur M. Glenberg etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 9824444,
+        "sha256": "39a7b3ec95043833f9eb207dd2a6dfb89e6ce852e6f63b8798614cd51eeafafe",
+        "known_source_id": "LB17",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Machine Learning for Trading (Stefan Jansen) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 39604867,
+        "sha256": "ddcbddd989a5813d16a4e7da0969d6f38b0e2629dac04a7b13c7c0ab21cd16f0",
+        "known_source_id": "LB06",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Machine Learning in Trading Step by step implementation of Machine Learning models (Quantitative Learning, QuantInsti  Shah etc.) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 6044790,
+        "sha256": "8f68930591d1506d98916771c796acf1dc90f71a63cf86f47adf85a74617e880",
+        "known_source_id": "LB07",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\TRADING  EXCHANGES MARKET MICROSTRUCTURE FOR PRACTITIONERS (Unknown) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 43317168,
+        "sha256": "d05857d45d1f49961513abc20cfa95ef6681a3bdc5d883e84dfd9dd295105781",
+        "known_source_id": "LB18",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      },
+      {
+        "path": "D:\\python_project\\trade\\Trading and Exchanges Market Microstructure for Practitioners - FULL - (Larry Harris) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+        "bytes": 12051734,
+        "sha256": "f222769f84db515cb154a678517f3d585b30c7a1dea22be360e847d4ed69f437",
+        "known_source_id": "LB08",
+        "review_state": "IDENTITY_CHECK_ONLY_NOT_READING"
+      }
+    ],
+    "file_count": 19,
+    "unique_artifacts": 18,
+    "new_unknown_artifacts": 0
+  },
+  "known_unavailable_full_books": [
+    "Cartea/Jaimungal/Penalva, Algorithmic and High-Frequency Trading, Cambridge2015: fullbody unavailable;37-page previewChapter1/officialcompanion scopes retained",
+    "Stefan Jansen, Machine Learning for Algorithmic Trading, secondedition2020: unavailable; thirdedition2026 is distinct"
+  ],
+  "browser_verification": {
+    "rtl": "rtl",
+    "font": true,
+    "fontFamily": "Parastoo, serif",
+    "diagrams": 26,
+    "diagramState": "ready",
+    "charts": 7,
+    "tables": 323,
+    "horizontalOverflow": false,
+    "englishParagraphs": [],
+    "headings": 54,
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "searchMatches": 3,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "brokenAnchors": []
+  },
+  "wave_browser_verification": {
+    "screenshots": [
+      "review-wave-coverage.png",
+      "review-wave-counterexample.png",
+      "review-wave-benchmark.png",
+      "review-wave-queue.png",
+      "review-wave-state-space.png",
+      "review-wave-mobile.png"
+    ],
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "versioned_paper_checked": true,
+    "new_chapter_present": true,
+    "mathml_state_equation_present": true,
+    "mobile_width": 390
+  },
+  "build_manifest": {
+    "sourceSha256": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+    "sourceLines": 8738,
+    "originalUrlOccurrences": 2450,
+    "uniqueRawUrls": 1950,
+    "inventoryRecords": 1353,
+    "originalInputRecords": 44,
+    "addedInputRecords": 50,
+    "quantFiles": 29,
+    "sourceHashes": 275,
+    "manuscriptWords": 165740,
+    "diagrams": 26,
+    "charts": 7,
+    "mathExpressions": 235,
+    "htmlBytes": 7235111,
+    "chapters": 54
+  },
+  "resume_policy": [
+    "Read this checkpoint and source register before research; use exact ID+version/hash+checked unit",
+    "Unchanged completed scopes must not be repeated; cited references and experiments remain independent sources/tasks",
+    "Whole main-body blog reads through the web reader have no retained raw HTML hash; do not invent immutable identity",
+    "BLS retrospective boundary proxy is not an observed receipt timestamp; empirical selector rejects it",
+    "Do not run the older save-checkpoint-2026-10-23.py, which represents a historical stop",
+    "Do not start shared Docker Desktop; unrelated services previously autostarted",
+    "English first, Persian second, offline browser QA, evidence package, ZIP/D/cache byte comparison"
+  ],
+  "delivery_authority": "delivery-verification.json; package built after this state, then independently delivered and byte-checked",
+  "integration_certification": {
+    "report": "PERSIAN_INTEGRATION_CERTIFICATION_2026-10-24.json",
+    "sha256": "1e78a1c6ba6433c20f6685da9da6356826a26b6d587e898a5ab0a0aa33984c22",
+    "status": "RETAINED_SUBSTANTIVE_FINDINGS_RECONCILED",
+    "book_note_sections": 399,
+    "whole_research_complete": false,
+    "scope_note": "Historical pre-book-stage reconciliation only; current10paired teaching chapters have separate DOM/MathML/browser certification"
+  },
+  "integration_certification_agents": [
+    "audit_book_integration",
+    "audit_operational_integration",
+    "audit_prior_and_recent_integration"
+  ],
+  "current_book_campaign": "update-2026-10-24-books/campaign-state.json",
+  "current_work_integrated": true,
+  "agents_quota_interrupted": [
+    "islp_first_half",
+    "islp_second_half",
+    "islp_3to7_lite"
+  ],
+  "book_stage_delivered": {
+    "saved_utc": "2026-10-25T11:18:37.868295+00:00",
+    "status": "BOOK_READING_SCOPES_RECONCILED_REPRODUCTION_OPEN",
+    "whole_research_complete": false,
+    "priority": "Finish accessible §13.1 book review before executing twelve remaining workstreams",
+    "current_work_integrated": true,
+    "delivered_baseline": {
+      "english_sha256": "93252d6d12a41afcd5b96147288ce189f1406bf8205cf351fa3e789404e4893a",
+      "html_sha256": "f150927b49b581987ee2db9610d8d0c305732a4134a8ad884e1873ca3aba96be"
+    },
+    "books": [
+      {
+        "id": "LB10",
+        "title": "Kelly and Xiu, Financial Machine Learning",
+        "state": "REUSE_RETAINED_COMPLETED_READING",
+        "experiments_complete": false
+      },
+      {
+        "id": "LB08",
+        "title": "Harris, Trading and Exchanges",
+        "state": "REUSE_RETAINED_COMPLETED_READING",
+        "different_scan_LB18_not_equivalent": true
+      },
+      {
+        "id": "LB09",
+        "title": "Cartea/Jaimungal/Penalva, Algorithmic and High-Frequency Trading",
+        "state": "FULL_BODY_UNAVAILABLE",
+        "new_materials": "37-page publisher preview Chapter1 complete; official errata; all14notebook source-cell texts read;39bounded checks;180MATmembers reconciled",
+        "misleading_candidate": "public-book-candidate.pdf is a one-page LLMQuant advertisement, not this book",
+        "full_body_available": false,
+        "all_notebooks_executed": false,
+        "all_stored_outputs_viewed": false,
+        "whole_source_complete": false,
+        "next_actions": [
+          "Full2015body still unavailable; do not repeat already-answered user request",
+          "Stored notebook figures/full PDE/default simulations and feed provenance remain open"
+        ]
+      },
+      {
+        "id": "B01-WHATIF-2026",
+        "sha256": "a1067af923e9156bb95fbe4b0d18699bd0723e9c902bdc74465cf7782820b1b5",
+        "title": "Hernan and Robins, What If, 19 August 2026",
+        "pages": 365,
+        "state": "MAIN_BODY_READING_COMPLETE_REPRODUCTION_OPEN",
+        "ledger": "whatif-2026-review/review-ledger.json",
+        "latest_reported_text_pages": "See live ledger; delivery cut is fixed separately",
+        "visual_scope": "ledger only; remaining figures open",
+        "earlier_editions": "2020 retained reading separate; 2025 partial separate",
+        "register_id": "BOOK24-WHATIF-20260819",
+        "delivered_cut": {
+          "text_pages": 364,
+          "main_body_last_pdf_page": 340,
+          "references_metadata": [
+            341,
+            359
+          ],
+          "index_metadata": [
+            360,
+            365
+          ],
+          "visual_pages": 272,
+          "review_cut": "Front matter and Chapters 1–23 text reviewed through PDF p.340; References pp.341–359 and Index pp.360–365 inspected as metadata; overall partial. Next unread text page: end matter metadata pass complete; source verification/exercises remain.",
+          "evidence_sha256": "a9514a1fb57ff4880018973eae020c27d0c4c90b82736a61dd6dd160c256a4ed"
+        },
+        "whole_source_complete": false,
+        "next_actions": [
+          "No unread main-body text in retained2026asset; bibliography/index only metadata",
+          "Finish open author-code cells/bootstrap and equation/assumption-specific reproductions without rereading unchanged pages",
+          "Cited works remain independent"
+        ]
+      },
+      {
+        "id": "B02-ISLP-2023",
+        "sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+        "pages": 613,
+        "state": "RETAINED_CHAPTER_TEXT_READ_REPRODUCTION_OPEN",
+        "part1_checkpoint": "islp-part1/checkpoint-ch01.json",
+        "part1_completed_text_pages": "12-24",
+        "part1_completed_visual_pages": "13-16",
+        "part2_reported_text_pages": "342-351",
+        "part2_checkpoint_missing": true,
+        "part2_rendered_images_not_certified_visual_read": true,
+        "corrected_split": [
+          "1-337",
+          "338-613"
+        ],
+        "chapter8_actual_start_pdf": 338,
+        "printed_to_pdf_offset": "nonconstant; previous 342 start withdrawn",
+        "next_actions": [
+          "Complete remaining lab/plot/exercise reproductions and equation-specific visual gaps; unchanged retained body need not be reread",
+          "Keep other R editions and cited full works independent"
+        ],
+        "register_id": "B02-islp",
+        "chapter8_root_review": "PDF338-373 entire text,14figures,3algorithms and12exercise statements read; not all labs/exercises executed",
+        "part2_previous_provisional_scope": "Root review supersedes earlier342-351 report for this range",
+        "executed": "Nine chapter2 checks and seven chapter8 checks plus Carseats/Boston lab runs",
+        "chapter2_root_review": "PDF25-77 entire text,17figures,lab and10exercise statements read; selected checks only",
+        "retained_page_reading_scopes_reconciled": 613,
+        "all_retained_chapter_text_read": true,
+        "index_and_title_metadata_separate": true,
+        "coverage_audit": "islp-coverage-audit.json",
+        "all_numbered_figures_attested": true,
+        "every_equation_visually_certified": false,
+        "all_labs_executed": false,
+        "all_exercises_solved": false,
+        "whole_source_complete": false,
+        "historical_reading_state": "PARTIAL_READING_QUOTA_INTERRUPTED"
+      }
+    ],
+    "agents": {
+      "islp_first_half": "ERRORED_USAGE_LIMIT",
+      "islp_second_half": "ERRORED_USAGE_LIMIT",
+      "whatif_2026_full": "CHECKPOINT_REPLACED_BY_FINISHER",
+      "islp_3to7_lite": "QUOTA_INTERRUPTED_AFTER_PARTIAL_CH7",
+      "islp_9to13_lite": "COMPLETED_ASSIGNED_READING_AND_CROSSCHECK",
+      "whatif_finish_23_lite": "COMPLETED_ASSIGNED_READING"
+    },
+    "quota_policy": "No retry loop; do not represent errored agents as running",
+    "twelve_workstreams": "ALL_OPEN; do not start execution before book-stage work permits",
+    "notes": "Extraction, retrieval, rendering, source reading and experimental reproduction are distinct states.",
+    "delivered_whatif_cut": {
+      "text_pages": 364,
+      "main_body_last_pdf_page": 340,
+      "references_metadata": [
+        341,
+        359
+      ],
+      "index_metadata": [
+        360,
+        365
+      ],
+      "visual_pages": 272,
+      "review_cut": "Front matter and Chapters 1–23 text reviewed through PDF p.340; References pp.341–359 and Index pp.360–365 inspected as metadata; overall partial. Next unread text page: end matter metadata pass complete; source verification/exercises remain.",
+      "evidence_sha256": "a9514a1fb57ff4880018973eae020c27d0c4c90b82736a61dd6dd160c256a4ed"
+    },
+    "english_sha256": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+    "html_sha256": "9d49d6a684673702752dd074222d5958cc876f6f8041816aa6377dec046e07dc",
+    "whole_project_complete": false,
+    "register_counts": {
+      "records": 2011,
+      "scoped_source_completions": 28,
+      "checked_units": 8916
+    }
+  },
+  "book_stage_browser_verification": {
+    "renderedBlocks": [
+      {
+        "file": "31-book-stage.fa.md",
+        "blocks": 430,
+        "missing": []
+      },
+      {
+        "file": "32-whatif-2026.fa.md",
+        "blocks": 201,
+        "missing": []
+      },
+      {
+        "file": "33-islp-trees.fa.md",
+        "blocks": 69,
+        "missing": []
+      },
+      {
+        "file": "34-islp-learning.fa.md",
+        "blocks": 41,
+        "missing": []
+      },
+      {
+        "file": "35-islp-linear.fa.md",
+        "blocks": 16,
+        "missing": []
+      },
+      {
+        "file": "36-islp-classification.fa.md",
+        "blocks": 15,
+        "missing": []
+      },
+      {
+        "file": "37-islp-resampling.fa.md",
+        "blocks": 12,
+        "missing": []
+      },
+      {
+        "file": "38-islp-selection.fa.md",
+        "blocks": 15,
+        "missing": []
+      },
+      {
+        "file": "39-islp-nonlinear.fa.md",
+        "blocks": 54,
+        "missing": []
+      },
+      {
+        "file": "40-islp-later.fa.md",
+        "blocks": 90,
+        "missing": []
+      }
+    ],
+    "screenshots": [
+      "book-stage-math.png",
+      "book-stage-checks.png",
+      "book-stage-trees.png",
+      "book-stage-whatif.png",
+      "book-stage-learning.png",
+      "book-stage-splines.png",
+      "book-stage-alpha.png",
+      "book-stage-data.png",
+      "book-stage-svm.png",
+      "book-stage-caravan-25.png",
+      "book-stage-compat-25.png",
+      "book-stage-iv-25.png",
+      "book-stage-smarket-round2.png",
+      "book-stage-bike-round2.png",
+      "book-stage-ties-round2.png",
+      "book-stage-bootstrap-round2.png",
+      "book-stage-mobile.png"
+    ],
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "sourceSha256": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+    "fullResearchComplete": false
+  },
+  "agents_completed_this_followup": [
+    "islp_lab_resume",
+    "whatif_dtype_resume",
+    "whatif_iv_resume",
+    "islp_smarket_full_lab",
+    "islp_bikeshare_lab",
+    "whatif_bootstrap_ch13"
+  ],
+  "current_followup": {
+    "date": "2026-10-25",
+    "reviewer": "root; three lighter agents with root contract and result review",
+    "checked_units": [
+      {
+        "source_id": "B02-islp",
+        "unit_id": "B02-islp:book25:caravan-source-contract",
+        "kind": "Actual selected execution and independent numeric checks",
+        "evidence": "update-2026-10-24-books/islp-ch04-lab-2026-10-25/book_contract_results.json",
+        "result_sha256": "fd692076281d421bd531671899ec1556aa166bf93d4ec74d08fafc54d23e8021",
+        "result": {
+          "contract": {
+            "pdf_pages": [
+              194,
+              195,
+              196,
+              197
+            ],
+            "printed_pages": [
+              185,
+              186,
+              187,
+              188
+            ],
+            "split": "sklearn train_test_split(test_size=1000, random_state=0)",
+            "training_n": 4822,
+            "test_n": 1000,
+            "train_indices_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+            "test_indices_sha256": "a5c472df987c4250f41b3ed360117fc0c033d50623e9eeb0333538258799be97",
+            "scaler": "StandardScaler(with_mean=True, with_std=True, copy=True) fit on all X before split, as book does",
+            "model": "KNeighborsClassifier(n_neighbors=K), K=1..5; LogisticRegression(C=1e10, solver=\"liblinear\")"
+          },
+          "dataset": {
+            "sha256": "e89d49b6fb8fe02d76bb5bb80d8e0dab473bf9f6a72515e30c259f6d7da42269",
+            "n": 5822,
+            "p": 85,
+            "buyers": 348,
+            "test_buyers": 67
+          },
+          "versions": {
+            "sklearn": "1.7.2",
+            "numpy": "2.3.5",
+            "pandas": "3.0.1",
+            "scipy": "1.16.3"
+          },
+          "knn": {
+            "book_full_data_scaling": {
+              "1": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    880,
+                    53
+                  ],
+                  [
+                    58,
+                    9
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    880,
+                    58
+                  ],
+                  [
+                    53,
+                    9
+                  ]
+                ],
+                "tn": 880,
+                "fp": 53,
+                "fn": 58,
+                "tp": 9,
+                "accuracy": 0.889,
+                "buyer_precision": 0.14516129032258066,
+                "buyer_recall": 0.13432835820895522,
+                "predicted_buyers": 62
+              },
+              "2": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    928,
+                    5
+                  ],
+                  [
+                    66,
+                    1
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    928,
+                    66
+                  ],
+                  [
+                    5,
+                    1
+                  ]
+                ],
+                "tn": 928,
+                "fp": 5,
+                "fn": 66,
+                "tp": 1,
+                "accuracy": 0.929,
+                "buyer_precision": 0.16666666666666666,
+                "buyer_recall": 0.014925373134328358,
+                "predicted_buyers": 6
+              },
+              "3": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    916,
+                    17
+                  ],
+                  [
+                    64,
+                    3
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    916,
+                    64
+                  ],
+                  [
+                    17,
+                    3
+                  ]
+                ],
+                "tn": 916,
+                "fp": 17,
+                "fn": 64,
+                "tp": 3,
+                "accuracy": 0.919,
+                "buyer_precision": 0.15,
+                "buyer_recall": 0.04477611940298507,
+                "predicted_buyers": 20
+              },
+              "4": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    929,
+                    4
+                  ],
+                  [
+                    67,
+                    0
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    929,
+                    67
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "tn": 929,
+                "fp": 4,
+                "fn": 67,
+                "tp": 0,
+                "accuracy": 0.929,
+                "buyer_precision": 0.0,
+                "buyer_recall": 0.0,
+                "predicted_buyers": 4
+              },
+              "5": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    927,
+                    6
+                  ],
+                  [
+                    66,
+                    1
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    927,
+                    66
+                  ],
+                  [
+                    6,
+                    1
+                  ]
+                ],
+                "tn": 927,
+                "fp": 6,
+                "fn": 66,
+                "tp": 1,
+                "accuracy": 0.928,
+                "buyer_precision": 0.14285714285714285,
+                "buyer_recall": 0.014925373134328358,
+                "predicted_buyers": 7
+              }
+            },
+            "train_only_scaling_same_rows": {
+              "1": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    880,
+                    53
+                  ],
+                  [
+                    57,
+                    10
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    880,
+                    57
+                  ],
+                  [
+                    53,
+                    10
+                  ]
+                ],
+                "tn": 880,
+                "fp": 53,
+                "fn": 57,
+                "tp": 10,
+                "accuracy": 0.89,
+                "buyer_precision": 0.15873015873015872,
+                "buyer_recall": 0.14925373134328357,
+                "predicted_buyers": 63
+              },
+              "2": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    928,
+                    5
+                  ],
+                  [
+                    67,
+                    0
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    928,
+                    67
+                  ],
+                  [
+                    5,
+                    0
+                  ]
+                ],
+                "tn": 928,
+                "fp": 5,
+                "fn": 67,
+                "tp": 0,
+                "accuracy": 0.928,
+                "buyer_precision": 0.0,
+                "buyer_recall": 0.0,
+                "predicted_buyers": 5
+              },
+              "3": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    917,
+                    16
+                  ],
+                  [
+                    64,
+                    3
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    917,
+                    64
+                  ],
+                  [
+                    16,
+                    3
+                  ]
+                ],
+                "tn": 917,
+                "fp": 16,
+                "fn": 64,
+                "tp": 3,
+                "accuracy": 0.92,
+                "buyer_precision": 0.15789473684210525,
+                "buyer_recall": 0.04477611940298507,
+                "predicted_buyers": 19
+              },
+              "4": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    929,
+                    4
+                  ],
+                  [
+                    67,
+                    0
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    929,
+                    67
+                  ],
+                  [
+                    4,
+                    0
+                  ]
+                ],
+                "tn": 929,
+                "fp": 4,
+                "fn": 67,
+                "tp": 0,
+                "accuracy": 0.929,
+                "buyer_precision": 0.0,
+                "buyer_recall": 0.0,
+                "predicted_buyers": 4
+              },
+              "5": {
+                "confusion_actual_rows_predicted_cols": [
+                  [
+                    927,
+                    6
+                  ],
+                  [
+                    67,
+                    0
+                  ]
+                ],
+                "book_table_predicted_rows_truth_cols": [
+                  [
+                    927,
+                    67
+                  ],
+                  [
+                    6,
+                    0
+                  ]
+                ],
+                "tn": 927,
+                "fp": 6,
+                "fn": 67,
+                "tp": 0,
+                "accuracy": 0.927,
+                "buyer_precision": 0.0,
+                "buyer_recall": 0.0,
+                "predicted_buyers": 6
+              }
+            }
+          },
+          "logistic": {
+            "classes": [
+              "No",
+              "Yes"
+            ],
+            "n_iter": [
+              14
+            ],
+            "max_probability": 0.9291430393870316,
+            "literal_printed_>5": {
+              "confusion_actual_rows_predicted_cols": [
+                [
+                  933,
+                  0
+                ],
+                [
+                  67,
+                  0
+                ]
+              ],
+              "book_table_predicted_rows_truth_cols": [
+                [
+                  933,
+                  67
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              "tn": 933,
+              "fp": 0,
+              "fn": 67,
+              "tp": 0,
+              "accuracy": 0.933,
+              "buyer_precision": 0.0,
+              "buyer_recall": 0.0,
+              "predicted_buyers": 0
+            },
+            "corrected_threshold_0.5": {
+              "confusion_actual_rows_predicted_cols": [
+                [
+                  931,
+                  2
+                ],
+                [
+                  67,
+                  0
+                ]
+              ],
+              "book_table_predicted_rows_truth_cols": [
+                [
+                  931,
+                  67
+                ],
+                [
+                  2,
+                  0
+                ]
+              ],
+              "tn": 931,
+              "fp": 2,
+              "fn": 67,
+              "tp": 0,
+              "accuracy": 0.931,
+              "buyer_precision": 0.0,
+              "buyer_recall": 0.0,
+              "predicted_buyers": 2
+            },
+            "threshold_0.25": {
+              "confusion_actual_rows_predicted_cols": [
+                [
+                  913,
+                  20
+                ],
+                [
+                  58,
+                  9
+                ]
+              ],
+              "book_table_predicted_rows_truth_cols": [
+                [
+                  913,
+                  58
+                ],
+                [
+                  20,
+                  9
+                ]
+              ],
+              "tn": 913,
+              "fp": 20,
+              "fn": 58,
+              "tp": 9,
+              "accuracy": 0.922,
+              "buyer_precision": 0.3103448275862069,
+              "buyer_recall": 0.13432835820895522,
+              "predicted_buyers": 29
+            }
+          },
+          "warnings": [],
+          "source_comparison": {
+            "knn_k4": {
+              "book_reported_predicted_buyers": 3,
+              "book_reported_true_positives": 0,
+              "observed_predicted_buyers": 4,
+              "observed_true_positives": 0,
+              "status": "unresolved source/runtime output difference; cause not investigated"
+            }
+          },
+          "assertions": [
+            "book K=1 confusion table matches [[880,58],[53,9]]",
+            "literal >5 predicts zero buyers",
+            "logistic .25 confusion table matches [[913,58],[20,9]]"
+          ]
+        },
+        "limit": "Source-contract Caravan execution; K1 and logistic .25 match; K4 discrepancy explicitly unresolved; remaining Chapter4 labs/exercises open"
+      },
+      {
+        "source_id": "BOOK24-WHATIF-PY-HISTORICAL",
+        "unit_id": "BOOK24-WHATIF-PY-HISTORICAL:book25:numeric-design-compatibility",
+        "kind": "Actual selected execution and independent numeric checks",
+        "evidence": "update-2026-10-24-books/whatif-compat-2026-10-25/result.json",
+        "result_sha256": "8a0066df1774bf4b674a83aa510aa20f38e791ddc90cc317941f8ae42eade31e",
+        "result": {
+          "purpose": "Targeted compatibility reproduction of the retained selected historical author-linked Python companion failures in Chapters 12 and 14; no full-book reproduction claim.",
+          "scope": {
+            "notebook_cells_ch12_attempted": [
+              5,
+              12,
+              15,
+              17,
+              19,
+              20,
+              27,
+              29,
+              31,
+              32,
+              33,
+              36,
+              43,
+              44,
+              58,
+              59,
+              66,
+              67,
+              69,
+              70,
+              78,
+              81,
+              82,
+              83,
+              85,
+              89,
+              91,
+              92,
+              94,
+              95,
+              97,
+              98
+            ],
+            "notebook_cells_ch14_attempted": [
+              3,
+              4,
+              5,
+              8,
+              9,
+              10,
+              11,
+              13,
+              18,
+              20,
+              21,
+              22,
+              23,
+              27,
+              28,
+              29,
+              34,
+              36,
+              38,
+              40,
+              41,
+              43,
+              44,
+              45,
+              50,
+              58,
+              59,
+              62
+            ],
+            "excluded": "Full 2,000-bootstrap and whole-book execution were not attempted."
+          },
+          "original_failures": {
+            "chapter12_cell82": {
+              "type": "ValueError",
+              "message": "Pandas data cast to numpy dtype of object. Check input data with np.asarray(data)."
+            },
+            "chapter14_cell62": {
+              "type": "TypeError",
+              "message": "loop of ufunc does not support argument 0 of type float which has no callable exp method"
+            }
+          },
+          "adaptation": {
+            "chapter12": "After the original object-dtype OLS design failed, pass X.astype(float) to statsmodels.OLS; retain the notebook outcome and design values and use the fitted result for downstream original cells.",
+            "chapter14": "The original GLM fit completed; object-dtype exog failed during prediction at cell 62. Pass X.astype(float) only to res.predict; retain the notebook response, fitted model, frequency weights, family, and model specification.",
+            "source_modified": false
+          },
+          "chapter12": {
+            "rows": 1162,
+            "selection": "notebook cell 78 restricts nhefs to smokeintensity <= 25; rows are the resulting continuous-treatment analysis subset, not the full 1,566-row complete-covariate cohort",
+            "columns": 19,
+            "design_dtypes_before": [
+              "bool",
+              "float64",
+              "int64"
+            ],
+            "design_dtype_after": "float64",
+            "mse_resid": 102.58983402478587,
+            "sigma": 10.128663980248623,
+            "stabilized_weight_mean_min_max": [
+              0.9968056548995845,
+              0.19383358372556986,
+              5.1023390736759024
+            ],
+            "prediction_summary": [
+              {
+                "mean": 2.0,
+                "mean_ci_lower": 1.4,
+                "mean_ci_upper": 2.6
+              },
+              {
+                "mean": 0.9,
+                "mean_ci_lower": -1.7,
+                "mean_ci_upper": 3.5
+              }
+            ],
+            "independent_check": {
+              "numpy_lstsq_coefficients_match": true,
+              "numpy_residual_mse": 102.58983402478587
+            }
+          },
+          "chapter14": {
+            "rows": 1566,
+            "columns": 19,
+            "design_dtypes_before": [
+              "bool",
+              "float64",
+              "int64"
+            ],
+            "design_dtype_after": "float64",
+            "glm_converged": true,
+            "estimate": 3.4458988033700204,
+            "prediction_min_max": [
+              0.05144663546746696,
+              0.7891403301703336
+            ],
+            "independent_check": {
+              "explicit_logit_predictions_match": true,
+              "explicit_weighted_estimating_equation_matches": true,
+              "direct_estimate": 3.4458988033700204
+            }
+          },
+          "runtime": {
+            "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+            "python_executable": "C:\\Users\\Reza\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "platform": "Windows-11-10.0.28000-SP0",
+            "numpy": "1.26.4",
+            "pandas": "2.2.3",
+            "scipy": "1.14.1",
+            "statsmodels": "0.14.4"
+          }
+        },
+        "limit": "Selected historical Ch12/14 compatibility failures completed with explicit numeric inputs; full notebooks/bootstrap and causal assumptions remain open"
+      },
+      {
+        "source_id": "BOOK24-WHATIF-PY-HISTORICAL",
+        "unit_id": "BOOK24-WHATIF-PY-HISTORICAL:book25:independent-matrix-2sls",
+        "kind": "Actual selected execution and independent numeric checks",
+        "evidence": "update-2026-10-24-books/whatif-iv-2026-10-25/results.json",
+        "result_sha256": "45e6386e34eccd9459896ec2f3684fcaf63a8cd4f8d6b08824fff5b808d05fd0",
+        "result": {
+          "scope": "unadjusted exactly-identified homoskedastic 2SLS for Chapter 16 one-instrument example; no linearmodels claim",
+          "notebook_cells_reproduced": [
+            4,
+            7,
+            9,
+            12,
+            16,
+            18,
+            20,
+            21,
+            25,
+            29,
+            32,
+            33,
+            35,
+            47,
+            48,
+            50
+          ],
+          "notebook_cells_out_of_scope": [
+            39,
+            41,
+            42,
+            52,
+            53
+          ],
+          "source_repo_commit": "8a7965a7eaea911218bd5cdeb74dadcb6a05be4d",
+          "source_integrity_check": {
+            "status": "passed before fitting",
+            "expected_data_sha256": "a47e7c8e761428a5437f93325e0b3fc83e9d6d8484f509389728873fc9ccd675",
+            "expected_notebook_sha256": "5e0bfcb2dd1bff8f70654a8723517bd7829a8d35528259f5ca518a295d6bc58f"
+          },
+          "source_notebook_sha256": "5e0bfcb2dd1bff8f70654a8723517bd7829a8d35528259f5ca518a295d6bc58f",
+          "data_sha256": "a47e7c8e761428a5437f93325e0b3fc83e9d6d8484f509389728873fc9ccd675",
+          "runner_sha256": "c3c45f5ee09044a1c4656c0e04b6063f9081f828f03a0e37885494089e62b448",
+          "runtime": {
+            "python": "3.12.14",
+            "executable": "C:\\Users\\Reza\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+            "numpy": "1.26.4",
+            "pandas": "2.2.3",
+            "scipy": "1.14.1",
+            "statsmodels": "0.14.4",
+            "linearmodels_installed": false
+          },
+          "data_rows": {
+            "all": 1629,
+            "restricted_not_missing_wt82_or_price82": 1476
+          },
+          "specification": {
+            "outcome": "wt82_71",
+            "endogenous_treatment": "qsmk",
+            "instrument": "1(price82 >= cutoff)",
+            "exogenous_regressors": [
+              "constant"
+            ],
+            "covariance": "homoskedastic 2SLS"
+          },
+          "inferential_conventions_reported": "All four CI combinations are shown because the linearmodels version/default finite-sample convention is not established. Use linearmodels only for exact library-level parity.",
+          "selfcheck": {
+            "status": "passed",
+            "matrix_vs_statsmodels_sandbox_max_abs_beta_difference": 2.6645352591003757e-14,
+            "matrix_vs_statsmodels_covariance_max_abs_difference": 1.113848325639405e-18,
+            "known_effect": 2.5,
+            "estimated_effect": 2.499940953609517
+          },
+          "actual_data_reference_check": {
+            "status": "passed",
+            "matrix_vs_statsmodels_sandbox_max_abs_beta_difference": 7.851941319358957e-12,
+            "matrix_vs_statsmodels_covariance_max_abs_difference": 4.0114400690072216e-10,
+            "all_five_cutoffs_wald_vs_2sls": "passed (rtol=1e-8, atol=1e-8)"
+          },
+          "cutoffs": [
+            {
+              "price_cutoff_usd": 1.5,
+              "n": 1476,
+              "iv_intercept": 2.06816415088455,
+              "iv_qsmk_kg": 2.39627010421754,
+              "first_stage_qsmk_difference": 0.06271777003484477,
+              "first_stage_f": 0.8223610801164478,
+              "reduced_form_weight_difference_kg": 0.15028871733804616,
+              "wald_ratio_kg": 2.3962701042232317,
+              "naive_second_stage_ols": {
+                "estimate_kg": 2.39627010422468,
+                "standard_error": 20.054533044487425,
+                "ci95_t": [
+                  -36.9421944365061,
+                  41.73473464495545
+                ]
+              },
+              "variance_divisor_n_normal": [
+                -36.463133198633685,
+                41.25567340706877
+              ],
+              "variance_divisor_n_t_df_n_minus_k": [
+                -36.49506809594197,
+                41.28760830437705
+              ],
+              "variance_divisor_n_minus_k_normal": [
+                -36.489487493492746,
+                41.28202770192783
+              ],
+              "variance_divisor_n_minus_k_t_df_n_minus_k": [
+                -36.52144404892309,
+                41.31398425735817
+              ],
+              "se_divisor_n": 19.82659049317704,
+              "se_divisor_n_minus_k": 19.840036809061893,
+              "sse": 90973.11124941752,
+              "residual_df": 1474
+            },
+            {
+              "price_cutoff_usd": 1.6,
+              "n": 1476,
+              "iv_intercept": -7.890181925704954,
+              "iv_qsmk_kg": 41.28124049852844,
+              "first_stage_qsmk_difference": -0.010432121661720632,
+              "first_stage_f": 0.06669113999238722,
+              "reduced_form_weight_difference_kg": -0.43065092323208576,
+              "wald_ratio_kg": 41.28124049897784,
+              "naive_second_stage_ols": {
+                "estimate_kg": 41.28124049894774,
+                "standard_error": 70.396313518633,
+                "ci95_t": [
+                  -96.80638672267582,
+                  179.3688677205713
+                ]
+              },
+              "variance_divisor_n_normal": [
+                -281.80256353339183,
+                364.36504453044876
+              ],
+              "variance_divisor_n_t_df_n_minus_k": [
+                -282.0680757962364,
+                364.63055679329335
+              ],
+              "variance_divisor_n_minus_k_normal": [
+                -282.0216777016997,
+                364.5841586987566
+              ],
+              "variance_divisor_n_minus_k_t_df_n_minus_k": [
+                -282.28737003391916,
+                364.8498510309761
+              ],
+              "se_divisor_n": 164.84170453149352,
+              "se_divisor_n_minus_k": 164.95349952876703,
+              "sse": 510245.6861571723,
+              "residual_df": 1474
+            },
+            {
+              "price_cutoff_usd": 1.7,
+              "n": 1476,
+              "iv_intercept": 13.15926789403335,
+              "iv_qsmk_kg": -40.91184927378773,
+              "first_stage_qsmk_difference": -0.007416287952713992,
+              "first_stage_f": 0.06305690519591281,
+              "reduced_form_weight_difference_kg": 0.3034140548993126,
+              "wald_ratio_kg": -40.91184927471407,
+              "naive_second_stage_ols": {
+                "estimate_kg": -40.91184927466733,
+                "standard_error": 72.39702828769072,
+                "ci95_t": [
+                  -182.92402795924943,
+                  101.10032940991476
+                ]
+              },
+              "variance_divisor_n_normal": [
+                -408.6327585398787,
+                326.8090599923033
+              ],
+              "variance_divisor_n_t_df_n_minus_k": [
+                -408.9349538511139,
+                327.1112553035385
+              ],
+              "variance_divisor_n_minus_k_normal": [
+                -408.8821454178272,
+                327.05844687025177
+              ],
+              "variance_divisor_n_minus_k_t_df_n_minus_k": [
+                -409.1845456767369,
+                327.36084712916147
+              ],
+              "se_divisor_n": 187.6161563001293,
+              "se_divisor_n_minus_k": 187.74339684123905,
+              "sse": 624958.5277892951,
+              "residual_df": 1474
+            },
+            {
+              "price_cutoff_usd": 1.8,
+              "n": 1476,
+              "iv_intercept": 8.08637657545854,
+              "iv_qsmk_kg": -21.103416506021993,
+              "first_stage_qsmk_difference": -0.023985147272818474,
+              "first_stage_f": 1.1001741198932498,
+              "reduced_form_weight_difference_kg": 0.5061685528569762,
+              "wald_ratio_kg": -21.103416506039103,
+              "naive_second_stage_ols": {
+                "estimate_kg": -21.103416506035458,
+                "standard_error": 17.33156627712094,
+                "ci95_t": [
+                  -55.100578340489605,
+                  12.893745328418689
+                ]
+              },
+              "variance_divisor_n_normal": [
+                -76.78374281972185,
+                34.57690980767787
+              ],
+              "variance_divisor_n_t_df_n_minus_k": [
+                -76.82950125530724,
+                34.62266824326325
+              ],
+              "variance_divisor_n_minus_k_normal": [
+                -76.8215049985717,
+                34.6146719865277
+              ],
+              "variance_divisor_n_minus_k_t_df_n_minus_k": [
+                -76.86729446734856,
+                34.660461455304564
+              ],
+              "se_divisor_n": 28.408851771205583,
+              "se_divisor_n_minus_k": 28.42811854301756,
+              "sse": 249828.17287339742,
+              "residual_df": 1474
+            },
+            {
+              "price_cutoff_usd": 1.9,
+              "n": 1476,
+              "iv_intercept": 5.962812924904852,
+              "iv_qsmk_kg": -12.811406061004593,
+              "first_stage_qsmk_difference": -0.027298003201617696,
+              "first_stage_f": 1.0058320418549476,
+              "reduced_form_weight_difference_kg": 0.3497258036701716,
+              "wald_ratio_kg": -12.811406060991546,
+              "naive_second_stage_ols": {
+                "estimate_kg": -12.811406060990954,
+                "standard_error": 18.131622718691297,
+                "ci95_t": [
+                  -48.37793836582611,
+                  22.755126243844202
+                ]
+              },
+              "variance_divisor_n_normal": [
+                -59.16648836762832,
+                33.54367624561914
+              ],
+              "variance_divisor_n_t_df_n_minus_k": [
+                -59.204583260173166,
+                33.58177113816399
+              ],
+              "variance_divisor_n_minus_k_normal": [
+                -59.1979262025792,
+                33.57511408057002
+              ],
+              "variance_divisor_n_minus_k_t_df_n_minus_k": [
+                -59.23604693093071,
+                33.61323480892152
+              ],
+              "se_divisor_n": 23.650986789689355,
+              "se_divisor_n_minus_k": 23.66702679613787,
+              "sse": 158315.85106203245,
+              "residual_df": 1474
+            }
+          ],
+          "interpretation_limit": "At cutoff 1.50 the first-stage F statistic is weak (about 0.82); normal-based Wald intervals are not reliable causal intervals. IV interpretation additionally requires instrument independence, exclusion, relevance, and the design assumptions, which this replication does not validate."
+        },
+        "limit": "Independent unadjusted homoskedastic2SLS port, not linearmodels execution; adjusted model/g-estimation/weak-IV-robust inference remain open"
+      },
+      {
+        "source_id": "B02-islp",
+        "unit_id": "B02-islp:book25-round2:smarket-source-lab",
+        "kind": "Actual bounded book experiment; full source and other tests remain open",
+        "evidence": "update-2026-10-24-books/islp-smarket-2026-10-25/smarket_results.json",
+        "result_sha256": "05537649a0282f6ff128b7dba1559c09b1d48e3d22bd6822ce631ffb53df2dbc",
+        "result": {
+          "source_contract": {
+            "source_pdf": "182-194",
+            "source_sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+            "dataset_commit": "57a7faa05b82631de6adb7047a84a006d15ddf19",
+            "dataset_url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/57a7faa05b82631de6adb7047a84a006d15ddf19/ISLP/data/Smarket.csv",
+            "predictors_all": [
+              "Lag1",
+              "Lag2",
+              "Lag3",
+              "Lag4",
+              "Lag5",
+              "Volume"
+            ],
+            "predictors_reduced": [
+              "Lag1",
+              "Lag2"
+            ],
+            "split": "chronological: Year < 2005 train; 2005 test",
+            "training_n": 998,
+            "test_n": 252,
+            "standard_scaling": false,
+            "glm": "statsmodels.api.GLM with Binomial family; default fit; 0.5 strict threshold",
+            "sklearn_defaults": true
+          },
+          "dataset": {
+            "sha256": "f685ddf13bb6fa07391fe752f5a2725f189ec92cce6ca01479f28a78c4da004e",
+            "rows": 1250,
+            "columns": [
+              "Year",
+              "Lag1",
+              "Lag2",
+              "Lag3",
+              "Lag4",
+              "Lag5",
+              "Volume",
+              "Today",
+              "Direction"
+            ],
+            "year_counts": {
+              "2001": 242,
+              "2002": 252,
+              "2003": 252,
+              "2004": 252,
+              "2005": 252
+            },
+            "direction_counts": {
+              "Up": 648,
+              "Down": 602
+            },
+            "ordered_by_year_non_decreasing": true
+          },
+          "versions": {
+            "numpy": "1.26.4",
+            "pandas": "2.2.3",
+            "scipy": "1.14.1",
+            "sklearn": "1.7.2",
+            "statsmodels": "0.14.4"
+          },
+          "all_predictors_logistic_in_sample": {
+            "coefficients": {
+              "const": -0.12600025890602903,
+              "Lag1": -0.07307374700210043,
+              "Lag2": -0.042301344729284374,
+              "Lag3": 0.011085108239685214,
+              "Lag4": 0.009358938342130864,
+              "Lag5": 0.010313068515485892,
+              "Volume": 0.13544066079529954
+            },
+            "standard_errors": {
+              "const": 0.2407371154294216,
+              "Lag1": 0.05016792945276601,
+              "Lag2": 0.05008639611653228,
+              "Lag3": 0.04993879190695736,
+              "Lag4": 0.049974438264089295,
+              "Lag5": 0.049511716007305494,
+              "Volume": 0.15836079537465172
+            },
+            "z_values": {
+              "const": -0.5233935726166383,
+              "Lag1": -1.4565828767340427,
+              "Lag2": -0.8445675474606915,
+              "Lag3": 0.22197389677223772,
+              "Lag4": 0.18727450807298066,
+              "Lag5": 0.2082955176500889,
+              "Volume": 0.8552663585382514
+            },
+            "p_values": {
+              "const": 0.6007003960493582,
+              "Lag1": 0.14523155718601138,
+              "Lag2": 0.39835233468292097,
+              "Lag3": 0.8243342037966438,
+              "Lag4": 0.8514454089899411,
+              "Lag5": 0.8349982312925978,
+              "Volume": 0.39240370712314365
+            },
+            "confusion": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  145,
+                  141
+                ],
+                [
+                  457,
+                  507
+                ]
+              ],
+              "correct": 652,
+              "n": 1250,
+              "accuracy": 0.5216,
+              "error_rate": 0.47840000000000005
+            },
+            "first_10_probabilities": [
+              0.5070841334630003,
+              0.4814678781751699,
+              0.481138834813138,
+              0.515222355792766,
+              0.5107811625911516,
+              0.5069564604552573,
+              0.49265087386752926,
+              0.5092291581449722,
+              0.5176135261687923,
+              0.4888377794207712
+            ]
+          },
+          "models_test_2005": {
+            "logistic_all_predictors": {
+              "coefficients": {
+                "const": 0.19121262138319062,
+                "Lag1": -0.054178291810013844,
+                "Lag2": -0.04580533414515474,
+                "Lag3": 0.0072001179828601386,
+                "Lag4": 0.006440875237277806,
+                "Lag5": -0.004222672146918216,
+                "Volume": -0.11625696042215986
+              },
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  77,
+                  97
+                ],
+                [
+                  34,
+                  44
+                ]
+              ],
+              "correct": 121,
+              "n": 252,
+              "accuracy": 0.4801587301587302,
+              "error_rate": 0.5198412698412698
+            },
+            "logistic_Lag1_Lag2": {
+              "coefficients": {
+                "const": 0.03221752588312339,
+                "Lag1": -0.05562121725999221,
+                "Lag2": -0.04448684234513006
+              },
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  35,
+                  35
+                ],
+                [
+                  76,
+                  106
+                ]
+              ],
+              "correct": 141,
+              "n": 252,
+              "accuracy": 0.5595238095238095,
+              "error_rate": 0.44047619047619047,
+              "up_prediction_accuracy": 0.5824175824175825,
+              "predicted_up": 182
+            },
+            "LDA": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  35,
+                  35
+                ],
+                [
+                  76,
+                  106
+                ]
+              ],
+              "correct": 141,
+              "n": 252,
+              "accuracy": 0.5595238095238095,
+              "error_rate": 0.44047619047619047,
+              "means": [
+                [
+                  0.04279022403258651,
+                  0.03389409368635439
+                ],
+                [
+                  -0.03954635108481257,
+                  -0.03132544378698227
+                ]
+              ],
+              "priors": [
+                0.49198396793587174,
+                0.5080160320641283
+              ],
+              "classes": [
+                "Down",
+                "Up"
+              ],
+              "scalings": [
+                [
+                  -0.6420190419437393
+                ],
+                [
+                  -0.5135292773349386
+                ]
+              ],
+              "covariance": [
+                [
+                  1.508867808671167,
+                  -0.0334023417397588
+                ],
+                [
+                  -0.0334023417397588,
+                  1.5095362963874215
+                ]
+              ]
+            },
+            "QDA": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  30,
+                  20
+                ],
+                [
+                  81,
+                  121
+                ]
+              ],
+              "correct": 151,
+              "n": 252,
+              "accuracy": 0.5992063492063492,
+              "error_rate": 0.4007936507936508,
+              "means": [
+                [
+                  0.04279022403258651,
+                  0.03389409368635439
+                ],
+                [
+                  -0.03954635108481257,
+                  -0.03132544378698227
+                ]
+              ],
+              "priors": [
+                0.49198396793587174,
+                0.5080160320641283
+              ],
+              "classes": [
+                "Down",
+                "Up"
+              ],
+              "covariance_class_0": [
+                [
+                  1.50662277018995,
+                  -0.03924806103744954
+                ],
+                [
+                  -0.03924806103744957,
+                  1.5355949765160648
+                ]
+              ]
+            },
+            "GaussianNB": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  29,
+                  20
+                ],
+                [
+                  82,
+                  121
+                ]
+              ],
+              "correct": 150,
+              "n": 252,
+              "accuracy": 0.5952380952380952,
+              "error_rate": 0.40476190476190477,
+              "classes": [
+                "Down",
+                "Up"
+              ],
+              "priors": [
+                0.49198396793587174,
+                0.5080160320641283
+              ],
+              "means": [
+                [
+                  0.04279022403258651,
+                  0.03389409368635439
+                ],
+                [
+                  -0.03954635108481257,
+                  -0.03132544378698227
+                ]
+              ],
+              "variances": [
+                [
+                  1.5035542935535215,
+                  1.532467493349441
+                ],
+                [
+                  1.514013641867108,
+                  1.4873287693641992
+                ]
+              ]
+            },
+            "KNN_1": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  43,
+                  58
+                ],
+                [
+                  68,
+                  83
+                ]
+              ],
+              "correct": 126,
+              "n": 252,
+              "accuracy": 0.5,
+              "error_rate": 0.5
+            },
+            "KNN_3": {
+              "confusion_predicted_rows_truth_columns_down_up": [
+                [
+                  48,
+                  55
+                ],
+                [
+                  63,
+                  86
+                ]
+              ],
+              "correct": 134,
+              "n": 252,
+              "accuracy": 0.5317460317460317,
+              "error_rate": 0.46825396825396826
+            }
+          },
+          "baselines": {
+            "always_predict_up_2005": {
+              "correct": 141,
+              "n": 252,
+              "accuracy": 0.5595238095238095
+            }
+          },
+          "warnings": [],
+          "assertions": [
+            "dataset row count and chronological ordering checked",
+            "pinned Smarket dataset SHA-256 checked before fitting",
+            "2001-2004 training and 2005 test sizes checked",
+            "source in-sample confusion table, rounded coefficients, and first ten probabilities matched",
+            "published confusion tables for both logistic models, LDA, QDA, NB, and KNN(1) matched",
+            "KNN(3) published 53.2% accuracy and always-Up baseline matched"
+          ]
+        }
+      },
+      {
+        "source_id": "B02-islp",
+        "unit_id": "B02-islp:book25-round2:bikeshare-source-models",
+        "kind": "Actual bounded book experiment; full source and other tests remain open",
+        "evidence": "update-2026-10-24-books/islp-bikeshare-2026-10-25/results.json",
+        "result_sha256": "984f310e5725d49a748fce7ea19c904a1cc80c0ac2693bd82b268051cc3e9762",
+        "result": {
+          "source": {
+            "book": "An Introduction to Statistical Learning with Applications in Python, 2023",
+            "chapter_pages": "Chapter 4 lab, printed pages 189-192; supplied PDF pages 197-201",
+            "source_pdf_sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+            "dataset_url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/57a7faa05b82631de6adb7047a84a006d15ddf19/ISLP/data/Bikeshare.csv",
+            "dataset_commit": "57a7faa05b82631de6adb7047a84a006d15ddf19",
+            "dataset_sha256": "ac6950ae6f11efcc69c29d6bb13e8881c001e27d36434660d59444a1414f712c",
+            "dataset_bytes": 567588
+          },
+          "runtime": {
+            "python": "3.12.14",
+            "numpy": "1.26.4",
+            "pandas": "2.2.3",
+            "patsy": "1.0.3",
+            "statsmodels": "0.14.4"
+          },
+          "data": {
+            "rows": 8645,
+            "columns": [
+              "season",
+              "mnth",
+              "day",
+              "hr",
+              "holiday",
+              "weekday",
+              "workingday",
+              "weathersit",
+              "temp",
+              "atemp",
+              "hum",
+              "windspeed",
+              "casual",
+              "registered",
+              "bikers"
+            ],
+            "target": "bikers",
+            "target_min": 1,
+            "target_max": 651,
+            "category_levels": {
+              "mnth": [
+                "Jan",
+                "Feb",
+                "March",
+                "April",
+                "May",
+                "June",
+                "July",
+                "Aug",
+                "Sept",
+                "Oct",
+                "Nov",
+                "Dec"
+              ],
+              "hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23
+              ],
+              "weathersit": [
+                "clear",
+                "cloudy/misty",
+                "light rain/snow",
+                "heavy rain/snow"
+              ]
+            }
+          },
+          "design": {
+            "reference": {
+              "shape": [
+                8645,
+                40
+              ],
+              "rank": 40,
+              "columns": [
+                "Intercept",
+                "C(mnth, Treatment(reference='Jan'))[T.Feb]",
+                "C(mnth, Treatment(reference='Jan'))[T.March]",
+                "C(mnth, Treatment(reference='Jan'))[T.April]",
+                "C(mnth, Treatment(reference='Jan'))[T.May]",
+                "C(mnth, Treatment(reference='Jan'))[T.June]",
+                "C(mnth, Treatment(reference='Jan'))[T.July]",
+                "C(mnth, Treatment(reference='Jan'))[T.Aug]",
+                "C(mnth, Treatment(reference='Jan'))[T.Sept]",
+                "C(mnth, Treatment(reference='Jan'))[T.Oct]",
+                "C(mnth, Treatment(reference='Jan'))[T.Nov]",
+                "C(mnth, Treatment(reference='Jan'))[T.Dec]",
+                "C(hr, Treatment(reference=0))[T.1]",
+                "C(hr, Treatment(reference=0))[T.2]",
+                "C(hr, Treatment(reference=0))[T.3]",
+                "C(hr, Treatment(reference=0))[T.4]",
+                "C(hr, Treatment(reference=0))[T.5]",
+                "C(hr, Treatment(reference=0))[T.6]",
+                "C(hr, Treatment(reference=0))[T.7]",
+                "C(hr, Treatment(reference=0))[T.8]",
+                "C(hr, Treatment(reference=0))[T.9]",
+                "C(hr, Treatment(reference=0))[T.10]",
+                "C(hr, Treatment(reference=0))[T.11]",
+                "C(hr, Treatment(reference=0))[T.12]",
+                "C(hr, Treatment(reference=0))[T.13]",
+                "C(hr, Treatment(reference=0))[T.14]",
+                "C(hr, Treatment(reference=0))[T.15]",
+                "C(hr, Treatment(reference=0))[T.16]",
+                "C(hr, Treatment(reference=0))[T.17]",
+                "C(hr, Treatment(reference=0))[T.18]",
+                "C(hr, Treatment(reference=0))[T.19]",
+                "C(hr, Treatment(reference=0))[T.20]",
+                "C(hr, Treatment(reference=0))[T.21]",
+                "C(hr, Treatment(reference=0))[T.22]",
+                "C(hr, Treatment(reference=0))[T.23]",
+                "C(weathersit, Treatment(reference='clear'))[T.cloudy/misty]",
+                "C(weathersit, Treatment(reference='clear'))[T.light rain/snow]",
+                "C(weathersit, Treatment(reference='clear'))[T.heavy rain/snow]",
+                "workingday",
+                "temp"
+              ],
+              "reference_month": "Jan",
+              "reference_hour": 0,
+              "weather_reference": "clear"
+            },
+            "sum_coding": {
+              "shape": [
+                8645,
+                40
+              ],
+              "rank": 40,
+              "columns": [
+                "Intercept",
+                "C(mnth, Sum)[S.Jan]",
+                "C(mnth, Sum)[S.Feb]",
+                "C(mnth, Sum)[S.March]",
+                "C(mnth, Sum)[S.April]",
+                "C(mnth, Sum)[S.May]",
+                "C(mnth, Sum)[S.June]",
+                "C(mnth, Sum)[S.July]",
+                "C(mnth, Sum)[S.Aug]",
+                "C(mnth, Sum)[S.Sept]",
+                "C(mnth, Sum)[S.Oct]",
+                "C(mnth, Sum)[S.Nov]",
+                "C(hr, Sum)[S.0]",
+                "C(hr, Sum)[S.1]",
+                "C(hr, Sum)[S.2]",
+                "C(hr, Sum)[S.3]",
+                "C(hr, Sum)[S.4]",
+                "C(hr, Sum)[S.5]",
+                "C(hr, Sum)[S.6]",
+                "C(hr, Sum)[S.7]",
+                "C(hr, Sum)[S.8]",
+                "C(hr, Sum)[S.9]",
+                "C(hr, Sum)[S.10]",
+                "C(hr, Sum)[S.11]",
+                "C(hr, Sum)[S.12]",
+                "C(hr, Sum)[S.13]",
+                "C(hr, Sum)[S.14]",
+                "C(hr, Sum)[S.15]",
+                "C(hr, Sum)[S.16]",
+                "C(hr, Sum)[S.17]",
+                "C(hr, Sum)[S.18]",
+                "C(hr, Sum)[S.19]",
+                "C(hr, Sum)[S.20]",
+                "C(hr, Sum)[S.21]",
+                "C(hr, Sum)[S.22]",
+                "C(weathersit, Treatment(reference='clear'))[T.cloudy/misty]",
+                "C(weathersit, Treatment(reference='clear'))[T.light rain/snow]",
+                "C(weathersit, Treatment(reference='clear'))[T.heavy rain/snow]",
+                "workingday",
+                "temp"
+              ],
+              "omitted_month": "Dec (reconstructed as negative sum)",
+              "omitted_hour": "23 (reconstructed as negative sum)",
+              "weather_reference": "clear"
+            }
+          },
+          "linear_ols": {
+            "workingday_temp_max_abs_diff_excluding_intercept": 8.977263377119016e-13,
+            "intercept_reference_minus_sum": -142.2291316732347,
+            "rounded_book_coefficient_comparison": {
+              "sum_intercept": {
+                "actual": 73.59742813566943,
+                "book_printed": 73.5974,
+                "abs_difference": 2.8135669438711375e-05,
+                "tolerance": 5e-05
+              },
+              "month_Jan": {
+                "actual": -46.08709039388234,
+                "book_printed": -46.0871,
+                "abs_difference": 9.606117657767754e-06,
+                "tolerance": 5e-05
+              },
+              "month_Feb": {
+                "actual": -39.24188761254474,
+                "book_printed": -39.2419,
+                "abs_difference": 1.2387455264217806e-05,
+                "tolerance": 5e-05
+              },
+              "hour_0": {
+                "actual": -96.14204127935118,
+                "book_printed": -96.142,
+                "abs_difference": 4.127935117992365e-05,
+                "tolerance": 5e-05
+              },
+              "hour_1": {
+                "actual": -110.72130786356432,
+                "book_printed": -110.7213,
+                "abs_difference": 7.863564320587102e-06,
+                "tolerance": 5e-05
+              },
+              "hour_2": {
+                "actual": -117.7211804490677,
+                "book_printed": -117.7212,
+                "abs_difference": 1.955093229355498e-05,
+                "tolerance": 5e-05
+              }
+            },
+            "reference_intercept": -68.63170353756524,
+            "sum_coding_intercept": 73.59742813566943,
+            "reference_february_vs_january": 6.845202781341965,
+            "sum_coding_month_effects_vs_mean": {
+              "Jan": -46.08709039388234,
+              "Feb": -39.24188761254474,
+              "March": -29.535652459721046,
+              "April": -4.662183493131685,
+              "May": 26.469993141623203,
+              "June": 21.731658419339844,
+              "July": -0.7626303956250717,
+              "Aug": 7.155950440435498,
+              "Sept": 20.591186132191126,
+              "Oct": 29.747161950952478,
+              "Nov": 14.22291252689671,
+              "Dec": 0.3705817434660119
+            },
+            "sum_coding_hour_effects_vs_mean": {
+              "0": -96.14204127935118,
+              "1": -110.72130786356432,
+              "2": -117.7211804490677,
+              "3": -127.28279740824321,
+              "4": -133.0495461954615,
+              "5": -120.27752264980921,
+              "6": -75.54235880435631,
+              "7": 23.951102382268516,
+              "8": 127.51989573970754,
+              "9": 24.43989894866653,
+              "10": -12.340703600296713,
+              "11": 9.281407268860015,
+              "12": 41.14168083091702,
+              "13": 39.89385849339689,
+              "14": 30.494029597167888,
+              "15": 35.944474719136004,
+              "16": 82.37857807540873,
+              "17": 200.12494938195874,
+              "18": 173.29887438329627,
+              "19": 90.11377352683377,
+              "20": 29.40712750359655,
+              "21": -8.588317121367979,
+              "22": -37.019398699475246,
+              "23": -69.30447678022097
+            },
+            "fitted_max_abs_diff": 7.361222742474638e-12,
+            "sum_squared_fitted_difference": 4.7356201526571614e-20,
+            "independent_basis_projection_max_abs_residual": 3.2637226254905727e-12,
+            "independent_basis_projection_max_frobenius_residual": 6.585574844391953e-12,
+            "rss_reference": 50364007.75177938,
+            "rss_sum_coding": 50364007.75177939,
+            "rss_abs_difference": 1.4901161193847656e-08,
+            "r_squared": 0.6745328002016311
+          },
+          "poisson_glm": {
+            "family": "Poisson",
+            "link": "log",
+            "design": "sum-coding for month and hour; clear-reference treatment for weather",
+            "deviance": 228040.9866652924,
+            "null_deviance": 1052921.1453528267,
+            "pearson_chi2": 220278.6739432096,
+            "df_resid": 8605.0,
+            "pearson_dispersion": 25.59891620490524,
+            "fitted_min": 1.2009861444428094,
+            "fitted_max": 585.9583766187129,
+            "fitted_all_finite_nonnegative": true,
+            "sum_coding_month_log_effects_vs_mean": {
+              "Jan": -0.6701699256536222,
+              "Feb": -0.44412382084019114,
+              "March": -0.29373312920880806,
+              "April": 0.02152319084390908,
+              "May": 0.24047087275309778,
+              "June": 0.2232352274844896,
+              "July": 0.10361658292488002,
+              "Aug": 0.15117137173444203,
+              "Sept": 0.23349303021908874,
+              "Oct": 0.26757317888638665,
+              "Nov": 0.1502635540829297,
+              "Dec": 0.016679866773397917
+            },
+            "sum_coding_hour_log_effects_vs_mean": {
+              "0": -0.7543862408068052,
+              "1": -1.2259792483668268,
+              "2": -1.563146796078146,
+              "3": -2.1983044189460137,
+              "4": -2.830484291593232,
+              "5": -1.8146569231524727,
+              "6": -0.4298882126945619,
+              "7": 0.5751806686688807,
+              "8": 1.0769270278597152,
+              "9": 0.5817689718958285,
+              "10": 0.33685169562065814,
+              "11": 0.4941211397079475,
+              "12": 0.6796419414844037,
+              "13": 0.6735648801971876,
+              "14": 0.6249096357207897,
+              "15": 0.6537630657830872,
+              "16": 0.8743013050404147,
+              "17": 1.2946349594437978,
+              "18": 1.2122812625494226,
+              "19": 0.9140224186615812,
+              "20": 0.6162013866329754,
+              "21": 0.36418135071269375,
+              "22": 0.11749317143450508,
+              "23": -0.2729987497758293
+            }
+          },
+          "interpretation_limits": [
+            "These are fitted values on the same in-sample observations used to estimate the models, not forward forecasts.",
+            "Month/hour effects are conditional associations under the specified model and category coding, not causal effects.",
+            "The data are hourly rows and include same-day weather and rentals; using this fit operationally requires checking when every predictor becomes available.",
+            "Poisson GLM specifies conditional variance equal to conditional mean; Pearson dispersion is reported as a diagnostic, not a proof that the assumption holds."
+          ]
+        }
+      },
+      {
+        "source_id": "B02-islp",
+        "unit_id": "B02-islp:book25-round2:caravan-k4-order-sensitivity",
+        "kind": "Actual bounded book experiment; full source and other tests remain open",
+        "evidence": "update-2026-10-24-books/islp-knn-ties-2026-10-25/results.json",
+        "result_sha256": "6fbfde92c5142ca25c2c3c92d9d1b10571f27bad38cfbf9299544a9c461405e1",
+        "result": {
+          "scope": "Same frozen split/all-data scaling/K4; algorithm/order sensitivity, not proof of the historical book runtime cause",
+          "data_sha256": "e89d49b6fb8fe02d76bb5bb80d8e0dab473bf9f6a72515e30c259f6d7da42269",
+          "runner_sha256": "9c2bf4c899308352c6d4267b8662bf4e4d2f1ca2802068830c62f9e814ee9c4d",
+          "runtime": {
+            "python": "3.12.14",
+            "numpy": "2.3.5",
+            "pandas": "3.0.1",
+            "scipy": "1.16.3",
+            "sklearn": "1.7.2"
+          },
+          "configurations": [
+            {
+              "configuration": "auto",
+              "effective_method": "brute",
+              "predicted_buyers": 4,
+              "TN_FP_FN_TP": [
+                929,
+                4,
+                67,
+                0
+              ],
+              "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+              "changed_test_positions": []
+            },
+            {
+              "configuration": "brute",
+              "effective_method": "brute",
+              "predicted_buyers": 4,
+              "TN_FP_FN_TP": [
+                929,
+                4,
+                67,
+                0
+              ],
+              "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+              "changed_test_positions": []
+            },
+            {
+              "configuration": "ball_tree",
+              "effective_method": "ball_tree",
+              "predicted_buyers": 4,
+              "TN_FP_FN_TP": [
+                929,
+                4,
+                67,
+                0
+              ],
+              "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+              "changed_test_positions": []
+            },
+            {
+              "configuration": "kd_tree",
+              "effective_method": "kd_tree",
+              "predicted_buyers": 4,
+              "TN_FP_FN_TP": [
+                929,
+                4,
+                67,
+                0
+              ],
+              "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+              "changed_test_positions": []
+            },
+            {
+              "configuration": "brute_reverse",
+              "effective_method": "brute",
+              "predicted_buyers": 3,
+              "TN_FP_FN_TP": [
+                930,
+                3,
+                67,
+                0
+              ],
+              "training_order_sha256": "567a4257a258bd1063743ae9b4fc976e199853ef1d5f48e92403a851af540401",
+              "changed_test_positions": [
+                152
+              ]
+            },
+            {
+              "configuration": "brute_shuffle17",
+              "effective_method": "brute",
+              "predicted_buyers": 4,
+              "TN_FP_FN_TP": [
+                929,
+                4,
+                67,
+                0
+              ],
+              "training_order_sha256": "9501cdc25850cec219d15eb7a18a01ec482bb6e3fd87fcc2aa957a0fb16afd9c",
+              "changed_test_positions": []
+            }
+          ],
+          "changed_test_rows": [
+            {
+              "test_position": 152,
+              "csv_row_zero_based": 1936,
+              "truth": false,
+              "nearest_six": [
+                {
+                  "train_csv_row": 2858,
+                  "squared_distance": 0.0,
+                  "purchase": true
+                },
+                {
+                  "train_csv_row": 5525,
+                  "squared_distance": 6.955599578602664,
+                  "purchase": false
+                },
+                {
+                  "train_csv_row": 942,
+                  "squared_distance": 7.406182971309574,
+                  "purchase": true
+                },
+                {
+                  "train_csv_row": 1004,
+                  "squared_distance": 7.406182971309574,
+                  "purchase": false
+                },
+                {
+                  "train_csv_row": 5508,
+                  "squared_distance": 7.406182971309574,
+                  "purchase": true
+                },
+                {
+                  "train_csv_row": 2570,
+                  "squared_distance": 7.523432181779459,
+                  "purchase": false
+                }
+              ],
+              "fourth_fifth_squared_gap": 0.0,
+              "absolute_tie_tolerance": 1e-12,
+              "boundary_tie_rows": [
+                942,
+                5508,
+                1004
+              ],
+              "boundary_tie_labels": [
+                1,
+                1,
+                0
+              ],
+              "predictions": {
+                "auto": true,
+                "brute": true,
+                "ball_tree": true,
+                "kd_tree": true,
+                "brute_reverse": false,
+                "brute_shuffle17": true
+              }
+            }
+          ],
+          "class_vote_tie_prediction": "No",
+          "documentation": {
+            "url": "https://scikit-learn.org/1.7/modules/generated/sklearn.neighbors.KNeighborsClassifier.html",
+            "sha256": "eb6b26f28642abf264ead6b7934fcd7bc4ca844fda32b1db9eda87755219cb82",
+            "read_scope": "Selected warning on equally distant neighbors, algorithm options and class ordering; other documentation not fully reviewed"
+          },
+          "historical_cause_established": false
+        }
+      },
+      {
+        "source_id": "BOOK24-WHATIF-PY-HISTORICAL",
+        "unit_id": "BOOK24-WHATIF-PY-HISTORICAL:book25-round2:chapter13-case-bootstrap2000",
+        "kind": "Actual bounded book experiment; full source and other tests remain open",
+        "evidence": "update-2026-10-24-books/whatif-bootstrap-2026-10-25/summary.json",
+        "result_sha256": "93d0f234e5864b56ea83cb1f2d8863f355315290e7505803ea3e9eb669cb8dbc",
+        "result": {
+          "source_notebook": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa\\update-2026-10-24-books\\whatif-2026-review\\companion-code-python\\chapter13.ipynb",
+          "source_notebook_sha256": "f444d5a3ac57c45801401c120ecdb84658a88de1944ff30ff86cc1fa223f5675",
+          "source_data": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa\\update-2026-10-24-books\\whatif-2026-review\\NHEFS.xls",
+          "source_data_sha256": "a47e7c8e761428a5437f93325e0b3fc83e9d6d8484f509389728873fc9ccd675",
+          "source_commit": "8a7965a7eaea911218bd5cdeb74dadcb6a05be4d",
+          "bootstrap_cell": 70,
+          "iterations": 2000,
+          "seed": 20261025,
+          "seed_note": "The author notebook specifies no seed; this seed freezes this algorithm realization only.",
+          "resampling": "nhefs_all rows, n=all-row count, replacement; each draw independently refits on sampled rows with nonmissing wt82; both counterfactual predictions averaged over all sampled rows.",
+          "case_count_all": 1629,
+          "case_count_uncensored": 1566,
+          "fit_columns": [
+            "one",
+            "sex",
+            "race",
+            "edu_2",
+            "edu_3",
+            "edu_4",
+            "edu_5",
+            "exercise_1",
+            "exercise_2",
+            "active_1",
+            "active_2",
+            "age",
+            "age^2",
+            "wt71",
+            "wt71^2",
+            "smokeintensity",
+            "smokeintensity^2",
+            "smokeyrs",
+            "smokeyrs^2",
+            "qsmk",
+            "qsmk_x_smokeintensity"
+          ],
+          "fit_rank_full_sample": 21,
+          "point_estimate": 3.518574166441593,
+          "successful_draws": 2000,
+          "failed_draws": 0,
+          "bootstrap_sd_ddof0": 0.46870274186515426,
+          "notebook_normal_ci_95": [
+            2.5999167923858906,
+            4.4372315404972955
+          ],
+          "bootstrap_percentile_ci_95": [
+            2.608298207349869,
+            4.409303080721042
+          ],
+          "mc_se_bootstrap_sd_approx": 0.007412694454617506,
+          "mc_se_note": "Approximation std/sqrt(2(B-1)); assumes approximately normal bootstrap draws and is Monte Carlo error for the estimated SD, not a general uncertainty bound.",
+          "solver_check": "numpy.linalg.lstsq full-sample coefficients/effect agree with statsmodels OLS to 1e-9; five bootstrap draws agree in effect to 1e-8.",
+          "percentile_method": "numpy default linear quantile method"
+        }
+      },
+      {
+        "source_id": "BOOK25-KNN-DOC",
+        "unit_id": "BOOK25-KNN-DOC:selected-warning",
+        "kind": "Selected documentation warning and API options, not full page",
+        "evidence": "update-2026-10-24-books/islp-knn-ties-2026-10-25/results.json",
+        "result_sha256": "6fbfde92c5142ca25c2c3c92d9d1b10571f27bad38cfbf9299544a9c461405e1",
+        "result": {
+          "url": "https://scikit-learn.org/1.7/modules/generated/sklearn.neighbors.KNeighborsClassifier.html",
+          "sha256": "eb6b26f28642abf264ead6b7934fcd7bc4ca844fda32b1db9eda87755219cb82",
+          "read_scope": "Selected warning on equally distant neighbors, algorithm options and class ordering; other documentation not fully reviewed"
+        }
+      }
+    ],
+    "publication_sha256": {
+      "en": "40d5cc614f88debe7d32c6b186df317ee11e26a3382c116c344e8aad17a4f8d4",
+      "fa": "fc0223b77c30eb1ddeb7b49fbc31a10fa522c8ea82d38bed0f157ceb2c09a3cb"
+    },
+    "whole_research_complete": false,
+    "next_build_rule": "After integrate_books.py rerun this script, then prepare/register until counts stabilize; publish English before HTML.",
+    "round2": {
+      "date": "2026-10-25",
+      "checked_units": [
+        {
+          "source_id": "B02-islp",
+          "unit_id": "B02-islp:book25-round2:smarket-source-lab",
+          "kind": "Actual bounded book experiment; full source and other tests remain open",
+          "evidence": "update-2026-10-24-books/islp-smarket-2026-10-25/smarket_results.json",
+          "result_sha256": "05537649a0282f6ff128b7dba1559c09b1d48e3d22bd6822ce631ffb53df2dbc",
+          "result": {
+            "source_contract": {
+              "source_pdf": "182-194",
+              "source_sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+              "dataset_commit": "57a7faa05b82631de6adb7047a84a006d15ddf19",
+              "dataset_url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/57a7faa05b82631de6adb7047a84a006d15ddf19/ISLP/data/Smarket.csv",
+              "predictors_all": [
+                "Lag1",
+                "Lag2",
+                "Lag3",
+                "Lag4",
+                "Lag5",
+                "Volume"
+              ],
+              "predictors_reduced": [
+                "Lag1",
+                "Lag2"
+              ],
+              "split": "chronological: Year < 2005 train; 2005 test",
+              "training_n": 998,
+              "test_n": 252,
+              "standard_scaling": false,
+              "glm": "statsmodels.api.GLM with Binomial family; default fit; 0.5 strict threshold",
+              "sklearn_defaults": true
+            },
+            "dataset": {
+              "sha256": "f685ddf13bb6fa07391fe752f5a2725f189ec92cce6ca01479f28a78c4da004e",
+              "rows": 1250,
+              "columns": [
+                "Year",
+                "Lag1",
+                "Lag2",
+                "Lag3",
+                "Lag4",
+                "Lag5",
+                "Volume",
+                "Today",
+                "Direction"
+              ],
+              "year_counts": {
+                "2001": 242,
+                "2002": 252,
+                "2003": 252,
+                "2004": 252,
+                "2005": 252
+              },
+              "direction_counts": {
+                "Up": 648,
+                "Down": 602
+              },
+              "ordered_by_year_non_decreasing": true
+            },
+            "versions": {
+              "numpy": "1.26.4",
+              "pandas": "2.2.3",
+              "scipy": "1.14.1",
+              "sklearn": "1.7.2",
+              "statsmodels": "0.14.4"
+            },
+            "all_predictors_logistic_in_sample": {
+              "coefficients": {
+                "const": -0.12600025890602903,
+                "Lag1": -0.07307374700210043,
+                "Lag2": -0.042301344729284374,
+                "Lag3": 0.011085108239685214,
+                "Lag4": 0.009358938342130864,
+                "Lag5": 0.010313068515485892,
+                "Volume": 0.13544066079529954
+              },
+              "standard_errors": {
+                "const": 0.2407371154294216,
+                "Lag1": 0.05016792945276601,
+                "Lag2": 0.05008639611653228,
+                "Lag3": 0.04993879190695736,
+                "Lag4": 0.049974438264089295,
+                "Lag5": 0.049511716007305494,
+                "Volume": 0.15836079537465172
+              },
+              "z_values": {
+                "const": -0.5233935726166383,
+                "Lag1": -1.4565828767340427,
+                "Lag2": -0.8445675474606915,
+                "Lag3": 0.22197389677223772,
+                "Lag4": 0.18727450807298066,
+                "Lag5": 0.2082955176500889,
+                "Volume": 0.8552663585382514
+              },
+              "p_values": {
+                "const": 0.6007003960493582,
+                "Lag1": 0.14523155718601138,
+                "Lag2": 0.39835233468292097,
+                "Lag3": 0.8243342037966438,
+                "Lag4": 0.8514454089899411,
+                "Lag5": 0.8349982312925978,
+                "Volume": 0.39240370712314365
+              },
+              "confusion": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    145,
+                    141
+                  ],
+                  [
+                    457,
+                    507
+                  ]
+                ],
+                "correct": 652,
+                "n": 1250,
+                "accuracy": 0.5216,
+                "error_rate": 0.47840000000000005
+              },
+              "first_10_probabilities": [
+                0.5070841334630003,
+                0.4814678781751699,
+                0.481138834813138,
+                0.515222355792766,
+                0.5107811625911516,
+                0.5069564604552573,
+                0.49265087386752926,
+                0.5092291581449722,
+                0.5176135261687923,
+                0.4888377794207712
+              ]
+            },
+            "models_test_2005": {
+              "logistic_all_predictors": {
+                "coefficients": {
+                  "const": 0.19121262138319062,
+                  "Lag1": -0.054178291810013844,
+                  "Lag2": -0.04580533414515474,
+                  "Lag3": 0.0072001179828601386,
+                  "Lag4": 0.006440875237277806,
+                  "Lag5": -0.004222672146918216,
+                  "Volume": -0.11625696042215986
+                },
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    77,
+                    97
+                  ],
+                  [
+                    34,
+                    44
+                  ]
+                ],
+                "correct": 121,
+                "n": 252,
+                "accuracy": 0.4801587301587302,
+                "error_rate": 0.5198412698412698
+              },
+              "logistic_Lag1_Lag2": {
+                "coefficients": {
+                  "const": 0.03221752588312339,
+                  "Lag1": -0.05562121725999221,
+                  "Lag2": -0.04448684234513006
+                },
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    35,
+                    35
+                  ],
+                  [
+                    76,
+                    106
+                  ]
+                ],
+                "correct": 141,
+                "n": 252,
+                "accuracy": 0.5595238095238095,
+                "error_rate": 0.44047619047619047,
+                "up_prediction_accuracy": 0.5824175824175825,
+                "predicted_up": 182
+              },
+              "LDA": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    35,
+                    35
+                  ],
+                  [
+                    76,
+                    106
+                  ]
+                ],
+                "correct": 141,
+                "n": 252,
+                "accuracy": 0.5595238095238095,
+                "error_rate": 0.44047619047619047,
+                "means": [
+                  [
+                    0.04279022403258651,
+                    0.03389409368635439
+                  ],
+                  [
+                    -0.03954635108481257,
+                    -0.03132544378698227
+                  ]
+                ],
+                "priors": [
+                  0.49198396793587174,
+                  0.5080160320641283
+                ],
+                "classes": [
+                  "Down",
+                  "Up"
+                ],
+                "scalings": [
+                  [
+                    -0.6420190419437393
+                  ],
+                  [
+                    -0.5135292773349386
+                  ]
+                ],
+                "covariance": [
+                  [
+                    1.508867808671167,
+                    -0.0334023417397588
+                  ],
+                  [
+                    -0.0334023417397588,
+                    1.5095362963874215
+                  ]
+                ]
+              },
+              "QDA": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    30,
+                    20
+                  ],
+                  [
+                    81,
+                    121
+                  ]
+                ],
+                "correct": 151,
+                "n": 252,
+                "accuracy": 0.5992063492063492,
+                "error_rate": 0.4007936507936508,
+                "means": [
+                  [
+                    0.04279022403258651,
+                    0.03389409368635439
+                  ],
+                  [
+                    -0.03954635108481257,
+                    -0.03132544378698227
+                  ]
+                ],
+                "priors": [
+                  0.49198396793587174,
+                  0.5080160320641283
+                ],
+                "classes": [
+                  "Down",
+                  "Up"
+                ],
+                "covariance_class_0": [
+                  [
+                    1.50662277018995,
+                    -0.03924806103744954
+                  ],
+                  [
+                    -0.03924806103744957,
+                    1.5355949765160648
+                  ]
+                ]
+              },
+              "GaussianNB": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    29,
+                    20
+                  ],
+                  [
+                    82,
+                    121
+                  ]
+                ],
+                "correct": 150,
+                "n": 252,
+                "accuracy": 0.5952380952380952,
+                "error_rate": 0.40476190476190477,
+                "classes": [
+                  "Down",
+                  "Up"
+                ],
+                "priors": [
+                  0.49198396793587174,
+                  0.5080160320641283
+                ],
+                "means": [
+                  [
+                    0.04279022403258651,
+                    0.03389409368635439
+                  ],
+                  [
+                    -0.03954635108481257,
+                    -0.03132544378698227
+                  ]
+                ],
+                "variances": [
+                  [
+                    1.5035542935535215,
+                    1.532467493349441
+                  ],
+                  [
+                    1.514013641867108,
+                    1.4873287693641992
+                  ]
+                ]
+              },
+              "KNN_1": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    43,
+                    58
+                  ],
+                  [
+                    68,
+                    83
+                  ]
+                ],
+                "correct": 126,
+                "n": 252,
+                "accuracy": 0.5,
+                "error_rate": 0.5
+              },
+              "KNN_3": {
+                "confusion_predicted_rows_truth_columns_down_up": [
+                  [
+                    48,
+                    55
+                  ],
+                  [
+                    63,
+                    86
+                  ]
+                ],
+                "correct": 134,
+                "n": 252,
+                "accuracy": 0.5317460317460317,
+                "error_rate": 0.46825396825396826
+              }
+            },
+            "baselines": {
+              "always_predict_up_2005": {
+                "correct": 141,
+                "n": 252,
+                "accuracy": 0.5595238095238095
+              }
+            },
+            "warnings": [],
+            "assertions": [
+              "dataset row count and chronological ordering checked",
+              "pinned Smarket dataset SHA-256 checked before fitting",
+              "2001-2004 training and 2005 test sizes checked",
+              "source in-sample confusion table, rounded coefficients, and first ten probabilities matched",
+              "published confusion tables for both logistic models, LDA, QDA, NB, and KNN(1) matched",
+              "KNN(3) published 53.2% accuracy and always-Up baseline matched"
+            ]
+          }
+        },
+        {
+          "source_id": "B02-islp",
+          "unit_id": "B02-islp:book25-round2:bikeshare-source-models",
+          "kind": "Actual bounded book experiment; full source and other tests remain open",
+          "evidence": "update-2026-10-24-books/islp-bikeshare-2026-10-25/results.json",
+          "result_sha256": "984f310e5725d49a748fce7ea19c904a1cc80c0ac2693bd82b268051cc3e9762",
+          "result": {
+            "source": {
+              "book": "An Introduction to Statistical Learning with Applications in Python, 2023",
+              "chapter_pages": "Chapter 4 lab, printed pages 189-192; supplied PDF pages 197-201",
+              "source_pdf_sha256": "278d3bdd49a8a480c2ff8e03245822caad8a3a48e81afd6d039c52c8fc13ad60",
+              "dataset_url": "https://raw.githubusercontent.com/intro-stat-learning/ISLP/57a7faa05b82631de6adb7047a84a006d15ddf19/ISLP/data/Bikeshare.csv",
+              "dataset_commit": "57a7faa05b82631de6adb7047a84a006d15ddf19",
+              "dataset_sha256": "ac6950ae6f11efcc69c29d6bb13e8881c001e27d36434660d59444a1414f712c",
+              "dataset_bytes": 567588
+            },
+            "runtime": {
+              "python": "3.12.14",
+              "numpy": "1.26.4",
+              "pandas": "2.2.3",
+              "patsy": "1.0.3",
+              "statsmodels": "0.14.4"
+            },
+            "data": {
+              "rows": 8645,
+              "columns": [
+                "season",
+                "mnth",
+                "day",
+                "hr",
+                "holiday",
+                "weekday",
+                "workingday",
+                "weathersit",
+                "temp",
+                "atemp",
+                "hum",
+                "windspeed",
+                "casual",
+                "registered",
+                "bikers"
+              ],
+              "target": "bikers",
+              "target_min": 1,
+              "target_max": 651,
+              "category_levels": {
+                "mnth": [
+                  "Jan",
+                  "Feb",
+                  "March",
+                  "April",
+                  "May",
+                  "June",
+                  "July",
+                  "Aug",
+                  "Sept",
+                  "Oct",
+                  "Nov",
+                  "Dec"
+                ],
+                "hr": [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23
+                ],
+                "weathersit": [
+                  "clear",
+                  "cloudy/misty",
+                  "light rain/snow",
+                  "heavy rain/snow"
+                ]
+              }
+            },
+            "design": {
+              "reference": {
+                "shape": [
+                  8645,
+                  40
+                ],
+                "rank": 40,
+                "columns": [
+                  "Intercept",
+                  "C(mnth, Treatment(reference='Jan'))[T.Feb]",
+                  "C(mnth, Treatment(reference='Jan'))[T.March]",
+                  "C(mnth, Treatment(reference='Jan'))[T.April]",
+                  "C(mnth, Treatment(reference='Jan'))[T.May]",
+                  "C(mnth, Treatment(reference='Jan'))[T.June]",
+                  "C(mnth, Treatment(reference='Jan'))[T.July]",
+                  "C(mnth, Treatment(reference='Jan'))[T.Aug]",
+                  "C(mnth, Treatment(reference='Jan'))[T.Sept]",
+                  "C(mnth, Treatment(reference='Jan'))[T.Oct]",
+                  "C(mnth, Treatment(reference='Jan'))[T.Nov]",
+                  "C(mnth, Treatment(reference='Jan'))[T.Dec]",
+                  "C(hr, Treatment(reference=0))[T.1]",
+                  "C(hr, Treatment(reference=0))[T.2]",
+                  "C(hr, Treatment(reference=0))[T.3]",
+                  "C(hr, Treatment(reference=0))[T.4]",
+                  "C(hr, Treatment(reference=0))[T.5]",
+                  "C(hr, Treatment(reference=0))[T.6]",
+                  "C(hr, Treatment(reference=0))[T.7]",
+                  "C(hr, Treatment(reference=0))[T.8]",
+                  "C(hr, Treatment(reference=0))[T.9]",
+                  "C(hr, Treatment(reference=0))[T.10]",
+                  "C(hr, Treatment(reference=0))[T.11]",
+                  "C(hr, Treatment(reference=0))[T.12]",
+                  "C(hr, Treatment(reference=0))[T.13]",
+                  "C(hr, Treatment(reference=0))[T.14]",
+                  "C(hr, Treatment(reference=0))[T.15]",
+                  "C(hr, Treatment(reference=0))[T.16]",
+                  "C(hr, Treatment(reference=0))[T.17]",
+                  "C(hr, Treatment(reference=0))[T.18]",
+                  "C(hr, Treatment(reference=0))[T.19]",
+                  "C(hr, Treatment(reference=0))[T.20]",
+                  "C(hr, Treatment(reference=0))[T.21]",
+                  "C(hr, Treatment(reference=0))[T.22]",
+                  "C(hr, Treatment(reference=0))[T.23]",
+                  "C(weathersit, Treatment(reference='clear'))[T.cloudy/misty]",
+                  "C(weathersit, Treatment(reference='clear'))[T.light rain/snow]",
+                  "C(weathersit, Treatment(reference='clear'))[T.heavy rain/snow]",
+                  "workingday",
+                  "temp"
+                ],
+                "reference_month": "Jan",
+                "reference_hour": 0,
+                "weather_reference": "clear"
+              },
+              "sum_coding": {
+                "shape": [
+                  8645,
+                  40
+                ],
+                "rank": 40,
+                "columns": [
+                  "Intercept",
+                  "C(mnth, Sum)[S.Jan]",
+                  "C(mnth, Sum)[S.Feb]",
+                  "C(mnth, Sum)[S.March]",
+                  "C(mnth, Sum)[S.April]",
+                  "C(mnth, Sum)[S.May]",
+                  "C(mnth, Sum)[S.June]",
+                  "C(mnth, Sum)[S.July]",
+                  "C(mnth, Sum)[S.Aug]",
+                  "C(mnth, Sum)[S.Sept]",
+                  "C(mnth, Sum)[S.Oct]",
+                  "C(mnth, Sum)[S.Nov]",
+                  "C(hr, Sum)[S.0]",
+                  "C(hr, Sum)[S.1]",
+                  "C(hr, Sum)[S.2]",
+                  "C(hr, Sum)[S.3]",
+                  "C(hr, Sum)[S.4]",
+                  "C(hr, Sum)[S.5]",
+                  "C(hr, Sum)[S.6]",
+                  "C(hr, Sum)[S.7]",
+                  "C(hr, Sum)[S.8]",
+                  "C(hr, Sum)[S.9]",
+                  "C(hr, Sum)[S.10]",
+                  "C(hr, Sum)[S.11]",
+                  "C(hr, Sum)[S.12]",
+                  "C(hr, Sum)[S.13]",
+                  "C(hr, Sum)[S.14]",
+                  "C(hr, Sum)[S.15]",
+                  "C(hr, Sum)[S.16]",
+                  "C(hr, Sum)[S.17]",
+                  "C(hr, Sum)[S.18]",
+                  "C(hr, Sum)[S.19]",
+                  "C(hr, Sum)[S.20]",
+                  "C(hr, Sum)[S.21]",
+                  "C(hr, Sum)[S.22]",
+                  "C(weathersit, Treatment(reference='clear'))[T.cloudy/misty]",
+                  "C(weathersit, Treatment(reference='clear'))[T.light rain/snow]",
+                  "C(weathersit, Treatment(reference='clear'))[T.heavy rain/snow]",
+                  "workingday",
+                  "temp"
+                ],
+                "omitted_month": "Dec (reconstructed as negative sum)",
+                "omitted_hour": "23 (reconstructed as negative sum)",
+                "weather_reference": "clear"
+              }
+            },
+            "linear_ols": {
+              "workingday_temp_max_abs_diff_excluding_intercept": 8.977263377119016e-13,
+              "intercept_reference_minus_sum": -142.2291316732347,
+              "rounded_book_coefficient_comparison": {
+                "sum_intercept": {
+                  "actual": 73.59742813566943,
+                  "book_printed": 73.5974,
+                  "abs_difference": 2.8135669438711375e-05,
+                  "tolerance": 5e-05
+                },
+                "month_Jan": {
+                  "actual": -46.08709039388234,
+                  "book_printed": -46.0871,
+                  "abs_difference": 9.606117657767754e-06,
+                  "tolerance": 5e-05
+                },
+                "month_Feb": {
+                  "actual": -39.24188761254474,
+                  "book_printed": -39.2419,
+                  "abs_difference": 1.2387455264217806e-05,
+                  "tolerance": 5e-05
+                },
+                "hour_0": {
+                  "actual": -96.14204127935118,
+                  "book_printed": -96.142,
+                  "abs_difference": 4.127935117992365e-05,
+                  "tolerance": 5e-05
+                },
+                "hour_1": {
+                  "actual": -110.72130786356432,
+                  "book_printed": -110.7213,
+                  "abs_difference": 7.863564320587102e-06,
+                  "tolerance": 5e-05
+                },
+                "hour_2": {
+                  "actual": -117.7211804490677,
+                  "book_printed": -117.7212,
+                  "abs_difference": 1.955093229355498e-05,
+                  "tolerance": 5e-05
+                }
+              },
+              "reference_intercept": -68.63170353756524,
+              "sum_coding_intercept": 73.59742813566943,
+              "reference_february_vs_january": 6.845202781341965,
+              "sum_coding_month_effects_vs_mean": {
+                "Jan": -46.08709039388234,
+                "Feb": -39.24188761254474,
+                "March": -29.535652459721046,
+                "April": -4.662183493131685,
+                "May": 26.469993141623203,
+                "June": 21.731658419339844,
+                "July": -0.7626303956250717,
+                "Aug": 7.155950440435498,
+                "Sept": 20.591186132191126,
+                "Oct": 29.747161950952478,
+                "Nov": 14.22291252689671,
+                "Dec": 0.3705817434660119
+              },
+              "sum_coding_hour_effects_vs_mean": {
+                "0": -96.14204127935118,
+                "1": -110.72130786356432,
+                "2": -117.7211804490677,
+                "3": -127.28279740824321,
+                "4": -133.0495461954615,
+                "5": -120.27752264980921,
+                "6": -75.54235880435631,
+                "7": 23.951102382268516,
+                "8": 127.51989573970754,
+                "9": 24.43989894866653,
+                "10": -12.340703600296713,
+                "11": 9.281407268860015,
+                "12": 41.14168083091702,
+                "13": 39.89385849339689,
+                "14": 30.494029597167888,
+                "15": 35.944474719136004,
+                "16": 82.37857807540873,
+                "17": 200.12494938195874,
+                "18": 173.29887438329627,
+                "19": 90.11377352683377,
+                "20": 29.40712750359655,
+                "21": -8.588317121367979,
+                "22": -37.019398699475246,
+                "23": -69.30447678022097
+              },
+              "fitted_max_abs_diff": 7.361222742474638e-12,
+              "sum_squared_fitted_difference": 4.7356201526571614e-20,
+              "independent_basis_projection_max_abs_residual": 3.2637226254905727e-12,
+              "independent_basis_projection_max_frobenius_residual": 6.585574844391953e-12,
+              "rss_reference": 50364007.75177938,
+              "rss_sum_coding": 50364007.75177939,
+              "rss_abs_difference": 1.4901161193847656e-08,
+              "r_squared": 0.6745328002016311
+            },
+            "poisson_glm": {
+              "family": "Poisson",
+              "link": "log",
+              "design": "sum-coding for month and hour; clear-reference treatment for weather",
+              "deviance": 228040.9866652924,
+              "null_deviance": 1052921.1453528267,
+              "pearson_chi2": 220278.6739432096,
+              "df_resid": 8605.0,
+              "pearson_dispersion": 25.59891620490524,
+              "fitted_min": 1.2009861444428094,
+              "fitted_max": 585.9583766187129,
+              "fitted_all_finite_nonnegative": true,
+              "sum_coding_month_log_effects_vs_mean": {
+                "Jan": -0.6701699256536222,
+                "Feb": -0.44412382084019114,
+                "March": -0.29373312920880806,
+                "April": 0.02152319084390908,
+                "May": 0.24047087275309778,
+                "June": 0.2232352274844896,
+                "July": 0.10361658292488002,
+                "Aug": 0.15117137173444203,
+                "Sept": 0.23349303021908874,
+                "Oct": 0.26757317888638665,
+                "Nov": 0.1502635540829297,
+                "Dec": 0.016679866773397917
+              },
+              "sum_coding_hour_log_effects_vs_mean": {
+                "0": -0.7543862408068052,
+                "1": -1.2259792483668268,
+                "2": -1.563146796078146,
+                "3": -2.1983044189460137,
+                "4": -2.830484291593232,
+                "5": -1.8146569231524727,
+                "6": -0.4298882126945619,
+                "7": 0.5751806686688807,
+                "8": 1.0769270278597152,
+                "9": 0.5817689718958285,
+                "10": 0.33685169562065814,
+                "11": 0.4941211397079475,
+                "12": 0.6796419414844037,
+                "13": 0.6735648801971876,
+                "14": 0.6249096357207897,
+                "15": 0.6537630657830872,
+                "16": 0.8743013050404147,
+                "17": 1.2946349594437978,
+                "18": 1.2122812625494226,
+                "19": 0.9140224186615812,
+                "20": 0.6162013866329754,
+                "21": 0.36418135071269375,
+                "22": 0.11749317143450508,
+                "23": -0.2729987497758293
+              }
+            },
+            "interpretation_limits": [
+              "These are fitted values on the same in-sample observations used to estimate the models, not forward forecasts.",
+              "Month/hour effects are conditional associations under the specified model and category coding, not causal effects.",
+              "The data are hourly rows and include same-day weather and rentals; using this fit operationally requires checking when every predictor becomes available.",
+              "Poisson GLM specifies conditional variance equal to conditional mean; Pearson dispersion is reported as a diagnostic, not a proof that the assumption holds."
+            ]
+          }
+        },
+        {
+          "source_id": "B02-islp",
+          "unit_id": "B02-islp:book25-round2:caravan-k4-order-sensitivity",
+          "kind": "Actual bounded book experiment; full source and other tests remain open",
+          "evidence": "update-2026-10-24-books/islp-knn-ties-2026-10-25/results.json",
+          "result_sha256": "6fbfde92c5142ca25c2c3c92d9d1b10571f27bad38cfbf9299544a9c461405e1",
+          "result": {
+            "scope": "Same frozen split/all-data scaling/K4; algorithm/order sensitivity, not proof of the historical book runtime cause",
+            "data_sha256": "e89d49b6fb8fe02d76bb5bb80d8e0dab473bf9f6a72515e30c259f6d7da42269",
+            "runner_sha256": "9c2bf4c899308352c6d4267b8662bf4e4d2f1ca2802068830c62f9e814ee9c4d",
+            "runtime": {
+              "python": "3.12.14",
+              "numpy": "2.3.5",
+              "pandas": "3.0.1",
+              "scipy": "1.16.3",
+              "sklearn": "1.7.2"
+            },
+            "configurations": [
+              {
+                "configuration": "auto",
+                "effective_method": "brute",
+                "predicted_buyers": 4,
+                "TN_FP_FN_TP": [
+                  929,
+                  4,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+                "changed_test_positions": []
+              },
+              {
+                "configuration": "brute",
+                "effective_method": "brute",
+                "predicted_buyers": 4,
+                "TN_FP_FN_TP": [
+                  929,
+                  4,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+                "changed_test_positions": []
+              },
+              {
+                "configuration": "ball_tree",
+                "effective_method": "ball_tree",
+                "predicted_buyers": 4,
+                "TN_FP_FN_TP": [
+                  929,
+                  4,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+                "changed_test_positions": []
+              },
+              {
+                "configuration": "kd_tree",
+                "effective_method": "kd_tree",
+                "predicted_buyers": 4,
+                "TN_FP_FN_TP": [
+                  929,
+                  4,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "e5abfa375be256dc68a2dee86e9956b1cd46ff545c24b5c8ec7faf66a9d92bfc",
+                "changed_test_positions": []
+              },
+              {
+                "configuration": "brute_reverse",
+                "effective_method": "brute",
+                "predicted_buyers": 3,
+                "TN_FP_FN_TP": [
+                  930,
+                  3,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "567a4257a258bd1063743ae9b4fc976e199853ef1d5f48e92403a851af540401",
+                "changed_test_positions": [
+                  152
+                ]
+              },
+              {
+                "configuration": "brute_shuffle17",
+                "effective_method": "brute",
+                "predicted_buyers": 4,
+                "TN_FP_FN_TP": [
+                  929,
+                  4,
+                  67,
+                  0
+                ],
+                "training_order_sha256": "9501cdc25850cec219d15eb7a18a01ec482bb6e3fd87fcc2aa957a0fb16afd9c",
+                "changed_test_positions": []
+              }
+            ],
+            "changed_test_rows": [
+              {
+                "test_position": 152,
+                "csv_row_zero_based": 1936,
+                "truth": false,
+                "nearest_six": [
+                  {
+                    "train_csv_row": 2858,
+                    "squared_distance": 0.0,
+                    "purchase": true
+                  },
+                  {
+                    "train_csv_row": 5525,
+                    "squared_distance": 6.955599578602664,
+                    "purchase": false
+                  },
+                  {
+                    "train_csv_row": 942,
+                    "squared_distance": 7.406182971309574,
+                    "purchase": true
+                  },
+                  {
+                    "train_csv_row": 1004,
+                    "squared_distance": 7.406182971309574,
+                    "purchase": false
+                  },
+                  {
+                    "train_csv_row": 5508,
+                    "squared_distance": 7.406182971309574,
+                    "purchase": true
+                  },
+                  {
+                    "train_csv_row": 2570,
+                    "squared_distance": 7.523432181779459,
+                    "purchase": false
+                  }
+                ],
+                "fourth_fifth_squared_gap": 0.0,
+                "absolute_tie_tolerance": 1e-12,
+                "boundary_tie_rows": [
+                  942,
+                  5508,
+                  1004
+                ],
+                "boundary_tie_labels": [
+                  1,
+                  1,
+                  0
+                ],
+                "predictions": {
+                  "auto": true,
+                  "brute": true,
+                  "ball_tree": true,
+                  "kd_tree": true,
+                  "brute_reverse": false,
+                  "brute_shuffle17": true
+                }
+              }
+            ],
+            "class_vote_tie_prediction": "No",
+            "documentation": {
+              "url": "https://scikit-learn.org/1.7/modules/generated/sklearn.neighbors.KNeighborsClassifier.html",
+              "sha256": "eb6b26f28642abf264ead6b7934fcd7bc4ca844fda32b1db9eda87755219cb82",
+              "read_scope": "Selected warning on equally distant neighbors, algorithm options and class ordering; other documentation not fully reviewed"
+            },
+            "historical_cause_established": false
+          }
+        },
+        {
+          "source_id": "BOOK24-WHATIF-PY-HISTORICAL",
+          "unit_id": "BOOK24-WHATIF-PY-HISTORICAL:book25-round2:chapter13-case-bootstrap2000",
+          "kind": "Actual bounded book experiment; full source and other tests remain open",
+          "evidence": "update-2026-10-24-books/whatif-bootstrap-2026-10-25/summary.json",
+          "result_sha256": "93d0f234e5864b56ea83cb1f2d8863f355315290e7505803ea3e9eb669cb8dbc",
+          "result": {
+            "source_notebook": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa\\update-2026-10-24-books\\whatif-2026-review\\companion-code-python\\chapter13.ipynb",
+            "source_notebook_sha256": "f444d5a3ac57c45801401c120ecdb84658a88de1944ff30ff86cc1fa223f5675",
+            "source_data": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa\\update-2026-10-24-books\\whatif-2026-review\\NHEFS.xls",
+            "source_data_sha256": "a47e7c8e761428a5437f93325e0b3fc83e9d6d8484f509389728873fc9ccd675",
+            "source_commit": "8a7965a7eaea911218bd5cdeb74dadcb6a05be4d",
+            "bootstrap_cell": 70,
+            "iterations": 2000,
+            "seed": 20261025,
+            "seed_note": "The author notebook specifies no seed; this seed freezes this algorithm realization only.",
+            "resampling": "nhefs_all rows, n=all-row count, replacement; each draw independently refits on sampled rows with nonmissing wt82; both counterfactual predictions averaged over all sampled rows.",
+            "case_count_all": 1629,
+            "case_count_uncensored": 1566,
+            "fit_columns": [
+              "one",
+              "sex",
+              "race",
+              "edu_2",
+              "edu_3",
+              "edu_4",
+              "edu_5",
+              "exercise_1",
+              "exercise_2",
+              "active_1",
+              "active_2",
+              "age",
+              "age^2",
+              "wt71",
+              "wt71^2",
+              "smokeintensity",
+              "smokeintensity^2",
+              "smokeyrs",
+              "smokeyrs^2",
+              "qsmk",
+              "qsmk_x_smokeintensity"
+            ],
+            "fit_rank_full_sample": 21,
+            "point_estimate": 3.518574166441593,
+            "successful_draws": 2000,
+            "failed_draws": 0,
+            "bootstrap_sd_ddof0": 0.46870274186515426,
+            "notebook_normal_ci_95": [
+              2.5999167923858906,
+              4.4372315404972955
+            ],
+            "bootstrap_percentile_ci_95": [
+              2.608298207349869,
+              4.409303080721042
+            ],
+            "mc_se_bootstrap_sd_approx": 0.007412694454617506,
+            "mc_se_note": "Approximation std/sqrt(2(B-1)); assumes approximately normal bootstrap draws and is Monte Carlo error for the estimated SD, not a general uncertainty bound.",
+            "solver_check": "numpy.linalg.lstsq full-sample coefficients/effect agree with statsmodels OLS to 1e-9; five bootstrap draws agree in effect to 1e-8.",
+            "percentile_method": "numpy default linear quantile method"
+          }
+        },
+        {
+          "source_id": "BOOK25-KNN-DOC",
+          "unit_id": "BOOK25-KNN-DOC:selected-warning",
+          "kind": "Selected documentation warning and API options, not full page",
+          "evidence": "update-2026-10-24-books/islp-knn-ties-2026-10-25/results.json",
+          "result_sha256": "6fbfde92c5142ca25c2c3c92d9d1b10571f27bad38cfbf9299544a9c461405e1",
+          "result": {
+            "url": "https://scikit-learn.org/1.7/modules/generated/sklearn.neighbors.KNeighborsClassifier.html",
+            "sha256": "eb6b26f28642abf264ead6b7934fcd7bc4ca844fda32b1db9eda87755219cb82",
+            "read_scope": "Selected warning on equally distant neighbors, algorithm options and class ordering; other documentation not fully reviewed"
+          }
+        }
+      ],
+      "publication_sha256": {
+        "en": "168e359599fd0aa9b6bd9de7385ed3b208b50b3a3d5d1384d600898a07e898bc",
+        "fa": "ed50d71640ed8b26a94785988e417334578a3a4243e57ffa154a911a031af363"
+      },
+      "publication_adjustments": [
+        "Original agent reports preserved; Smarket cross-agent stale unexecuted sentence replaced by links to separate Caravan/Bikeshare scopes",
+        "Persian sum coding clarified as zero-sum coding"
+      ],
+      "summary_fa": "Smarketبا تقسیم زمانی۹۹۸/۲۵۲و جدول‌های چاپی تطبیق یافت؛ مدل‌های خطی دوکدگذاری Bikeshareو پواسون روی۸۶۴۵ردیف اجرا شدند. در Caravan، تغییر فقط ترتیب آموزش یک پیش‌بینی مرزی را عوض کرد؛ علت تاریخی کتاب همچنان احراز نشده است. بوت‌استرپ فصل۱۳٫۴کد تاریخی با۲۰۰۰نمونه کامل شد: برآورد۳٫۵۱۸۵۷۴، انحراف معیار۰٫۴۶۸۷۰۳ و بازهٔ نرمال۲٫۵۹۹۹۱۷تا۴٫۴۳۷۲۳۲. این اجرای الگوریتم است و فرض‌های علّی یا انتشار۲۰۲۶را تأیید نمی‌کند.",
+      "whole_research_complete": false,
+      "pipeline_rule": "After integrate_books and integrate_followup_20261025, rerun integrate_wave2_20261025; then normal prepare/register/publish/build/check/save/package/deliver."
+    }
+  },
+  "next_priority": "Remaining accessible book lab/equation/exercise scopes before the twelve broad workstreams; do not repeat unchanged completed reading",
+  "book_followup_remaining": {
+    "ISLP": "Smarket models and Bikeshare OLS/Poisson selected source contracts executed; remaining lab cells/plots, applied exercises, selection/deep-learning/BART and other chapter scopes open. Caravan order sensitivity shown, historical cause unresolved.",
+    "WhatIf": "Historical Chapter13.4 case-bootstrap2000 completed with recorded seed; other notebook/bootstrap branches, adjusted IV/g-estimation, weak-IV-robust inference, cited works and remaining visuals/exercises open.",
+    "Cartea": "Full2015body unavailable; saved notebook outputs, full default/PDE simulations, feed provenance and quote-availability timing remain open",
+    "Kelly_Harris": "Reuse recorded retained reading; independent cited sources and empirical reproduction do not inherit completion"
+  }
+}

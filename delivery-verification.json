@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-05",
+  "checks": {
+    "original_urls_preserved": true,
+    "english_cache_equal": true,
+    "zip_integrity": true,
+    "zip_english_equal": true,
+    "zip_html_equal": true,
+    "zip_register_equal": true,
+    "zip_handoff_equal": true,
+    "zip_resume_state_equal": true
+  },
+  "files": {
+    "RESEARCH.md": {
+      "bytes": 3125045,
+      "sha256": "ac7b7d30b2fbbcb7abac6e3dd347723405bff1ce2f6c335f0c64a884afd459d7"
+    },
+    "RESEARCH.fa.html": {
+      "bytes": 10852991,
+      "sha256": "03c014dc26f81b9ead914a0fd813c50d77dae681c32d904e7d10ec00fda27874"
+    },
+    "RESEARCH.fa.md": {
+      "bytes": 3691389,
+      "sha256": "3b609efdd8305c495dd29ccfe2f28ddf5bdb7ce605c722b12c032cedf5ed9df1"
+    },
+    "RESEARCH.fa.offline.zip": {
+      "bytes": 28998612,
+      "sha256": "d83d5421b7a74ba470a772b4fad90d97a67d394ad4758ce1837485bb283896d4"
+    },
+    "README.fa.md": {
+      "bytes": 6027,
+      "sha256": "60291374cba6e351741d1b02b5e1c369a4968f18f6794d6c04390db2d0d626ec"
+    },
+    "INTEGRATION_STATUS_2026-10-23.md": {
+      "bytes": 2742,
+      "sha256": "306b1814e2a9a57f0143af31058728fd3e9365d33e67a77895d2d45ce8e10e1d"
+    },
+    "RESEARCH_HANDOFF_2026-10-23.md": {
+      "bytes": 17264,
+      "sha256": "19b6c2c6ca0bbf085e7abc64f11c9bfbdf27f80413ae6221b6a880bb71aab3cd"
+    },
+    "RESEARCH_RESUME_STATE_2026-10-23.json": {
+      "bytes": 66894,
+      "sha256": "813c9acd888cccda4c5e73664675c2104fe36ff9b3b76bb1fdf6ec45a7672e1b"
+    },
+    "INTEGRATION_STATUS_2026-10-24.md": {
+      "bytes": 2753,
+      "sha256": "88c46dc73275dd91f91fd734908c4d18d3ae47fecd4219e5047dda47aa2c20ea"
+    },
+    "RESEARCH_HANDOFF_2026-10-24.md": {
+      "bytes": 10621,
+      "sha256": "6c02fadc0522dc782cb82f6e1a46bbcf8ee18fd5bf3bf143fbb7407c4f364a65"
+    },
+    "RESEARCH_RESUME_STATE_2026-10-24.json": {
+      "bytes": 91035,
+      "sha256": "c01595eead9f6375cb08a065fe770f905530123e6d2cd814339e072db4adcfb2"
+    },
+    "RESEARCH_HANDOFF_2026-10-25.md": {
+      "bytes": 7059,
+      "sha256": "79bac3fa6119752d6c56b6eaa2f2371911338611e8de5271274cc209cec8e47e"
+    },
+    "RESEARCH_RESUME_STATE_2026-10-25.json": {
+      "bytes": 199976,
+      "sha256": "986b9c36638ca114f5ff26d5bd234b3d78acaddab07a82cd1171a1d2160d060b"
+    },
+    "BOOK_STAGE_INTEGRATION_2026-10-24.fa.md": {
+      "bytes": 1709,
+      "sha256": "74c8ba67d9d91cfc971689eacc14b0c9b5778a7120d930d1fa1182da399b72f1"
+    },
+    "BOOK_STAGE_INTEGRATION_2026-10-24.json": {
+      "bytes": 2162,
+      "sha256": "7dbca472697320d81f4a225a7c241ca3ca2793a23265a77afb87c86f946fc419"
+    },
+    "PERSIAN_INTEGRATION_CERTIFICATION_2026-10-24.fa.md": {
+      "bytes": 4521,
+      "sha256": "45e851b91ace96b3c2ee8dc015b40ce627f0cdf270f897e4c8ca9821d85e936e"
+    },
+    "PERSIAN_INTEGRATION_CERTIFICATION_2026-10-24.json": {
+      "bytes": 13766,
+      "sha256": "1e78a1c6ba6433c20f6685da9da6356826a26b6d587e898a5ab0a0aa33984c22"
+    },
+    "PERSIAN_INTEGRATION_AUDIT_2026-10-24.json": {
+      "bytes": 377,
+      "sha256": "5a8d22e83a1a46e3c9f7c3498c24b39d15b7e27f75ce3293824d59657746237a"
+    },
+    "RESEARCH_HANDOFF_2026-10-30.md": {
+      "bytes": 23122,
+      "sha256": "46f5e86847e9277f6e8cc59b0b7cecdc350a0e7050fc7b95bb98e93b7332f8f6"
+    },
+    "ACTIVE_RESEARCH_STATE_2026-10-30.json": {
+      "bytes": 3545,
+      "sha256": "dfa2282c106af84b61cabd1aef46a7c407d14ae998379b55c1ad89cb1bf79ece"
+    },
+    "LIVE_RESEARCH_CHECKPOINT_2026-10-30.json": {
+      "bytes": 73661,
+      "sha256": "4302c64ab5d5d5a255b8be560c0ae53a578924c90d3fb833a8485746caca4e2a"
+    },
+    "INTEGRATION_STATUS_2026-10-30.md": {
+      "bytes": 2899,
+      "sha256": "cfe78f28fb45c8f10452e4a67266bd40549c4f63b291fbc75135159fa33aa069"
+    },
+    "SOURCE_REVIEW_REGISTER.json": {
+      "bytes": 18860784,
+      "sha256": "074369f8fc69895e4e7582e9adad0e4bbbc2169d9cfdd0c9ac0da594d363597b"
+    },
+    "SOURCE_REVIEW_REGISTER.fa.md": {
+      "bytes": 7496684,
+      "sha256": "5b5af909249a5ae69fc477de9151c13af8ac942060d8026ac9629b6e58acd348"
+    },
+    "SOURCE_REVIEW_REGISTER.fa.html": {
+      "bytes": 13753973,
+      "sha256": "f2815b880d99ecf469ed41f1cf120666f1a25af787a9c96988c881ae9061a139"
+    }
+  }
+}

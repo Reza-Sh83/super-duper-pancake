@@ -1,0 +1,1338 @@
+{
+  "date": "2026-11-08",
+  "metadata_schema": {
+    "gh": [
+      "kind",
+      "repo",
+      "commit",
+      "commit date",
+      "tree sample"
+    ],
+    "hf": [
+      "kind",
+      "repo",
+      "revision",
+      "license tag",
+      "[file,bytes,LFS SHA256]",
+      "gated"
+    ]
+  },
+  "scope": "Read-only metadata and selected source paths; no weights, import or inference.",
+  "metadata": [
+    [
+      "gh",
+      "thuml/Sundial",
+      "3ef03b8c3804f64a506e57101a173470040aaece",
+      "2025-09-12T08:26:08Z",
+      [
+        "LICENSE"
+      ]
+    ],
+    [
+      "gh",
+      "PriorLabs/tabpfn-time-series",
+      "258a074c4ebe74636641c61db86df99e964cc477",
+      "2026-11-06T09:28:08Z",
+      [
+        "LICENSE",
+        "gift_eval/dataset_definition.py",
+        "gift_eval/dataset_properties.json",
+        "pyproject.toml",
+        "tabpfn_time_series/pipeline.py",
+        "tests/test_pipeline.py"
+      ]
+    ],
+    [
+      "gh",
+      "time-series-foundation-models/lag-llama",
+      "df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9",
+      "2025-06-06T12:23:52Z",
+      [
+        "LICENSE",
+        "data/dataset_list.py",
+        "data/read_new_dataset.py",
+        "lag_llama/gluon/estimator.py",
+        "pyproject.toml"
+      ]
+    ],
+    [
+      "gh",
+      "Nixtla/nixtla",
+      "5f97c758bbda8c4cfb9c557046bc4ef63fed23f0",
+      "2026-11-05T17:17:19Z",
+      [
+        "LICENSE",
+        "experiments/amazon-chronos/src/amazon_chronos/pipeline.py",
+        "experiments/amazon-chronos/src/statsforecast_pipeline.py",
+        "experiments/lag-llama/src/lag_llama_pipeline.py",
+        "experiments/lag-llama/src/statsforecast_pipeline.py",
+        "experiments/salesforce-moirai/src/moirai_pipeline.py",
+        "experiments/salesforce-moirai/src/statsforecast_pipeline.py",
+        "nixtla/nixtla_client.py",
+        "nixtla_tests/nixtla_client/test_client.py",
+        "nixtla_tests/nixtla_client/test_finetune_and_forecast.py",
+        "nixtla_tests/nixtla_client/test_nixtla_client.py",
+        "pyproject.toml",
+        "timegpt-docs/scripts/_docs_client.py"
+      ]
+    ],
+    [
+      "gh",
+      "SalesforceAIResearch/uni2ts",
+      "cfd46d4510ed8896f263116f32928eede05b0a75",
+      "2026-06-02T18:53:32Z",
+      [
+        "project/moirai-1/finetune_lsf/build_lsf_ft_datasets.sh",
+        "project/moirai-agent/ctx_forecast/src/ctx_forecast/mcp_client.py",
+        "project/moirai-agent/gift_eval/assets/dataset_properties.json",
+        "project/vn1_competition/src/forecast.py",
+        "pyproject.toml",
+        "src/uni2ts/data/dataset.py",
+        "src/uni2ts/data/indexer/hf_dataset_indexer.py",
+        "src/uni2ts/eval_util/_hf_dataset.py",
+        "src/uni2ts/eval_util/_lsf_dataset.py",
+        "src/uni2ts/eval_util/_pf_dataset.py",
+        "src/uni2ts/model/moirai/forecast.py",
+        "src/uni2ts/model/moirai2/__init__.py",
+        "src/uni2ts/model/moirai2/forecast.py",
+        "src/uni2ts/model/moirai2/module.py",
+        "src/uni2ts/model/moirai_moe/forecast.py",
+        "test/data/test_dataset.py"
+      ]
+    ],
+    [
+      "gh",
+      "DataDog/toto",
+      "1d3e1c97ccf615016d38fe910602c905ae31fbb7",
+      "2026-10-26T19:51:08Z",
+      [
+        "LICENSE",
+        "NOTICE",
+        "boom/notebooks/dataset_utils.py",
+        "boom/notebooks/vis_forecast.py",
+        "dd_unit_scaling/pyproject.toml",
+        "pyproject.toml",
+        "toto/data/datasets/gluonts_dataset.py",
+        "toto/data/util/dataset.py",
+        "toto/evaluation/gift_eval/dataset_properties.json",
+        "toto/evaluation/lsf/lsf_datasets.py",
+        "toto/inference/__init__.py",
+        "toto/inference/forecaster.py",
+        "toto/inference/gluonts_predictor.py",
+        "toto/notebooks/inference_tutorial.ipynb",
+        "toto/test/inference/__init__.py",
+        "toto/test/inference/forecaster_test.py",
+        "toto/test/inference/gluonts_predictor_test.py",
+        "toto2/pyproject.toml",
+        "toto_models/pyproject.toml"
+      ]
+    ],
+    [
+      "gh",
+      "NX-AI/tirex-2",
+      "6b538163a454c91aba75a0bfc9c2b77ac464be83",
+      "2026-11-06T13:54:08Z",
+      [
+        ".github/workflows/test-inference.yaml",
+        "LICENSE",
+        "NOTICE",
+        "docs/data/in-context-learning_dataset.csv",
+        "examples/gifteval/dataset_properties.json",
+        "inference/Dockerfile.cpu",
+        "inference/Dockerfile.gpu",
+        "inference/README.md",
+        "inference/THIRD-PARTY-LICENSES.md",
+        "inference/app/__init__.py",
+        "inference/app/config.py",
+        "inference/app/http_server.py",
+        "inference/app/main.py",
+        "inference/app/model_pool.py",
+        "inference/app/mqtt_server.py",
+        "inference/app/utils.py",
+        "inference/mosquitto/mosquitto.conf",
+        "inference/pytest.ini",
+        "inference/requirements-dev.txt",
+        "inference/requirements.txt",
+        "inference/scripts/loadtest.py",
+        "inference/tests/conftest.py",
+        "inference/tests/references/reference_input.json",
+        "inference/tests/references/reference_output_cpu.json",
+        "inference/tests/test_http.py",
+        "inference/tests/test_mcp.py",
+        "inference/tests/test_model_pool.py",
+        "inference/tests/test_mqtt.py",
+        "plugins/tirex2/LICENSE",
+        "plugins/tirex2/NOTICE",
+        "pyproject.toml",
+        "src/tirex2/api_adapter/forecast.py"
+      ]
+    ],
+    [
+      "gh",
+      "amazon-science/chronos-forecasting",
+      "1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+      "2026-10-05T14:25:02Z",
+      [
+        "LICENSE",
+        "NOTICE",
+        "pyproject.toml",
+        "src/chronos/chronos2/dataset.py",
+        "src/chronos/chronos2/pipeline.py"
+      ]
+    ],
+    [
+      "gh",
+      "google-research/timesfm",
+      "e51928e27119cb17bebc005be2696b75e0a9e688",
+      "2026-09-29T19:36:24Z",
+      [
+        "LICENSE",
+        "pyproject.toml",
+        "src/timesfm/timesfm_2p5/timesfm_2p5_base.py",
+        "src/timesfm/timesfm_2p5/timesfm_2p5_flax.py",
+        "src/timesfm/timesfm_2p5/timesfm_2p5_torch.py",
+        "timesfm-forecasting/examples/global-temperature/run_forecast.py",
+        "timesfm-forecasting/examples/global-temperature/visualize_forecast.py",
+        "v1/LICENSE",
+        "v1/experiments/baselines/timegpt_pipeline.py",
+        "v1/pyproject.toml"
+      ]
+    ],
+    [
+      "gh",
+      "mistralai/timestral",
+      "a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff",
+      "2026-10-15T14:59:55Z",
+      [
+        "LICENSE",
+        "pyproject.toml"
+      ]
+    ],
+    [
+      "hf",
+      "thuml/sundial-base-128m",
+      "3212e42564493f520593e5414af4367fc4b49226",
+      "apache-2.0",
+      [
+        [
+          "configuration_sundial.py",
+          1577,
+          null
+        ],
+        [
+          "flow_loss.py",
+          7829,
+          null
+        ],
+        [
+          "model.safetensors",
+          513341448,
+          "414435b508391f92afadd2aaeec418c806776aeccbce12e638d73a139ca5ca78"
+        ],
+        [
+          "modeling_sundial.py",
+          24413,
+          null
+        ],
+        [
+          "ts_generation_mixin.py",
+          13765,
+          null
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "Prior-Labs/tabpfn_3_5",
+      "06bf2ba35c80a92a3b9abb436b99cf49e7a0365e",
+      "other",
+      [
+        [
+          "tabpfn-v3.5-20260909.safetensors",
+          876027932,
+          "ece4d67eadfea42eb0e610df5189bea60cb7f31073d81e9c7a019b76eacf0be3"
+        ],
+        [
+          "tabpfn-v3.5-20260909_multiclass.safetensors",
+          876028348,
+          "4f1e155b09ae1c9860c75cd0a16f811b7431ddac4cb8022ee5e4498070f44149"
+        ],
+        [
+          "tabpfn-v3.5-fast-20260909.safetensors",
+          334181708,
+          "14e0b81285bca7a6d1ef121169f27f651f76dff49cad6c0b8779d5c836018550"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "time-series-foundation-models/Lag-Llama",
+      "72dcfc29da106acfe38250a60f4ae29d1e56a3d9",
+      "apache-2.0",
+      [
+        [
+          "lag-llama.ckpt",
+          29488819,
+          "b5a5c4b8a0cfe9b81bdac35ed5d88b5033cd119b5206c28e9cd67c4b45fb2c96"
+        ],
+        [
+          "model.safetensors",
+          9805748,
+          "e6cc080d91b7d60f2cda7b361100feee203c942d0261539bbb8333a092b3d39d"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "Salesforce/moirai-2.0-R-small",
+      "30f43ff08c8494f4943ae1521e9d4e94a0fbb389",
+      "cc-by-nc-4.0",
+      [
+        [
+          "model.safetensors",
+          45557824,
+          "fb5652a3db8ea572606221b7cb1e77bb8962b168e4d4cc752cf31ceb04074669"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "Datadog/Toto-Open-Base-1.0",
+      "0411ceb27bdf7fc3e4892e99edc8ad08192dc3c5",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          605239264,
+          "69b67e60decc90baf741729abcf1fe8fe0881e3e3337176042053c28a122fa4c"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "theforecastingcompany/t0-gamma",
+      "e08aee083778f1f32da4974c0a34276776a35c52",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          1022492908,
+          "1603e255629be22ea45518b502f16c55d06821c7090a1a851673e779e9c245a6"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "NX-AI/TiRex-2",
+      "30788a311699acba7e6393ad9700ea7b7cb9bb2d",
+      "apache-2.0",
+      [
+        [
+          "model.ckpt",
+          380613375,
+          "184b160ffbe4c01a26beeba14015ff3507c7497e1f3577114187bbc1d19fcac1"
+        ],
+        [
+          "model.onnx",
+          406587026,
+          "967746000be6453fc59c1fc3cd2fe13e7a6d63010c5877c63c17190517c1b77c"
+        ],
+        [
+          "model.safetensors",
+          330038664,
+          "17760e4eee4c14e0d8bad8b9d9ce6f5076aaeeb9d956a88b8e95cf1493a1c176"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "amazon/chronos-2",
+      "29ec3766d36d6f73f0696f85560a422f50e8498c",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          477930472,
+          "ddcda3c7508bf2528087723e98a20707cc04b7f370ae275a9fd88078ddba4f42"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "autogluon/chronos-2-small",
+      "ddec01313e50b6bc58ebaa92ede81bc24a3d9f9a",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          111749048,
+          "492290ae82bb89f9769e3479ce90b3179de1f33e600c34daa0352531538b23cd"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "google/timesfm-2.5-200m-pytorch",
+      "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          925181104,
+          "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+        ]
+      ],
+      false
+    ],
+    [
+      "hf",
+      "mistralai/Timestral-5M",
+      "bdd20cfc15a3fea0e4cb5ccef37f8d3ca7aa335f",
+      "other",
+      [
+        [
+          "model.safetensors",
+          20843960,
+          "7ace108c4987e7f2a99a75a445240019d1d31c2117139d1bd05ffdfd25aca738"
+        ]
+      ],
+      false
+    ],
+    [
+      "gh",
+      "theforecastingcompany/tfc-t0",
+      "5896313cf7a5da5e320a9070c2aff0f8fed79747",
+      null,
+      []
+    ],
+    [
+      "hf",
+      "Datadog/Toto-2.0-4m",
+      "8306a9801cf98c0f5ffe4b2dcc8f496e616d84d9",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          16582848,
+          "316660d5afb47943e531f39242e0b02ca0b8bb73be5709dfe07ca80dfce9805e"
+        ]
+      ]
+    ],
+    [
+      "hf",
+      "google/timesfm-3.0-pytorch",
+      "43046b85ec22d584a13f8098c2ed39c889e129c2",
+      "other",
+      [
+        [
+          "model.safetensors",
+          1322898824,
+          "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+        ]
+      ]
+    ],
+    [
+      "hf",
+      "Datadog/Toto-2.0-22m",
+      "685e4ae3e2be8d8998025e53dd98e7fdcb296a89",
+      "apache-2.0",
+      [
+        [
+          "model.safetensors",
+          87669368,
+          "9cd503d82df3aa71747862688f47a31c1d0a4b80f898df6e046189016eaa21dd"
+        ]
+      ]
+    ]
+  ],
+  "source_excerpts": [
+    {
+      "repo": "thuml/Sundial",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/thuml/Sundial/3ef03b8c3804f64a506e57101a173470040aaece/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "lines": 201,
+      "anchors": [
+        [
+          1,
+          "                                 Apache License"
+        ],
+        [
+          3,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          9,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          13,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "PriorLabs/tabpfn-time-series",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/PriorLabs/tabpfn-time-series/258a074c4ebe74636641c61db86df99e964cc477/LICENSE",
+      "sha256": "8b084f2fb9085901ba8322d967020c0c8b46acd83130322af62b7191448c6a96",
+      "lines": 202,
+      "anchors": [
+        [
+          2,
+          "                                 Apache License"
+        ],
+        [
+          4,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "PriorLabs/tabpfn-time-series",
+      "path": "tabpfn_time_series/pipeline.py",
+      "url": "https://raw.githubusercontent.com/PriorLabs/tabpfn-time-series/258a074c4ebe74636641c61db86df99e964cc477/tabpfn_time_series/pipeline.py",
+      "sha256": "a936e422140f1ffafb2a27d5b1fa2b06151c33c25490e622f6029533b4409a63",
+      "lines": 600,
+      "anchors": [
+        [
+          204,
+          "class TabPFNTSPipeline:"
+        ],
+        [
+          335,
+          "def predict("
+        ],
+        [
+          433,
+          "def predict_df("
+        ],
+        [
+          546,
+          "def predict_fev("
+        ]
+      ]
+    },
+    {
+      "repo": "time-series-foundation-models/lag-llama",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "lines": 201,
+      "anchors": [
+        [
+          1,
+          "                                 Apache License"
+        ],
+        [
+          3,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          9,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          13,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "time-series-foundation-models/lag-llama",
+      "path": "lag_llama/gluon/estimator.py",
+      "url": "https://raw.githubusercontent.com/time-series-foundation-models/lag-llama/df7531a83a19b3c6a0222d703ca9bf59ef7a6ab9/lag_llama/gluon/estimator.py",
+      "sha256": "f82eed391ce66b15c1dbfe0d8045ff4dd52395e86127c5f85fd59f1425f76b8a",
+      "lines": 490,
+      "anchors": [
+        [
+          3,
+          "# Licensed under the Apache License, Version 2.0 (the \"License\");"
+        ],
+        [
+          4,
+          "# you may not use this file except in compliance with the License."
+        ],
+        [
+          5,
+          "# You may obtain a copy of the License at"
+        ],
+        [
+          7,
+          "#      http://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        [
+          10,
+          "# distributed under the License is distributed on an \"AS IS\" BASIS,"
+        ],
+        [
+          12,
+          "# See the License for the specific language governing permissions and"
+        ],
+        [
+          13,
+          "# limitations under the License."
+        ],
+        [
+          62,
+          "class LagLlamaEstimator(PyTorchLightningEstimator):"
+        ]
+      ]
+    },
+    {
+      "repo": "Nixtla/nixtla",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Nixtla/nixtla/5f97c758bbda8c4cfb9c557046bc4ef63fed23f0/LICENSE",
+      "sha256": "902ce49eba66ab97167b17e57e7d9b76a5b101bddde7f82df88118775bab066f",
+      "lines": 202,
+      "anchors": [
+        [
+          1,
+          "Apache License"
+        ],
+        [
+          3,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "Nixtla/nixtla",
+      "path": "nixtla/nixtla_client.py",
+      "url": "https://raw.githubusercontent.com/Nixtla/nixtla/5f97c758bbda8c4cfb9c557046bc4ef63fed23f0/nixtla/nixtla_client.py",
+      "sha256": "eb2e82b9ddf5984ce51feac1de98253555e5fbd02b5d78d373c08b27dfc9ed7c",
+      "lines": 3045,
+      "anchors": [
+        [
+          164,
+          "class NixtlaClient:"
+        ],
+        [
+          350,
+          "def _make_request("
+        ],
+        [
+          371,
+          "def _make_request_with_retries("
+        ],
+        [
+          502,
+          "def _make_partitioned_requests("
+        ],
+        [
+          560,
+          "def _make_partitioned_simulate_requests("
+        ],
+        [
+          637,
+          "def _make_client(self, **kwargs: Any) -> httpx.Client:"
+        ],
+        [
+          1040,
+          "def forecast("
+        ]
+      ]
+    },
+    {
+      "repo": "SalesforceAIResearch/uni2ts",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "SalesforceAIResearch/uni2ts",
+      "path": "src/uni2ts/model/moirai2/forecast.py",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/src/uni2ts/model/moirai2/forecast.py",
+      "sha256": "42135e3b84e7e3d0d592ae3b53543fd20ca007e595251e8ec5d067f58d3a070e",
+      "lines": 1064,
+      "anchors": [
+        [
+          2,
+          "#  SPDX-License-Identifier: Apache-2"
+        ],
+        [
+          4,
+          "#  Licensed under the Apache License, Version 2.0 (the \"License\");"
+        ],
+        [
+          5,
+          "#  you may not use this file except in compliance with the License."
+        ],
+        [
+          6,
+          "#  You may obtain a copy of the License at"
+        ],
+        [
+          8,
+          "#      http://www.apache.org/licenses/LICENSE-2.0"
+        ],
+        [
+          11,
+          "#  distributed under the License is distributed on an \"AS IS\" BASIS,"
+        ],
+        [
+          13,
+          "#  See the License for the specific language governing permissions and"
+        ],
+        [
+          14,
+          "#  limitations under the License."
+        ]
+      ]
+    },
+    {
+      "repo": "DataDog/toto",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/DataDog/toto/1d3e1c97ccf615016d38fe910602c905ae31fbb7/LICENSE",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+      "lines": 202,
+      "anchors": [
+        [
+          2,
+          "                                 Apache License"
+        ],
+        [
+          4,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "DataDog/toto",
+      "path": "toto/inference/forecaster.py",
+      "url": "https://raw.githubusercontent.com/DataDog/toto/1d3e1c97ccf615016d38fe910602c905ae31fbb7/toto/inference/forecaster.py",
+      "sha256": "5bc875915b0925cda5583bf79b21945fd7e6965667ab5bc845e6fb01acfb9ea5",
+      "lines": 543,
+      "anchors": [
+        [
+          1,
+          "# Unless explicitly stated otherwise all files in this repository are licensed under the Apache-2.0 "
+        ],
+        [
+          26,
+          "class Forecast:"
+        ],
+        [
+          56,
+          "class TotoForecaster:"
+        ],
+        [
+          104,
+          "def forecast("
+        ],
+        [
+          252,
+          "def generate_mean("
+        ],
+        [
+          350,
+          "def generate_samples("
+        ]
+      ]
+    },
+    {
+      "repo": "NX-AI/tirex-2",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NX-AI/tirex-2/6b538163a454c91aba75a0bfc9c2b77ac464be83/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "lines": 176,
+      "anchors": [
+        [
+          1,
+          "                                 Apache License"
+        ],
+        [
+          3,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          9,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          13,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "NX-AI/tirex-2",
+      "path": "src/tirex2/api_adapter/forecast.py",
+      "url": "https://raw.githubusercontent.com/NX-AI/tirex-2/6b538163a454c91aba75a0bfc9c2b77ac464be83/src/tirex2/api_adapter/forecast.py",
+      "sha256": "14ce2ebcf7db11f30637c85bbf9a977276fa80aec19db1e32f56bd79fa0a6732",
+      "lines": 586,
+      "anchors": [
+        [
+          2,
+          "# Licensed under the Apache License, Version 2.0; see LICENSE for details."
+        ],
+        [
+          70,
+          "def _predict_adaptive("
+        ],
+        [
+          312,
+          "class ForecastModel:"
+        ],
+        [
+          345,
+          "def forecast("
+        ],
+        [
+          385,
+          "def forecast_gluon("
+        ],
+        [
+          428,
+          "def forecast_df("
+        ],
+        [
+          540,
+          "def forecast_fev("
+        ]
+      ]
+    },
+    {
+      "repo": "mistralai/timestral",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/mistralai/timestral/a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "lines": 202,
+      "anchors": [
+        [
+          2,
+          "                                 Apache License"
+        ],
+        [
+          4,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "mistralai/timestral",
+      "path": "timestral/__init__.py",
+      "url": "https://raw.githubusercontent.com/mistralai/timestral/a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff/timestral/__init__.py",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "mistralai/timestral",
+      "path": "src/timestral/__init__.py",
+      "url": "https://raw.githubusercontent.com/mistralai/timestral/a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff/src/timestral/__init__.py",
+      "sha256": "46777bcb15b903f7721a3d6d91a6cb93463fc454816da238799eb8d5360e5ab5",
+      "lines": 9,
+      "anchors": []
+    },
+    {
+      "repo": "google-research/timesfm",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "lines": 202,
+      "anchors": [
+        [
+          2,
+          "                                 Apache License"
+        ],
+        [
+          4,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "google-research/timesfm",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/google-research/timesfm/e51928e27119cb17bebc005be2696b75e0a9e688/pyproject.toml",
+      "sha256": "6b67fd2ba839789ce970d3858e0385a58e7b6ab56756dc52141ca37978d1d32c",
+      "lines": 55,
+      "anchors": [
+        [
+          13,
+          "license = {text = \"Apache-2.0\"}"
+        ]
+      ]
+    },
+    {
+      "repo": "amazon-science/chronos-forecasting",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "lines": 175,
+      "anchors": [
+        [
+          2,
+          "                                 Apache License"
+        ],
+        [
+          4,
+          "                        http://www.apache.org/licenses/"
+        ],
+        [
+          10,
+          "      \"License\" shall mean the terms and conditions for use, reproduction,"
+        ],
+        [
+          14,
+          "      the copyright owner that is granting the License."
+        ]
+      ]
+    },
+    {
+      "repo": "amazon-science/chronos-forecasting",
+      "path": "pyproject.toml",
+      "url": "https://raw.githubusercontent.com/amazon-science/chronos-forecasting/1224fafa91e1ecd6674f5204066b159e40b5e4a1/pyproject.toml",
+      "sha256": "a6928789495e4d90c7abe9c97d84c03e6b2f704dbbcd73692637c30489e1ed32",
+      "lines": 81,
+      "anchors": [
+        [
+          14,
+          "license = { file = \"LICENSE\" }"
+        ],
+        [
+          26,
+          "\"License :: OSI Approved :: Apache Software License\","
+        ]
+      ]
+    },
+    {
+      "repo": "thuml/sundial-base-128m",
+      "path": "modeling_sundial.py",
+      "url": "https://huggingface.co/thuml/sundial-base-128m/resolve/3212e42564493f520593e5414af4367fc4b49226/modeling_sundial.py",
+      "sha256": "4a7ce7defa6578d0ae84593587d164afb933cfa6e52aee53f709f236b00b85e4",
+      "lines": 574,
+      "anchors": [
+        [
+          28,
+          "class SundialPatchEmbedding(nn.Module):"
+        ],
+        [
+          41,
+          "def forward(self, x):"
+        ],
+        [
+          61,
+          "class SundialRotaryEmbedding(torch.nn.Module):"
+        ],
+        [
+          89,
+          "def forward(self, x, seq_len=None):"
+        ],
+        [
+          101,
+          "class SundialAttention(nn.Module):"
+        ],
+        [
+          116,
+          "def forward("
+        ],
+        [
+          163,
+          "class SundialMLP(nn.Module):"
+        ],
+        [
+          176,
+          "def forward(self, hidden_state):"
+        ]
+      ]
+    },
+    {
+      "repo": "thuml/sundial-base-128m",
+      "path": "ts_generation_mixin.py",
+      "url": "https://huggingface.co/thuml/sundial-base-128m/resolve/3212e42564493f520593e5414af4367fc4b49226/ts_generation_mixin.py",
+      "sha256": "789577dafbd9605d4c1b2d8930ff2861277090b004b6e7ddef6011b79444942e",
+      "lines": 281,
+      "anchors": [
+        [
+          10,
+          "class TSGenerationMixin(GenerationMixin):"
+        ],
+        [
+          12,
+          "def generate("
+        ]
+      ]
+    },
+    {
+      "repo": "mistralai/Timestral-5M",
+      "path": "LICENSE",
+      "url": "https://huggingface.co/mistralai/Timestral-5M/resolve/bdd20cfc15a3fea0e4cb5ccef37f8d3ca7aa335f/LICENSE",
+      "sha256": "648194727930df730890e9f9affdbcc5c930d406d6829559b25ca3d5a973fc8c",
+      "lines": 10,
+      "anchors": [
+        [
+          1,
+          "Modified MIT License "
+        ],
+        [
+          5,
+          "Permission is hereby granted, free of charge, to any person obtaining a copy of the weights of this "
+        ],
+        [
+          8,
+          "2. You are not authorized to exercise any rights under this license if the global consolidated month"
+        ]
+      ]
+    },
+    {
+      "repo": "Prior-Labs/tabpfn_3_5",
+      "path": "LICENSE",
+      "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5/resolve/06bf2ba35c80a92a3b9abb436b99cf49e7a0365e/LICENSE",
+      "sha256": "9570fdd687bb76ed45499412ad57d6ba949848e6d731f1242572bb57f2f73ae1",
+      "lines": 63,
+      "anchors": [
+        [
+          1,
+          "TABPFN-3.5 License v1.0"
+        ],
+        [
+          5,
+          "Prior Labs GmbH (“we” or “our” or “Company”) is pleased to make available the weights, parameters an"
+        ],
+        [
+          6,
+          "By downloading, accessing, using, Distributing (as defined below), or creating a Derivative (as defi"
+        ],
+        [
+          7,
+          "This License applies only to customers who download the TABPFN-3.5 Model. For customers accessing th"
+        ],
+        [
+          8,
+          "This License is not available to consumers within the meaning of Section 13 of the German Civil Code"
+        ],
+        [
+          11,
+          "a. “Derivative” means any (i) modified version of the TABPFN-3.5 Model (including but not limited to"
+        ]
+      ]
+    },
+    {
+      "repo": "theforecastingcompany/t0-gamma",
+      "path": "config.json",
+      "url": "https://huggingface.co/theforecastingcompany/t0-gamma/resolve/e08aee083778f1f32da4974c0a34276776a35c52/config.json",
+      "sha256": "8812c71c56ed97c7e765f7381442b98d91a30804a6b8651643d3ff9fde57d942",
+      "lines": 38,
+      "anchors": []
+    },
+    {
+      "repo": "theforecastingcompany/tfc-t0",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/theforecastingcompany/tfc-t0/5896313cf7a5da5e320a9070c2aff0f8fed79747/LICENSE",
+      "sha256": "30607a248f71246288217d02dbe731764d526da9189872a22ca64101f6a8a4c6",
+      "lines": 190,
+      "anchors": [
+        [
+          1,
+          "Apache License"
+        ],
+        [
+          3,
+          "http://www.apache.org/licenses/"
+        ],
+        [
+          9,
+          "\"License\" shall mean the terms and conditions for use, reproduction,"
+        ]
+      ]
+    },
+    {
+      "repo": "theforecastingcompany/tfc-t0",
+      "path": "src/tfc_t0/pipeline.py",
+      "url": "https://raw.githubusercontent.com/theforecastingcompany/tfc-t0/5896313cf7a5da5e320a9070c2aff0f8fed79747/src/tfc_t0/pipeline.py",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "theforecastingcompany/tfc-t0",
+      "path": "src/tfc_t0/__init__.py",
+      "url": "https://raw.githubusercontent.com/theforecastingcompany/tfc-t0/5896313cf7a5da5e320a9070c2aff0f8fed79747/src/tfc_t0/__init__.py",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "DataDog/toto",
+      "path": "toto2/model.py",
+      "url": "https://raw.githubusercontent.com/DataDog/toto/1d3e1c97ccf615016d38fe910602c905ae31fbb7/toto2/model.py",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "repo": "mistralai/timestral",
+      "path": "src/timestral/forecaster.py",
+      "url": "https://raw.githubusercontent.com/mistralai/timestral/a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff/src/timestral/forecaster.py",
+      "sha256": "12a712f9be777d1e160513b7f8c81d545b991fcfe6cd4a46004a03533b7cb8fd",
+      "lines": 494,
+      "anchors": [
+        [
+          37,
+          "class Forecast:"
+        ],
+        [
+          49,
+          "def median(self) -> Tensor:"
+        ],
+        [
+          53,
+          "def quantile(self, level: float) -> Tensor:"
+        ],
+        [
+          60,
+          "def ffill_with_mask(inputs: Tensor, mask: Tensor) -> Tensor:"
+        ],
+        [
+          70,
+          "def pad_to_patch(inputs: Tensor, mask: Tensor, patch_size: int) -> tuple[Tensor, Tensor]:"
+        ],
+        [
+          80,
+          "def replace_extreme_values(x: Tensor, threshold: float, replacement: float = 0.0) -> Tensor:"
+        ],
+        [
+          84,
+          "def nonnegative_context(inputs: Tensor, observation_mask: Tensor) -> Tensor:"
+        ],
+        [
+          90,
+          "class TimestralForecaster:"
+        ]
+      ]
+    },
+    {
+      "repo": "SalesforceAIResearch/uni2ts",
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/LICENSE.txt",
+      "sha256": "f5f58eb4b77c4b1709334b97f1f04772df7e97c7863be1c0d4c639ee1a871cae",
+      "lines": 207,
+      "anchors": [
+        [
+          1,
+          "Apache License Version 2.0"
+        ],
+        [
+          6,
+          "Apache License"
+        ],
+        [
+          8,
+          "http://www.apache.org/licenses/"
+        ]
+      ]
+    },
+    {
+      "repo": "PriorLabs/tabpfn-time-series",
+      "path": "tabpfn_time_series/pipeline.py",
+      "url": "https://raw.githubusercontent.com/PriorLabs/tabpfn-time-series/258a074c4ebe74636641c61db86df99e964cc477/tabpfn_time_series/pipeline.py",
+      "sha256": "a936e422140f1ffafb2a27d5b1fa2b06151c33c25490e622f6029533b4409a63",
+      "lines": 600,
+      "anchors": [
+        [
+          204,
+          "class TabPFNTSPipeline:"
+        ],
+        [
+          245,
+          "def __init__("
+        ]
+      ]
+    },
+    {
+      "repo": "Nixtla/nixtla",
+      "path": "nixtla/nixtla_client.py",
+      "url": "https://raw.githubusercontent.com/Nixtla/nixtla/5f97c758bbda8c4cfb9c557046bc4ef63fed23f0/nixtla/nixtla_client.py",
+      "sha256": "eb2e82b9ddf5984ce51feac1de98253555e5fbd02b5d78d373c08b27dfc9ed7c",
+      "lines": 3045,
+      "anchors": []
+    },
+    {
+      "repo": "SalesforceAIResearch/uni2ts",
+      "path": "src/uni2ts/model/moirai2/forecast.py",
+      "url": "https://raw.githubusercontent.com/SalesforceAIResearch/uni2ts/cfd46d4510ed8896f263116f32928eede05b0a75/src/uni2ts/model/moirai2/forecast.py",
+      "sha256": "42135e3b84e7e3d0d592ae3b53543fd20ca007e595251e8ec5d067f58d3a070e",
+      "lines": 1064,
+      "anchors": [
+        [
+          207,
+          "def forward("
+        ]
+      ]
+    },
+    {
+      "repo": "NX-AI/tirex-2",
+      "path": "src/tirex2/api_adapter/forecast.py",
+      "url": "https://raw.githubusercontent.com/NX-AI/tirex-2/6b538163a454c91aba75a0bfc9c2b77ac464be83/src/tirex2/api_adapter/forecast.py",
+      "sha256": "14ce2ebcf7db11f30637c85bbf9a977276fa80aec19db1e32f56bd79fa0a6732",
+      "lines": 586,
+      "anchors": [
+        [
+          345,
+          "def forecast("
+        ]
+      ]
+    },
+    {
+      "repo": "google/timesfm-3.0-pytorch",
+      "path": "LICENSE",
+      "url": "https://huggingface.co/google/timesfm-3.0-pytorch/resolve/43046b85ec22d584a13f8098c2ed39c889e129c2/LICENSE",
+      "sha256": "3e36db7240d23adb6ac6d7d931892dcc5706a14a7d31581f08c35d2f25736dfd",
+      "lines": 31,
+      "anchors": [
+        [
+          1,
+          "TimesFM Non-Commercial License v1.0"
+        ],
+        [
+          7,
+          "This License applies only to individuals or entities who download the TimesFM Model. For customers a"
+        ]
+      ]
+    },
+    {
+      "repo": "theforecastingcompany/tfc-t0",
+      "path": "t0/forecaster.py",
+      "url": "https://raw.githubusercontent.com/theforecastingcompany/tfc-t0/5896313cf7a5da5e320a9070c2aff0f8fed79747/t0/forecaster.py",
+      "sha256": "b0550f7e7a6a4b022081c30e987045c1adc951eecd60b13fae510665d41648d1",
+      "ranges": {
+        "predict": [
+          115,
+          249
+        ],
+        "_forecast": [
+          251,
+          274
+        ]
+      },
+      "ast_parsed": true,
+      "anchors": [
+        [
+          249,
+          "return Forecast(quantiles=self._materialize(predictions), quantile_levels=tuple(quantile_levels))"
+        ]
+      ]
+    },
+    {
+      "repo": "theforecastingcompany/tfc-t0",
+      "path": "t0/types.py",
+      "url": "https://raw.githubusercontent.com/theforecastingcompany/tfc-t0/5896313cf7a5da5e320a9070c2aff0f8fed79747/t0/types.py",
+      "sha256": "a1f5276f1cee4b85a67d41f1b62e47836dd4998bdc0d606285d73aa87a75bd5f",
+      "ranges": {},
+      "ast_parsed": true,
+      "anchors": []
+    },
+    {
+      "repo": "DataDog/toto",
+      "path": "toto2/toto2/model.py",
+      "url": "https://raw.githubusercontent.com/DataDog/toto/1d3e1c97ccf615016d38fe910602c905ae31fbb7/toto2/toto2/model.py",
+      "sha256": "62614814939484b05aac1423d6ebf09977543fda75a53e3dadb5a54f8ec6fdbf",
+      "ranges": {
+        "Toto2Model": [
+          963,
+          1358
+        ],
+        "forecast": [
+          1153,
+          1336
+        ]
+      },
+      "ast_parsed": true,
+      "anchors": []
+    },
+    {
+      "repo": "mistralai/timestral",
+      "path": "src/timestral/forecaster.py",
+      "url": "https://raw.githubusercontent.com/mistralai/timestral/a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff/src/timestral/forecaster.py",
+      "sha256": "12a712f9be777d1e160513b7f8c81d545b991fcfe6cd4a46004a03533b7cb8fd",
+      "ranges": {
+        "Forecast": [
+          37,
+          57
+        ],
+        "TimestralForecaster": [
+          90,
+          483
+        ],
+        "from_pretrained": [
+          123,
+          142
+        ],
+        "forecast": [
+          161,
+          231
+        ]
+      },
+      "ast_parsed": true,
+      "anchors": [
+        [
+          133,
+          "local_files_only: bool = False,"
+        ],
+        [
+          138,
+          "`cache_dir`, `token` and `local_files_only` only apply to Hub repos."
+        ],
+        [
+          141,
+          "local_files_only=local_files_only)"
+        ],
+        [
+          149,
+          "def device(self) -> torch.device:"
+        ],
+        [
+          157,
+          "def supports_known_covariates(self) -> bool:"
+        ]
+      ]
+    }
+  ],
+  "prior": {
+    "timesfm": "G20 e51928e2",
+    "chronos": "P307 1224fafa"
+  }
+}

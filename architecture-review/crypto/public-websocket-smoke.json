@@ -1,0 +1,92 @@
+[
+  {
+    "venue": "Kraken",
+    "url": "wss://ws.kraken.com/v2",
+    "kind": "snapshot",
+    "received": "2026-11-06T20:39:23.666Z",
+    "server": "2026-11-06T20:38:58.152180Z",
+    "checksum": 3238313787,
+    "bytes": 848
+  },
+  {
+    "venue": "Kraken",
+    "url": "wss://ws.kraken.com/v2",
+    "kind": "update",
+    "received": "2026-11-06T20:39:23.674Z",
+    "server": "2026-11-06T20:38:58.177264Z",
+    "checksum": 1428090575,
+    "bytes": 182
+  },
+  {
+    "venue": "Kraken",
+    "url": "wss://ws.kraken.com/v2",
+    "kind": "update",
+    "received": "2026-11-06T20:39:23.674Z",
+    "server": "2026-11-06T20:38:58.178741Z",
+    "checksum": 232542694,
+    "bytes": 216
+  },
+  {
+    "venue": "Binance",
+    "url": "wss://data-stream.binance.vision/ws/btcusdt@depth",
+    "kind": "depthUpdate",
+    "received": "2026-11-06T20:39:24.613Z",
+    "server": "2026-11-06T20:38:59.014Z",
+    "first": 102443803630,
+    "last": 102443803735,
+    "levels": 51,
+    "bytes": 1729
+  },
+  {
+    "venue": "Coinbase",
+    "url": "wss://advanced-trade-ws.coinbase.com",
+    "kind": "snapshot",
+    "received": "2026-11-06T20:39:24.785Z",
+    "server": "2026-11-06T20:38:58.705016168Z",
+    "sequence": 0,
+    "levels": 39394,
+    "bytes": 4344305
+  },
+  {
+    "venue": "Coinbase",
+    "url": "wss://advanced-trade-ws.coinbase.com",
+    "kind": "update",
+    "received": "2026-11-06T20:39:24.786Z",
+    "server": "2026-11-06T20:38:58.725902116Z",
+    "sequence": 1,
+    "levels": 6,
+    "bytes": 771
+  },
+  {
+    "venue": "Coinbase",
+    "url": "wss://advanced-trade-ws.coinbase.com",
+    "kind": "update",
+    "received": "2026-11-06T20:39:24.787Z",
+    "server": "2026-11-06T20:38:58.727466782Z",
+    "sequence": 3,
+    "levels": 4,
+    "bytes": 578
+  },
+  {
+    "venue": "Binance",
+    "url": "wss://data-stream.binance.vision/ws/btcusdt@depth",
+    "kind": "depthUpdate",
+    "received": "2026-11-06T20:39:25.614Z",
+    "server": "2026-11-06T20:39:00.014Z",
+    "first": 102443803736,
+    "last": 102443804087,
+    "levels": 138,
+    "bytes": 4513
+  },
+  {
+    "venue": "Binance",
+    "url": "wss://data-stream.binance.vision/ws/btcusdt@depth",
+    "kind": "depthUpdate",
+    "received": "2026-11-06T20:39:26.612Z",
+    "server": "2026-11-06T20:39:01.014Z",
+    "first": 102443804088,
+    "last": 102443804248,
+    "levels": 73,
+    "bytes": 2433
+  }
+]

@@ -1,0 +1,1 @@
+{"pass_count": 3, "request": {"pair": "XXBTZUSD", "count": 5}, "server_ms": 1793998135000, "depth": 5, "source_sha256": "9655e40745075a2a511f550e45c5e06d0d8b30c81df11164ab6ea8e2af096312", "scope": "Exact CCXT Kraken method bodies, native public REST, helper and transport adapters, no full CCXT runtime or private calls"}

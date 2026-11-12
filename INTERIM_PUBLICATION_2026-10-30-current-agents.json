@@ -1,0 +1,34 @@
+{
+  "saved_at_utc": "2026-10-30T08:00:50.142437+00:00",
+  "status": "INTERIM_CURRENT_AGENTS_RUNNING",
+  "whole_project_complete": false,
+  "english_sha256": "b3dbbc05a7181681659e7ee4ecaa925d9e83cfb5f2defbf6a4a50cff3786c6b1",
+  "files": {
+    "RESEARCH.fa.html": {
+      "sha256": "0d7d41f769ff304830c1001b45c8b0cec4cf482b30ae33dddeebcb34db05afad",
+      "bytes": 7498631
+    },
+    "RESEARCH.fa.md": {
+      "sha256": "4c63037d9394495259a9628515739ad67302a865539af4deaf543461c0845e7f",
+      "bytes": 2008978
+    },
+    "SOURCE_REVIEW_REGISTER.json": {
+      "sha256": "48236371736f5981c41f08d2edc391b23ef18b3bcfcee8e8a16bcc96b4fe719d",
+      "bytes": 14620213
+    },
+    "SOURCE_REVIEW_REGISTER.fa.md": {
+      "sha256": "446debe1928f6fa5a46125fb8996078e9aab8121da4f61d0beab816a4acca74d",
+      "bytes": 5585254
+    },
+    "SOURCE_REVIEW_REGISTER.fa.html": {
+      "sha256": "7fac579edfae097e852d5b8c8588597edfbda0f91dc0c9c887266f8196be436b",
+      "bytes": 10603026
+    }
+  },
+  "reader_verified_offline": true,
+  "current_agent_status": "ISLP Ch10 CIFAR30epochs still running; rsims finished with environment blocker and zero simulations",
+  "zip_status": "Previous dated ZIP; final packaging deferred until current agent finishes",
+  "next_action": "Final agent report verification/integration/browser checks and ZIP; then WAIT per user instruction",
+  "latest_revision": "Ch13 observed-data wording corrected; explicit partial-execution boxes; parent22outputchecks recorded",
+  "full_block_capture_status": "Previous16file/25screenshotcapture; final recapture after current agent finishes"
+}

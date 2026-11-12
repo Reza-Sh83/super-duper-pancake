@@ -1,0 +1,1214 @@
+{
+  "updated_at_utc": "2026-10-29T05:58:40.209262+00:00",
+  "status": "ACTIVE_CHECKPOINT_ONLY",
+  "whole_project_complete": false,
+  "publication_status": "Checkpoint files do not certify English/HTML integration; delivered files require separate browser-verified publication",
+  "files": [
+    {
+      "path": "research-evidence/update-2026-10-24-books/audit_followup_20261027.py",
+      "sha256": "ca700346a4442ba860786e287078cbc777d25f055dde0a7d578af629fdfeb503",
+      "bytes": 3179
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/checkpoint_live_20261027.py",
+      "sha256": "cf187e94c028917f8e7283f2cec42225502861d48433689196ebe0c7030be5cf",
+      "bytes": 2960
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/check_social_claims_20261027.py",
+      "sha256": "0589eeb1f96fd111ec3747ef341c445145995589f03b9446ebe54cb16113b0bd",
+      "bytes": 4193
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/integrate_books_social_20261027.py",
+      "sha256": "6df7bd90011b2dea32ecee33b47a14c31cb899417a45b113f1399f85ffaf3688",
+      "bytes": 8011
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/integrate_campaign_20261027.py",
+      "sha256": "757a3b455aae286acd12e939dcd93793aa350337d04f4037bbf852132b95227f",
+      "bytes": 7435
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/resume_wallet_20261027.py",
+      "sha256": "8eb2d3a07a489d0713a91e7e4ac5abd297f192dcce8e0eb79bf415bd4063121a",
+      "bytes": 4981
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/followup-2026-10-27-campaign.json",
+      "sha256": "a0610c2ccb405a240fcb676d80e52fe502729677694df0198bb205cece594dfb",
+      "bytes": 22146
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/followup-2026-10-27-parent-audit.json",
+      "sha256": "fc8da2f60ab718bb3c2034d7aa56d4d5032f480f44d7664cffba8abe960cac6c",
+      "bytes": 1391
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/followup-2026-10-27-reading.json",
+      "sha256": "bf99e4c5062fedfb2aa13949c558b90e111f1859df573ce50f052ec9a6bf4a26",
+      "bytes": 354464
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/followup-2026-10-27-selection-chart.json",
+      "sha256": "fd1349d8e0735b26e057c79e2166c7a523a7cf8659081eb91a3c6c5c49867267",
+      "bytes": 2045
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/branch_checklist.json",
+      "sha256": "8ecfa964b43a0b888ed96c736a8849b3430cd0801945e9d7d37f84f201ede610",
+      "bytes": 1787
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter04_visual_audit.json",
+      "sha256": "e6c89b6a68113474d405540fc59d00bfffec6baff74f75aba470c51886e2dccb",
+      "bytes": 1671
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter05_count_checks.py",
+      "sha256": "a5e70e545bee075f000dae7b264db4cf8138164732ce355e8ba92b40c5b49d3f",
+      "bytes": 2726
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter06_matrix_checks.json",
+      "sha256": "17f165d651773be14d018e677ac782eb70c6ab452a880dd18b627b73a040d5cb",
+      "bytes": 812
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter06_matrix_checks.py",
+      "sha256": "9bbd0d4820b63f250654b5ca55b89a70d9ead1801d94185a42dd7d52bd5d8b2d",
+      "bytes": 3016
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter14_equation_visual_check.json",
+      "sha256": "73f57ae2c8ed8310fa22938a2e597c1ca38a2cfed81d0d002636342a696415f5",
+      "bytes": 2124
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/chapter14_equation_visual_check.md",
+      "sha256": "064c61dfca2983ae639b7a4b1ccefb7a87cfc641b589fb84d2d3a5bf5eaacbc1",
+      "bytes": 1922
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/empirical_checks.json",
+      "sha256": "e602ac802d9309c354dc2f15da25e7458c58a6487866b2b4b70fe05f8eb1a4df",
+      "bytes": 2208
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/progress.md",
+      "sha256": "cc68ae4264c4c921a269f1af372fea157dbe66c9d065e3cefaf5fc9a00c335a6",
+      "bytes": 1490
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/report.en.md",
+      "sha256": "39d2177a5a531e1b1c31922ccff33df99a7cac0d2ff6c8e75d4a402ec2ce48d2",
+      "bytes": 18716
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/report.fa.md",
+      "sha256": "a7df3b15497a81ab573a79c02ac53a274621b5ddb4ff27bff9aebac04db52cd9",
+      "bytes": 26129
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_hashes.json",
+      "sha256": "7c95c300642a79252d59c972a5fd5a5db40efba6da14eba64d2f8d918db874fe",
+      "bytes": 7372
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-frontmatter-root/ch7-check-results.json",
+      "sha256": "a1298525f192a898bab8a0e3cbfce5ef4634bfc43c6b4ad8fe62a7dcf32044b2",
+      "bytes": 4046
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-frontmatter-root/ch7.en.md",
+      "sha256": "207b4b8c4b3af6d86ea50c99f588d7da51befc4ac6ef56895367c25b0f7a30ff",
+      "bytes": 7183
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-frontmatter-root/ch7.fa.md",
+      "sha256": "b68c262a2b80d9ece58d40f8354ce18b2e63ed2602e5623d6363604ead6b1d9b",
+      "bytes": 10828
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-frontmatter-root/check_ch7.py",
+      "sha256": "62c9068cdb99241e21eb594a8ddd8892ce87ee0cd3bafdd9cac8c68fbda87270",
+      "bytes": 5967
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-frontmatter-root/evidence.json",
+      "sha256": "e8ef529e1a681c45f2b86c718e999e2d9b986a2a87d0206331ac020c32edc757",
+      "bytes": 3460
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/ch1.en.md",
+      "sha256": "81dc8e85f92df2c0a50e29a32ea3ed3e4bd573aad16b2210fed66a77f248b703",
+      "bytes": 5811
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/ch1.fa.md",
+      "sha256": "eac0ea63964c17c309cd4120244382dae08acf301a480a48e8f9aac246fbb129",
+      "bytes": 8510
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/evidence.json",
+      "sha256": "96a70e378f7b057865af0745f4c46b48efb8fad66fd81c8b0fe949b06f4282c7",
+      "bytes": 11591
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/method-transfer.en.md",
+      "sha256": "eab026bd656965e397279e8211aa3fae5241b318eefc3ce83fb685a062f43664",
+      "bytes": 3933
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/method-transfer.fa.md",
+      "sha256": "62d93f108a5f3f81049e105c2400aac8f2e1cfa02673a8502fe0df4db9b9a766",
+      "bytes": 5896
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-frontmatter-root/parent-verification-2026-10-27.json",
+      "sha256": "8e5fcc9c17131a4c77efed682842d54c5f87af21a5dc4f5c0b4a8941f3eb4fbc",
+      "bytes": 1248
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/chapter-15.en-fa.md",
+      "sha256": "6c29c2b173c05e854e8bc1dc0a9fc1081c0e29aa7efb59b0b067aa946757bbb8",
+      "bytes": 12989
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/chapter-16.en-fa.md",
+      "sha256": "4d04a80471858322250005c2b90050c4fd7cb5c377663b7d0f15940ddeb1d38e",
+      "bytes": 7353
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/chapter-17-18.en-fa.md",
+      "sha256": "5d80bffecb23b86285ce0ca5aa39786798adce87e2f6ee90382ad3103c97cdc6",
+      "bytes": 12884
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/chapter-19-22.en-fa.md",
+      "sha256": "a3789ee49cd838776f860974fefb00938c233b79cc4daeb95bdd5034cd158db1",
+      "bytes": 24759
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-105.json",
+      "sha256": "1b3ea7105ba1737ebace2d189568fd81d1d286496c4735590c70911f110cc695",
+      "bytes": 15246
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-109.json",
+      "sha256": "3fd58e52c8afe9e512afa22d6aebcef577eb3f413b13390a9de0f0d67df0ea56",
+      "bytes": 16134
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-124.json",
+      "sha256": "4b25bd2ad8251385aa30976aea2c58766611ce220cc3d050d898051578ae094d",
+      "bytes": 19464
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-135.json",
+      "sha256": "d3492bdf79480f2ae5ac65d148681b1ffaff06d775c0011f127520ed0789a5bb",
+      "bytes": 21906
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-157.json",
+      "sha256": "2f92d79b0fe32f0d7cef2d6cbe5b881b3c5dd9b9859caa0a597319a7db1d62a0",
+      "bytes": 26790
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-174.json",
+      "sha256": "a8ccb9cef2f81bfbdf761a3665c1e406d900323255909f749bfe4d42b1a16a33",
+      "bytes": 30564
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-194.json",
+      "sha256": "0a9ca1cc1108a820e215fdbb665c58aa7eef1c0b29aa8a78310c7b114a34c6de",
+      "bytes": 35004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-215.json",
+      "sha256": "16717aafbfae792a35a75442ba95c81d96c87a0bbbcb800ffa0d8060f0466b2c",
+      "bytes": 39666
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-232.json",
+      "sha256": "a90d301c85a64d3da338d73688b221ca73898b2f5fc3dae7d8c361224c26c33c",
+      "bytes": 43440
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-257.json",
+      "sha256": "2f240b41e3c30c8c41ec1f4dbf37290cc82b509ea0c0cb6a862fba7f0d1eb6ee",
+      "bytes": 48990
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-279.json",
+      "sha256": "93226384c354ffad262fb9646b4aa3d1d69987b8a129787ece2a1e3c0b7a8a17",
+      "bytes": 53874
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-315.json",
+      "sha256": "09a3a6b2450f05b0344cee457e976c7f9189550fbc067ed488b4745523578e42",
+      "bytes": 61866
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-327.json",
+      "sha256": "be16044f70be57607460092ab390754f5c7db45aeb2a8657800bef402f5f5356",
+      "bytes": 64530
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-361.json",
+      "sha256": "ddd22a076ce889e49368d9d75fd92281569abdf8b42146cd1d215d552c89f971",
+      "bytes": 72057
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-378.json",
+      "sha256": "d4ace1149cea46d651b670c64b5071e4ea1ea41afae4471870cc84714295a6e9",
+      "bytes": 75831
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-441.json",
+      "sha256": "291604ede1aeb054e9b7a17e13a880e742231fe664d6372a801056ce1eb0acb3",
+      "bytes": 89817
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-582.json",
+      "sha256": "34ebc3641cd4983f503af2ff80acf6b39ddfa99ab85fc20aebbc56f3a8e37693",
+      "bytes": 121373
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-66.json",
+      "sha256": "db83c5e3de1c9dbc3f47005ab6dba7d1b31603a73cb2ba823149ae178d3921ca",
+      "bytes": 6620
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/checkpoint-pages-38-88.json",
+      "sha256": "4d28e16f93392a8bf3c76cb8d9e451ee86a788fdc611f93c615c38861b6d31fe",
+      "bytes": 11482
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/compile_reports.py",
+      "sha256": "46144ec6e01f2158673e39627b5250bf530af258f6c20bd2f357202d8ceb62b4",
+      "bytes": 13863
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/math_checks.py",
+      "sha256": "fb854a01c0cfac7c7fdf1d2246b72933e65403f7ed41fac70162349b6a5eb164",
+      "bytes": 16800
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/reading-notes.md",
+      "sha256": "6121b3e851b8536b66ba62d54743d5b56ac4c385f2eda0702525e6b2cd441f79",
+      "bytes": 61326
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/report.en.md",
+      "sha256": "9f175b58b2798b54ac7d9c40916fb3178ad5bc8127f48a09259a66c68c389670",
+      "bytes": 88506
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/report.fa.md",
+      "sha256": "db2aba14d0f785e1c0f20dbc4b2bb8abb98913fb773154542cf600bf4be0462d",
+      "bytes": 47135
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb17-complete-2026-10-27/visual-manifest-2026-10-27.json",
+      "sha256": "5bedaff12aa583026154b1c97bebed8da69d46203125d04c8fe845b3cd690c81",
+      "bytes": 14316
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/whatif-iv-full-2026-10-25/branch_checklist.json",
+      "sha256": "fc99badab8786f602246d2e939ec912c1ab237f686fd14b9172386c701ee97c5",
+      "bytes": 3207
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/whatif-iv-full-2026-10-25/report.en.md",
+      "sha256": "aab93530e13886f097490e004ac47b462a5414e138d2f0f70dd9b561dbf81251",
+      "bytes": 4595
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/whatif-iv-full-2026-10-25/report.fa.md",
+      "sha256": "101e84382e07d5fa2d09bf0b5d4f84348c16eca45e1f5be843109422eb6afecc",
+      "bytes": 6485
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/whatif-iv-full-2026-10-25/results.json",
+      "sha256": "3ed538f0ac50e5f1933304daba4af18cd569545fcc22b3e7d8ffd7bedb412033",
+      "bytes": 8475
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/whatif-iv-full-2026-10-25/run_full_replication.py",
+      "sha256": "5a653093d2518a91642a0b1863bd66db3b0ee8580d798780c9fd70cfe7f9f9ae",
+      "bytes": 11248
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/attempts.json",
+      "sha256": "5fc2fda686ce2dd1304674f99f052c09f23fa912e88b2cfd9467badd37569a5d",
+      "bytes": 1445
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/checklist.json",
+      "sha256": "17019212caff9788027ff18a94eb0113d5af1e811860c83de9d1c86851825277",
+      "bytes": 4379
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/checksums.sha256",
+      "sha256": "ea3e123878e264c4b219a5cbbddbfd83e4afcfb19a06d8c6d44d63bab8e20f57",
+      "bytes": 3018
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/evidence.json",
+      "sha256": "54608cb94cac13683e70316fd735e016d25481597c89bc2f7dba5bf40c6c88cb",
+      "bytes": 7134
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/plot-environment.json",
+      "sha256": "c461f8c7e97b3878fa04f2381d8cdd3ab6aa828a7aab4f192ec942282339e4da",
+      "bytes": 2443
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/render_book_plots.py",
+      "sha256": "90465e050e407bdbf93f97a99435fea54bfbcba3932d5a83372f4a2562bbfc52",
+      "bytes": 6598
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/REPORT.en.md",
+      "sha256": "80d33ca7bf2f9bf9c5306bffaa6fbf16378e59c189451ff55f55123a3cfc5aa6",
+      "bytes": 9573
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/REPORT.fa.md",
+      "sha256": "53db7aa0dd225b8bf7311d52e299afd612f4de243bce84cabce62ce81477e6d5",
+      "bytes": 14400
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/run.ps1",
+      "sha256": "961ce387fe752701402f7e5de1d95f432e8a331c6827063169458c188cd59f99",
+      "bytes": 657
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-selection-2026-10-25/run_ch6_lab.py",
+      "sha256": "caa2faae8a87e1c315a309a9e7b2681163cb43ed265540e5fb8655644c3c9ccf",
+      "bytes": 16874
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/all-notebook-execution-pass-02.json",
+      "sha256": "304295e323a42a634461331f3e3435b0c5ea99e7ea4ce8a8c8f3c2aa43fce402",
+      "bytes": 78873
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/all-notebook-execution-summary.json",
+      "sha256": "ce543a25bf4d06bd46e80ec57553521d06c870e229b677f0c325668c4c6e2c96",
+      "bytes": 120673
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/attempt-01-failure.json",
+      "sha256": "aeddf3ac94ab312207248740a72f53e42f357d1bd474c335d0c61b4a6f30bc0c",
+      "bytes": 480
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/build_checklist.py",
+      "sha256": "6b061d952eb5067b8d53956854d07c710c089b7f726dbbdf4f122a30b677d821",
+      "bytes": 2422
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/checksums.sha256",
+      "sha256": "ad080b3ec8db14a7236ec42f76cdddf26e0cc820068eaf8f1c8dbcbd2dbac844",
+      "bytes": 26177
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/compatibility-retry-results.json",
+      "sha256": "4d9def67842e4d4087dde7493ffc9f0ea19be7af40909ad602f6d095e1a3114f",
+      "bytes": 732
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/extract_saved_outputs.py",
+      "sha256": "c81b4077d6529ecfe621aa7531f4065cbc15ab5eed21b3da26e36e563599991f",
+      "bytes": 2719
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/final-cell-ledger.json",
+      "sha256": "79b5a187876117c94b0e9d360657e37deb29e9502685e096cb2d512ccf1fd426",
+      "bytes": 12132
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/index_notebook_cells.py",
+      "sha256": "8d8d8d7f6f1a74468cca7d092d880a4668d01416537c03bcc99f895274e1ac3a",
+      "bytes": 934
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/inventory_outputs.py",
+      "sha256": "e0841f0129432c2906ea88a1d40e23e51f58119cb645c642abca203661af73b4",
+      "bytes": 1172
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/notebook-cell-output-checklist.json",
+      "sha256": "3e6f709cb6b57d0a67c0e7f81e8c9d30721d065e6f616daeb97e084162e21325",
+      "bytes": 52486
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/replay-results.json",
+      "sha256": "cb8811448cb9f3f3376689dc89d2fc2d3d0bcdcab0ec5576c9e912f201df39cb",
+      "bytes": 7551
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/REPORT.en.md",
+      "sha256": "eb687a79a391d0bac9329f5835acb2f815a050860c1213fd7f54c431f341f498",
+      "bytes": 4371
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/REPORT.fa.md",
+      "sha256": "6b514ed9b932e9e408f8e88087da155a550d745b860ef7081ee286f23c6541df",
+      "bytes": 6311
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/retry_failed_notebooks.py",
+      "sha256": "1e543c8d66e2d160be43a133f84279769c942c86361d8ac1c616545564525fac",
+      "bytes": 1194
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/run_all_notebook_cells.py",
+      "sha256": "a4dcad16a0ca525fe15828c7de99d780936b5a8cff82fe3a90f1fcf740b22579",
+      "bytes": 14096
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/run_liquidation_replay.py",
+      "sha256": "ccda22c3f9bbc4b3e7161a89b4f67a2d450f273944f504e41428c8a7df3e3a9e",
+      "bytes": 9773
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/saved-output-inventory.json",
+      "sha256": "7e1ddf2d12b6a2b4382d865a5ca1cab3c7269d2f3b5d438d513a36b28fa0dbbc",
+      "bytes": 41259
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/show_liquidation_source.py",
+      "sha256": "0fb6f6af4e03bb4f2e7cc1fe99172b370c878bf336792a4cdef279159c8c4618",
+      "bytes": 524
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/verify_hashes.py",
+      "sha256": "8795fb975929520e942dadc6f33272db4fece7e1d4bd17dba3f336a508277ea1",
+      "bytes": 400
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/cartea-replay-2026-10-25/write_attempt.py",
+      "sha256": "d00f737fa8a77d8ffd05327bdfdc0c72a1823341195ed7fe74ac108885f4ccae",
+      "bytes": 711
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/lb02.en.md",
+      "sha256": "89410290416fbba8b1c299e490a496a970692dae5818c99d82ed875dced08fe3",
+      "bytes": 26043
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/lb02.fa.md",
+      "sha256": "1b77697d546ccfea7b730cc2bde88d1926deadcc3a195a3f60002ca15d8628e9",
+      "bytes": 37093
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/lb17.en.md",
+      "sha256": "a5830ed443475a5e7b1a9803abeceb9225612b811877626cbe813a347ceebd85",
+      "bytes": 97912
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/lb17.fa.md",
+      "sha256": "2207021c6afafcc9c30062e7a1505ccc362f43a9e3cd1fb1392dfd77d7cc3a08",
+      "bytes": 61635
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/remaining-visuals.en.md",
+      "sha256": "b238a591a91cb852676a1776889efd35598967c450924d8ec905c6ee4b110e4f",
+      "bytes": 21162
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/remaining-visuals.fa.md",
+      "sha256": "5f9a41d1c9d61c6886426918d6846a29a321fbb04938c7fe7ad0bc9232eba8f9",
+      "bytes": 32622
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/social-maintext.en.md",
+      "sha256": "43158a7645f64cadf84ab2c41375b70f74766ee8201b9e6796ec29094d3b9cf9",
+      "bytes": 9619
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/publication-campaign/social-maintext.fa.md",
+      "sha256": "e694d8c5d930ed4bb4ae47f24814ff423498b4901f3129abae0418bcfbb51561",
+      "bytes": 13220
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-maintext-2026-10-27/report.en.md",
+      "sha256": "ffb6be512796b910c5920078113116404341e1adc157f474e92a7551a9903048",
+      "bytes": 8042
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-maintext-2026-10-27/report.fa.md",
+      "sha256": "9e71856d08833748e64c9da93795d7ee12c346c31cbc6e922169341b8600a55b",
+      "bytes": 11643
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-maintext-2026-10-27/results.json",
+      "sha256": "e6d10fd05db9e9c85543310509ac41b08346bf73205f34ea3c6d62f98c8b899a",
+      "bytes": 20873
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/access_attempts.json",
+      "sha256": "4c2697a9130d1dc5813aa0116116a28eeec31f0fa46b7454b7ffa969f481b883",
+      "bytes": 11261
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/no_trade_output_arithmetic.json",
+      "sha256": "f09ed27ccdbe1751530f7ea795257d923f51507818a18e9d4cba35a20292cebf",
+      "bytes": 1094
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/no_trade_source_manifest.json",
+      "sha256": "573f4d62b361d19dfa0be895f09b15fc0068f2e62e4fba083cd0a3ed15fcad58",
+      "bytes": 2669
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/O03_syndication_response.json",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "bytes": 2
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/prior_access_routes.json",
+      "sha256": "a3fc68d009c1f39ec37510b26ab197f4a21a7f565d13327289489edb424a78ab",
+      "bytes": 5293
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/progress.md",
+      "sha256": "994f607e1176ebe76482b789c4a44db5f20fb325013b4e627ab8cdecae3b6fc9",
+      "bytes": 3370
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/social-access-review.en.md",
+      "sha256": "cdddda8d3c49f637b64824989f277ef33a36852bdcae1276df4a1e949df32d9b",
+      "bytes": 7500
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/social-access-review.fa.md",
+      "sha256": "24ddb95d1be199e768aede633c315e323effde61e0898aafa18fbb91414be937",
+      "bytes": 10485
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/social-access-2026-10-27/source_access_audit.json",
+      "sha256": "b1e105433641f49f2cb53cd76c6fe3cf8c7bd5bf960a2bdb2c100dd119a25053",
+      "bytes": 55233
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/wallet-resume-2026-10-27/continuation-integrity-2026-10-29.json",
+      "sha256": "31a392192b57d48c657e88c649998356113a1d1042fbac3f393ba20820fdbf87",
+      "bytes": 273
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/wallet-resume-2026-10-27/continuation-state.json",
+      "sha256": "a84ca2aeafcc6cba740dcc9fc3db4d985ab4e5900d246734fb60e99ecd99c819",
+      "bytes": 342100
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/wallet-resume-2026-10-27/first-resumed-response.json",
+      "sha256": "30539381dbca9d3e5fa702aa70306e8b9206edd9d188a0e694331b716acf8020",
+      "bytes": 825183
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/wallet-resume-2026-10-27/resume-probe.json",
+      "sha256": "cdf8d5b8e4c25b6fba3b27a640601340fa3b212c675b3267a5c61ba81ffe11ea",
+      "bytes": 711
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/build_figure_ledger.py",
+      "sha256": "77d7a3f86690ff19c4359ea7721906ffd5b960960c49b390e15ad8bc47771c5f",
+      "bytes": 3511
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/ch2_error_classification.json",
+      "sha256": "4cf11f822a7f4c6ebb48c62974adac26ae600d1bd098f2bd6c4f70a8ad3330ec",
+      "bytes": 2376
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/execution_summary.md",
+      "sha256": "917b2b02bf6c09df1e20e7b4a43a8555e9bdcb517e7c9f33d82bd9b7fdf257ea",
+      "bytes": 9121
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/inventory.json",
+      "sha256": "8639a3d8c6ee1310bae7564966836a1655e2b07bbefa8e2bbec8fbdcf3ecaf72",
+      "bytes": 7831
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/progress.md",
+      "sha256": "cc3cf830e47b224a9b4dca400af177bf8a4d04dab528946385b55eeb232a4b20",
+      "bytes": 2865
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/run_chapter.py",
+      "sha256": "61c42aaba1f443e2e6380d7d83bcdf52d6ce3d7b903e2423c0657cfad921fe4f",
+      "bytes": 9030
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/source_cell_inventory.json",
+      "sha256": "32dfbe4e49db2ea20ba120c5c6f6ad75a0785dc7b4b6cea61e69e92150038c89",
+      "bytes": 401243
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/source_crosswalk.json",
+      "sha256": "48ed80a09aa912345374b48c39db9971fc259afee4fa77711723bd5baa10a9ed",
+      "bytes": 5828
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/bootcheck.py",
+      "sha256": "7694eda4580c4b8450a9e3a1121365d21c35b8348ae53373ad0b8816088d040f",
+      "bytes": 788
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/run-plan.md",
+      "sha256": "1b115797773f721d1b6545db59194f70bc94f91aa9ca842cbc2a50720ada041a",
+      "bytes": 3255
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/run_labs.py",
+      "sha256": "c2c3fd61fc38098a70663a253d7840ce50763698afbec274756c0bc1f6b622d1",
+      "bytes": 10162
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/source-inventory-v2.json",
+      "sha256": "f8d3298f5a922097439a481c04798803f5197960ce805df4c8f19e672f28ca0c",
+      "bytes": 89565
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/v1-v2-crosswalk.json",
+      "sha256": "6b16ba3bb9c97a0266cf5101a93e5db06ff7e1ac811b24b7e1edce66c3d72ae0",
+      "bytes": 10405
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/v1-v2-crosswalk.md",
+      "sha256": "3c835368020fe4b24123a84c368a577bf0b1214f3b827377b6d1aa1533645d2c",
+      "bytes": 4305
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/aldridge/all-pages-ledger.json",
+      "sha256": "2291f97aeeed07135678c87d82a6e991e8af993fad893ce139b06140dcae0a93",
+      "bytes": 254452
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/aldridge/checksums.json",
+      "sha256": "9171eca3248a6ffcdb8e41734732e9742ea1fe5d04b3f979954be7f82ceb60d5",
+      "bytes": 261
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/aldridge/visual-review.en.md",
+      "sha256": "e8e9169102688304781e7f83194d57f4114efd5059390e230c7cdd233d19908f",
+      "bytes": 3908
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/aldridge/visual-review.fa.md",
+      "sha256": "4f340cea6786fac1149ef1b38ce3ddeaab1c167e8f9e94bbd42731b8a480ab97",
+      "bytes": 5975
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/checkpoint.py",
+      "sha256": "75f2cf957a178af6463dc1c58bde789b338152a61138bcf2b26d05148604c18f",
+      "bytes": 4752
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/full-book-visual-ledger.json",
+      "sha256": "4acc1e0b87b6dd784a5636f0839d012b4cb469ea7483bbbfdb882e4302a6605d",
+      "bytes": 177811
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/render_targets.py",
+      "sha256": "1990d8c7672cdcbe399b0470be72d12270e2c3402473eea15376d592d76a91bd",
+      "bytes": 1284
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/target-pages.json",
+      "sha256": "2bbac302da64e38e3e6a663123f6795106b7118dbe291f5320b83fd36a3d6eb4",
+      "bytes": 48948
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/visual-manifest.checkpoint.json",
+      "sha256": "cbfaa104e3c72471628d3b8eaf62fd940497930a88775c435527a404273da41e",
+      "bytes": 81007
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/visual-review.checkpoint.en.md",
+      "sha256": "cf9de9a01f3ee51f70d2a96444535fef0a6e3e070239395fab545b53df200a7a",
+      "bytes": 2936
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/glenberg/visual-review.checkpoint.fa.md",
+      "sha256": "cfa12816ce972edb7413c3a06a181581e3468070dcaa17a5ac03e179d9fcf1f5",
+      "bytes": 4752
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/lb09/page-ledger.json",
+      "sha256": "40ac50eeee874050de7d0c2bec3e9a49fa9ad07d033f13edc8c21d675352a033",
+      "bytes": 8901
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/lb09/REPORT.en.md",
+      "sha256": "84c1753c0d78e4e773da1560c066757622b59d59118d63091b9c00418afb7631",
+      "bytes": 2665
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/lb09/REPORT.fa.md",
+      "sha256": "468a0661b5474466bd08f15d60dc5c9f9c23534a342813bc25ec4a2b1ebc6a2c",
+      "bytes": 3997
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/pinheiro/all-pages-ledger.json",
+      "sha256": "576993a98373b0b5ab91ccb064f44f1282614a6e692271fb8fbc5ccba99a011d",
+      "bytes": 84054
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/pinheiro/page-plan.json",
+      "sha256": "f7e301f456209811631cf1f2accc7a65466a4c2f2359e47d7178d862377c4e42",
+      "bytes": 47202
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/pinheiro/REPORT.en.md",
+      "sha256": "d6a046f4edcecb29dfdcbd4158310c4b76e12b560ce40da7261d144b18f48ccd",
+      "bytes": 4808
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/pinheiro/REPORT.fa.md",
+      "sha256": "550004e1d8c8dd3587de59338ebd39f3869c6a12ac116df7eebafe0bc8a875b6",
+      "bytes": 7568
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/pinheiro/visual-evidence-manifest.json",
+      "sha256": "2a7175a5670a7c645a687d36af3f4989502fb5cca8ecdf960f9767fc1f8b6a94",
+      "bytes": 22408
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/quantinsti/all-pages-ledger.json",
+      "sha256": "a6a3b593ac031fae531406f1dc6f1464b2434dfcb2e47b1445f9ca9b1313955a",
+      "bytes": 145230
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/quantinsti/visual-review.en.md",
+      "sha256": "efd8ca6aa79605de1a523dda35d57a3498b241ce491c1f3c4fe202fbd08ad2fc",
+      "bytes": 6230
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/quantinsti/visual-review.fa.md",
+      "sha256": "6ac6256eae0ffc3eadf1c4dad8a74d60746ff59908d9c95dd1b1b968e7afee1d",
+      "bytes": 9380
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/rosenbaum/all-pages-ledger.json",
+      "sha256": "0948b585b59c93eeca2a887ae006e0fd54e300bf497aea0f91994a5b355718fa",
+      "bytes": 47374
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/rosenbaum/visual-review.checkpoint.en.md",
+      "sha256": "a2dd7b7e1e8f4ad6f90c27d2eeb50477f7719d298ca21ca70fffcb5c17c2e975",
+      "bytes": 1603
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/rosenbaum/visual-review.checkpoint.fa.md",
+      "sha256": "e052e8a405677b1f16dfd62c85e5ea00ae8f59a6e441af680e5bf5c5f0807cfd",
+      "bytes": 2636
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/rosenbaum/visual-review.en.md",
+      "sha256": "65bb6159c786f0f28f9b75108b75c845822c4e87dca0774312a02ff035adf8c8",
+      "bytes": 2842
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/remaining-book-visuals-2026-10-27/rosenbaum/visual-review.fa.md",
+      "sha256": "47bd455240311c09d459048813114266b3396898afbcd1580f3d51ff1daa2cc7",
+      "bytes": 4652
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-06-chapter01.md",
+      "sha256": "62df0d3a034eee397ebce7ff59f642c35d4178040ca7078b601edd3cb1350342",
+      "bytes": 2403
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-07-chapter02.md",
+      "sha256": "ef51affcbf46424904a89b731318da8f69c676fe365a5ef276842ed7ee72f444",
+      "bytes": 3102
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-08-chapter03.md",
+      "sha256": "dffbb657a88bb0db0a11e5609ed6c6368995420beb17ec93787b8a292f982156",
+      "bytes": 3054
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-09-chapter04.md",
+      "sha256": "1fbdbd9dd1dde0e848efc8357a5690c88fcf80d2fc6e13a14549ce9faf4cddc5",
+      "bytes": 3682
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-10-chapter05.md",
+      "sha256": "94aad2b34fca1039f5e1a273be2576ce86f13925f58ffc156dbbbd281e69c2fc",
+      "bytes": 4941
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-11-chapter06.md",
+      "sha256": "53c35e31cc0f4c31e3f23e6e66b9998e388cb386d480610a53aff60f40626e90",
+      "bytes": 3517
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-13-chapter08.md",
+      "sha256": "a96c6228786897e3e51623d3eb3bcaacbf0a456a1b41800fbf1499bdb6e2335c",
+      "bytes": 5227
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-14-chapter09.md",
+      "sha256": "91585ddfea3cb78f60318022d635f056feae876d5140b4cf232cd70d786f794b",
+      "bytes": 2185
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-15-chapter10.md",
+      "sha256": "ff9315d2a5815734a11b6c04c5717ca72129941331ee02a393cbc6db7489ecbd",
+      "bytes": 2019
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-16-chapter11.md",
+      "sha256": "b496abc532ff09c3c8c2e1506d1141a96e8f0c6d164279e4b8a5d0fbcf7ae175",
+      "bytes": 3098
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-17-chapter12.md",
+      "sha256": "a4deba905614ec6ae2a035d6d71a6215cf0ba211c9febf19f80ccb0a84242509",
+      "bytes": 2170
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-18-chapter13.md",
+      "sha256": "d6947562bd06d658bcdea757f52a99fcd73c9b9bdb67954602488e7b57527044",
+      "bytes": 2763
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-19-chapter14.md",
+      "sha256": "194e18ddabd3d629c9742dcacb2370b78af731f38a358ae3577288b83b2fd3f2",
+      "bytes": 4364
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-20-references.md",
+      "sha256": "dda21f24d4c150630ec3334088315bb80ee4dc8691db2517003475886a6168b2",
+      "bytes": 781
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/lb02-complete-2026-10-25/unit_notes/unit-21-contributors.md",
+      "sha256": "d38a60cf187e918c6df04152a249eff7de355cb2f5789cd17e1df67c79a1323d",
+      "bytes": 530
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2-attempt11.json",
+      "sha256": "9c8353b044729c5329143dba668c05523b70763cb0b97f16eb5795a5436d2486",
+      "bytes": 147981
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2-attempt2.json",
+      "sha256": "00f9bb2afbcc2ef8777a134692ff7c5fa08c22c479aa1170f63d921063683e5f",
+      "bytes": 6060
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2-attempt3.json",
+      "sha256": "51533e5b2729e76fdc3782fc365888a1fb4807a0a4a41faf182a5c024ba2086c",
+      "bytes": 79429
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2-attempt4.json",
+      "sha256": "6ef26bc8fe712897db66d6838ce266dac376c3eab94eb456e6b1931efc9c1dfd",
+      "bytes": 81849
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2-attempt8.json",
+      "sha256": "e5c232196fe9e9863958135b40ec88e240842b8ab3971945068af999f8348207",
+      "bytes": 81816
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch2.json",
+      "sha256": "48e0127a410291dbc1b86e4b32064c83fe38e33b1ff11c23a88f2fde1e195dc8",
+      "bytes": 13778
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch3-attempt11.json",
+      "sha256": "9b572300462eb9795ede75d066b13fd785297e0987e19f883419453a3bac25bd",
+      "bytes": 52358
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch3-attempt5.json",
+      "sha256": "b9496668b0ece23597bc050e7d6aa66784305bb6fe93ee66ce50368f0ffca491",
+      "bytes": 36958
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch3-attempt6.json",
+      "sha256": "8711ed87dcb2caaa6568546d124977608daf3dd91b2209cc5d8eeca57503a3d9",
+      "bytes": 22608
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch3-attempt8.json",
+      "sha256": "e570d21607492976b379d270da0872b08badd3e337063a57b50bb0dea613e562",
+      "bytes": 45426
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch3-attempt9.json",
+      "sha256": "4341dd813e58c5c30739512cee7438250b13ef08da975f60b8df4be9f036e9ec",
+      "bytes": 22553
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch4-attempt11.json",
+      "sha256": "d5321fbef8381ae4be4c40c69591d6d4c75c8035cd5e4c941a055061e40b319b",
+      "bytes": 143051
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch4-attempt6.json",
+      "sha256": "2982e4f9f70d82a880e3af9220144c724a9e71191ca7e44a9d43fdaac95ed138",
+      "bytes": 70507
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch4-attempt7.json",
+      "sha256": "d87404dae0b83405b422a8451e3617cf2136788e3fb8d1f42d5f65879487c8a9",
+      "bytes": 68901
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch5-attempt7.json",
+      "sha256": "c5f9b582408eb53c63f628ee1d6e3f15c21ef3deabe5b272b86fea5658b125f5",
+      "bytes": 11559
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch6-attempt7.json",
+      "sha256": "8f77595e06dfd892432c579d654d3e76e3dd0331fc0c8f3f146d3ee2af76951b",
+      "bytes": 44502
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch7-attempt10.json",
+      "sha256": "351efa952da6f091ff38e86f5132e500e8f9dbb582656bd21e54ecaf1ea7e9cd",
+      "bytes": 40339
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch7-attempt11.json",
+      "sha256": "d9363668fd23b974eb0985d74a030a4646113600675b5adcafecf7acbdea8f53",
+      "bytes": 106220
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch7-attempt9.json",
+      "sha256": "37a0f630cec7dd056126328787cc0c9558b0f677aa0550e01ffe2fa9705b2892",
+      "bytes": 56728
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch8-attempt10.json",
+      "sha256": "d4ee2a32163fb4712a21f7a500270c86712cf2187b9b1b91564bbc4334ae7379",
+      "bytes": 28443
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/checkpoints/ch8-attempt11.json",
+      "sha256": "a7bf752e50a010de859b142ed33651c3e9a3c2383927201756c6afb8a5c4756c",
+      "bytes": 84281
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/figure_qa/figure_ledger.json",
+      "sha256": "edc06ee3f01bf36f944162fb084fff7c9d979b6158d89b0de7a618bb53a73cc1",
+      "bytes": 93314
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/inputs/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/mplconfig/fontlist-v390.json",
+      "sha256": "00ff125e50e1f1086dc58229abf2286371f3c9f7508a1fe9290af43257b1cfe1",
+      "bytes": 223103
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2/execution.log",
+      "sha256": "1333066eef8c1b6443046f7c61770e537efc6cb586e7fb3c5a424c25d7cc3978",
+      "bytes": 6656
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt11/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt11/execution.log",
+      "sha256": "217f065782ccccf1efb7950c6027ada520c392f40dbb76068980700c7ac6441b",
+      "bytes": 67577
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt2/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt2/execution.log",
+      "sha256": "97e48f745ec1258f774dc971fad0ad358517aa5d63630bdafe426fb3bb5cb434",
+      "bytes": 766
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt3/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt3/execution.log",
+      "sha256": "da0238893a4eaa9dbe27a215190be26cbbe71940e832fb13ebccdf707e1ef86c",
+      "bytes": 10186
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt4/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt4/execution.log",
+      "sha256": "4ac10257d24afca99926de683a6aec358efb84822b7149de222e54a8f94f06a3",
+      "bytes": 10849
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt8/Auto.csv",
+      "sha256": "387b35512e265608328881d7299f768f8010e21d27acd53e5a07456ea9ee3ff7",
+      "bytes": 19004
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch2-attempt8/execution.log",
+      "sha256": "5f2edfca0eb9bad0fc55ae0d00fbd2b05444d7727f3d5437bb574379f72ef905",
+      "bytes": 10802
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch3-attempt11/execution.log",
+      "sha256": "9691d915031500db2df376189651a9e1b804cce637980fda82502c05838f4b06",
+      "bytes": 72487
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch3-attempt5/execution.log",
+      "sha256": "0699b7ab2d8b6d6c14c921079b01a5915b0b1b43e20c19183a1fb1f735cf0acf",
+      "bytes": 34952
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch3-attempt6/execution.log",
+      "sha256": "be78d59540886e5888a855076ef567bf1c49998ac53798fcf8180efe1b131b63",
+      "bytes": 54161
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch3-attempt8/execution.log",
+      "sha256": "3ffbd41d2c21839f82d6e38810270a9b52131947dddcef855579e1b4286d1bcc",
+      "bytes": 145035
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch3-attempt9/execution.log",
+      "sha256": "73b2dfe53835e39edefebdc9fe09bc9b08c9ab7193bc1aa3f2228222e2f6182e",
+      "bytes": 54146
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch4-attempt11/execution.log",
+      "sha256": "c62671bb5b2860b8161540e40c7b6ddefbd4dff91179b422621520d4c3e573a1",
+      "bytes": 60658
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch4-attempt6/execution.log",
+      "sha256": "19f48c54528592e13a76fdec16c0cefeb91e09c66d1b233b2b3203bbc310d6bc",
+      "bytes": 41243
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch4-attempt7/execution.log",
+      "sha256": "b1173150db14467cf0b7507e9420ccfc82e2f3a029a22bd6e01664cf4dd5a450",
+      "bytes": 35690
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch5-attempt7/execution.log",
+      "sha256": "98f43da9ff3f3737e7b57d0880e3bb50aa6741ca71307e1c0e189ce0cc5f523f",
+      "bytes": 9394714
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch6-attempt7/execution.log",
+      "sha256": "f253a3be318eb0a350c084e83ec47f5acdf7c48b9e05cb82c3b5d0e0bb43db17",
+      "bytes": 1633355
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch7-attempt10/execution.log",
+      "sha256": "a23d7231a58d2dc8f5be6d6a41adde9147cde11c67a27eded117f11af33eb9cf",
+      "bytes": 90643
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch7-attempt11/execution.log",
+      "sha256": "16117160a2d4a5ef97e02c959b0c36143a52c07b5c81a6395eeaf56336d92405",
+      "bytes": 104278
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch7-attempt9/execution.log",
+      "sha256": "4d558afb070351b63e2aadeb99e42d76baf549fa6304b5b3cdcaef8d917fd9aa",
+      "bytes": 94902
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch8-attempt10/execution.log",
+      "sha256": "aebcb0eaa5379371eafd29f42de8faebf8a20b9b600b6899ea2939a6bf6ff342",
+      "bytes": 17327
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-remaining-labs-2026-10-27/runs/ch8-attempt11/execution.log",
+      "sha256": "b4f035aa7738175501db483fa0a7526322c1be4a50404efb5cb1a2983b600891",
+      "bytes": 36631
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/checkpoints/ch12-v1-full.json",
+      "sha256": "2b0543e1d6905420009ea00c104a216e3905832ba6efd13ff7244cfcb1b5990f",
+      "bytes": 116387
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/checkpoints/ch13-v1-full-scipy114.json",
+      "sha256": "9e789e1ae780165f199a5c6ce48ed69015bfb0a0bb9d17050d90c41b645c5bc1",
+      "bytes": 97989
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/checkpoints/ch13-v1-full.json",
+      "sha256": "dc4d690be20f4968185bdb7a8f06c01ef2d7bf5fc5dec861bf55a676ba53a60d",
+      "bytes": 49722
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/checkpoints/ch9-v1-full.json",
+      "sha256": "c27367165ffd59c89a5af8ac33be4244b7f0c51414925ed697d46a24e7e982b7",
+      "bytes": 65967
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/mplconfig/fontlist-v390.json",
+      "sha256": "5f2c8cd7f0cf353347dd4f8b2aadd4d4306ab6374c35d51746d3017931f7ce6c",
+      "bytes": 223103
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/runs/ch12-v1-full/execution.log",
+      "sha256": "ba068086299495dc4923cd7c0a9eb339148b0bf6ea369a313f19ca8fed7c85a6",
+      "bytes": 41358
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/runs/ch13-v1-full/execution.log",
+      "sha256": "da633f10597389dfe1b97ee1bf9bb5cb691061b807af5220a38b060124a67782",
+      "bytes": 26527
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/runs/ch13-v1-full-scipy114/execution.log",
+      "sha256": "45e512a2498d8fbf63a0aebe69616cee749e648b1936b7dc9dcd186e4d125484",
+      "bytes": 5023
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/runs/ch9-v1-full/execution.log",
+      "sha256": "60f4ce9979aeb66869e49e8d9af37102fc6b0f53554492ce6aed451409db8ba1",
+      "bytes": 6855
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/checkpoint_live_20261029.py",
+      "sha256": "6ea2796a9e9738464b77f72645381eaf6fc65c5f592cc482c9deed70b6837deb",
+      "bytes": 3549
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/integrate_visuals_20261029.py",
+      "sha256": "dabe9dc699e81cd6a85841e7931611e2bb32b5adda033d8317d0c4594bf788de",
+      "bytes": 6474
+    },
+    {
+      "path": "research-evidence/update-2026-10-24-books/followup-2026-10-29-visual-integration.json",
+      "sha256": "f41fe2f95e724b3e5fe346a3a391c1d98ad92a5a9b4a04667b42873a890aaa01",
+      "bytes": 658948
+    }
+  ],
+  "active_state": "ACTIVE_RESEARCH_STATE_2026-10-29.json"
+}

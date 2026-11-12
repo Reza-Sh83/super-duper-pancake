@@ -1,0 +1,3364 @@
+{
+  "method": "One record per supplied URL; first-pass identity/registry triage, not new full code review.",
+  "unique": 332,
+  "records": [
+    {
+      "id": "G01",
+      "repo": "firefly-iii/firefly-iii",
+      "commit": "d65e916130c91d8f13ca808ca088d225ddd9a939",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 9813,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "G02",
+      "repo": "huseinzol05/Stock-Prediction-Models",
+      "commit": "33266732b0b16188b565e0aeb6b24efa71161f6a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 9887,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "G03",
+      "repo": "stocksharp/stocksharp",
+      "commit": "455717557a9d1bcfb40fc4172ac811b3cd0a2aff",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 9935,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G04",
+      "repo": "morluto/rea",
+      "commit": "675d4076de1af5052f01709a9cf4cdf0cc3e2c67",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 9981,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "G05",
+      "repo": "kernc/backtesting.py",
+      "commit": "ca2e2611621e472542ba90f7243a1fa06a7d7108",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10044,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G06",
+      "repo": "yutiansut/qaaccount-rs",
+      "commit": "4d4399bacf08bb286f98e181602cca104eb14a1f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10096,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "G07",
+      "repo": "tauricresearch/tradingagents",
+      "commit": "c4544913a14ed3df5f1ed7b9e8483270ce20682a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10152,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G08",
+      "repo": "virattt/ai-hedge-fund",
+      "commit": "b33175caa1289e180b535d663c89b7a0c04b4726",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10193,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G09",
+      "repo": "freqtrade/freqtrade",
+      "commit": "7fea5ea24b3c3193cfdd4143b243f7baab66d661",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10234,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G10",
+      "repo": "shiyu-coder/Kronos",
+      "commit": "67b630e67f6a18c9e9be918d9b4337c960db1e9a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10290,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G11",
+      "repo": "google/ax",
+      "commit": "7c0d85b7bde239aab049dad23ecdba86fca8a4be",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10333,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "G12",
+      "repo": "goldmansachs/gs-quant",
+      "commit": "ae7eb6b3fd1f50ce3f5128a4c935e9adf885a74f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10398,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "G13",
+      "repo": "quantopian/alphalens",
+      "commit": "77084f1e4c2c0be407e032d444fb19e4be4b0f37",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10458,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "G14",
+      "repo": "man-group/arcticdb",
+      "commit": "96bc048942f6041909db3d39dacd1c55cbad1ff7",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10526,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G15",
+      "repo": "microsoft/qlib",
+      "commit": "54355232463878d2eebb91fe0ee5fa7fa1f5976c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10593,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G16",
+      "repo": "quantopian/zipline",
+      "commit": "014f1fc339dc8b7671d29be2d85ce57d3daec343",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10634,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G17",
+      "repo": "microsoft/rd-agent",
+      "commit": "484776c211e4fbbeef03e0ec00d6bbee7362a4f4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10671,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "G18",
+      "repo": "stefan-jansen/machine-learning-for-trading",
+      "commit": "a4e1d50cad8e4284128ce3fa4963d12be8dc0885",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10713,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "G19",
+      "repo": "ZhuLinsen/daily_stock_analysis",
+      "commit": "4e6226430b76124e5f43b19201fc6338a62f5e1d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10755,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "G20",
+      "repo": "google-research/timesfm",
+      "commit": "e51928e27119cb17bebc005be2696b75e0a9e688",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10823,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G21",
+      "repo": "openbq-org/OpenBB",
+      "commit": "7df7d0c5592bf25be88e87e130a05c71e243d2d8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10860,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G22",
+      "repo": "ccxt/ccxt",
+      "commit": "a1bd1dd550c67db735107447b698a34a34c2efa6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10925,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G23",
+      "repo": "hummingbot/hummingbot",
+      "commit": "9af100d6822da7d2d0291a906c730ef172284ee2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 10982,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G24",
+      "repo": "nautechsystems/nautilus_trader",
+      "commit": "6dc35da8be6582c9ea71a21e5f6d19f7e9164533",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11017,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P001",
+      "repo": "khodemadi/aria-futures-demo-source",
+      "commit": "ed1deb87d62c7f6802863ef1c48958150785ff76",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11055,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P002",
+      "repo": "ertasselli/openterminal",
+      "commit": "aed097c680cd8ec1c391ae06966babe7d6d91fc6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11082,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P003",
+      "repo": "packtpublishing/machine-learning-for-algorithmic-trading-second-edition",
+      "commit": "b662d5f933b48f2f02af62a23365e835e6334436",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11122,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P004",
+      "repo": "ml4t/skills",
+      "commit": "691857537a0c8befc11dc2f2ad7a458b7c7e801c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11164,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P005",
+      "repo": "ml4t/diagnostic",
+      "commit": "5c508b4a25a389aaa02aa2dd258b28563f4be076",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11209,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P006",
+      "repo": "ml4t/live",
+      "commit": "02c999baa82b225bcd0e4f8d727bf465fc2ac9dd",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11252,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P007",
+      "repo": "ml4t/engineer",
+      "commit": "2e6d868466611aec62d774b3cdb2c317f679d24d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11295,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P008",
+      "repo": "ml4t/backtest",
+      "commit": "02951a48f2f6659b8296717a030f9d1b1c3e225f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11341,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P009",
+      "repo": "ml4t/data",
+      "commit": "648a79f96f4c843a51c1b947bddc5c5e78fa35fb",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11383,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P010",
+      "repo": "owini/ml-for-trading",
+      "commit": "b2b5b46038a6549d15a5869fcb8121278a2fef2a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11412,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P011",
+      "repo": "cbailes/awesome-deep-trading",
+      "commit": "91eee433ec7791915ad20b15330f0eee04798f07",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11439,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P012",
+      "repo": "walkinglabs/learn-harness-engineering",
+      "commit": "a9342ff471f2c0e60be0c08b9f4a7c502df4e442",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11459,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P013",
+      "repo": "vectorize-io/hindsight",
+      "commit": "dd250e65a8961e15986e282dc0153887a18c6901",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11491,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P014",
+      "repo": "harness/harness",
+      "commit": "6eb54b06099f2186cfca447663266fe96e77fa49",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11521,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P015",
+      "repo": "yzddp/harnesscode",
+      "commit": "7cef5db24467e2783f249d1e105762e26b1e3179",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11549,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P016",
+      "repo": "tencentcloud/tencentdb-agent-memory",
+      "commit": "ecc01a545da0b2ac6cae2f0f0af0d39d41469793",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11585,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P017",
+      "repo": "vectorize-io/agent-memory-benchmark",
+      "commit": "3d1514c75f7940064945edcd9865152fffb80d6f",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11613,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P018",
+      "repo": "tfatykhov/awesome-agent-memory",
+      "commit": "b7a6f1e75f039c8f8bdf7c2a0ff63c54af824f63",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11639,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P019",
+      "repo": "agentralabs/agentic-memory",
+      "commit": "9d20fc4af3dea32ea9b2f28e490459cdb63c6e28",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11666,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P020",
+      "repo": "tsinghuac3i/awesome-memory-for-agents",
+      "commit": "568b63a852cfc06fa31eca93c21db43a33ef130c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11696,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P021",
+      "repo": "langchain-ai/langgraph-swarm-py",
+      "commit": "8956b138bbb475b00c98d040176dbb8da667c612",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11723,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P022",
+      "repo": "rohitg00/agentmemory",
+      "commit": "c6c476d2905926727fa5848a134d7a3b38a7fa98",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11752,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P023",
+      "repo": "denguir/binance-simulator",
+      "commit": "9eed6a5a258c04406044c28083a16e51a415e404",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11782,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P024",
+      "repo": "google-research/harness2",
+      "commit": "1cfe254e8d25b15f37048c3730134686abe60335",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11820,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P025",
+      "repo": "google-research/rrsi",
+      "commit": "be50316e1db05914068a973f322770ef08ed7ba1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11866,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P026",
+      "repo": "ml4t/models",
+      "commit": "5f988317bcec888fd034c8f27b04697a3505ac10",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11912,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P027",
+      "repo": "ml4t/specs",
+      "commit": "2cd8f102a849bfb03b44cb6d5d05fc7e7aea6e80",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11938,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P028",
+      "repo": "velesxbt/drex-night-desk",
+      "commit": "bdb102aa412d558042bbdad7703bc235319e546a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 11976,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P029",
+      "repo": "nace-ai/drex-decision-models",
+      "commit": "e206b278e3988ad1b58e6f1556b559a65947a4e6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12012,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P030",
+      "repo": "hummingbot/condor-docs",
+      "commit": "da287ba2e4bbd54292e7e405cbd013c9395a2452",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12044,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P031",
+      "repo": "quantconnect/lean",
+      "commit": "68d43d64770bd9f039e77373f09dd5655ad61f22",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12074,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P032",
+      "repo": "polakowo/vectorbt",
+      "commit": "70da8fe7c2a57948ca065ac362fc416bcf31458c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12104,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P033",
+      "repo": "millw14/merrymen",
+      "commit": "8e5b3ab55ac02b6ec82e1801c549de16b0df1de8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12136,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P034",
+      "repo": "mariusotb/opentrade-agent",
+      "commit": "276c2a00fdb627ee9db19bafa9bca1d3ec5960b1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12173,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P035",
+      "repo": "wraithioner/assayhq",
+      "commit": "1062a47cf3ebb17635bec5f1f3bf48bcba5c87f2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12221,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P036",
+      "repo": "phosphenq/bodkin",
+      "commit": "542c941a9772c074a119f2b985264469baf6564e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12257,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P037",
+      "repo": "bl888m/assay",
+      "commit": "353f99939331d4e41527b83c2743a00551cdce8a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12295,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P038",
+      "repo": "siim/jev-claim-vs-measured",
+      "commit": "d2682e5abd848f4aae91897b5d3418e7e7d4d26a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12331,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P039",
+      "repo": "liorg2007/jevtrader",
+      "commit": "6c519f6c286b7a24848ef261eadf1719647c926f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12364,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P040",
+      "repo": "justinhe16/trade-jev",
+      "commit": "2d18beea254878c2144b5b1c4fd65d60ca065ccd",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12384,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P041",
+      "repo": "waxmell114514/jev-trade",
+      "commit": "daec9777deb407eca10f45c8e62e596ad1ef3c71",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12404,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P042",
+      "repo": "buberlo/jev-trader",
+      "commit": "15d089e656d968fabb750bde8ebeec6d0da1ac7d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12428,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P043",
+      "repo": "aowang-ai/jev-trade",
+      "commit": "a3f2f834a1b97dd42fab1193814179ac2e96d7cd",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12450,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P044",
+      "repo": "polymarket/py-sdk",
+      "commit": "d26958d68a054edb01787825ff63c8c0d175d127",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12472,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P045",
+      "repo": "polymarket/ts-sdk",
+      "commit": "a8ce0451eac85992c8367231d80ab81e1b653fa2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12492,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P046",
+      "repo": "polymarket/polymarket-cli",
+      "commit": "9b18b5faf5493b945c48ca22efaf9645f0c69ab8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12515,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P047",
+      "repo": "ohadbachner/polymarket-arb",
+      "commit": "dd7fd7dd7a11b81bee6dea8e4391f9c5b58a0ef7",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12534,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P048",
+      "repo": "gonzih/polymarket-arb",
+      "commit": "9ea036aea57196f4f45a98ab6a94e42ab2558230",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12554,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P049",
+      "repo": "hummingbot/hummingbot-site",
+      "commit": "9a073ad58dbfb7cd423c077fbfa5ad9777bd7cb3",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12574,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P050",
+      "repo": "nkaz001/hftbacktest",
+      "commit": "5f3ec40b2afb764e0fea112f941ed85523ef4e88",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12602,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P051",
+      "repo": "abides-sim/abides",
+      "commit": "c4bf157678928934417aba6073eb0651aeaf6d15",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12636,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P052",
+      "repo": "openbq-org/OpenBB",
+      "commit": "7df7d0c5592bf25be88e87e130a05c71e243d2d8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "G21 exact selected scopes reused after15 scoped hash checks across10 distinct files; not a separate new review or whole-source completion",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P053",
+      "repo": "fincept-corporation/finceptterminal",
+      "commit": "7716ee8613249fb44c4d14036c5bc16ed6f34e97",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12668,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P054",
+      "repo": "ai4finance-foundation/finrl",
+      "commit": "7e98df461cbc7772f16a545a2f13b521e5d0b8f4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12700,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P055",
+      "repo": "jesse-ai/jesse",
+      "commit": "aded4b9d51d432d411a8f7fbf45e47572dff6629",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12730,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P056",
+      "repo": "pyportfolio/pyportfolioopt",
+      "commit": "a6638d2e06dae6f444fd022cfd4b3c528902a85b",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12764,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P057",
+      "repo": "dcajasn/riskfolio-lib",
+      "commit": "7c5429f486d4b3d76bcee4c43a8864a11cfd9795",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12803,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P058",
+      "repo": "bashtage/arch",
+      "commit": "3b3b38d36e4de44c2f9311b1f10458be1cbaf115",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12833,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P059",
+      "repo": "tradingview/lightweight-charts",
+      "commit": "c9ec1cec25583a0200f3c85ad9019d19c1d65f97",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12856,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P060",
+      "repo": "zoonek/2025-sharpe-ratio",
+      "commit": "6199ecb1c84da7eee7bd81d9a017cf12b8ff0e0d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12872,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P061",
+      "repo": "rachnog/deep-trading",
+      "commit": "0578698863be3d10fb6d116ed0104eee9d40a9f9",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12921,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P062",
+      "repo": "thirstyscholar/trading-bitcoin-with-reinforcement-learning",
+      "commit": "e2163e954b1f5f656c49fbfb560ddd4635548a91",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12937,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P063",
+      "repo": "yvictor/tradinggym",
+      "commit": "08bb534fd9ae067055ddca5164f0a579c96b2764",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12957,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P064",
+      "repo": "zhengyaojiang/pgportfolio",
+      "commit": "48cc5a4af5edefd298e7801b95b0d4696f5175dd",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12977,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P065",
+      "repo": "borisbanushev/stockpredictionai",
+      "commit": "fc83ea9a26189cbf9e50dd809f291bc11c6263e3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 12999,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P066",
+      "repo": "golsun/deep-rl-trading",
+      "commit": "4109834e91786d4752bf0195e9158c91cd71149c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13013,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P067",
+      "repo": "gujiuxiang/deep_trader.pytorch",
+      "commit": null,
+      "acquisition": "PUBLIC_ACCESS_UNAVAILABLE_HTTP_404",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P068",
+      "repo": "ha2emnomer/deep-trading",
+      "commit": "806e63da6835fd725e075c585f08bf973f738baf",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13027,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P069",
+      "repo": "iamstone/deep-trader-cnn-kospi200futures",
+      "commit": "350c3382faffc8247c9cc121208242bb75b1a8e4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13041,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P070",
+      "repo": "jiewwantan/startrader",
+      "commit": "b81d5c37f9e06e740c61d9783750bb16fffdd33e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13055,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P071",
+      "repo": "jobvisser03/deep-trading-advisor",
+      "commit": null,
+      "acquisition": "PUBLIC_ACCESS_UNAVAILABLE_HTTP_404",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P072",
+      "repo": "kah-ve/marketgan",
+      "commit": "ba81981d5f9df46e7c5960cd426a34bf6615cb80",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13084,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P073",
+      "repo": "laikasinjason/deep-q-learning-trading-system-on-hk-stocks-market",
+      "commit": "1d3e77a2700398a99cd0efa617f206eb2808824d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13098,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P074",
+      "repo": "lefnire/tforce_btc_trader",
+      "commit": "7972803d75385dce38ad814715b1eef062ea86cb",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13112,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P075",
+      "repo": "notadamking/rltrader",
+      "commit": "c5c85db5621303ceecf605e860a606f2d41c6c3a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13149,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P076",
+      "repo": "rosdyana/cnn-financial-data",
+      "commit": "e4846d7a9c4f308c3a4c8e05146f85805dfa8075",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13177,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P077",
+      "repo": "samre12/deep-trading-agent",
+      "commit": "58e6617fa78b18c31460962511ab83af430cc326",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13209,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P078",
+      "repo": "sindresorhus/awesome",
+      "commit": "bc98e517ddca672f55f9857d714fc3ea3c3540b2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13255,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P079",
+      "repo": "ucaiado/qlearning_trading",
+      "commit": "b18eea5e6a1fc64bb56f683843bcadb841f97f91",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13290,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P080",
+      "repo": "udacity/artificial-intelligence-for-trading",
+      "commit": "9042224eef0c3d1c2dc74b2df6e17e8411721266",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13336,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P081",
+      "repo": "yuriak/rlquant",
+      "commit": "1ed3b813393e1e39668ff85e4e7a28f6ef1d1193",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13354,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P082",
+      "repo": "elizaos/eliza",
+      "commit": "215e23ca5a2604997fc9eb6c63fdd67bdd0c6644",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13399,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P083",
+      "repo": "copilotkit/copilotkit",
+      "commit": "be9a2caa72ac2b999cdcb3708303f5ad9211e5fc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13417,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P084",
+      "repo": "dokploy/dokploy",
+      "commit": "2d3dddd6e94dc0d3c689fd91cae636ae3ca67652",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13433,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P085",
+      "repo": "mempalace/mempalace",
+      "commit": "84582fb055a6429261f9c779da86c0561ec80adc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13447,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P086",
+      "repo": "The-Vibe-Company/quivr",
+      "commit": "0f9ce97492ebc2f577629bcc958f377e4f8673c0",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13461,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P087",
+      "repo": "rssnext/folo",
+      "commit": "70a630a62a46de8aed945d7f11812a292df7fab1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13473,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P088",
+      "repo": "aaif-goose/goose",
+      "commit": "090dedb7625c8aadb9bb05d68028fd00f36b429e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P089",
+      "repo": "agno-agi/agno",
+      "commit": "967730ac0b3994ad404a9ca821017284774a73b0",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13487,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P090",
+      "repo": "bytedance/deer-flow",
+      "commit": "d50cbf8dc5b18fc716686710dd5a1222d7d00c3b",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13499,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P091",
+      "repo": "code-yeongyu/oh-my-openagent",
+      "commit": "e9c5af30d957c9dbde673e24cbb71a05fdb16881",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13521,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P092",
+      "repo": "continuedev/continue",
+      "commit": "5522c6f44ca0ac3528b37244818fbfa39b5af470",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13545,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P093",
+      "repo": "hiyouga/llamafactory",
+      "commit": "47d407d2aabbd52e11d4f34c7a06b9de3e2f0a77",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P094",
+      "repo": "infiniflow/ragflow",
+      "commit": "94369fc289e61be2f7e43bd0c65862269207d9c4",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P095",
+      "repo": "mindsdb/mindshub",
+      "commit": "3f7d3c690295c52b64f512333c59465d20bce0b9",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P096",
+      "repo": "unslothai/unsloth",
+      "commit": "94488644317939e4db60be82d6063aecd17ced6f",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P097",
+      "repo": "nangohq/nango",
+      "commit": "3e8b7782181aaea77593b9f487a6c154882060a4",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P098",
+      "repo": "openbmb/voxcpm",
+      "commit": "cce58a5b59303c9bd63d12f23afe6a49a4a80c59",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P099",
+      "repo": "addyosmani/agent-skills",
+      "commit": "eb07f19f52c2669f2364897aaa293e2aaddd7b1c",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P100",
+      "repo": "cloudflare/agentic-inbox",
+      "commit": "48039bb6785af34e592c2966f87cde2b255c4c80",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P101",
+      "repo": "LibreChat-AI/LibreChat",
+      "commit": "94d3d12bd5a1f18c1129fcb6f1d7deac063a1f67",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P102",
+      "repo": "harry0703/moneyprinterturbo",
+      "commit": "27843a994bfa29c43c02150861d51490a6ca4bd2",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P103",
+      "repo": "heygen-com/hyperframes",
+      "commit": "4cabfd18a256210ff8d9295f5016cccf3454cce9",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P104",
+      "repo": "reconurge/flowsint",
+      "commit": "64ac40d3f696b2ff51701541332067813ca72496",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P105",
+      "repo": "enthought/cla-gui",
+      "commit": "60fa294a5f15de5b6e8c776d814fd89e14dc5bd7",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P106",
+      "repo": "colbymchenry/codegraph",
+      "commit": "a0c6c1b17c716907d1c642cf265a57a8c69698be",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P107",
+      "repo": "nousresearch/hermes-agent",
+      "commit": "5057eaa3a4d0cbef0e30078418a5115faa62889e",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P108",
+      "repo": "openclaw/openclaw",
+      "commit": "2eef065f0f89960d0aaebfc64647386715cc9abe",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P109",
+      "repo": "tenurehq/precisionmembench",
+      "commit": "61a712a1754e7d27b6dee42da32a2c214b003ece",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P110",
+      "repo": "tfatykhov/nous",
+      "commit": "c16f0adb2bcdd51f73f678b849fb55cfdf6b488d",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P111",
+      "repo": "feishuluo/evolving-llm-agent-memory-survey",
+      "commit": "92b5a4b1b25a02e3a053ed0309704e0ad31d3093",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P112",
+      "repo": "pearlmody05/cranimem",
+      "commit": "fe0b34e8fa7863665e2ad7749082e5191599485f",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P113",
+      "repo": "minhualin/memma",
+      "commit": null,
+      "acquisition": "FETCH_OR_EXTRACTION_FAILED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P114",
+      "repo": "reinerbro/hela-mem",
+      "commit": "68f19b3fac8c6156570d5aeb3a7a3e8f3ba7cb04",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P115",
+      "repo": "whyyyyy123/memguard",
+      "commit": "589b818aecc108c3cf665de68f66e21e9d71fa96",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P116",
+      "repo": "aidachip-inc/mem-plus-plus",
+      "commit": "c224b619fca15510dd9ac53194f9e26cc4986358",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P117",
+      "repo": "ris3abh/engram",
+      "commit": "2080752aaabb38b56a28f2e68429cfde18b6739d",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P118",
+      "repo": "evaxhe/rl-memory-curriculum",
+      "commit": "25c411c371d93b6aad7513ed188a7348ad902bee",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P119",
+      "repo": "mem0ai/dolphinbench",
+      "commit": "81cb6f8405b40a9e76089cef650806a80af06ea2",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P120",
+      "repo": "zju-omniai/embodied-omni",
+      "commit": "78ef297d342d1f44bb15975e36555f8abee18448",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P121",
+      "repo": "hust-ai-hyz/memoryagentbench",
+      "commit": "538026089d1a8a8eff05121d0db89b388f360eba",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P122",
+      "repo": "gen-verse/recuris",
+      "commit": "7d3745ab787b1206ccd981cb1511100476097266",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P123",
+      "repo": "sentient-agi/evoskill",
+      "commit": "36f6f04952293d7054145550c2b9f0b0411bff1c",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P124",
+      "repo": "xiong-wenjun/maple-guard",
+      "commit": "211036ce98d2c1a25ff56b6d24bd5931a210a9a1",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P125",
+      "repo": "vulcanlab/memory-rebirth-attack",
+      "commit": "c28e96f1b885b71bb470dfdc1011b2435025aac0",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P126",
+      "repo": "bithabib/ai_security",
+      "commit": "4021642395daad997786cfbbd04b64924e8a46bd",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P127",
+      "repo": "max-talanov/tinyhippo",
+      "commit": "fe99f49ee592bb52360b21b3f85f7a7c532005a8",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P128",
+      "repo": "tfatykhov/membrain",
+      "commit": "f62547c4c843c729e987de87e3ae6a279ec8a6f3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13569,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P129",
+      "repo": "mem0ai/mem0",
+      "commit": "26cdefb46600c0fa5953c4b5ee5003c125539fc4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13581,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P130",
+      "repo": "volcengine/openviking",
+      "commit": "230aa7e2b82636479c1862ed91796ff1386c60b2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13593,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P131",
+      "repo": "getzep/graphiti",
+      "commit": "72b5c59c06607e09ea855be61b6ff5a3446fc951",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13605,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P132",
+      "repo": "topoteretes/cognee",
+      "commit": "525b1d1179c550cd5b5661bcbf8f00f57a676928",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13617,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P133",
+      "repo": "letta-ai/letta",
+      "commit": "8816d3a8516893bfdc0fa14bfb1235226012e295",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13629,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P134",
+      "repo": "memtensor/memos",
+      "commit": "64388b50e2a15528bcdf032e65a1ac792bcf63ee",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13641,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P135",
+      "repo": "plastic-labs/honcho",
+      "commit": "2c8b28bfc644eaebaaf78816713cf32fc69bc314",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13655,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P136",
+      "repo": "memmachine/memmachine",
+      "commit": "d5a39a8e774e977fb1e6c22efb03555c4e51e05e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13673,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P137",
+      "repo": "bai-lab/memoryos",
+      "commit": "587ed7755c7aed179965792830ff1b5ad9a6fa92",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13687,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P138",
+      "repo": "redis/agent-memory-server",
+      "commit": "94192c39e2a4a154f441a5411e3d73c4f54974a6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13701,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P139",
+      "repo": "hu-xiaobai/xmemory",
+      "commit": "1a4f9dd8abd7f2da86bfe6afe4293a1ea1c63608",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13723,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P140",
+      "repo": "y1y5/agemem",
+      "commit": "98f563f907d67b2f2436e3ae7b7ceff32e482814",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13735,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P141",
+      "repo": "mihirrajeshpanchal/cranimem-iclr",
+      "commit": "263b8302acb4bd5977dd59a82896726a3a843181",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13755,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P142",
+      "repo": "yandex-research/structmemeval",
+      "commit": "64d2c9b242deb394e3ef94a318868a55261e141b",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13769,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P143",
+      "repo": "mthamil107/memorywire",
+      "commit": "8ab7219733efdd004135131016b88a1b745f4fde",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13793,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P144",
+      "repo": "agiresearch/a-mem",
+      "commit": "ceffb860f0712bbae97b184d440df62bc910ca8d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13825,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P145",
+      "repo": "wujiangxu/a-mem",
+      "commit": "f9a173dec325d84fcc97e7828775c7b241c33466",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13837,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P146",
+      "repo": "gentleman-programming/engram",
+      "commit": "a6f66c2ea21f6ec2fcec4b4d6d54c576bb069897",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13849,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P147",
+      "repo": "zilliztech/memsearch",
+      "commit": "65d8b220d4265f70441785aa22203f0e85ea3ec6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13891,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P148",
+      "repo": "tigerless-labs/agent-memory",
+      "commit": "75531cddfd22e22fa74a426d1803b47c2ce789e2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13917,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P149",
+      "repo": "dataojitori/nocturne_memory",
+      "commit": "1858957bf797722a9b731fb197bd9530f7ae67e4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13947,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P150",
+      "repo": "vshulcz/deja-vu",
+      "commit": "4b77616cf76e6991c258ab26a6a881b48abb7bf1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 13991,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P151",
+      "repo": "samvallad33/vestige",
+      "commit": "171e034fcfcca2690d080e633843edcf194140c5",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14015,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P152",
+      "repo": "mnemon-dev/mnemon",
+      "commit": "fb3f186be865a0797ab390839cb7af6b02064708",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14039,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P153",
+      "repo": "caura-ai/caura",
+      "commit": "009bc6fa54b17dffbd8cd751ff5612538714105f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14067,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P154",
+      "repo": "jordyzomer/lemmalog",
+      "commit": "9cc2cf1bc050ddd67cc1c6b644953377b0b9ef9d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14095,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P155",
+      "repo": "alibaizhanov/mengram",
+      "commit": "88a50abbae548449ce9f11b21fab2f7829d70c10",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14119,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P156",
+      "repo": "jingxuanc/causal-memory",
+      "commit": "39053ff6fd7a18771d59f0c10240b19c37f412b6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14145,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P157",
+      "repo": "terminallylazy/tree-ring-memory",
+      "commit": "31d7aaf5647b0325233fcf5551eed4ba23d37fce",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14169,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P158",
+      "repo": "lockstep-team-agent/lockstep",
+      "commit": "5124342cbb4d84012c690f542772aef1d7e83d34",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14195,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P159",
+      "repo": "anshulyadav1976/synapse",
+      "commit": "5892ef1435e65bf9325350e82cb0ad5adf9c2919",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14223,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P160",
+      "repo": "kgaidev/kgai",
+      "commit": "32a98ab7d32d4656585905ace96588356f65f9c1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14255,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P161",
+      "repo": "louis030195/hyperconsciousness",
+      "commit": "5748f89138c6817c88af419b0511cff77d0b4ee4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14283,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P162",
+      "repo": "xiaowu0162/longmemeval",
+      "commit": "9e0b455f4ef0e2ab8f2e582289761153549043fc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14309,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P163",
+      "repo": "xiaowu0162/longmemeval-v2",
+      "commit": "2cc8c540bdb87fe6761629b585e727e1c4704520",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14333,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P164",
+      "repo": "snap-research/locomo",
+      "commit": "3eb6f2c585f5e1699204e3c3bdf7adc5c28cb376",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14357,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P165",
+      "repo": "opendatabox/memorydata",
+      "commit": "bdbe698f776d921ac791d1b07c0a7fc65a8bb4bb",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14377,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P166",
+      "repo": "rzhub/gatemem",
+      "commit": "a983828b3bb7565e16e25ac8cdc2fc1982633b0b",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14401,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P167",
+      "repo": "memtensor/halumem",
+      "commit": "d653749586bfc7d13f5b68e8851f52155b5b1650",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14421,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P168",
+      "repo": "yuanchenbei/mem-gallery",
+      "commit": "a93959e1e978a6a7d77798ae92c2ffe41c538c62",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14441,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P169",
+      "repo": "microsoft/state-bench",
+      "commit": "5644b1838d96bc4483da29642d058ecaa6f80f7f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14459,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P170",
+      "repo": "nirdiamant/agent_memory_techniques",
+      "commit": "4f52c46b43fca0d3fce1d02f4a81d407d9176cf0",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14479,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P171",
+      "repo": "iaar-shanghai/awesome-ai-memory",
+      "commit": "9b333f76a7be76e8072bcf03fcd9e277edb98d6f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14501,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P172",
+      "repo": "teleai-uagi/awesome-agent-memory",
+      "commit": "6bee246058716f1eabea56460f8a5c5e0481b234",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14525,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P173",
+      "repo": "deep-polyu/awesome-graphmemory",
+      "commit": "ed4864888de0059654f228bf435201601365295f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14535,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P174",
+      "repo": "yyyujintang/awesome-agent-memory-papers",
+      "commit": "e2fb9cac9ee0cafc7ad9158e66d76c2ae4332a64",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14545,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P175",
+      "repo": "opendatabox/awesome-agent-memory",
+      "commit": "7273e75653a4a2550924659c4216a40a515d7429",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14555,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P176",
+      "repo": "HHHHHejia/Awesome-AgenticLLM-RL-Papers",
+      "commit": "9b577322e9f8314c3c21f15c18f3218eb3e3bd22",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14565,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P177",
+      "repo": "os-agent-survey/os-agent-survey",
+      "commit": "d198317efa301eede69f8b29b2fd7eaad58c2086",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14575,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P178",
+      "repo": "ANative-Lab/Awesome-Self-Evolving-Agents",
+      "commit": "ab0c0118e81775bc9a364ad4bbbfd3856063af93",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14585,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P179",
+      "repo": "meirtz/awesome-context-engineering",
+      "commit": "8b6ede2b5e610774e01d74902d65a51000d671a4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14595,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P180",
+      "repo": "charlesq9/self-evolving-agents",
+      "commit": "c017544194314e4bc2579b8682f820e1eaa5203d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14605,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P181",
+      "repo": "elvin-yiming-du/survey_memory_in_ai",
+      "commit": "aee74665054ae8265b9c6f90da2f4ccf6399bfa7",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14615,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P182",
+      "repo": "foundationagents/awesome-foundation-agents",
+      "commit": "692cfbbaa750c443de11325041dcff6d60bbc861",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14625,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P183",
+      "repo": "nuster1128/llm_agent_memory_survey",
+      "commit": "b2d97c3f992281c093f297b7b14263803e0b1520",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14637,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P184",
+      "repo": "avatarmemory/clonemembench",
+      "commit": "753d8a97fd78f4ee25af398a0f0c8d981a6be304",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14649,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P185",
+      "repo": "quantaalpha/knowmebench",
+      "commit": "82e1dcdd72dd674d02ffeccea5bda0b1e74495f9",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14669,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P186",
+      "repo": "avatarmemory/realmembench",
+      "commit": "67afd0891d603adcc4458ff0449df306ef296b7a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14687,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P187",
+      "repo": "bowen-upenn/personamem",
+      "commit": "d07e6ade22e85e0e5d562247323a9c3e07553226",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14701,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P188",
+      "repo": "salesforceairesearch/locobench-agent",
+      "commit": "2ab9218e6d46e50ebdbb139442503e5573bc4a5d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14719,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P189",
+      "repo": "salesforceairesearch/convomem",
+      "commit": "624f582ecf0d336ae1d4539d19186089800774b1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14733,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P190",
+      "repo": "ecnu-icalk/ell-stulife",
+      "commit": "025741eb0e0954064338bb35d0822390ca7ddad8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14747,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P191",
+      "repo": "webchorearena/webchorearena",
+      "commit": "542abc538fd9558362119714989166904d82f5f4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14765,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P192",
+      "repo": "import-myself/membench",
+      "commit": "f66d8d1028d3f68627d00f77a967b93fbb8694b6",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14783,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P193",
+      "repo": "caixd-220529/lifelongagentbench",
+      "commit": "d6f19b42eb358d9150379f0c68c2985c5a867520",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14797,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P194",
+      "repo": "danny911kr/realtalk",
+      "commit": "48b3ab884a34baf659243d3188df478dd401a70a",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14811,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P195",
+      "repo": "hejunqing/madial-bench",
+      "commit": "572e3a10d6d01852a65e4508e0b3ab2a00d0710c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14850,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P196",
+      "repo": "goodai/goodai-ltm-benchmark",
+      "commit": "188e7618413775f1ce783763d5ee0b5ccd4c31c9",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14864,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P197",
+      "repo": "hermes-labs-ai/fidelis",
+      "commit": "9504c4a8f2592464112ca771d6aaefec07698d23",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14915,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P198",
+      "repo": "wontopos/beam1m-tablet-2",
+      "commit": "13c3f0dbed908333405f11f2e26a045e70a5bfd3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14929,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P199",
+      "repo": "tonydzi/sqlite-graph-memory",
+      "commit": "84929bab459035357ce8bcaf80a9d78ecdb663aa",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14943,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P200",
+      "repo": "holetron-lab/fleet-memory",
+      "commit": "81ef52ca01e60a72bb18462b3d520cf437801a1e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14957,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P201",
+      "repo": "secondbrainstarter/verified-memory-vault",
+      "commit": "db726adbadc4b692ba33f585601bfef16db91adc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14971,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P202",
+      "repo": "ampres-ai/talamus",
+      "commit": "e5e14dabb488e4666d621f04e320096ddf6858aa",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 14985,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P203",
+      "repo": "knaisoma/data-olympus",
+      "commit": "6d46033f7a3fc08acfff3f148e143077a9984eef",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15013,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P204",
+      "repo": "hjqcan/goodmemory",
+      "commit": "c7d8060036010762512c292b84f1d23b86ba2787",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15039,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P205",
+      "repo": "riponcm/projectmem",
+      "commit": "626fd35b61bedc21b15bfbc32b068ffb90bd0c24",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15063,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P206",
+      "repo": "lamantinai/kaeru",
+      "commit": "e97a205c046cd0d9fd28cc49795036e18f6feb88",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15087,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P207",
+      "repo": "teleai-uagi/telemem",
+      "commit": "9fa3b565da297ab9bd9f4c3136d40b26dc2cb382",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15115,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P208",
+      "repo": "maxbaluev/accreted-intelligence",
+      "commit": "03ed61f278b37f9a9e4c5b23932626989da4fd67",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15141,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P209",
+      "repo": "dakera-ai/dakera-mcp",
+      "commit": "70c9cc2bdbddf8e602a4b65f2eed200a6dc0bb15",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15161,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P210",
+      "repo": "ikalus1988/misakanet",
+      "commit": "c8fde5d02ab22e345f8e6540e4ff32c51e181570",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15189,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P211",
+      "repo": "moorcheh-ai/memanto",
+      "commit": "76e42719c3aabbdbd58b591a98e35f832b44bbe2",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15223,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P212",
+      "repo": "modernrelay/omnigraph",
+      "commit": "0e91b00e669f60f744b4952b54b3676d7744fe65",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15243,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P213",
+      "repo": "zensation-ai/zenbrain",
+      "commit": "d4bfe481f5eeb1b36826b98b85c2d4012a05099d",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P214",
+      "repo": "mnemoverse/mcp-memory-server",
+      "commit": "d7ebd0660eb370df66071053f0f74554d286482f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15257,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P215",
+      "repo": "lorgai/lorg-mcp-server",
+      "commit": "7a2bfcbc3394793b5b2f74255dbbc945ca0d6160",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15271,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P216",
+      "repo": "qualixar/superlocalmemory",
+      "commit": "93e58692ce51b196a879a43e3974d378652db748",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15285,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P217",
+      "repo": "smaramwbc/statewave",
+      "commit": "0f26bc7f1e6990c425bed89ec724e55609d02388",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15299,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P218",
+      "repo": "agentscope-ai/ReMe",
+      "commit": "1e51e0dc1b1effe60f7ee425298f3b6f8ef4cbd9",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15311,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P219",
+      "repo": "su-memory/su-memory-sdk",
+      "commit": null,
+      "acquisition": "PUBLIC_ACCESS_UNAVAILABLE_HTTP_404",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 9808,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P220",
+      "repo": "memodb-io/acontext",
+      "commit": "1ddfd903fd1004672ca9f9a70d92041153ba43d5",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15323,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P221",
+      "repo": "memodb-io/memobase",
+      "commit": "358c16bbc6d687937d79bc2f984a11c3be8da901",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15335,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P222",
+      "repo": "thedotmack/claude-mem",
+      "commit": "325afb60108d4ab04e24d715f244bd591ca33fbe",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15347,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P223",
+      "repo": "memovai/memov",
+      "commit": "f25232386f04a302f36ba98023617adfc3296549",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15365,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P224",
+      "repo": "divagr18/memlayer",
+      "commit": "5e95f44061a867a5ac0caf53434240713d58b86a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15385,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P225",
+      "repo": "0xranx/opencontext",
+      "commit": "0649e7134346f6f5038a9b29cc5c824ae6a54f3f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15407,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P226",
+      "repo": "MemoriLabs/Memori",
+      "commit": "574b1ea3e876f100ef82c37817d603eb7e258e59",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15425,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P227",
+      "repo": "kaderosio/agent-brain",
+      "commit": null,
+      "acquisition": "PUBLIC_ACCESS_UNAVAILABLE_HTTP_404",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P228",
+      "repo": "nevamind-ai/memu",
+      "commit": "bca35129be9c2daab58f1db8ba4cf7806b58abc0",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15447,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P229",
+      "repo": "CaviraOSS/LongMemory",
+      "commit": "8badf44d48d0d72a07e1ea3daf1ecbd76ae1a357",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P230",
+      "repo": "kingjulio8238/memary",
+      "commit": "b2331a2c0844d66f69acd607b9e4dbaba56552c1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15471,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P231",
+      "repo": "langchain-ai/langchain",
+      "commit": "5b0aeb7637fc415eb408dc31523609272bbb38e1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15491,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P232",
+      "repo": "suanmosuanyangtechnology/memorybear",
+      "commit": "8f8cc66c692c75e520479c1b2fe83255049738c4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15511,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P233",
+      "repo": "langchain-ai/langgraph",
+      "commit": "6f2df053f4487ce6ea8decc0d7482c8e46e0f132",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15523,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P234",
+      "repo": "Egonex-AI/Understand-Anything",
+      "commit": "4e6d3299017a7432da15957874992837a315c5b4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15535,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P235",
+      "repo": "Graphify-Labs/graphify",
+      "commit": "0a8cd4e1e342235fe53e881fb5d591bf0460071f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15547,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P236",
+      "repo": "openai/codex",
+      "commit": "b0f977c3a9c2e68e46e58e589e98f5297d2c8c10",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15559,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P237",
+      "repo": "iii-hq/iii",
+      "commit": "c8f6b9b2846df30b9cfe39f3fea737b5ea97e65d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15571,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P238",
+      "repo": "tinyhumansai/openhuman",
+      "commit": "218d35f4b96b1e9d4568c7aa700c0b66abfb4e54",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15583,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P239",
+      "repo": "google-gemini/gemini-cli",
+      "commit": "b633c0703417eff3f6db8b684515e2b26a824e82",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15595,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P240",
+      "repo": "cline/cline",
+      "commit": "a47448718ad77e6316b12d81927fc1373ade1243",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15607,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P241",
+      "repo": "qwenlm/qwen-code",
+      "commit": "57d9a8fb50f4032873aa92c214db723d00bafe5c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15619,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P242",
+      "repo": "deepseek-ai/deepseek-harness",
+      "commit": "ce7073d51254c26cd63b22a60835b8f948deb447",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15631,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P243",
+      "repo": "roocodeinc/roo-code",
+      "commit": "b867ec9145750d0ae1ff7f02d35406e9bf2a0b16",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15643,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P244",
+      "repo": "kilo-org/kilocode",
+      "commit": "0a9faeff69fff8712da184ee5188bb7985c6f057",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15655,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P245",
+      "repo": "aaif-goose/goose",
+      "commit": "090dedb7625c8aadb9bb05d68028fd00f36b429e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15667,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P246",
+      "repo": "aider-ai/aider",
+      "commit": "5dc9490bb35f9729ef2c95d00a19ccd30c26339c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15679,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P247",
+      "repo": "lintsinghua/claude-code-book",
+      "commit": "12e29d6697993f5f6809c6d01755ff61dc6bb755",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15699,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P248",
+      "repo": "pguso/agents-from-scratch",
+      "commit": "da3f9df28a9c30bcce55f42dd36692abcfc97dc8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15711,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P249",
+      "repo": "craftos-dev/craftbot",
+      "commit": "94aa652fdc89c6bab653e157ce7eba3e8dad5d14",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15723,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P250",
+      "repo": "huangjia2019/agent-design-patterns",
+      "commit": "e110e4b31c398f13b3cff50cb764fee4947873c1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15735,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P251",
+      "repo": "ali-hey-0/ai-runtime-lab",
+      "commit": "0717f3edf52e9016243fb503bbfbb5b6e82b83dc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15747,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P252",
+      "repo": "anneheartrecord/claude-code-docs",
+      "commit": "bbc6de5c04d851f758f47232a27ac14a0e277170",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15759,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P253",
+      "repo": "shyboy0499/precondition-library",
+      "commit": "7f5e9ad2b95166d7c0f6df7e8f292ae29412fde1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15771,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P254",
+      "repo": "anneheartrecord/hermes-agent-anatomy",
+      "commit": "4f50b2987921793248af1a9a4d235133ea8b6014",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15783,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P255",
+      "repo": "azure-samples/agent-architecture-review-sample",
+      "commit": "dcbd8aa82e13559f92d28aa4df15e7c09e3831f8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15795,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P256",
+      "repo": "cre4t3tiv3/ai-agents-reality-check",
+      "commit": "3d7c475b8e2cb7067992a0417eac8f9dd66e836b",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15807,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P257",
+      "repo": "keysersoose/claude-agent-builder",
+      "commit": "75e32aff189ada617b236a8b4c6db4f91aa3fffb",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15821,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P258",
+      "repo": "francescostabile/omnigent",
+      "commit": "264c7ba74ea03b00d8f2b215fa4cb54d49f82230",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15833,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P259",
+      "repo": "seehiong/voicedoc-agent",
+      "commit": "f0d31e5f35018519197233690e34d6641239ed53",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15845,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P260",
+      "repo": "electricitysheep/ai-agent-playbook",
+      "commit": "302bbd5073cee2010db12624a01c5b20c5f9ea92",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15857,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P261",
+      "repo": "zeronesun/cybernetic-your-agent",
+      "commit": "f6b6f6f50eaf40ff7f35dff20a66cfc90aa4b0ff",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15869,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P262",
+      "repo": "laplaceyoung/dsh-book-deepseek-harness",
+      "commit": "be9a37b3b1f41e0a38be401e4262958d85a9780b",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15881,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P263",
+      "repo": "shane9coy/agent-skill-architecture-guide",
+      "commit": "8f9955c718fa89debcd98faf7641c6d0cc1f86e4",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15899,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P264",
+      "repo": "kkrlstrm/gtm-pipeline",
+      "commit": "3fdc07a14e4f3991eba66ec2e8a9feb8fec4a197",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15918,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P265",
+      "repo": "the-cognitive-architect/the-janus-architecture-main",
+      "commit": "9d419dc4a7070900425e5050450901a41cbf55c1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15939,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P266",
+      "repo": "botx-work/openclaw-internals",
+      "commit": "144807c4e2c5399aaf055e3afa9945603f195a0c",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15957,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P267",
+      "repo": "supermemoryai/supermemory",
+      "commit": "a619e2727d9118607cde5cc1a407d84f223ff022",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15975,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P268",
+      "repo": "screenpipe/screenpipe",
+      "commit": "2431cbf1e4639bd57142c73cddd7b1632f5b2a90",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 15999,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P269",
+      "repo": "memorilabs/memori",
+      "commit": "574b1ea3e876f100ef82c37817d603eb7e258e59",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P270",
+      "repo": "julep-ai/julep",
+      "commit": "fc74d079a18c8124b2627ca4717f5a9c269267db",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16025,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P271",
+      "repo": "memgraph/memgraph",
+      "commit": "c1d2723cf5932828ca4f860b36ed1f5ba1c054f3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16049,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P272",
+      "repo": "caviraoss/longmemory",
+      "commit": "8badf44d48d0d72a07e1ea3daf1ecbd76ae1a357",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16073,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P273",
+      "repo": "felinics/memoh",
+      "commit": "0fed0a07cbb134562fb7564634d36efb16a3dd03",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16097,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P274",
+      "repo": "cortexkit/magic-context",
+      "commit": "a48737e5d8aafea95106e71384fd957c4622eb2a",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16123,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P275",
+      "repo": "ihudak/ai-containers",
+      "commit": "2cba3bfa2019cbc350e4ac75ac8bd9a75534927f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16147,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P276",
+      "repo": "rbhattarai/se-harness",
+      "commit": "85d5487d90d4f45e162190fd94d6c965749f63ab",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16169,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P277",
+      "repo": "oreilo/agentkit",
+      "commit": "80d088d922a87a6280d0a379b94b886316684606",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16197,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P278",
+      "repo": "olegmaisak/inject-monitor",
+      "commit": "3fc2ced2ca3c074f0cfdc14724610ee520733063",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16223,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P279",
+      "repo": "valmor-r-reichel/sgm",
+      "commit": "34e7b7d416df2ad8a888dba799a6df6ba1724cac",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16249,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P280",
+      "repo": "abxn4r/archon-skills",
+      "commit": "7d9580b1d07ca093ef51996b36c149c1df9461ab",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16273,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P281",
+      "repo": "rajnishh/istari-ai",
+      "commit": "2c81c53409d5c5520f8699a26e8ed687019029a3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16299,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P282",
+      "repo": "muhammad-tariq/webgis-claude-skills",
+      "commit": "2a2ca7af59256b9192b283f36b460e206f00f97f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16323,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P283",
+      "repo": "rathee000001/evidence_lane_plugin",
+      "commit": "14391fc0cf5787fcde354ec71b949eb7d56a91fa",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16349,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P284",
+      "repo": "harish-042002/harish-skills",
+      "commit": "98b330d681a4b2b5c9d458b32c6ed27d6c6b035f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16376,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P285",
+      "repo": "spectrayan/memory-fundamentals",
+      "commit": "0349ebb4342690ddafff1e0f6150ee06922278cc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16402,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P286",
+      "repo": "harveyai/harvey-labs",
+      "commit": "794557ac1f40458dca87cf80ad538425a2d6942f",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P287",
+      "repo": "job-bench/job-bench-eval",
+      "commit": "660b33a86ed032559df0b2fdc1ad38cf7ceb83f3",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16428,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P288",
+      "repo": "tencent/workbuddy-bench",
+      "commit": "625b2233093ae4f23e76be28c1f341d41cc70373",
+      "acquisition": "CACHED_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16454,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P289",
+      "repo": "arxiv/html_feedback",
+      "commit": "24f34773a0d7f1f8aed7ab739b659a98bf53d324",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16473,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P290",
+      "repo": "brucemiller/latexml",
+      "commit": "0db6f47ea859391f9099e6e25e7405afad8467bf",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16490,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P291",
+      "repo": "anomalyco/opencode",
+      "commit": "a8091a2ea0339424457bf73cfda9a37d0a2d97a3",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P292",
+      "repo": "harbor-framework/harbor",
+      "commit": "7d9a0b688898a11cd03cf14a21d51a9ab45d3b94",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P293",
+      "repo": "mercor-intelligence/archipelago",
+      "commit": "7e3a176b86fea77a85d1b55c422383beb3976b34",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P294",
+      "repo": "harbor-framework/terminal-bench",
+      "commit": "06a92e790027045921482f2acd23f3fa598ffe38",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P295",
+      "repo": "swe-bench/swe-bench",
+      "commit": "02e7a74ffd0b707aab73d203fe87bdc7c76afc8e",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P296",
+      "repo": "agi4engineering/engdesign",
+      "commit": "c8ec338cc5f846d792d93728b00c9448111139e5",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P297",
+      "repo": "einsia/frontier-engineering",
+      "commit": "bafa7d53162a3b1f128fec396bbde22fe972bf24",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P298",
+      "repo": "aiming-lab/rsi-exam",
+      "commit": "a918c4b9fced98dba0c95f35be23667ab0f9867d",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    },
+    {
+      "id": "P299",
+      "repo": "thuml/time-series-library",
+      "commit": "4e938a1767106324dd753b2a44832bf870a0252e",
+      "acquisition": "CACHED_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16507,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P300",
+      "repo": "hummingbot/condor",
+      "commit": "f825393daa8f98c89ffe9e5708f1b7cefcd37dfc",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": null,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P301",
+      "repo": "polymarket/py-clob-client",
+      "commit": "b076b04d61135657e25dccc1bbd6866a96bd8c6e",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16538,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P302",
+      "repo": "zcakhaa/deeplob-deep-convolutional-neural-networks-for-limit-order-books",
+      "commit": "ff14d7c2fd38bdfc143389786993d0f0236d4eb8",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16558,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P303",
+      "repo": "dag-upb/rethinking-tsfm-evaluation",
+      "commit": "e1fa5ffb09bdc1fc2699ba77ef8519681b710b89",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16574,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P304",
+      "repo": "galleonlabs/hypergrok-trading-desk",
+      "commit": "75a4c79118acb0e26d9bad818eca18ef1df8f3cc",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16600,
+      "screen": "research-only-other-market",
+      "reason": "different market/product or automated desk, mechanisms only"
+    },
+    {
+      "id": "P305",
+      "repo": "jrfiedler/causal_inference_python_code",
+      "commit": "8a7965a7eaea911218bd5cdeb74dadcb6a05be4d",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16620,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P306",
+      "repo": "robot-wealth/rsims",
+      "commit": "116f47e9692acc242fd7af17553514c50a21b7f0",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16640,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P307",
+      "repo": "amazon-science/chronos-forecasting",
+      "commit": "1224fafa91e1ecd6674f5204066b159e40b5e4a1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16660,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P308",
+      "repo": "intro-stat-learning/islp_labs",
+      "commit": "e80e1ef2636339226f11badcb962977c24f88ba9",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16704,
+      "screen": "secondary-finance-review",
+      "reason": "finance-related identity; lower priority, no independent admission"
+    },
+    {
+      "id": "P309",
+      "repo": "jpmorganchase/abides-jpmc-public",
+      "commit": "f9cbe51342b7dedd9587e4e069040d68a5c6477f",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16720,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "P310",
+      "repo": "sofienkaabar/deep-learning-for-finance",
+      "commit": "07e6d4f4844b228849294eee5b426029e7b011b1",
+      "acquisition": "PINNED_EXTRACTED",
+      "scope": "Intake plus exact reviewed file/ranges only; whole-source completion never inferred from draft presence",
+      "report_line": 16740,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G25",
+      "repo": "chrisworsey55/atlas-gic",
+      "commit": "cf4349f15c9d68a67042f792973372f2e0231088",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "report_line": null,
+      "screen": "candidate-or-finance-control",
+      "reason": "tracked candidate or relevant comparison/control"
+    },
+    {
+      "id": "G26",
+      "repo": "Panniantong/Agent-Reach",
+      "commit": "47898829204ad27521d8a1719e3aeca3b8a3e0ca",
+      "acquisition": "CODE_TEXT_PARTIAL_SOURCE",
+      "report_line": null,
+      "screen": "no-direct-crypto-fit",
+      "reason": "no direct fit identified from identity and registered review index"
+    }
+  ]
+}

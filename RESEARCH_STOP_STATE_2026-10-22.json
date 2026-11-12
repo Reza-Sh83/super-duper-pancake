@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-22",
+  "status": "STOPPED_AT_USER_REQUEST",
+  "research_must_not_resume_until_user_requests": true,
+  "english_source_sha256": "132ac76193a52e0c7d94207d8e615ec2b6b065b8afafeed754cb2ac52a959882",
+  "register_sha256": "8d8b990a35e36b1f545df99a8cb84b7f2b902405c5f69734aafa606ccae3864b",
+  "register_counts": {
+    "records": 1955,
+    "source_completions_with_explicit_scope": 13,
+    "checked_units": 5240
+  },
+  "completed_source_ids": [
+    "A011",
+    "A018",
+    "A034",
+    "X04-getreal",
+    "X05-replay-vs-interactive",
+    "LB01",
+    "LB03",
+    "LB06",
+    "LB08",
+    "LB10",
+    "LB11",
+    "I08",
+    "CITED-f51d5acbfa70"
+  ],
+  "agents_stopped": [
+    "kaabar_lite",
+    "cunningham_finish_lite",
+    "harris_finish_lite"
+  ],
+  "resume_policy": [
+    "Match immutable source ID/version/hash first",
+    "Reuse checked unchanged scopes; never equate retrieval/extraction/triage with reading",
+    "Resume exactly pending text/asset units and separately catch up drafting",
+    "Reopen contradictory or changed evidence only, retaining history",
+    "Never restart shared Docker Desktop for research: unrelated containers autostarted previously; see runtime incident"
+  ],
+  "open_book_checkpoints": {
+    "LB12": {
+      "folder": "update-2026-10-21/deep-books/cunningham",
+      "text": "All 3,807 extracted lines across 22 spine units were read.",
+      "visual": "298 original-size assets adjudicated; 407 scientific assets need content classification; 133 equation fragments need surrounding context.",
+      "next": "Use first eight pending asset hashes and EPUB positions in progress/evidence, and the full pending list in image_review.json."
+    },
+    "LB13": {
+      "folder": "update-2026-10-21/deep-books/facure",
+      "text": "Units 1–10 complete; unit 11, Chapter 4, lines 1–600 complete.",
+      "next_text": {
+        "member": "OEBPS/ch04.xhtml",
+        "unit": 11,
+        "line": 601,
+        "unit_last_line": 1953
+      },
+      "visual": "Image occurrences 5–55 reviewed; next occurrences are 56–77.",
+      "drafting": "English/Persian drafts cover Preface and Chapter 1 only. Write already-read Chapters 2–4 without repeating unchanged reading."
+    },
+    "LB14": {
+      "folder": "update-2026-10-21/deep-books/longitudinal",
+      "certified_text_pdf_ranges": [
+        [
+          203,
+          296
+        ]
+      ],
+      "next_unread_pdf_page": 297,
+      "uncertified_earlier_notes": [
+        1,
+        202
+      ],
+      "specifically_uncertain_chunks": [
+        [
+          1,
+          49
+        ],
+        [
+          75,
+          107
+        ],
+        [
+          108,
+          131
+        ],
+        [
+          193,
+          202
+        ]
+      ],
+      "known_cut": "PDF page 202 was cut during the proxy-instrument discussion.",
+      "limitation": "Exact earlier raw truncation boundaries are unavailable. Do not promote pages 1–202 automatically.",
+      "visual": "Eight original pages fully inspected; 82 graphic candidate pages contact-sheet triaged only."
+    },
+    "not_yet_fully_reviewed": [
+      "LB02editedfinancialMLcollection",
+      "LB17Glenberg582pages",
+      "LB18differentHarrisscan;638/660candidateOCRmatchesnotcompletion"
+    ],
+    "selected_visual_work_remaining": [
+      "LB04Kaabar",
+      "LB05Aldridge",
+      "LB07QuantInsti",
+      "LB16Pinheiro"
+    ]
+  },
+  "missing_full_books_already_confirmed_unavailable": [
+    "Álvaro Cartea, Sebastian Jaimungal, José Penalva — Algorithmic and High-Frequency Trading (Cambridge, 2015).",
+    "Stefan Jansen — Machine Learning for Algorithmic Trading, 2nd edition (Packt, 2020). The supplied 3rd edition from 2026 is separate."
+  ],
+  "new_scientific_execution": "Pinned Chronos-2 CPU: 16 univariate toy paths and eight known-future covariate ablation paths; no financial performance or published benchmark replication.",
+  "snapshot_files": {
+    "update-2026-10-21\\deep-books\\cunningham\\evidence.json": {
+      "bytes": 17299,
+      "sha256": "90916e1df18bfe30e3bd21119944d971eaa72218c7eb1a01d9b440a7629f6aba"
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\progress.json": {
+      "bytes": 4065,
+      "sha256": "78ecd5680995bb7be83e8ba9c2e225b26255865f2dace65bb12a8317cf0cdf5a"
+    },
+    "update-2026-10-21\\deep-books\\cunningham\\image_review.json": {
+      "bytes": 840443,
+      "sha256": "da1d2dd2158d823610872f267f324fc73222e8abc759c091ecc778434ddd3ed9"
+    },
+    "update-2026-10-21\\deep-books\\facure\\evidence.json": {
+      "bytes": 149060,
+      "sha256": "ae1f8341f6b4460c9cc7fc522d40bc8c6e5024a2c231adbf4bb4d5ad9c5c6d8c"
+    },
+    "update-2026-10-21\\deep-books\\facure\\progress.json": {
+      "bytes": 7507,
+      "sha256": "7df55661b4be7dea270cc774790f58a76aad6ab4951955eab25f27b66b5e8c4b"
+    },
+    "update-2026-10-21\\deep-books\\facure\\asset-inventory.json": {
+      "bytes": 112748,
+      "sha256": "1f5bfd9d9b78293e3dc76ab54848536ce14598c9c7838fcfcdfb33cea409348d"
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\evidence.json": {
+      "bytes": 31296,
+      "sha256": "8c8a9f3769b536477133f4e4f00308c9ea3b4abeaf3d70d803ab8d4f287c3e02"
+    },
+    "update-2026-10-21\\deep-books\\longitudinal\\progress.md": {
+      "bytes": 2601,
+      "sha256": "296d695d18e10e3f5be53d47868b3028f71b026dabd4d0e32de931e538aa8062"
+    },
+    "update-2026-10-21\\deep-books\\jansen\\evidence.json": {
+      "bytes": 171095,
+      "sha256": "717f0ff49b3da421db75e7db757093b13ae4c463218cc829c78e976e3d21bae7"
+    },
+    "update-2026-10-21\\deep-books\\jansen\\progress.json": {
+      "bytes": 4358,
+      "sha256": "42fe48b080a9d21618bf1da938851a11c904f851e0ee45e57dea36012bb99f3a"
+    },
+    "update-2026-10-21\\deep-books\\kelly\\evidence.json": {
+      "bytes": 87479,
+      "sha256": "b3d6fb61ca3f33fdfc5d3c717bd76789af05f0a7446d3884fd84ee3c58b58696"
+    },
+    "update-2026-10-21\\deep-books\\kelly\\progress.json": {
+      "bytes": 792,
+      "sha256": "a157a20aedfee375ff0fc8d6e7a0ce2ff5770be4772fea2a1b2b8296c563bd9f"
+    },
+    "update-2026-10-21\\deep-books\\harris\\evidence.json": {
+      "bytes": 307019,
+      "sha256": "85fcdfe32b8b8922a8a9da6d667a66fae509a05e5b2d22e9653954d2c8ccc598"
+    },
+    "update-2026-10-21\\deep-books\\harris\\progress.json": {
+      "bytes": 14251,
+      "sha256": "7b78aed19390618e818989960b5861e4c9cd884129a4757670d387a0647f2c90"
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\evidence.json": {
+      "bytes": 47638,
+      "sha256": "8c8446cee9018ad9e8730e5f5d8fe1ed9fc97b39d6ad1e5fcd64f2301db4ec34"
+    },
+    "update-2026-10-21\\deep-papers\\instructgpt\\progress.json": {
+      "bytes": 4226,
+      "sha256": "d9efcce1cb5483adde019783c68be37d745b79df644bf428ed2c10ff1e34ced5"
+    },
+    "update-2026-10-21\\deep-repositories\\rrsi\\continuation-evidence.json": {
+      "bytes": 3410,
+      "sha256": "4967371ef5a5e7adad51d2481063f6fd79f652d76c90e018303135cf1c4243f2"
+    }
+  },
+  "completed_source_ids_note": "Source records have explicit individual completion definitions; counts are not independent studies or empirical replications.",
+  "final_browser_verification": {
+    "rtl": "rtl",
+    "font": true,
+    "fontFamily": "Parastoo, serif",
+    "diagrams": 21,
+    "diagramState": "ready",
+    "charts": 7,
+    "tables": 268,
+    "horizontalOverflow": false,
+    "englishParagraphs": [],
+    "headings": 43,
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "searchMatches": 3,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "brokenAnchors": []
+  },
+  "final_html_sha256": "61b0d1526bdc69268e27b1162dd0cdf20cf5e92ff6cdc770473de3587f1d6e5c",
+  "final_build_manifest": {
+    "sourceSha256": "132ac76193a52e0c7d94207d8e615ec2b6b065b8afafeed754cb2ac52a959882",
+    "sourceLines": 6584,
+    "originalUrlOccurrences": 2387,
+    "uniqueRawUrls": 1900,
+    "inventoryRecords": 1353,
+    "originalInputRecords": 44,
+    "addedInputRecords": 50,
+    "quantFiles": 29,
+    "sourceHashes": 262,
+    "manuscriptWords": 100899,
+    "diagrams": 21,
+    "charts": 7,
+    "mathExpressions": 7,
+    "htmlBytes": 6421063,
+    "chapters": 43
+  }
+}

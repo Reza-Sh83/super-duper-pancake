@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-30",
+  "saved_utc": "2026-10-30T06:57:50.041279+00:00",
+  "kind": "Browser-verified interim delivery; more research and final packaging in progress",
+  "whole_project_complete": false,
+  "zip_updated": false,
+  "compiled_source_sha256": "fb1e81d7c31d991e5ac558a66dff530ff99e130d7424ca7717d6619c00170e49",
+  "files": {
+    "RESEARCH.md": {
+      "bytes": 1781102,
+      "sha256": "fb1e81d7c31d991e5ac558a66dff530ff99e130d7424ca7717d6619c00170e49"
+    },
+    "RESEARCH.fa.html": {
+      "bytes": 7472223,
+      "sha256": "13ff215b85ccc6d87d02ceee1994ce1b30123f6fbb2707c4d5f2788b44ff0729"
+    },
+    "RESEARCH.fa.md": {
+      "bytes": 1987433,
+      "sha256": "7c832076b29ac370d37f56c8f4ca54a0b0bb1a758f4256f1ff63b2f5875b2a2b"
+    },
+    "SOURCE_REVIEW_REGISTER.json": {
+      "bytes": 14084514,
+      "sha256": "5cbd62ac55a1482dc9f09f4d51a64983ce1bc710c34e706309ad0f03346e1d28"
+    }
+  }
+}

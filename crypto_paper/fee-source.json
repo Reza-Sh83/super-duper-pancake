@@ -1,0 +1,1 @@
+{"version":"kraken-spot-tier1-2026-11-07","source":"https://www.kraken.com/features/fee-schedule","contract":"architecture-review/crypto/CRYPTO_BUILD_CONTRACT.fa.md","taker":"0.008","currency":"USD","stress":{"version":"stress-v1","taker":"0.01","latency_ms":1000,"slippage":"0.001"}}

@@ -1,0 +1,39 @@
+{
+  "recorded_utc": "2026-10-22T10:39:43.361434+00:00",
+  "dotnet_sdk": "10.0.401",
+  "initial_docker_state": "Linux engine named pipe unavailable",
+  "start_action": "docker desktop start --detach",
+  "observed_server_version": "29.7.2",
+  "unintended_autostart_observed": [
+    {
+      "name": "bioloop-real-worker-1",
+      "image": "bioloop-local:locked",
+      "status": "Up16seconds healthstarting"
+    },
+    {
+      "name": "bioloop-real-api-1",
+      "image": "bioloop-local:locked",
+      "status": "Up16seconds healthy"
+    },
+    {
+      "name": "bioloop-real-crawler-1",
+      "image": "bioloop-crawl4ai:0.9.4-sandbox",
+      "status": "Up16seconds healthy"
+    },
+    {
+      "name": "bioloop-real-searxng-1",
+      "image": "d4c2726944b3",
+      "status": "Up16seconds"
+    },
+    {
+      "name": "bioloop-real-database-1",
+      "image": "bioloop-pgvector:pg17-security-eval",
+      "status": "Up16seconds healthy"
+    }
+  ],
+  "rollback_action": "docker desktop stop --timeout30",
+  "rollback_command_exit_code": 0,
+  "side_effects_in_short_autostart_interval": "Unknown; unrelated services logs/data not inspected",
+  "research_runtime_experiments_performed": false,
+  "continuation_rule": "Do not restart this shared Desktop daemon for research without an isolation plan that prevents unrelated automatic startup. Recheck book reading and offline fixture work independently."
+}

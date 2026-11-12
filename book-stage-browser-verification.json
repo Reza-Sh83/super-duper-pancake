@@ -1,0 +1,115 @@
+{
+  "renderedBlocks": [
+    {
+      "file": "31-book-stage.fa.md",
+      "blocks": 514,
+      "missing": []
+    },
+    {
+      "file": "32-whatif-2026.fa.md",
+      "blocks": 201,
+      "missing": []
+    },
+    {
+      "file": "33-islp-trees.fa.md",
+      "blocks": 69,
+      "missing": []
+    },
+    {
+      "file": "34-islp-learning.fa.md",
+      "blocks": 41,
+      "missing": []
+    },
+    {
+      "file": "35-islp-linear.fa.md",
+      "blocks": 16,
+      "missing": []
+    },
+    {
+      "file": "36-islp-classification.fa.md",
+      "blocks": 15,
+      "missing": []
+    },
+    {
+      "file": "37-islp-resampling.fa.md",
+      "blocks": 12,
+      "missing": []
+    },
+    {
+      "file": "38-islp-selection.fa.md",
+      "blocks": 15,
+      "missing": []
+    },
+    {
+      "file": "39-islp-nonlinear.fa.md",
+      "blocks": 54,
+      "missing": []
+    },
+    {
+      "file": "40-islp-later.fa.md",
+      "blocks": 90,
+      "missing": []
+    },
+    {
+      "file": "41-lb02.fa.md",
+      "blocks": 177,
+      "missing": []
+    },
+    {
+      "file": "42-lb17.fa.md",
+      "blocks": 133,
+      "missing": []
+    },
+    {
+      "file": "43-social-maintext.fa.md",
+      "blocks": 115,
+      "missing": []
+    },
+    {
+      "file": "44-remaining-visuals.fa.md",
+      "blocks": 89,
+      "missing": []
+    },
+    {
+      "file": "45-islp-labs2-8.fa.md",
+      "blocks": 69,
+      "missing": []
+    },
+    {
+      "file": "46-islp-labs9-13.fa.md",
+      "blocks": 41,
+      "missing": []
+    }
+  ],
+  "screenshots": [
+    "book-stage-math.png",
+    "book-stage-checks.png",
+    "book-stage-trees.png",
+    "book-stage-whatif.png",
+    "book-stage-learning.png",
+    "book-stage-splines.png",
+    "book-stage-alpha.png",
+    "book-stage-data.png",
+    "book-stage-svm.png",
+    "book-stage-caravan-25.png",
+    "book-stage-compat-25.png",
+    "book-stage-iv-25.png",
+    "book-stage-smarket-round2.png",
+    "book-stage-bike-round2.png",
+    "book-stage-ties-round2.png",
+    "book-stage-bootstrap-round2.png",
+    "book-stage-lb02-30.png",
+    "book-stage-lb17-30.png",
+    "book-stage-social-30.png",
+    "book-stage-visuals-30.png",
+    "book-stage-labs2-8-30.png",
+    "book-stage-labs9-13-30.png",
+    "book-stage-rsims-attempt-30.png",
+    "book-stage-forward-chart-30.png",
+    "book-stage-mobile.png"
+  ],
+  "offlineNetworkRequests": 0,
+  "consoleErrors": [],
+  "sourceSha256": "3d51c5b91653a533e004a62b46ace3c052057db5e706bb318cf461d62aa84aef",
+  "fullResearchComplete": false
+}

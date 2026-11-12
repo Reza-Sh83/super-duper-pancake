@@ -1,0 +1,20 @@
+{
+  "ccxt": {
+    "pin": "a1bd1dd550c67db735107447b698a34a34c2efa6",
+    "version": "4.5.91",
+    "result": "pip metadata permission denied; full package not run",
+    "log": "Collecting ccxt==4.5.91\r\nERROR: Could not install packages due to an OSError: [Errno 13] Permission denied: 'C:\\\\Users\\\\Reza\\\\AppData\\\\Local\\\\Packages\\\\sandbox.{937588ce-195c-4214-b03d-e30695091248}\\\\AC\\\\Temp\\\\ccxt-run-1c7fe979cd7c46dcb36a9a01aa50c5a7\\\\pip-unpack-ejkfmooo\\\\ccxt-4.5.91-py3-none-any.whl.metadata'\r\nConsider using the `--user` option or check the permissions.\r\n\r\nWARNING: Failed to remove contents in a temporary directory 'C:\\Users\\Reza\\AppData\\Local\\Packages\\sandbox.{937588ce-195c-4214-b03d-e30695091248}\\AC\\Temp\\ccxt-run-1c7fe979cd7c46dcb36a9a01aa50c5a7\\pip-build-tracker-22p_fcfd'.\r\nYou can safely remove it manually.\r\n"
+  },
+  "nautilus": {
+    "pin": "6dc35da8be6582c9ea71a21e5f6d19f7e9164533",
+    "product": "2.0.0rc9",
+    "cargo_workspace": "0.68.0",
+    "result": "pinned package not available in command runtime, no end-to-end run"
+  },
+  "hummingbot": {
+    "pin": "9af100d6822da7d2d0291a906c730ef172284ee2",
+    "version_file": "2.17.0",
+    "setup_version": "20260922",
+    "result": "pinned package not available in command runtime, no end-to-end run"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "remaining": "Book review workers and social access work active; final ZIP not rebuilt yet",
+  "status": "INTERIM_BROWSER_VERIFIED_PUBLICATION",
+  "browser_verification_sha256": "e0aa879b5b3e971eb7ea8181c38d3e1da70a4e010be871dec5826d4108b7b9f9",
+  "new_checked_units": 17,
+  "updated_utc": "2026-10-27T04:33:53.3770657Z",
+  "whole_project_complete": false,
+  "files": [
+    {
+      "sha256": "693b71c75aea508105c05f9c70c41680e0f9711a18be90e3474ab37e309160cb",
+      "name": "RESEARCH.fa.html"
+    },
+    {
+      "sha256": "6f4e5a2fb645b6c22357e62bd618ab113e17502e74e31df2f975c3f38fe78fe6",
+      "name": "RESEARCH.fa.md"
+    }
+  ],
+  "english_sha256": "e27a6c2b2f033f19fe91f046c72de84b4dc8e4fa49cbd89354bf283b3fae10fb"
+}

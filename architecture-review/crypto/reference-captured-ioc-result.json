@@ -1,0 +1,1 @@
+{"classification": "offline reference on captured Kraken snapshot, synthetic freshness positive control and hypothetical fee; no venue orders or candidate engine", "age_ms": 25538, "fixture_cap_ms": 5000, "stale_fill": "0", "ioc_filled": "0.30231883", "ioc_cancelled": "0.01000000", "notional": "22900.983923213", "fee": "22.900983923213", "limit": "75751.1", "assertions": 3}

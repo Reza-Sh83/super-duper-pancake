@@ -1,0 +1,57 @@
+{
+  "phase": "implementation handoff delivered",
+  "source_records": 336,
+  "unique": 332,
+  "route": "CEX only",
+  "spy": "historical only",
+  "choices_pending": [],
+  "observed": [
+    "public Kraken/Coinbase/Binance WebSocket",
+    "six Kraken CRCs",
+    "apparent receive/event offset about 25–26 s",
+    "captured Kraken snapshot offline IOC reference: stale rejected, synthetic fresh partial, nonmarketable rejected",
+    "Clock offset independently reproduced via NTP, HTTPS and Kraken Time",
+    "two independent fresh subscriptions with 6 CRC each",
+    "exact pinned CCXT Kraken Depth/Time methods through public REST with stub helpers",
+    "Forced client disconnect and automatic public resubscription within one process; two validated snapshots and four deltas; NTP-corrected estimated age 208–238 ms",
+    "Both public REST intervals, instrument metadata and depth validated; Decimal reference and UTC fixture passed",
+    "CCXT 4.5.91 install attempt blocked by temporary wheel metadata permission"
+  ],
+  "remaining": [
+    "Post-build A–D including host 24h and product path",
+    "M01 candidate comparative only; exact package execution unresolved",
+    "P02 freeze and evaluate after operations acceptance",
+    "Separate authority for paid or real connections"
+  ],
+  "holdout": "unobserved; 180 UTC days from first complete day after manifest freeze; freeze after product acceptance",
+  "live_only_choices_pending": [
+    "jurisdiction/access",
+    "authorized trading account"
+  ],
+  "paper_data": {
+    "candidate": "Approved paper feed: Kraken Spot BTC/USD public L2",
+    "tradingview": "visual inspection only under current standard terms; no data API for this use",
+    "account_required": false
+  },
+  "paper_config": {
+    "venue": "Kraken",
+    "product": "Spot",
+    "pair": "BTC/USD",
+    "operational_horizon": "4h",
+    "research_horizon": "daily",
+    "capital_usd": 10000,
+    "upfront_usd": 0,
+    "monthly_usd": 0,
+    "risk": {
+      "order_pct": 2.5,
+      "exposure_pct": 10,
+      "daily_loss_pct": 1,
+      "peak_drawdown_pct": 4,
+      "approved_scope": "paper only",
+      "day_boundary": "UTC",
+      "daily_release": "next day, reconcile, operator approval",
+      "drawdown_release": "investigate and explicit approval"
+    }
+  },
+  "deliverable": "CRYPTO_IMPLEMENTATION_HANDOFF.fa.md"
+}

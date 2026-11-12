@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-27",
+  "updated_at_utc": "2026-10-27T04:39:41.7415542Z",
+  "status": "ACTIVE_READING_EXPERIMENTS_AND_VERIFIED_INCREMENTAL_PUBLICATION",
+  "whole_project_complete": false,
+  "integration_status": "17 experiment scopes delivered English/HTML/register; 21LB02 text scopes and28social-record maintext scopes prepared, next publication pending; offlineZIP still prior",
+  "previous_verified_delivery": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+  "previous_state": "ACTIVE_RESEARCH_STATE_2026-10-25.json",
+  "worklist": "COMPLETE_RESEARCH_WORKLIST_2026-10-25.json",
+  "recovered_facts": [
+    "No former subagents remain active; created three lighter workers with explicit nonoverlapping ownership",
+    "LB17 root actually read pages1–37; old checkpoint1–18 is stale; next38",
+    "WhatIf adjusted IV/GEE/AR results saved; parent review and publication pending",
+    "New results not yet integrated; do not confuse cached reports with delivered reader",
+    "Parent independentARaudit passed; all-real confidence set analytically verified",
+    "All27unique X retainedmaintexts read/hashverified;28recordaliases; sourceauth/media/replies independent",
+    "LIVE_RESEARCH_CHECKPOINT_2026-10-27.json syncs curatedprogress every30seconds whileactive; session restarted04:38UTC for expanded coverage",
+    "INTERIM_PUBLICATION_2026-10-27.json is authority for intermediate deliveredEnglish/HTML; finalZIP notyetupdated"
+  ],
+  "agents": [
+    {
+      "scope": "LB02 finished; now missing socialmedia/replies/revisions and primary rsims companion review",
+      "folder": "update-2026-10-24-books/social-access-2026-10-27",
+      "name": "/root/lb02_finish"
+    },
+    {
+      "scope": "LB17 reading through PDF441 with chapter checks; next442, inspect latest checkpoint for newer progress",
+      "folder": "update-2026-10-24-books/lb17-complete-2026-10-27",
+      "name": "/root/lb17_finish"
+    },
+    {
+      "scope": "ISLPCh6/Cartea done; LB09frontmatter16 andPinheiro170 andQuantInsti205 fullpagevisualreview done; continuing Aldridge354",
+      "name": "/root/finish_experiment_artifacts",
+      "folders": [
+        "update-2026-10-24-books/islp-selection-2026-10-25",
+        "update-2026-10-24-books/cartea-replay-2026-10-25"
+      ]
+    }
+  ],
+  "dependencies": [
+    "Cartea2015fullbodymissing",
+    "Jansen2nd2020missing",
+    "LB02Ch7Bloombergsource/dataidentityunresolved",
+    "LB17legacyCD/Exceladdin notpresent locally; publisherproductroutes toolunavailable/403; do notbypassprotectedresources",
+    "Cartea FPCA volume_INTC_2014.mat missing; Nov18days not original >=51day input"
+  ],
+  "policy": "Persist each verified source unit/experiment, then merge English and Persian, source register and offline package; no synthetic replacement marked original replication"
+}

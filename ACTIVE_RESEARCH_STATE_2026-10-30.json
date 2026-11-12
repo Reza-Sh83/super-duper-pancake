@@ -1,0 +1,70 @@
+{
+  "saved_at_utc": "2026-10-30T17:53:54.292555+00:00",
+  "date": "2026-10-30",
+  "status": "ACTIVE_GITHUB_OFFLINE_REVIEW",
+  "whole_project_complete": false,
+  "latest_user_instruction": "Review all24new GitHub repositories and previously supplied GitHub sources deeply; update English/Persian/register",
+  "cache_root": "C:\\Users\\Reza\\.codex\\visualizations\\2026\\10\\19\\01a1546d-90b3-75f2-804d-e7f5ceb298e2\\research-fa",
+  "agents_running": false,
+  "training_running": false,
+  "checkpoint_writer_running": false,
+  "agents": [
+    {
+      "name": "github_execution",
+      "status": "SERVICE_ERROR_404",
+      "resume_from_saved_evidence_only": true
+    },
+    {
+      "name": "github_models_agents",
+      "status": "SERVICE_ERROR_404",
+      "resume_from_saved_evidence_only": true
+    },
+    {
+      "name": "github_infrastructure",
+      "status": "SERVICE_ERROR_404",
+      "resume_from_saved_evidence_only": true
+    }
+  ],
+  "registered_sources": 2020,
+  "checked_scopes": 11385,
+  "full_source_records": 28,
+  "all_twelve_parent_workstreams_open": true,
+  "content_verified": true,
+  "content_hashes": {
+    "RESEARCH.md": "3d51c5b91653a533e004a62b46ace3c052057db5e706bb318cf461d62aa84aef",
+    "RESEARCH.fa.html": "f889e4ff4aae960ae0b9c94f217e981f10e4c5e84f65a99718899b5a52a3e907",
+    "SOURCE_REVIEW_REGISTER.json": "0d3f5bfd90da94608e92c5eb24521e7d5c75b018ac2c67203f6cbdf3449c84bc"
+  },
+  "delivery_verification": "delivery-verification.json (written separately after packaging; verify its source hash matches content_hashes)",
+  "user_stop_checkpoint": "research-evidence/update-2026-10-24-books/islp-labs9-13-2026-10-27/checkpoints/ch10-v1-stopped-by-user.json",
+  "private_model_backup_manifest": "research-runtime-checkpoints/2026-10-30/islp-ch10/manifest.json",
+  "resume_policy": "Match commit/file hashes against prior completed scopes; no repeat of unchanged verified reading. New GitHub task does not resume paused ISLP/Rsim experiments.",
+  "known_limits": [
+    "CIFAR23/30savedepochs, unfinishedfit/test andlaterCh10sections",
+    "rsimsblockedbeforebuild/simulation",
+    "MissingfullCartea2015andJansen2nd2020books",
+    "Bookexercises/wholevisualscopes/media/replies/financialPnLvalidation still incomplete",
+    "Wallet1saved833000rows,lastcompletepage833;localwritefailure notAPIend;resumecursorretained"
+  ],
+  "active_scope_inventory": "D:\\python_project\\trade\\research-evidence\\github-review-2026-10-30\\inventory.json",
+  "previous_books_training_remains_stopped": true,
+  "github_scope": "All24new and allprevious/extracted repository candidates",
+  "github_candidate_roots": 334,
+  "current_github_status": "D:\\python_project\\trade\\research-evidence\\github-review-2026-10-30\\STATUS_2026-10-30.json",
+  "github_additions_integrated_in_main_reader": false,
+  "network_policy": "OFFLINE_ONLY_UNTIL_USER_EXPLICITLY_AUTHORIZES_FURTHER_DOWNLOADS",
+  "bulk_downloads_stopped": true,
+  "agent_service_state": "404errors; rootcontinuingfromsavedfiles",
+  "github_review": {
+    "updated_at_utc": "2026-10-31T04:28:11.508Z",
+    "state": "ACTIVE_OFFLINE_REVIEW",
+    "built_report_count": 56,
+    "stored_scopes": 715,
+    "distinct_paths": 650,
+    "main_source_sha256": "5a34cbbf64289b047e6578e6d514854137aca0e95d85c36382d1d04a5d25afed",
+    "main_html_sha256": "0eb62c4faba4b1e4f2c6788e62d0f1d474bd4e0d64c38ec7dcea0c218b62d60f",
+    "delivery": "PENDING_ZIP_AND_FINAL_COPY",
+    "book_training_resumed": false,
+    "status": "research-evidence/github-review-2026-10-30/STATUS_2026-10-31.json"
+  }
+}

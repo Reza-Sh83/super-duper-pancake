@@ -1,0 +1,73 @@
+{
+  "inputs": {
+    "limit": 100,
+    "quantity": 2,
+    "buyCases": [
+      [
+        101,
+        100,
+        false
+      ],
+      [
+        101,
+        99,
+        false
+      ],
+      [
+        102,
+        101,
+        false
+      ],
+      [
+        101,
+        99,
+        true
+      ]
+    ]
+  },
+  "output": {
+    "ml4t": [
+      100,
+      100,
+      null,
+      100
+    ],
+    "lean": [
+      "none",
+      "100/2",
+      "none",
+      "none"
+    ],
+    "cases": [
+      "touch",
+      "cross",
+      "unreached",
+      "stale_cross"
+    ],
+    "runtime": [
+      "7.6.6",
+      "Python 3.12.4"
+    ]
+  },
+  "source": [
+    {
+      "id": "P031",
+      "path": "Common/Orders/Fills/FillModel.cs",
+      "sha256": "725852e144bf1e54160f9cefe9788d163b80facd774b0a684392627bffa710f1",
+      "range": [
+        705,
+        758
+      ]
+    },
+    {
+      "id": "P008",
+      "path": "src/ml4t/backtest/core/fill_engine.py",
+      "sha256": "589ffed31d28c26cd7b9b0152b521fdd619ca4f3648064f7dc8abafbe446dd6e",
+      "range": [
+        292,
+        313
+      ]
+    }
+  ],
+  "limitation": "Unmodified selected bodies with dependency stubs. LEAN checks time in the selected method; ml4t selected helper has no timestamp argument. This does not test how the full ml4t engine filters stale bars or overall engine parity."
+}

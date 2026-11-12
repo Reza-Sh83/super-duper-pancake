@@ -1,0 +1,40 @@
+{
+  "integration_status": "These new branches are NOT yet merged into English/Persian/register/ZIP; previousdeliveryremainsverifiedbaseline",
+  "root_work": [
+    "LB02 units1,2,3,5 and12 entire retainedtext read;3chapter7imagesviewed; evidence/ch7tests/ENFAanalyticalchapter stored under lb02-frontmatter-root",
+    "LB17 pages1–18read;metadata1–17,Chapter1openingpage18;checkpoint lb17-frontmatter-root/evidence.json;next19",
+    "Fresh userrootlibrary hashed:19physicalfiles/18distinctknownassets,no newfullCartea/Jansen2;followup fresh-library JSON",
+    "Completeallbookworklist18assets+2onlineidentitiescreated; incomplete dependencies not fabricated"
+  ],
+  "whole_project_complete": false,
+  "date": "2026-10-25",
+  "previous_verified_delivery": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+  "worklist": "COMPLETE_RESEARCH_WORKLIST_2026-10-25.json",
+  "actual_blockers": [
+    "Cartea2015fullbodymissing",
+    "Jansen2nd2020missing",
+    "LB02Ch7Bloombergsource/dataidentityunresolved",
+    "LB17legacyCD/Exceladdin notpresent locally; publisherproductroutes toolunavailable/403; do notbypassprotectedresources"
+  ],
+  "pending_user_question": "Original Bloomberg data/code path for LB02 Chapter7, exact BITW/MSCI identifiers and sample2016-10-31to2021-08-31",
+  "status": "ACTIVE_COMPLETE_ALL_BOOKS_REQUEST",
+  "agents": [
+    {
+      "current_task": "Complete Ch6 source API numerical lab and render/view remaining plot cells",
+      "folder": "update-2026-10-24-books/islp-selection-2026-10-25",
+      "name": "/root/islp_ch6_complete_lab"
+    },
+    {
+      "current_task": "68 saved PNGs viewed; selected full notebook ran; attempt remaining notebook contracts and read LB09 frontmatter",
+      "folder": "update-2026-10-24-books/cartea-replay-2026-10-25",
+      "name": "/root/cartea_outputs_replay"
+    },
+    {
+      "current_task": "Completed actual linearmodels6.1 adjustedIV/GEE/AR branch; now LB02 remaining bookspines/visuals",
+      "completed_folder": "update-2026-10-24-books/whatif-iv-full-2026-10-25",
+      "current_folder": "update-2026-10-24-books/lb02-complete-2026-10-25",
+      "name": "/root/whatif_ch16_remaining"
+    }
+  ],
+  "user_scope": "All retained books and experiments; no false completion of unavailable sources"
+}

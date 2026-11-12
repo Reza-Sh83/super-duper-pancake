@@ -1,0 +1,94 @@
+{
+  "english_source_sha256": "c5373e3da9e3f9291415336128f399668e59f92f95658cebe68463eaff5408f5",
+  "html_sha256": "9d49d6a684673702752dd074222d5958cc876f6f8041816aa6377dec046e07dc",
+  "publication_pairs": 10,
+  "english_sections": [
+    43,
+    52
+  ],
+  "persian_sections": [
+    38,
+    47
+  ],
+  "rendered_blocks": [
+    {
+      "file": "31-book-stage.fa.md",
+      "blocks": 430,
+      "missing": []
+    },
+    {
+      "file": "32-whatif-2026.fa.md",
+      "blocks": 201,
+      "missing": []
+    },
+    {
+      "file": "33-islp-trees.fa.md",
+      "blocks": 69,
+      "missing": []
+    },
+    {
+      "file": "34-islp-learning.fa.md",
+      "blocks": 41,
+      "missing": []
+    },
+    {
+      "file": "35-islp-linear.fa.md",
+      "blocks": 16,
+      "missing": []
+    },
+    {
+      "file": "36-islp-classification.fa.md",
+      "blocks": 15,
+      "missing": []
+    },
+    {
+      "file": "37-islp-resampling.fa.md",
+      "blocks": 12,
+      "missing": []
+    },
+    {
+      "file": "38-islp-selection.fa.md",
+      "blocks": 15,
+      "missing": []
+    },
+    {
+      "file": "39-islp-nonlinear.fa.md",
+      "blocks": 54,
+      "missing": []
+    },
+    {
+      "file": "40-islp-later.fa.md",
+      "blocks": 90,
+      "missing": []
+    }
+  ],
+  "all_recorded_blocks_present": true,
+  "native_mathml": 235,
+  "offline_browser": {
+    "rtl": "rtl",
+    "font": true,
+    "fontFamily": "Parastoo, serif",
+    "diagrams": 26,
+    "diagramState": "ready",
+    "charts": 7,
+    "tables": 323,
+    "horizontalOverflow": false,
+    "englishParagraphs": [],
+    "headings": 54,
+    "offlineNetworkRequests": 0,
+    "consoleErrors": [],
+    "searchMatches": 3,
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "brokenAnchors": []
+  },
+  "book_reading_coverage": {
+    "ISLP_retained_pages": 613,
+    "WhatIf_main_body_through_PDF": 340,
+    "WhatIf_endmatter_metadata_through_PDF": 365
+  },
+  "all_research_complete": false,
+  "scope": "Published teaching pairs and specified reading/test evidence; not every raw-source fact, full lab, reference or social claim"
+}

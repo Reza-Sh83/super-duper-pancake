@@ -1,0 +1,20 @@
+{
+  "rtl": "rtl",
+  "font": true,
+  "fontFamily": "Parastoo, serif",
+  "diagrams": 27,
+  "diagramState": "ready",
+  "charts": 8,
+  "tables": 339,
+  "horizontalOverflow": false,
+  "englishParagraphs": [],
+  "headings": 59,
+  "offlineNetworkRequests": 0,
+  "consoleErrors": [],
+  "searchMatches": 3,
+  "mobileWidths": [
+    390,
+    320
+  ],
+  "brokenAnchors": []
+}

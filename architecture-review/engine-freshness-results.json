@@ -1,0 +1,289 @@
+{
+  "thresholdSeconds": 5,
+  "scope": "Synthetic pre-ingress age gate, not an upstream engine patch or actual adapter. LEAN and ml4t one-clock bars deliberately projected at receive time without gate as negative control. No claim that native data types retain both clocks.",
+  "ml4t": {
+    "engine": "ml4t-backtest",
+    "version": "0.2.0",
+    "cases": [
+      {
+        "case": "late_projected",
+        "dropped_indices": [],
+        "submitted": "OrderStatus.FILLED",
+        "fills": [
+          {
+            "order_id": "ORD-1",
+            "fill_sequence": 0,
+            "rebalance_id": null,
+            "asset": "TEST",
+            "side": "buy",
+            "quantity": 2,
+            "signed_quantity": 2,
+            "multiplier": 1,
+            "currency": null,
+            "price": 100,
+            "timestamp": "2025-01-06 15:01:00+00:00",
+            "commission": 0,
+            "slippage": 0,
+            "order_type": "limit",
+            "limit_price": 100,
+            "stop_price": null,
+            "stop_triggered_at": null,
+            "price_source": "open",
+            "reference_price": 102,
+            "quote_mid_price": null,
+            "bid_price": null,
+            "ask_price": null,
+            "spread": null,
+            "bid_size": null,
+            "ask_size": null,
+            "available_size": 1000,
+            "exit_reason": "",
+            "exit_reason_detail": null
+          }
+        ],
+        "final_cash": 9800
+      },
+      {
+        "case": "guard_late",
+        "dropped_indices": [
+          1
+        ],
+        "submitted": "OrderStatus.PENDING",
+        "fills": [],
+        "final_cash": 10000
+      }
+    ],
+    "scope": "Actual Engine DataFeed, strategy, submit, matching, fills and cash. A synthetic source event from the first minute arrives one minute late. Without guarding, projecting receive time as timestamp loses its age. Guard drops it before DataFeed."
+  },
+  "nautilus": {
+    "engine": "nautilus_trader",
+    "version": "1.231.0",
+    "cases": [
+      {
+        "case": "guard_touch",
+        "observed": [
+          {
+            "event": 1736175600000000000,
+            "receive": 1736175600000000000,
+            "ask": "101.00"
+          },
+          {
+            "event": 1736175660000000000,
+            "receive": 1736175660000000000,
+            "ask": "100.00"
+          },
+          {
+            "event": 1736175720000000000,
+            "receive": 1736175720000000000,
+            "ask": "101.00"
+          }
+        ],
+        "orders": 1,
+        "rejected": [],
+        "fills": [
+          {
+            "trader_id": "BACKTESTER-001",
+            "strategy_id": "Buy-000",
+            "instrument_id": "BTCUSDT.BINANCE",
+            "venue_order_id": "BINANCE-1-001",
+            "position_id": "BTCUSDT.BINANCE-Buy-000",
+            "account_id": "BINANCE-001",
+            "last_trade_id": "T-97d78af6a3474483-001",
+            "type": "LIMIT",
+            "side": "BUY",
+            "quantity": "2.000000",
+            "price": "100.00",
+            "time_in_force": "GTC",
+            "expire_time_ns": null,
+            "filled_qty": "2.000000",
+            "liquidity_side": "MAKER",
+            "avg_px": 100,
+            "slippage": 0,
+            "commissions": [
+              "0.20000000 USDT"
+            ],
+            "status": "FILLED",
+            "is_post_only": false,
+            "is_reduce_only": false,
+            "is_quote_quantity": false,
+            "display_qty": null,
+            "emulation_trigger": "NO_TRIGGER",
+            "trigger_instrument_id": null,
+            "contingency_type": "NO_CONTINGENCY",
+            "order_list_id": null,
+            "linked_order_ids": null,
+            "parent_order_id": null,
+            "exec_algorithm_id": null,
+            "exec_algorithm_params": null,
+            "exec_spawn_id": null,
+            "tags": null,
+            "init_id": "c92ebd66-478c-4781-90bf-4d3adc5452bd",
+            "ts_init": "2025-01-06 15:00:00+00:00",
+            "ts_last": "2025-01-06 15:01:00+00:00"
+          }
+        ],
+        "account_tail": [
+          {
+            "total": "2.00000000",
+            "locked": "0.00000000",
+            "free": "2.00000000",
+            "currency": "BTC",
+            "account_id": "BINANCE-001",
+            "account_type": "CASH",
+            "base_currency": null,
+            "margins": [],
+            "reported": false,
+            "info": {}
+          }
+        ]
+      },
+      {
+        "case": "guard_cross",
+        "observed": [
+          {
+            "event": 1736175600000000000,
+            "receive": 1736175600000000000,
+            "ask": "101.00"
+          },
+          {
+            "event": 1736175660000000000,
+            "receive": 1736175660000000000,
+            "ask": "99.00"
+          },
+          {
+            "event": 1736175720000000000,
+            "receive": 1736175720000000000,
+            "ask": "101.00"
+          }
+        ],
+        "orders": 1,
+        "rejected": [],
+        "fills": [
+          {
+            "trader_id": "BACKTESTER-001",
+            "strategy_id": "Buy-000",
+            "instrument_id": "BTCUSDT.BINANCE",
+            "venue_order_id": "BINANCE-1-001",
+            "position_id": "BTCUSDT.BINANCE-Buy-000",
+            "account_id": "BINANCE-001",
+            "last_trade_id": "T-97d78af6a3474483-001",
+            "type": "LIMIT",
+            "side": "BUY",
+            "quantity": "2.000000",
+            "price": "100.00",
+            "time_in_force": "GTC",
+            "expire_time_ns": null,
+            "filled_qty": "2.000000",
+            "liquidity_side": "MAKER",
+            "avg_px": 100,
+            "slippage": 0,
+            "commissions": [
+              "0.20000000 USDT"
+            ],
+            "status": "FILLED",
+            "is_post_only": false,
+            "is_reduce_only": false,
+            "is_quote_quantity": false,
+            "display_qty": null,
+            "emulation_trigger": "NO_TRIGGER",
+            "trigger_instrument_id": null,
+            "contingency_type": "NO_CONTINGENCY",
+            "order_list_id": null,
+            "linked_order_ids": null,
+            "parent_order_id": null,
+            "exec_algorithm_id": null,
+            "exec_algorithm_params": null,
+            "exec_spawn_id": null,
+            "tags": null,
+            "init_id": "79be08ed-e2d4-4dcd-9e17-96061bfaa5aa",
+            "ts_init": "2025-01-06 15:00:00+00:00",
+            "ts_last": "2025-01-06 15:01:00+00:00"
+          }
+        ],
+        "account_tail": [
+          {
+            "total": "2.00000000",
+            "locked": "0.00000000",
+            "free": "2.00000000",
+            "currency": "BTC",
+            "account_id": "BINANCE-001",
+            "account_type": "CASH",
+            "base_currency": null,
+            "margins": [],
+            "reported": false,
+            "info": {}
+          }
+        ]
+      },
+      {
+        "case": "guard_stale_late",
+        "observed": [
+          {
+            "event": 1736175600000000000,
+            "receive": 1736175600000000000,
+            "ask": "101.00"
+          },
+          {
+            "event": 1736175720000000000,
+            "receive": 1736175720000000000,
+            "ask": "101.00"
+          }
+        ],
+        "orders": 1,
+        "rejected": [
+          {
+            "event": 1736175600000000000,
+            "receive": 1736175660000000000
+          }
+        ],
+        "fills": [],
+        "account_tail": [
+          {
+            "total": "10000.00000000",
+            "locked": "200.00000000",
+            "free": "9800.00000000",
+            "currency": "USDT",
+            "account_id": "BINANCE-001",
+            "account_type": "CASH",
+            "base_currency": null,
+            "margins": [],
+            "reported": false,
+            "info": {}
+          }
+        ]
+      }
+    ],
+    "scope": "BacktestEngine quote data, Strategy, OMS, matching, generated fills and account report; published stable 1.x, not the source snapshot 2.x."
+  },
+  "lean": {
+    "cases": [
+      [
+        "late_projected",
+        2,
+        2,
+        9799
+      ],
+      [
+        "guard_late",
+        0,
+        0,
+        10000
+      ]
+    ],
+    "trace": "\r\nBuild succeeded.\r\n    0 Warning(s)\r\n    0 Error(s)\r\n\r\nTime Elapsed 00:00:06.54\r\nCASE=late_projected\r\n20261106 19:07:30.899 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_BAR 2013-10-08T09:31:00.0000000 101.0000\r\n20261106 19:07:30.899 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_EVENT 2013-10-08T13:31:00.0000000Z Submitted 0 0\r\n20261106 19:07:30.899 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_SUBMIT 1 Submitted\r\n20261106 19:07:30.962 TRACE:: Log: 2013-10-08 09:32:00 FIXTURE_EVENT 2013-10-08T13:32:00.0000000Z Filled 2 100\r\n20261106 19:07:30.962 TRACE:: Log: 2013-10-08 09:32:00 FIXTURE_BAR 2013-10-08T09:32:00.0000000 99.0000\r\n20261106 19:07:30.962 TRACE:: Log: 2013-10-08 09:33:00 FIXTURE_BAR 2013-10-08T09:33:00.0000000 101.0000\r\n20261106 19:07:30.962 TRACE:: Log: 2013-10-08 09:33:00 FIXTURE_RESULT submitted=True filled=2 position=2 cash=9799\r\nCASE=guard_late\r\n20261106 19:07:36.726 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_BAR 2013-10-08T09:31:00.0000000 101.0000\r\n20261106 19:07:36.727 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_EVENT 2013-10-08T13:31:00.0000000Z Submitted 0 0\r\n20261106 19:07:36.727 TRACE:: Log: 2013-10-08 09:31:00 FIXTURE_SUBMIT 1 Submitted\r\n20261106 19:07:36.756 TRACE:: Log: 2013-10-08 09:33:00 FIXTURE_BAR 2013-10-08T09:33:00.0000000 101.0000\r\n20261106 19:07:36.756 TRACE:: Log: 2013-10-08 09:33:00 FIXTURE_RESULT submitted=True filled=0 position=0 cash=10000\r\n"
+  },
+  "dependencyStatus": {
+    "leanBuild": "unchanged test-only snapshot",
+    "DotNetZip": {
+      "version": "1.16.0",
+      "advisory": "https://github.com/advisories/GHSA-xhg6-9j5j-w4vf",
+      "patched": "none for DotNetZip, ProDotNetZip is a different package"
+    },
+    "SystemDrawingCommon": {
+      "version": "4.7.0",
+      "advisory": "https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "patched": "4.7.2 on 4.x line; advisory affects Linux/macOS"
+    },
+    "nautilusNote": "Initial fixture compared QuoteTick objects by equality, triggering a native panic. Comparing row indices instead avoided it; all three guarded cases passed on retry."
+  }
+}
