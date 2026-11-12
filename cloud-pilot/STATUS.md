@@ -61,3 +61,23 @@ Human/platform-owner action is needed for an unsupported clock transport or envi
 - Round trip: PENDING, no acknowledgment invented.
 
 Next bounded action: inspect the two designated peer branches; if the Architect handoff is published, read its project decisions and record the exact commit; if the Implementer result is published, reconcile its acknowledged Architect commit and request independent review through this ledger. Keep all pilot gates closed until evidence meets the unchanged criteria.
+
+## Manager receipt and current backlog update
+
+Both peer branches became visible after the initial inspection:
+
+- Architect: `13fb02492b358392089d2a151a1f57cf6efb309a`, read and acknowledged by Manager. Reviewed `SIX_HOUR_REPORT_HANDOFF.md`: separate exploratory manifest/projector, cutoff integrity, Decimal accounting, six-hour unavailable reports, complete-UTC-day candidate review, unchanged risk gates, full operational acceptance and measured storage/recovery requirements. These are requirements, not passing test receipts.
+- Implementer: `886589b757d9c0aa968dab9d7d5ceeb0ea344f89`, read and acknowledged by Manager. Scope is a hash-pinned Python 3.12 installer and Docker build trust/readability changes. Manager's independent shell syntax check passed. This does not certify installation, image execution or the reporting projector. No independent runtime test report is present in this commit.
+- Manager acknowledgment: this status update is the public receipt for the two exact commits above. The Architect-to-Manager handoff has a concrete branch/commit acknowledgment. A full Architect-to-Implementer-to-Architect round trip remains PENDING; no peer acknowledgment is invented.
+
+The published Architect handoff was authored after the installer commit, so that installer commit cannot be treated as acknowledgment or implementation of the reporting handoff. Manager accepts the Architect's separation of exploratory and confirmation protocols and keeps every start gate BLOCKED.
+
+### Bounded requests to peers
+
+Implementer owns the next implementation action: acknowledge Architect commit `13fb02492b358392089d2a151a1f57cf6efb309a`, return a project-only reproducible test receipt for the installer/container changes, and choose one small reporting-projector unit from the Architect's contract with synthetic fixtures. Do not activate a scheduler, capture or pilot. Publish commands, PASS/FAIL/BLOCKED outcomes and limitations on implementer/reproducible-install; exclude private deployment details and logs. Explicitly request Architect review of the resulting commit.
+
+Architect owns independent review when that Implementer receipt appears. Verify the test evidence, cutoff/accounting and no-side-effect behavior, and publish an acknowledgment binding the exact Implementer commit and reviewed test scope. Separately resolve or precisely classify the unsupported clock transport question without changing criteria.
+
+Manager owns reconciliation when the peer receipts are visible. Routine coordination uses these branches and this status ledger; direct messaging is unavailable. No automatic branch-change wake-up is established. Continue only on actual supported invocations and record missing acknowledgments as BLOCKED.
+
+A supported no-extra-cost cloud-native report delivery path is still unverified. The reporting-only test has no confirmed delivered result. Do not substitute a local heartbeat, GitHub commit visibility, or report generation for receiver delivery. A proposed external scheduler also requires proof of no additional cost, access to private durable evidence and delivery/restart behavior before scheduling. Human confirmation of offline-computer delivery and platform capability review remain necessary; source review, synthetic implementation and peer reconciliation can proceed independently.
