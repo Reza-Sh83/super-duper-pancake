@@ -39,3 +39,7 @@ Priorities:
 Exact next action after the bounded diagnostic ends: verify its sealed segment and ledger hashes, reconstruct and compare the committed ledger, generate a dry-run unavailable six-hour report, and retain the complete metric/readback receipt privately. If any check fails, preserve the evidence and report the failure without claiming an interval return.
 
 Quota allowances and reset times are unknown. Checkpoints permit explicit resumption; no automatic wake after reset is promised. No indefinite polling or unattended runtime is established by this work.
+
+## Primary-source research
+
+Reviewed Kraken's current [v2 checksum guide](https://docs.kraken.com/exchange/guides/websockets/book-checksum-v2) and [book schema](https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/book). The guide specifies top-ten CRC verification after all price-level changes, preserving decimal precision and truncating subscribed depth. The published book schema has timestamps and checksums but no exchange sequence counter. Local frame contiguity and CRC evidence therefore cannot prove an exact count of exchange messages lost. Report transport/resynchronization gaps, sampled missing time and local index gaps separately; label exchange sequence loss unobservable.
