@@ -84,7 +84,7 @@ def snapshot_from_capture(manifest, start, end):
                        source_ledger_sha256=info['ledger_sha256'],readback='PASS',coverage=coverage)
         metrics.update(capture_coverage=rebuilt.metrics(),
                        checksum_valid_fresh_book_samples=book_samples,
-                       clock_status='UNVERIFIED' if info.get('clock_unverified_diagnostic') else 'SEE_CLOCK_FRAMES')
+                       clock_status='UNVERIFIED' if info.get('clock_unverified_diagnostic') or info.get('state') == 'DIAGNOSTIC' else 'SEE_CLOCK_FRAMES')
         return snap, metrics
     finally:
         source.close()
