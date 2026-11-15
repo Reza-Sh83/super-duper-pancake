@@ -46,3 +46,35 @@ One reporting-only six-hour delivery test is scheduled. The user committed to ke
 On an isolated memory copy of the same recorded ledger, an index on events(frame) reduced 501 lookup queries from 1.236 s to 0.00120 s with identical rows. This is a query microbenchmark under concurrent load, not an end-to-end improvement. No indexing change was applied to the measured source or source ledger; no implementation commit or strategy-return improvement is claimed for it.
 
 Next exact implementation action: develop and benchmark a transient replay index on a separate candidate branch against the same retained ledger, preserving source-build verification and identical accounting outputs; investigate the two queue-age failures without increasing queue limits or relaxing the 500 ms age gate. Then address global archive-cap lifecycle and recovery before repeating acceptance. A supported no-cost path for all three unchanged NTP references remains necessary. Keep the pilot STOPPED.
+
+## Experimental transient replay index — ac61332
+
+Problem: the normalized snapshot/replay path performs repeated event lookups by frame on an unindexed rebuilt ledger. The earlier query microbenchmark did not measure the whole replay path.
+
+Change: tools/benchmark_replay_index.py compares the complete unchanged snapshot_from_capture reconstruction/verification call with and without an events(frame) index created only in the rebuilt in-memory ledger. Index creation and symmetric close-time audits are included. Production collector, source ledgers, original build checks and default reporting behavior are unchanged. This does not measure the later formatted project() report or ordinary CLI replay.
+
+Same sealed input: 74.201460 s unindexed versus 12.133027 s indexed (6.11566x). All 72,097 committed frames, 54,375 ordered events, final accounts, normalized snapshots and metrics match. Source hashes are unchanged. Actual financial-event subset is empty; separate buy/sell/fee/rollback tests verify literal accounting and indexed/unindexed invariance. All 27 tests passed. Independent Architect review passed for this narrow scope. One sequential baseline-then-candidate pair has cache/order/load caveats; memory peak was not instrumented. This is an experimental reporting/replay improvement, not demonstrated strategy-return improvement or production adoption.
+
+## Isolated queue diagnostic — collector code unchanged
+
+Problem: the preceding diagnostic encountered two queue-age failures while archive/replay work ran concurrently. To investigate, the same collector package ran for 600 seconds with an induced disconnect at second 300 and no project compression/replay/benchmark/test jobs during collection. This workload change is separate from the index experiment; the index was not installed in the collector.
+
+| Measurement | Earlier loaded window | Isolated window |
+| --- | --- | --- |
+| CRC-valid book frames | 70,824 | 90,115 |
+| Queue-age failures | 2 | 0 |
+| Unexpected transport failures | 0 | 0 |
+| Intentionally induced disconnects | 1 | 1 |
+| Missing sample seconds | 5 | 0 |
+| Checksum-book availability / 600 planned seconds | 97.5% | 99.6667% |
+| Accepted-WS processing age p99 | 0.843264 ms | 0.327068 ms |
+| Accepted-WS processing age maximum | 492.038805 ms | 98.404222 ms |
+| Induced recovery to first CRC-valid snapshot | 2.721261 s | 2.795192 s |
+| Rejected clock checks | 12 | 12 |
+| Operational READY | 0% | 0% |
+
+Sealed readback reproduced the isolated source's ordered events, frames and final accounting. That equality is not equality between different market windows. Independent Architect review accepted the scoped receipt. Different traffic and uncontrolled host scheduling prevent a causal claim; accepted-frame age statistics exclude rejected/missing frames. No queue limit, clock criterion, trading gate or 180-day protocol changed. P&L and drawdown remain unavailable.
+
+Independent storage research found exact byte-identical ledger reconstruction for both prior samples and a reversible raw-envelope codec round trip. Its 2x raw-only weekly projection plus active buffers still exceeds 5 GiB before complete format overhead. No retention acceptance or production archive change is claimed. Current NTP probes still fail. Generic Codex SOCKS5 UDP documentation is a capability lead, not proof of a working managed-Cloud route. The existing reporting test is not due and was not queried or rescheduled.
+
+Next exact experiment: replay one identical retained arrival schedule/burst in an isolated harness, once without background work and once with bounded archive/replay load. Keep the 4096-frame/32 MiB queue, 1 MiB frame and 500 ms age thresholds fixed; compare aged/dropped frames and per-stage service time. This controls traffic before attributing failures to concurrency. Keep the pilot STOPPED pending all existing release gates.
