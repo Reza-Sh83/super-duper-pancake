@@ -51,3 +51,14 @@ The bounded public-feed diagnostic completed and remained explicitly clock-unver
 Focused tests: 21 PASS. Existing data checks D01/D02/F01/T02 and execution checks X01/X02/R01/R02: PASS. These software checks do not constitute independent operational review. The harness evolved during diagnostic collection; this run is not an immutable acceptance-build receipt.
 
 Next exact implementation action: introduce a separate diagnostic CRC/book observer with synthetic tests showing that invalid NTP refreshes leave diagnostic transport measurements interpretable while production READY and all order gates remain closed. Do not relax Session's trading-clock behavior. Separately, a supported no-cost UDP clock capability and private retention/recovery/report-delivery proofs are still needed before release. Do not start the pilot or assign T0.
+
+
+## Repeat validation checkpoint
+
+Resumed from 8ca2e03. Diagnostic observer implementation and frozen measured source: 8bf869afb527cac88275fd63f705a4e861695602. See ARCHITECTURE_CHANGELOG.md for the before/after comparison and limitations. Twenty-three focused tests and all eight existing fixture checks passed. The ten-minute repeat completed, with induced/transport/queue/clock events separated; sealed readback and independently extracted archive replay passed. Raw evidence and detailed receipts remain private. Source hashes matched the launch record through replay.
+
+Clock validation still fails. Queue-age failures and five missed sample seconds remain. A complete 24-hour operational acceptance was not started because prerequisites fail. Lossless compression/recovery is demonstrated locally, but the repeat archive rate alone exceeds the approved weekly cap; off-environment recovery and a global retention lifecycle remain unproven. No week-long retention claim is made.
+
+The existing reporting-only dry run remains scheduled without restart/rescheduling. User commitment to keep the PC offline is recorded. Scheduler/cloud attachment, actual cloud execution, report generation and user's receipt are distinct states; only scheduling/attachment are verified now. The pilot has not started, no UTC T0 is assigned, and P&L/drawdown remain unavailable. A 50% alert and the separate 180-day confirmation protocol are not activated.
+
+Next exact action: implement and benchmark the isolated transient replay-index candidate on the same retained data, verify identical accounting, and diagnose queue pressure while preserving all operational gates. Independently reconcile the already scheduled dry-run execution, generated report and mobile/web acknowledgment when they arrive. No automatic quota-reset restart, continuous collector or regular pilot-report delivery is established. Quota windows remain unknown; use these committed English checkpoints for explicit resumption.
