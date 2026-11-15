@@ -108,6 +108,9 @@ def _project(s, generated_at):
     opening, closing, initial = at(a), at(b), at(t0)
     net = change(opening["nav"],closing["nav"])
     inception = change(initial["nav"],closing["nav"])
+    if s["integrity"] != "PASS" or s["replay"] != "PASS":
+        net = {"usd":None,"percent":None,"reason":"SOURCE_UNVALIDATED"}
+        inception = dict(net)
     expected = (b-a)//NANO
     ready, nonready, missing = (s["coverage"][k] for k in ("ready", "nonready", "missing"))
     if any(type(v) is not int or v < 0 for v in (ready,nonready,missing)) or ready+nonready+missing != expected:

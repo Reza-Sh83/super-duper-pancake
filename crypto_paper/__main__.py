@@ -117,16 +117,24 @@ def collect(args):
             session = Session(out, run_id, policy)
         cap = Capture(out, run_id, session.last["idx"] if session.last else 0)
         manifest(out, run_id, policy, started, state="COLLECTING", duration_sec=args.duration_sec,
-                 force_reconnect_at_sec=args.force_reconnect_at_sec)
+                 force_reconnect_at_sec=args.force_reconnect_at_sec,
+                 clock_unverified_diagnostic=getattr(args, "clock_unverified_diagnostic", False))
         status, reason = "BLOCKED", "interrupted"
         try:
             if args.resume:
                 session.handle(cap.put("restart", epoch=session.book.epoch))
             problems = preflight(session, cap)
-            if problems:
+            diagnostic = getattr(args, "clock_unverified_diagnostic", False)
+            clock_only = problems and all(p.startswith("independent UTC reference rejected:") for p in problems)
+            if problems and not (diagnostic and clock_only):
                 status, reason = "BLOCKED", "; ".join(problems)
             else:
-                status, reason = asyncio.run(live(session,cap,args.duration_sec,args.force_reconnect_at_sec))
+                async def bounded():
+                    async with asyncio.timeout(args.duration_sec + 10):
+                        return await live(session,cap,args.duration_sec,args.force_reconnect_at_sec)
+                status, reason = asyncio.run(bounded())
+                if diagnostic:
+                    status, reason = "DIAGNOSTIC", "Clock-unverified observe-only diagnostic; no operational acceptance"
         except KeyboardInterrupt:
             reason = "operator interrupted process"
         except Exception as exc:
@@ -149,6 +157,7 @@ def collect(args):
             session.close()
             info = manifest(out, run_id, policy, started, state=status, collection_reason=reason,
                             duration_sec=args.duration_sec, force_reconnect_at_sec=args.force_reconnect_at_sec,
+                            clock_unverified_diagnostic=getattr(args, "clock_unverified_diagnostic", False),
                             host=host, paper=checks[1] if args.command == "paper" else None)
             return report(out/"report.json",run_id,checks,started,info["parts"])
 
@@ -237,6 +246,9 @@ def main():
         cmd.add_argument("--force-reconnect-at-sec", type=int)
         cmd.add_argument("--out", type=Path, required=True)
         cmd.add_argument("--resume", action="store_true")
+        if name == "capture":
+            cmd.add_argument("--clock-unverified-diagnostic", action="store_true",
+                             help="retain observe-only evidence despite clock-only preflight failure; never acceptance")
         if name == "paper":
             cmd.add_argument("--policy",choices=("observe","paper-alternating-v1"),default="observe")
     cmd = sub.add_parser("verify")

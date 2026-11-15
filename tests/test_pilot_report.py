@@ -113,6 +113,14 @@ class PilotReportTests(unittest.TestCase):
         s=case(True); s["interval_start"]+=HOUR
         with self.assertRaises(ValueError): self.report(s)
 
+    def test_unvalidated_source_never_reports_a_numeric_return(self):
+        for key in ('integrity','replay'):
+            s=case(); s['snapshots'][-1]['cash']='15000'; s[key]='FAIL'
+            r=self.report(s)
+            self.assertIsNone(r['interval_net']['usd'])
+            self.assertIsNone(r['inception_net']['percent'])
+            self.assertEqual(r['interval_net']['reason'],'SOURCE_UNVALIDATED')
+
     def test_strict_cutoff_for_fills_and_receive_times(self):
         s=case(); b=s["interval_end"]
         s["fills"]=[{"utc":b,"received_utc":b,"frame":2,"fee_usd":"100"}]
