@@ -43,3 +43,11 @@ Quota allowances and reset times are unknown. Checkpoints permit explicit resump
 ## Primary-source research
 
 Reviewed Kraken's current [v2 checksum guide](https://docs.kraken.com/exchange/guides/websockets/book-checksum-v2) and [book schema](https://docs.kraken.com/exchange/api-reference/spot-websocket-v2/book). The guide specifies top-ten CRC verification after all price-level changes, preserving decimal precision and truncating subscribed depth. The published book schema has timestamps and checksums but no exchange sequence counter. Local frame contiguity and CRC evidence therefore cannot prove an exact count of exchange messages lost. Report transport/resynchronization gaps, sampled missing time and local index gaps separately; label exchange sequence loss unobservable.
+
+## Completed diagnostic disposition
+
+The bounded public-feed diagnostic completed and remained explicitly clock-unverified. Private segment/payload/frame readback and both sealed-ledger adapter reconstruction and the separate existing replay command passed. Operational acceptance remains BLOCKED. A six-hour dry-run report was generated from committed data with unavailable return and current drawdown; no complete validated trading interval exists. The observed storage rate exceeds the unchanged capture cap when projected across the pilot. No raw data, hashes, financial evidence or logs are published here.
+
+Focused tests: 21 PASS. Existing data checks D01/D02/F01/T02 and execution checks X01/X02/R01/R02: PASS. These software checks do not constitute independent operational review. The harness evolved during diagnostic collection; this run is not an immutable acceptance-build receipt.
+
+Next exact implementation action: introduce a separate diagnostic CRC/book observer with synthetic tests showing that invalid NTP refreshes leave diagnostic transport measurements interpretable while production READY and all order gates remain closed. Do not relax Session's trading-clock behavior. Separately, a supported no-cost UDP clock capability and private retention/recovery/report-delivery proofs are still needed before release. Do not start the pilot or assign T0.
