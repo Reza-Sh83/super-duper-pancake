@@ -80,6 +80,28 @@ class CaptureReportTests(unittest.TestCase):
             with self.assertRaises(SystemExit) as exc: main()
             self.assertEqual(exc.exception.code,2)
 
+    def test_rotation_and_capacity_stop_preserve_readback(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out=Path(tmp)/'run'; out.mkdir()
+            s=Session(out,'synthetic','observe'); cap=Capture(out,'synthetic')
+            try:
+                s.handle(cap.put('run_begin',utc=T,mono=NANO,duration=600))
+                # Exercise time segmentation without allocating a large file.
+                s.handle(cap.put('sample',utc=T+NANO,mono=3601*NANO))
+                self.assertEqual(len(list((out/'raw').glob('*.jsonl'))),2)
+                before={p:p.read_bytes() for p in (out/'raw').glob('*.jsonl')}
+                with patch('crypto_paper.runtime.shutil.disk_usage',return_value=SimpleNamespace(free=2048*1024**2)):
+                    with self.assertRaisesRegex(OSError,'safety disk threshold'):
+                        cap.put('sample',utc=T+2*NANO,mono=3602*NANO)
+                self.assertEqual(cap.idx,2)
+                self.assertEqual(before,{p:p.read_bytes() for p in before})
+            finally:
+                cap.close(); s.close()
+            manifest(out,'synthetic','observe',T,state='DIAGNOSTIC')
+            result=self.report(out/'manifest.json')
+            self.assertEqual(result['capture_metrics']['readback'],'PASS')
+            self.assertEqual(len(result['capture_metrics']['parts']),2)
+
     def test_diagnostic_retains_clock_failure_but_not_storage_failure(self):
         for problem in ('independent UTC reference rejected: []','local SQLite close/reopen rejected: test'):
             with self.subTest(problem=problem), tempfile.TemporaryDirectory() as tmp:

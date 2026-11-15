@@ -23,7 +23,7 @@ Current adapter scope is sealed observe ledgers only. It does not certify live c
 
 ## Synthetic verification
 
-Twenty report/integration tests passed: sealed readback, source immutability, segment/frame/account tampering, collection preflight separation, missing history, stale/missing mark, fees and liquidation reserve, cutoff boundaries, missing seconds, invalid-integrity suppression, report identity and exclusive output. Existing data and execution fixture suites passed. These are synthetic software receipts, not operational acceptance or independently reviewed paper profits.
+Twenty-one report/integration tests passed: sealed readback, source immutability, segment/frame/account tampering, collection preflight separation, missing history, stale/missing mark, fees and liquidation reserve, cutoff boundaries, missing seconds, invalid-integrity suppression, report identity and exclusive output. Synthetic one-hour segment rotation and disk-floor safe-stop preserved ordered readback. Existing data and execution fixture suites passed. These are synthetic software receipts, not operational acceptance or independently reviewed paper profits.
 
 ## Measured limitations and next work
 
