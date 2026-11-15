@@ -175,9 +175,14 @@ async def candle_window(interval, started, finish, boundaries, fetch, emit):
 
 
 async def live(session, capture, duration, forced_at):
+    from .diagnostic import DiagnosticBook
+    diagnostic = DiagnosticBook() if getattr(capture, "clock_unverified_diagnostic", False) else None
+
     def emit(kind, wire=b"", **fields):
         frame = capture.put(kind, wire, **fields)
         session.handle(frame)
+        if diagnostic is not None:
+            diagnostic.handle(frame)
 
     from websockets.asyncio.client import connect
     from websockets.exceptions import WebSocketException
@@ -279,8 +284,9 @@ async def live(session, capture, duration, forced_at):
                                 channel,event_time = "unknown",None
                             emit("ws", wire, epoch=epoch, channel=channel,
                                  queue_received_mono=queued, queue_received_utc=queued_utc, exchange_utc=event_time)
-                            had_ready |= session.ready(session.last)
-                            if session.book.state == "STALE":
+                            feed_book = diagnostic.book if diagnostic is not None else session.book
+                            had_ready |= feed_book.state == "READY" if diagnostic is not None else session.ready(session.last)
+                            if feed_book.state == "STALE":
                                 raise ValueError("book STALE")
                             # A ready queue.get() need not yield while synchronous commits drain a burst.
                             await asyncio.sleep(0)
@@ -288,11 +294,15 @@ async def live(session, capture, duration, forced_at):
                         reader.cancel()
                         await asyncio.gather(reader, return_exceptions=True)
                 reason = "induced disconnect"
+                origin = "induced"
             except (OSError, ValueError, TimeoutError, WebSocketException, OverflowError) as exc:
                 if isinstance(exc, OverflowError):
                     emit("overflow", epoch=epoch, reason=str(exc))
                 reason = str(exc) or type(exc).__name__
-            emit("disconnect", epoch=epoch, reason=reason, forced=bool(trigger), **trigger)
+                origin = ("queue" if isinstance(exc, OverflowError) else
+                          "feed_validation" if isinstance(exc, ValueError) and diagnostic is not None else
+                          "production_validation" if isinstance(exc, ValueError) else "transport")
+            emit("disconnect", epoch=epoch, reason=reason, origin=origin, forced=bool(trigger), **trigger)
             if had_ready:
                 failures = 0
             delay = min(30, 2**min(failures, 5)*random.uniform(1, 1.25))

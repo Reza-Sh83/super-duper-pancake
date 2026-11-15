@@ -116,6 +116,7 @@ def collect(args):
             run_id = uuid.uuid4().hex
             session = Session(out, run_id, policy)
         cap = Capture(out, run_id, session.last["idx"] if session.last else 0)
+        cap.clock_unverified_diagnostic = getattr(args, "clock_unverified_diagnostic", False)
         manifest(out, run_id, policy, started, state="COLLECTING", duration_sec=args.duration_sec,
                  force_reconnect_at_sec=args.force_reconnect_at_sec,
                  clock_unverified_diagnostic=getattr(args, "clock_unverified_diagnostic", False))

@@ -4,6 +4,7 @@ from pathlib import Path
 
 from .data import NANO, dump, load, parse_time, sha
 from .engine import Ledger
+from .diagnostic import DiagnosticBook
 from .pilot_report import HOUR, project
 from .runtime import Session, compare, digest_file, frames, verified_parts
 
@@ -17,6 +18,7 @@ def snapshot_from_capture(manifest, start, end):
         raise ValueError('sealed ledger hash mismatch')
     rebuilt = Session(None, info['run_id'], info['policy'], ledger=Ledger(':memory:'))
     source = Ledger(ledger_path, readonly=True)
+    diagnostic = DiagnosticBook()
     snapshots, fills, slots = [], [], {}
     good = errors = connects = disconnects = book_samples = 0
     mark_received = None
@@ -31,6 +33,7 @@ def snapshot_from_capture(manifest, start, end):
                 raise ValueError('committed frame digest mismatch')
             prior = rebuilt.book.index
             rebuilt.handle(f)
+            diagnostic.handle(f)
             if f['kind'] == 'run_begin': first_mono = f['mono']
             last_mono = f['mono']
             if f['kind'] == 'connect': connects += 1
@@ -83,6 +86,7 @@ def snapshot_from_capture(manifest, start, end):
                        raw_bytes=sum(p.stat().st_size for p in parts),parts=info['parts'],
                        source_ledger_sha256=info['ledger_sha256'],readback='PASS',coverage=coverage)
         metrics.update(capture_coverage=rebuilt.metrics(),
+                       diagnostic_observer=diagnostic.metrics(),
                        checksum_valid_fresh_book_samples=book_samples,
                        clock_status='UNVERIFIED' if info.get('clock_unverified_diagnostic') or info.get('state') == 'DIAGNOSTIC' else 'SEE_CLOCK_FRAMES')
         return snap, metrics
