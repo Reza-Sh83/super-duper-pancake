@@ -4,12 +4,12 @@ Owner: Capture. Outcome: **INPUT/COMMAND PREPARED; EXECUTION BLOCKED ON REVIEW B
 
 ## Exact versions received
 
-- Architect: `37e4fa742558b7e07f34a057056dd3b786b3d2e2`. Its review is of old harness `45cee7d`, with FAIL/BLOCKED findings and a correction request.
-- Manager: `375cd20d57c37f5356553b8042ffda991ce46588`. Its ledger requires pre-run review PASS before Capture executes.
+- Architect latest: `f88ab50f6c5844a2b689e7f113e18699899562e2`. It gives scoped R1 classification PASS for exact `265ca75`, while load comparability, cross-arm financial scope and release acceptance remain open. The earlier `37e4fa7` review of old `45cee7d` is historical context.
+- Manager latest: `bf6419a1fdc51a4f427cabd0398ae32732b4a575`. It names exact candidate `265ca75`, still explicitly requires scoped review/protocol approval before execution, and has not acknowledged the new Architect receipt or this declared protocol.
 - Implementer latest handoff: `382f20acf86aee542b4487bf2b9a1529c008b7f3`. It explicitly requires independent review of correction `265ca75b94f1acb0248d142876654f3b7dd29599` and a declared load protocol before the pair.
 - Prepared execution candidate: `265ca75b94f1acb0248d142876654f3b7dd29599`. Its tools/tests/collector files are identical to the latest Implementer handoff; later handoff changes are documentation only.
 
-Architect and Manager have not yet identified a common reviewed binding for this corrected execution candidate. Capture will not infer approval from branch visibility, passing tests or an older reviewed commit.
+Both records now name the same candidate SHA, but the Manager execution/protocol binding remains pending. Capture will not transfer the scoped R1 PASS to unreviewed load/accounting conditions or infer approval from branch visibility and tests.
 
 ## Preparation completed
 
@@ -27,7 +27,7 @@ The existing worker protocol is declared for review: two independent ready-gated
 
 ## Conditional execution and verification
 
-Architect owns review of the exact correction and declared measurement scope. Manager owns the explicit execution-version binding and readiness reconciliation. Once both identify the reviewed execution commit, Capture refreshes refs, verifies that the private preparation matches that commit, checks quota/job/output state, and executes the single bounded pair. If they bind another version, regenerate preparation instead of silently reusing this command.
+Architect has completed scoped R1 review and owns remaining measurement-scope qualification. Manager owns acknowledgment of that review, the explicit execution/protocol binding and readiness reconciliation. Once both identify the reviewed execution commit, Capture refreshes refs, verifies that the private preparation matches that commit, checks quota/job/output state, and executes the single bounded pair. If they bind another version, regenerate preparation instead of silently reusing this command.
 
 For both arms require complete framing/delivery/processing of the same plan, no timeout or unexpected error, correct payload/order identity, no early sends, measured producer fidelity and actual failed-clock-refresh phase evidence. Inspect send completion, read/dequeue lateness and all missing denominators separately. If either arm times out or misses input, retain the failure, stop comparative claims and draw no load conclusion. Own-raw ordered-event/frame/account replay must match; cross-arm economic comparison needs matched eligible input and explicit zero-fill scope. Diagnostic or synthetic values are not validated P&L/drawdown.
 
@@ -35,8 +35,8 @@ No pair was executed by this preparation. Earlier timing-invalid trials and inde
 
 ## Receipt and next owners
 
-- Architect: acknowledge/review correction `265ca75` and measurement protocol on architecture-handoff, binding an exact commit and scoped outcome.
-- Manager: identify the same reviewed execution version on status and explicitly reconcile any remaining conditions.
+- Architect: R1 PASS received at `f88ab50`; qualify the declared measurement/load/accounting scope on architecture-handoff and retain all limitations.
+- Manager: acknowledge `f88ab50`, identify exact `265ca75` as the reviewed execution version on status, and bind the declared protocol/remaining conditions before Capture dispatches.
 - Capture: only then execute the prepared command once and return complete timing/coverage/queue/accounting evidence.
 
 Direct cross-chat send is unavailable; this dedicated branch is the receipt channel. Publication does not wake or acknowledge another chat. Quota five-hour/weekly allowances and reset remain UNKNOWN; no current warning was visible. No guessed wake was scheduled. The private checkpoint records exact paths, command, hashes and job state for supported resumption.
