@@ -2,6 +2,56 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Current decision: paired trial reconciliation
+
+This section supersedes older next-run instructions below. Manager acknowledges Capture result `35ea79b6a0007b22e9da4ba1d9d0b0c1f98394de` and handoff receipt `f942d150330bdaddc9ab2922ee1bbe0705e5f8c3`. The old measured harness was `45cee7deb93d7944c78ae277b8a15200e7f58318`. Outcome: **INCONCLUSIVE**, not PASS, for causal attribution of earlier live queue failures. Both conditions failed actual arrival fidelity and ended with socket timeouts; neither reached the periodic clock refresh. Zero application-queue threshold failures do not cancel upstream producer/socket delay or incomplete delivery.
+
+The same plan contained 10,062 messages. Idle processed 7,174; loaded processed 6,069. Maximum producer lateness was 1.417 s versus 6.459 s against the unchanged 50 ms criterion. Each arm's own-raw frame/event/account replay passed, but both used zero-fill observation data, so no validated P&L/drawdown or cross-arm financial-path acceptance follows. The separately attempted loaded arm is not a completed valid sequential pair. Do not rerun or reverse the old invalid pair as though it supplied a baseline acceptance receipt.
+
+Independent fast-drain control `7eca207514e2eec0ccfdce70a3cc91f2c399a6ef` received all planned messages; maximum send/read lateness 46.145/46.327 ms. It establishes feasibility for that control only, omitting Capture/fsync/SQLite/Session. It motivates profiling; it does not identify the cause of the earlier live failures.
+
+### Patch and exact run target
+
+Architect review `37e4fa742558b7e07f34a057056dd3b786b3d2e2` reviewed the OLD harness and raised R1/R2/R3. Implementer response `382f20acf86aee542b4487bf2b9a1529c008b7f3` acknowledges that review and identifies correction **`265ca75b94f1acb0248d142876654f3b7dd29599`** on `implementer/harness-regression`. Manager has read the patch and receipt; independent Architect approval of this patch is **PENDING**. Do not describe the old Architect review as approval of the correction.
+
+The correction adds committed observation-span/interruption validation, early-send/framing checks, FULL_WINDOW versus FIRST_QUEUE_FAILURE_PREFIX versus UNINTERPRETABLE classification, send-end timing and actual periodic-clock evidence for long full-window results. Implementer reports 42 offline tests PASS, including 14 harness tests and five accounting/index tests; Manager has not rerun them in this reconciliation unit. These are synthetic receipts. R2 representative sustained load and R3 common-prefix economic equivalence remain unresolved, explicitly UNVERIFIED/NOT_EVALUATED in the patch.
+
+**Capture's exact candidate to run after approval is `265ca75b94f1acb0248d142876654f3b7dd29599`, not `45cee7d`, `35ea79b`, a moving branch HEAD or a documentation-only receipt commit. There is currently no independently approved corrected run target.** Architect must publish a scoped PASS binding that exact SHA and the declared load protocol before execution. If profiling produces code changes, the new exact commit needs its own review and Manager receipt; approval must not transfer silently. Capture may prepare its private input/load declaration now but must not start another recorded pair yet.
+
+### Single-owner next actions and acceptance
+
+| Item | Owner | Exact action | Acceptance/next trigger |
+| --- | --- | --- | --- |
+| Corrected harness review | Architect | Review `265ca75b94f1acb0248d142876654f3b7dd29599` against R1 in `37e4fa7`; rerun its 14 focused harness tests and relevant regressions; read `35ea79b`/`f942d15` interpretation | Publish exact-commit PASS/FAIL/BLOCKED on cloud-pilot/architecture-handoff. Separate R1 closure from R2/R3 and release acceptance; findings go to Implementer |
+| Bounded profiling | Implementer | Use the fixed retained schedule from the inconclusive receipt and corrected harness baseline `265ca75`; instrument per-frame Capture, fsync, SQLite/Session service and producer/socket backpressure without changing durability/thresholds | Freeze input, instrumentation and load identities; distinguish CPU/service versus blocking and send/read/dequeue delay, include rejected/unsent denominators and profiler overhead. Return sanitized code/test receipt and exact commit for Architect review; raw timing/inputs remain private. No speculative production optimization |
+| Load declaration and next pair | Capture | Declare worker count, codec/index mode, load input identity, start lag, overlap/duty bounds and actual throughput; verify prior output/jobs and quota before any run | After exact-patch review and protocol approval, run one bounded same-schedule pair at the exact approved commit. Require actual periodic-clock refresh for full-window claims, faithful complete framing, clean children and own-raw replay. First queue failure is matched-prefix-only; other fidelity/transport errors remain inconclusive. Reverse order only in a separately reviewed bounded unit if interpretable |
+| Cross-arm economic scope | Implementer | Add matched common-input economic assertions only if needed by the review; keep independent literal nonzero-fill oracle separate from invalid-clock recorded runs | Architect reviews canonical economic equality over identical eligible input, unmatched suffixes and provenance differences. Zero-fill state equality cannot establish financial performance |
+| Reconciliation and clock capability | Manager | Record exact peer acknowledgments and clarify the supported no-cost route for unchanged approved NTP references; generic SOCKS UDP documentation is only a capability lead | No saved-policy edits, unapproved relay or threshold substitution. If capability is unsupported, escalate a precise platform-owner question; Capture reruns original preflight only after an authorized supported route exists |
+
+Capture's review-gated commands, from an isolated checkout at the exact SHA (private bindings must already resolve):
+
+```sh
+git rev-parse HEAD
+# Must equal the exact SHA named in the Architect PASS and Manager receipt.
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -p test_replay_queue_load.py -v
+# Only after scoped review/protocol approval and source-span validation:
+python tools/replay_queue_load.py --manifest "$SEALED_MANIFEST" --out "$NEW_PRIVATE_PAIR_OUT" --seconds 60 --pairs 1
+```
+
+No pair is authorized by command presence alone. Do not invent a reviewed SHA if review remains pending. Do not relax 4096-frame/32 MiB/1 MiB/500 ms queue limits, driver timing criterion, clock/risk checks, or durability. Native WebSocket buffering remains outside this harness.
+
+### Reporting and release carry-forward
+
+The new Capture/Implementer notes still say offline-PC status is unknown; Manager supersedes that stale statement with the user's later explicit confirmation: the PC was offline throughout the existing cloud-generated report test and the report was seen in Work on the web. This is user attestation. Exact scheduled timing, durable restart/idempotency and regular reporting remain unverified. Do not duplicate or recreate the test. The pilot remains STOPPED pending unchanged clock, cap-compliant private storage/off-environment recovery, reporting readiness and full 24-hour operational acceptance. No validated P&L/drawdown, main merge or 180-day activation.
+
+### Bounded-unit checkpoint
+
+Owner: Manager. UTC checkpoint: 2026-11-16T20:46:49Z. Branch: cloud-pilot/status; parent `375cd20d57c37f5356553b8042ffda991ce46588`. Completed: fetched current peer branches, read Capture result/handoff, Architect review and Implementer correction/response; reconciled interpretation and assigned review/profiling. No trial, profiler or collector was started in this unit. Peer job states require verification by their owner on their own machine. Public evidence consists only of the exact project commits above; private receipts remain private.
+
+Before this unit and before publication: five-hour allowance UNKNOWN, weekly allowance UNKNOWN, reset time/timezone UNKNOWN; no supported usage tool or new warning visible. Preserve stop-at-first-warning, <=15% in either window, or exhaustion-risk policy. Use short units, checkpoint before/after results, and do not guess a reset or schedule a duplicate wake. No automatic restart is established. Local commit and remote push are separate; verify this status branch's remote SHA before relying on persistence.
+
+Exact next Manager action on a supported invocation: fetch cloud-pilot/architecture-handoff and implementer/harness-regression once, inspect review binding `265ca75` and any profiling receipt, then record PASS/FAIL/BLOCKED and the exact Capture target. Until then Capture waits on review, while Implementer profiling preparation and Architect review proceed independently. Branch publication does not wake peers; acknowledgments must explicitly name the reviewed commit. No new human decision is required for these bounded actions.
+
 ## Scope and release decision
 
 Public Kraken Spot BTC/USD, simulated orders only, zero additional spend. No private exchange credentials, live orders or purchases. Human approval is required for any main merge. Keep the separate 180-day protocol unchanged. The 168-hour pilot remains STOPPED, T0 unset. No validated financial interval, P&L or drawdown exists. Do not report diagnostic cash balances as performance. A complete 24-hour operational acceptance and all readiness gates must pass before release.
