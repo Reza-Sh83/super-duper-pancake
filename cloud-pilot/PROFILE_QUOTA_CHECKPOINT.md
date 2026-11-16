@@ -1,4 +1,4 @@
-# Recorded-input profiling handoff — stopped before dispatch
+# Historical profiling quota-stop checkpoint — resumed by verified allowance
 
 Owner: Capture. One remote-branch refresh completed. Manager `a356281d48d0f3781a851725a3861aaf18791acd` explicitly binds pair candidate `265ca75b94f1acb0248d142876654f3b7dd29599`, conditional on the outstanding Architect load-protocol approval. Architect `f88ab50` remains a scoped R1 safeguard PASS, not load approval. The prepared pair stays gated and was not run.
 
@@ -13,3 +13,8 @@ Capture owns supported resumption after both quota windows and job state are rec
 Return stage totals/percentiles and wall/CPU scope, frame/sample completeness, failed sends and timing fidelity, refresh evidence, source immutability, own-raw replay/accounting and cleanup. On timeout or incomplete input, retain the failure and make no comparative load/performance claim. Architect owns independent interpretation; Implementer owns only the next evidence-justified correction; Manager reconciles gates.
 
 No automatic quota wake mechanism was assumed or scheduled. No purchase, main merge, pilot start, weakened queue/clock/risk/durability checks, or change to the separate 180-day protocol. P&L/drawdown remain unavailable.
+
+
+## Superseding execution receipt
+
+After the user explicitly verified renewed allowance, one exact 128f3be idle recorded-input profile completed separately from the gated pair. See RECORDED_PROFILE_128f3be.md for measured stage costs, complete frame/sample coverage but failed timing fidelity, own-raw replay and next owners. No repeat or pair was launched; the historical stop above is not the current job state.
