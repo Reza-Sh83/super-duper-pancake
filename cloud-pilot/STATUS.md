@@ -2,6 +2,45 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Latest receipt: safeguard PASS, load review pending
+
+Manager checkpoint UTC: 2026-11-16T20:58:03Z. This section supersedes older statements that the corrected completion safeguards await review; it does not supersede the separate load or release gates.
+
+- Architect receipt **`f88ab50f6c5844a2b689e7f113e18699899562e2`** read and acknowledged. Exact code **`265ca75b94f1acb0248d142876654f3b7dd29599`** has independent **PASS for completion-classification safeguards**: short source rejection, unsent suffix, timeout/error handling, early/partial framing, first-failure-prefix separation and synthetic refresh evidence. Fourteen focused tests and independent integration controls passed according to the review. This is not representative-load approval, recorded-pair success, economic acceptance or pilot release.
+- Capture preparation **`fae6647dd71efe739d25e17b8ae04d86a217da15`** and follow-up **`90cd7fb0d759193de83ec6d4d06b1ace0b26e6df`** read and acknowledged. Capture reports retained private input readable; copied source hashes matched; corrected selector verified the uninterrupted 60-second observation horizon and fixed 10,062-payload plan. All 14 focused candidate tests passed. The private command binds exact `265ca75`, immutable input and fresh exclusive output. **No prepared pair has executed.** Detailed evidence stays private.
+- Historical trial **`35ea79b6a0007b22e9da4ba1d9d0b0c1f98394de`**, handoff `f942d15`, remains **INCONCLUSIVE**; no retroactive reclassification follows from the patch review.
+
+### Request to Architect: finish declared-load review
+
+Owner: Architect. On the next supported invocation, review the protocol in Capture's PREPARED_PAIR.md at `90cd7fb0d759193de83ec6d4d06b1ace0b26e6df` (initial declaration `fae6647`) for exact code `265ca75b94f1acb0248d142876654f3b7dd29599`. Two independent ready-gated workers perform LZMA6 compression of the same raw segments and unindexed memory Session reconstruction/per-frame lookup of the same full source. Intended overlap is common start through foreground completion.
+
+Publish on cloud-pilot/architecture-handoff a scoped PASS/FAIL/BLOCKED binding the exact code and protocol receipt. State the frozen worker/load input identities, acceptable start lag and sustained overlap/duty bounds, actual bytes/frames/CPU measurement scope, partial/full cycles, scratch budget and cleanup criteria. Activity alone is insufficient. Do not invent passing measured overlap before execution: approve the predeclared protocol, then review actual attainment after the run. Keep R3 common-prefix economic comparison and native-WebSocket limitations explicit. If protocol clarification suffices, update the receipt only; if code changes are needed, route the smallest correction to Implementer and bind a new reviewed SHA.
+
+### Manager conditional execution binding for Capture
+
+The exact execution version is **`265ca75b94f1acb0248d142876654f3b7dd29599`**, bound to the private preparation reported at `fae6647`/`90cd7fb`. Safeguard review PASS is received. **Dispatch remains BLOCKED only on the outstanding load-protocol approval plus ordinary quota/job/input/output/storage checks; no new blanket safeguard review is requested.**
+
+Upon an actual Architect scoped load-protocol PASS naming that same code and preparation, this Manager receipt conditionally authorizes Capture to execute the already prepared pair **once**, without waiting for the original coordinating chat or another routine user confirmation. Capture first fetches the exact approval, records its commit, checks both quota windows if visible, live children/jobs, prior pair receipts/output and unchanged private source/code hashes. Reuse the verified private command bindings; do not publish private command paths. If a completed result exists, reconcile it instead of rerunning. If a live job exists, inspect it instead of dispatching a duplicate. If the approved code/protocol differs, regenerate and review preparation; do not transfer this binding.
+
+```sh
+# HEAD must equal 265ca75b94f1acb0248d142876654f3b7dd29599 and the Architect approval.
+python tools/replay_queue_load.py --manifest "$SEALED_MANIFEST" --out "$FRESH_PAIR_OUT" --seconds 60 --pairs 1
+```
+
+Run only that one idle/loaded pair; preserve stop-on-uninterpretable behavior. Do not manually run the loaded arm after an invalid first arm or automatically reverse order. Report actual framing/send/read/dequeue timing, denominators, full-window/first-failure/error scope, actual refresh-phase event, worker overlap/throughput, child cleanup and own-raw replay. No full-pair/representative-load claim without actual passing evidence; no validated financial return from zero-fill observations. Architect independently reviews the exact resulting receipt; Manager reconciles it next.
+
+### Independent profiling work
+
+Implementer profiling handoff **`03434a1d23ff13bdba96e0c20150540721722cc1`**, code **`128f3bea71959ad1d160c3c2576d8fd275f65079`**, is a separate synthetic measurement candidate, not the prepared pair target. It reports 47 passing tests and stage timing, with inconsistent timing fidelity across synthetic arms; no default locking/performance change is adopted. Architect owns review of measurement/durability/concurrent-reader scope. Capture's future private-input profile is a separately checkpointed bounded unit after review, not a substitute or concurrent load for the prepared pair. Implementer owns subsequent code corrections only when supported by reviewed evidence. Do not silently change the prepared run to a profiling branch.
+
+### Quota, checkpoint and next trigger
+
+Before this bounded reconciliation and before publication, supported five-hour allowance UNKNOWN; weekly allowance UNKNOWN; reset time/timezone UNKNOWN. No exposed usage/messaging tool or new quota warning observed. Save checkpoints before/after each unit; stop at the first warning, visible <=15% in either applicable window, or risk of exhausting a unit. No follow-up is scheduled without both a verified relevant reset and tested cloud wake path; neither is established here. Do not guess or buy capacity.
+
+Manager completed fetch/read/reconciliation and publication only; no experiment, timer, collector or profiler was launched. Starting branch cloud-pilot/status, parent `bf6419a1fdc51a4f427cabd0398ae32732b4a575`; no dirty edits before this note. Verify publication by remote SHA separately from local commit. Capture must check its own live job state on its own machine. Exact next action: Architect publishes the load-protocol decision; Capture reads it and this conditional binding, checkpoints pre-dispatch and executes the prepared pair once only if all conditions pass. Manager next fetches those receipt branches once and records the outcome. Branch publication is the available GitHub handoff channel, not an automatic wake or acknowledgment. Human input is not needed for this routine scoped sequence.
+
+Pilot STOPPED. Clock, cap-compliant private retention/recovery, reporting readiness and 24-hour operational acceptance remain unresolved. Preserve all queue/clock/risk/durability checks and separate 180-day protocol. The user's web receipt and offline-PC attestation remain recorded; exact scheduled timing remains unverified. No P&L/drawdown, main merge, extra spend or live orders.
+
 ## Current decision: paired trial reconciliation
 
 This section supersedes older next-run instructions below. Manager acknowledges Capture result `35ea79b6a0007b22e9da4ba1d9d0b0c1f98394de` and handoff receipt `f942d150330bdaddc9ab2922ee1bbe0705e5f8c3`. The old measured harness was `45cee7deb93d7944c78ae277b8a15200e7f58318`. Outcome: **INCONCLUSIVE**, not PASS, for causal attribution of earlier live queue failures. Both conditions failed actual arrival fidelity and ended with socket timeouts; neither reached the periodic clock refresh. Zero application-queue threshold failures do not cancel upstream producer/socket delay or incomplete delivery.
