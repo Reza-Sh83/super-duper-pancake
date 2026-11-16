@@ -6,6 +6,7 @@ import unittest
 from crypto_paper import capture_report as projector
 from crypto_paper.data import D, NANO, dump, load
 from crypto_paper.engine import Engine
+from crypto_paper.pilot_report import boundary
 from crypto_paper.runtime import Capture, Session, manifest, digest_file
 from crypto_paper.verify import UTC, META, book_at
 from tools.benchmark_replay_index import audit, benchmark, experimental_ledgers
@@ -91,6 +92,69 @@ class ReplayIndexTests(unittest.TestCase):
         self.assertEqual(results[0],results[1])
         self.assertEqual(results[0]['event_counts']['fill'],2)
         self.assertGreater(results[0]['financial_event_count'],0)
+
+    def test_index_preserves_nonzero_cutoffs_and_stale_boundary_semantics(self):
+        """Identical operations must preserve economic rows and boundary eligibility."""
+        variants=[]
+        cutoff=UTC+NANO
+        for indexed in (False,True):
+            summaries={}
+            with experimental_ledgers(indexed,summaries):
+                ledger=projector.Ledger(':memory:'); engine=Engine(ledger)
+                snapshots=[]
+                try:
+                    def remember(frame, book):
+                        snapshots.append(dict(frame=frame['idx'],utc=frame['utc'],
+                            received_utc=frame['utc'],cash=str(engine.val('cash')),
+                            btc=str(engine.val('btc')),mark_utc=frame['utc'],
+                            mark_received_utc=frame['utc'],bid=str(book.bid),
+                            book_valid=True,clock_valid=True,journal_reconciled=True))
+                    book=book_at(asks={'100':'1'})
+                    frame=dict(idx=1,utc=UTC,mono=0)
+                    with ledger.transaction(1,'same-input-one'):
+                        engine.order('buy',D('.1'),book,META,frame)
+                    remember(frame,book)
+                    book=book_at(2,asks={'100':'1'})
+                    frame=dict(idx=2,utc=cutoff,mono=NANO)
+                    with ledger.transaction(2,'same-input-two'):
+                        engine.on_book(book,META,frame)
+                        engine.order('sell',D('0'),book,META,frame)
+                    remember(frame,book)
+                    book=book_at(3,asks={'100':'1'},bids={'99.9':'1'})
+                    frame=dict(idx=3,utc=cutoff+NANO,mono=2*NANO)
+                    with ledger.transaction(3,'same-input-three'):
+                        engine.on_book(book,META,frame)
+                    remember(frame,book)
+                    ordered=list(ledger.sequence())
+                    fills=[load(row[3]) for row in ordered if row[2]=='fill']
+                    # A fill exactly at b is unavailable strictly before b.
+                    self.assertEqual([f for f in fills if f['filled_utc']<cutoff],[])
+                    before=max((s for s in snapshots if s['utc']<cutoff),key=lambda s:s['frame'])
+                    self.assertEqual(boundary(before,cutoff,D('.008'))['nav'],D('10000'))
+                    self.assertEqual(boundary(snapshots[1],cutoff,D('.008'))['reason'],'AFTER_CUTOFF')
+                    held=boundary(snapshots[1],cutoff+1,D('.008'))
+                    self.assertEqual(held['nav'],D('9998.3008'))
+                    self.assertEqual(held['exit_reserve_usd'],D('.7992'))
+                    # Eligibility at the original cutoff cannot be repaired by a later mark.
+                    stale_cutoff=cutoff+2001*1000000
+                    held_snapshot=snapshots[1]
+                    self.assertEqual(boundary(held_snapshot,cutoff+2000*1000000,D('.008'))['nav'],D('9998.3008'))
+                    self.assertEqual(boundary(held_snapshot,stale_cutoff,D('.008'))['reason'],'BOOK_STALE')
+                    invalid_clock=held_snapshot|{'clock_valid':False}
+                    self.assertEqual(boundary(invalid_clock,cutoff+1,D('.008'))['reason'],'CLOCK_INVALID')
+                    self.assertIsNone(boundary(invalid_clock,cutoff+1,D('.008'))['mark_age_ms'])
+                    self.assertEqual([f['side'] for f in fills],['buy','sell'])
+                    self.assertEqual([D(f['fee']) for f in fills],[D('.8'),D('.7992')])
+                    self.assertEqual(sum(D(f['fee']) for f in fills),D('1.5992'))
+                    self.assertEqual(engine.val('cash'),D('9998.3008'))
+                    self.assertEqual(engine.val('nav'),D('9998.3008'))
+                    self.assertEqual(engine.val('realized'),D('-1.6992'))
+                    self.assertEqual(engine.val('btc'),D(0))
+                    self.assertEqual(engine.val('cost'),D(0))
+                    variants.append((ordered,audit(ledger),dump(snapshots)))
+                finally:
+                    ledger.close()
+        self.assertEqual(variants[0],variants[1])
 
     def test_tampering_is_rejected_without_replacing_source_build_gate(self):
         with tempfile.TemporaryDirectory() as tmp:
