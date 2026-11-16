@@ -1,85 +1,79 @@
-# Exploratory paper pilot: status and decisions
+# Consolidated project status and owner ledger
 
-Cloud Manager owns sequencing, acceptance, reporting and peer handoffs. This is a project-only public record. It contains no operational captures or private deployment details.
+Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
-## Scope and gates
+## Scope and release decision
 
-The approved scope is a 168-hour exploratory pilot using public Kraken Spot BTC/USD and simulated orders only, with zero additional spend. No private exchange credentials, live orders, purchases or merges into main are authorized. A human must approve any main merge. The 180-day confirmation protocol remains separate.
+Public Kraken Spot BTC/USD, simulated orders only, zero additional spend. No private exchange credentials, live orders or purchases. Human approval is required for any main merge. Keep the separate 180-day protocol unchanged. The 168-hour pilot remains STOPPED, T0 unset. No validated financial interval, P&L or drawdown exists. Do not report diagnostic cash balances as performance. A complete 24-hour operational acceptance and all readiness gates must pass before release.
 
-The pilot is STOPPED. Start only after clock, operational acceptance, durable storage and independently delivered reporting gates pass. The pilot start and end are unset. No return notification or periodic reporting schedule is verified.
+## Verified source receipts
 
-| Item | Status | Decision |
-| --- | --- | --- |
-| Offline data and execution verification | PASS in Manager's bounded check | Eight checks passed; independent review still required |
-| Public feed snapshot | PASS in Manager's bounded check | A checksum-valid snapshot is insufficient for continuous-feed acceptance |
-| Independent clock verification | BLOCKED | Preserve all three required NTP references and existing offset/span thresholds |
-| Operational acceptance | BLOCKED | Complete and independently review the required acceptance evidence |
-| Durable private evidence storage | BLOCKED | Establish retention, capacity and recovery without publishing raw market data |
-| Report delivery without a personal computer | BLOCKED | Require a timed delivery test and a matching received report |
-| Peer round-trip receipt | BLOCKED | No published handoff or acknowledgment has been observed |
-
-## Prioritized ownership and handoff requests
-
-One owner per item. Peers should use their designated branches for project-only handoffs. Branch names are rendezvous points, not proof that a deliverable exists.
-
-| Priority | Owner | Next action | Trigger and receipt |
+| Owner/source | Exact commit | Outcome received | Next owner/action |
 | --- | --- | --- | --- |
-| 1 | Architect | Publish the clock decision: a supported transport meeting the unchanged three-reference gate, or a precise unsupported-capability finding; specify acceptance, storage and reporting criteria | Publish on cloud-pilot/architecture-handoff; acknowledge this Manager request and identify the exact commit reviewed |
-| 2 | Implementer | Read the Architect handoff, acknowledge its commit, implement the bounded reproducible setup/test changes and return commands, synthetic test outcomes and limitations | Publish on implementer/reproducible-install after the Architect handoff exists; request Architect independent review |
-| 3 | Architect | Independently review the Implementer result and issue PASS, FAIL or BLOCKED with scope and remaining work | Trigger: Implementer commit/test receipt; publish acknowledgment and review on architecture handoff branch |
-| 4 | Manager | Reconcile both peer commits, record one actual round-trip acknowledgment and update the gate decision | Trigger: visible peer branch updates; do not treat branch creation as acknowledgment |
-| 5 | Manager | Validate a supported no-extra-cost reporting-only delivery test and private evidence recovery path | Trigger: established platform capability and a known report recipient; do not start pilot or create an unverified heartbeat |
+| Manager status | 100ffe7e099adc4f6bb6bfc45d78c63b176b52e8 | Historical project gate and acknowledgment ledger; superseded by this reconciliation | Manager maintains this consolidated record |
+| Architect handoff | 0e463a8b9f789ab2587086adde9108b6d83ead54 | Reporting, clock, risk, cutoff, retention and independent-review requirements | Architect reviews new harness and evidence against unchanged requirements |
+| Installer/Docker | 886589b757d9c0aa968dab9d7d5ceeb0ea344f89 | Reproducible setup changes; not pilot acceptance | Implementer owns further code fixes |
+| Fixture-only projector | c0003b80e4730687421b9e50e6dbcf4d496f1420 | Earlier synthetic report step, no longer the frontier | Implementer uses Capture integration as current baseline |
+| Capture/replay | 03cef5db2c1823cd272b6090a327b8fecae19147 | Diagnostic public feed, sealed readback/replay, adapter integration, replay-index and isolated-queue checkpoints received | Architect reconciles scoped receipts; Capture advances paired experiment |
+| Paired harness checkpoint | 45cee7deb93d7944c78ae277b8a15200e7f58318 | Draft harness and eight reported synthetic tests; recorded-data paired trial NOT RUN before warning | Architect pre-run review; Capture revalidates and executes bounded pair after review |
 
-At initial remote inspection, only main was visible; cloud-pilot/architecture-handoff and implementer/reproducible-install were not published. No independent peer receipt is claimed. The current work publishes a new status branch from public main and does not include any prior unpublished checkpoint history.
+Manager acknowledges the exact peer commits above. The Capture checkpoints record scoped Architect reviews privately; Manager does not invent a new Architect acknowledgment of this assignment or the draft harness. Peers must append explicit receipts on their dedicated branches containing reviewed project commit, outcome, next owner and next action. Branch visibility alone is not an acknowledgment.
 
-## Clock decision
+## Completed work and measured changes
 
-The project gate requires valid samples from time.cloudflare.com, time.google.com and time.windows.com using NTP UDP/123, absolute median offset at most 500 ms and sample span at most 250 ms. All three requests were refused in the bounded Manager check. The rejecting layer is not established.
+These are checkpoint-reported measurements, not fresh Manager measurements or production adoption:
 
-Available platform documentation describes HTTP(S) and TCP transport, explicitly excluding UDP in the documented forwarding path. HTTP domain additions and TCP grants are therefore not a demonstrated solution. Do not substitute HTTPS time responses or relax thresholds. The Architect should identify a documented supported UDP-capable option within approved cost and scope. If none exists, a human/platform owner must review capability availability; no policy change is authorized by this record.
+- Diagnostic CRC observer at `8bf869afb527cac88275fd63f705a4e861695602` separated diagnostic transport visibility from invalid-clock trading state. Production READY/order gates stayed closed. Sealed observe-ledger reporting was integrated; invalid-clock/missing-history returns remain unavailable.
+- Experimental transient in-memory replay index at `ac61332`: complete snapshot reconstruction/verification 74.201460 s baseline versus 12.133027 s indexed, approximately 6.12x for that measured path. All 72,097 frames, 54,375 events, accounts, snapshots and metrics matched. No source-ledger change; ordinary replay CLI/report formatting and strategy returns were not measured by that ratio. Sequential order/cache/load and unmeasured memory peak limit interpretation. Twenty-seven focused tests were reported passing.
+- Isolated 600-second diagnostic versus an earlier loaded market window: queue failures 2 to 0; missing sample seconds 5 to 0; planned checksum-book availability 97.5% to 99.6667%; accepted-frame processing age p99 0.843264 ms to 0.327068 ms; induced CRC recovery 2.721261 s to 2.795192 s. Traffic differed, so this is not causal proof of load impact. Operational READY stayed 0% and rejected clock checks remained 12 in each window.
+- Local lossless ledger/archive reconstruction succeeded according to Capture checkpoints. A raw-only conservative weekly projection plus active buffers was about 7.52 GB before complete overhead, exceeding the unchanged 5 GiB cap. Neither local recovery nor available disk proves seven-day private retention or off-environment recovery.
+- Paired harness `45cee7d` is a saved experiment, not measured improvement. Eight focused tests were reported before the warning; rerun exact saved files. No recorded-data paired results exist.
 
-## Reporting and storage proof
+## One owner per bounded action
 
-A prior reporting-only test established execution access, but no matching completed result and delivery receipt were available. Selection of a remote executor is not proof of six-hour delivery or continuous runtime.
+| Priority/item | Sole owner | Exact starting revision and action | Acceptance and next trigger |
+| --- | --- | --- | --- |
+| Paired harness independent pre-run review | Architect | Review `45cee7deb93d7944c78ae277b8a15200e7f58318` against `03cef5d` and reporting contract `0e463a8` | Publish PASS/FAIL/BLOCKED on cloud-pilot/architecture-handoff; verify driver fidelity, own-raw accounting, cleanup, equal schedules and inclusion of failed-clock refresh. PASS triggers Capture; requested fixes trigger Implementer |
+| Recorded-data paired queue experiment | Capture | On cloud-pilot/queue-load-harness at `45cee7d`, verify no prior trial receipt/job; rerun focused tests; freeze reviewed code and one retained schedule | After pre-run PASS and sufficient allowance, run one bounded idle/loaded pair with representative load, unchanged gates and private output. Require faithful attempted schedule, comparable offered prefix, observed background work, clean child exits and own-raw frame/event/account replay. Publish sanitized outcome; Architect reviews it next |
+| Harness/code fixes | Implementer | Start from `45cee7d`, preserving Capture integration `03cef5d`; fix only Architect-reviewed issues on a dedicated implementer branch | Synthetic regressions, exact parent/review commit and sanitized test summary; no raw inputs or receipts. Architect reviews before Capture adopts. Do not return to the obsolete fixture-only assignment |
+| Independent recorded evidence review | Architect | Review Capture's resulting exact experiment commit and private receipt through an authorized private route | Reject causal claims with poor arrival fidelity, incomplete comparable prefixes or missing worker/cleanup/accounting evidence. Separate production gates and native-WebSocket buffering limitations. Manager reconciles outcome |
+| Clock capability | Architect | Research supported managed-cloud UDP capability, including the checkpoint's generic SOCKS5 UDP lead | Documentation alone is not transport proof. Require supported route and unchanged three-reference validation; no proxy bypass, HTTP-time substitution or saved-policy change. Unsupported capability goes to human/platform owner |
+| Retention/cap/recovery | Implementer | Design a bounded-capacity lifecycle from Capture's measured baseline, independently of queue trial | Preserve 5 GiB total cap, 2 GiB free floor, required evidence/order/hashes; synthetic rotation/safe-stop/replay and conservative seven-day capacity. Capture measures later; Architect independently reviews. No public raw data or new spend |
+| Operational acceptance | Capture | Wait for prerequisites and frozen reviewed build; do not launch now | Complete uninterrupted 24 hours, READY >=99% of planned 86400 seconds, p95 age <=1 s, p99 <=2 s, induced hour-six reconnect, >=5/6 timely bars, no rejected-input fills or ledger divergence; Architect review then Manager decision |
+| Existing delivery evidence | Manager | Reconcile existing test only; preserve it without duplicate timer or rerun | Record cloud generation, receiver acknowledgment, offline-PC attestation and schedule timestamps as distinct facts; outage/restart/idempotency/durable recovery still require evidence |
 
-Required test evidence: scheduled time six hours ahead; confirmed cloud-native execution; evidence the personal computer stayed offline throughout the test; matching dispatch/completion and recipient acknowledgment; report content and integrity; retrieval of the correct project revision and checkpoint after a fresh worker starts. Use synthetic or project-only content for public tests. Raw capture and financial evidence require approved private durable storage, retention, capacity and recovery checks. Do not assume ephemeral files survive replacement.
+Capture's first command after checking allowance, source, job state and prior output is:
 
-During the pilot, six-hour reports must include net paper P&L in USD and percent, fees, drawdown, feed coverage over elapsed time, freshness and completed work. Mark unavailable evidence as unavailable. A separate >=50% net-return notification requires independent review of a complete UTC day, reconciled accounting, fees/costs and validated coverage. The 180-day protocol is not activated by this pilot.
+```sh
+PYTHONDONTWRITEBYTECODE=1 python -m unittest discover -s tests -p test_replay_queue_load.py
+```
 
-## Follow-up and human actions
+After Architect pre-run PASS, one bounded same-schedule pair uses the private source/output bindings already owned by Capture:
 
-Manager can continue peer branch discovery, project-only documentation, acceptance review and bounded tests within approved scope without the original chat or personal computer. Direct cross-chat messaging is not available to Manager in the current tool set; branches are the authorized fallback. Branch publication is supported, but automatic monitoring or turn dispatch from branch changes has not been verified. Review on the next authorized invocation; do not poll indefinitely.
+```sh
+python tools/replay_queue_load.py --manifest "$SEALED_MANIFEST" --out "$NEW_PRIVATE_PAIR_OUT" --seconds 60 --pairs 1
+```
 
-Human/platform-owner action is needed for an unsupported clock transport or environment capability change, confirmation of offline-computer report receipt, approval of any new storage/cost/permissions, and a main merge. No capacity purchase is permitted. Automatic restart after quota reset is unverified; checkpoints support explicit resumption, not automatic wake-up.
+Inspect the selected schedule first: the window must actually include the failed-clock refresh phase; 60 seconds alone is not evidence of that. If it does not, stop and route selection/harness changes to Implementer rather than extending or loosening limits silently. Verify source hashes and use exclusive fresh output. No numeric pair result or causal claim is accepted without the private receipt and independent review. Reversed-order repetition is a separate bounded unit after fidelity review, not an automatic loop.
 
-## Receipt ledger
+## Reporting receipts and unresolved gates
 
-- Manager request: this document; awaiting peer acknowledgment.
-- Architect handoff: NOT OBSERVED.
-- Implementer acknowledgment and test commit: NOT OBSERVED.
-- Architect independent review: NOT OBSERVED.
-- Round trip: PENDING, no acknowledgment invented.
+The user confirms an English dry-run report was generated in managed cloud and received in Work on the web. On this reconciliation invocation the user additionally confirmed the PC was offline throughout, from before dispatch through receipt. Record this as user-attested offline-PC receipt, not independently instrumented power-state evidence.
 
-Next bounded action: inspect the two designated peer branches; if the Architect handoff is published, read its project decisions and record the exact commit; if the Implementer result is published, reconcile its acknowledged Architect commit and request independent review through this ledger. Keep all pilot gates closed until evidence meets the unchanged criteria.
+Exact scheduled timing remains UNVERIFIED: available scheduler metadata alone does not bind scheduled time to matching worker start/completion and recipient timestamps. Do not infer timing from a last-run field or task count. The existing one-shot test is inactive with no next run in the observed listing. Do not recreate it, reset it or add duplicate timers. No regular pilot reporting, continuous runtime, outage/restart delivery or automatic quota-reset wake is established.
 
-## Manager receipt and current backlog update
+Readiness: clock BLOCKED; private seven-day retention/off-environment recovery BLOCKED; 24-hour operational acceptance NOT RUN/BLOCKED; exact scheduled timing and durable reporting restart/idempotency proofs UNVERIFIED. User receipt and offline-PC confirmation no longer await an answer. These partial reporting successes do not open the pilot gate.
 
-Both peer branches became visible after the initial inspection:
+Once readiness and acceptance pass, Manager sets the approved seven-day T0/T1 and coordinates 28 six-hour English reports: interval and cumulative net paper P&L USD/percent, paid fees and exit reserve, drawdown, feed coverage, freshness, completed work and exact architecture/test commits with scoped before/after measurements. Unavailable values stay unavailable. A net >=50% complete-UTC-day result is only a candidate until reconciliation, independent Architect review and Manager approval; send a separate alert only then. Never use pilot data as unseen 180-day confirmation data.
 
-- Architect: `13fb02492b358392089d2a151a1f57cf6efb309a`, read and acknowledged by Manager. Reviewed `SIX_HOUR_REPORT_HANDOFF.md`: separate exploratory manifest/projector, cutoff integrity, Decimal accounting, six-hour unavailable reports, complete-UTC-day candidate review, unchanged risk gates, full operational acceptance and measured storage/recovery requirements. These are requirements, not passing test receipts.
-- Implementer: `886589b757d9c0aa968dab9d7d5ceeb0ea344f89`, read and acknowledged by Manager. Scope is a hash-pinned Python 3.12 installer and Docker build trust/readability changes. Manager's independent shell syntax check passed. This does not certify installation, image execution or the reporting projector. No independent runtime test report is present in this commit.
-- Manager acknowledgment: this status update is the public receipt for the two exact commits above. The Architect-to-Manager handoff has a concrete branch/commit acknowledgment. A full Architect-to-Implementer-to-Architect round trip remains PENDING; no peer acknowledgment is invented.
+## Supported triggers, quota and checkpoint
 
-The published Architect handoff was authored after the installer commit, so that installer commit cannot be treated as acknowledgment or implementation of the reporting handoff. Manager accepts the Architect's separation of exploratory and confirmation protocols and keeps every start gate BLOCKED.
+Direct authorized messaging is not exposed to Manager; existing dedicated branches are the handoff channel. A published request does not wake a peer automatically. Next authorized Capture/Implementer/Architect invocation reads this ledger and acknowledges its exact commit on its own branch. Manager reviews those receipts on a supported invocation; no indefinite polling or dependence on the original chat/PC.
 
-### Bounded requests to peers
+Before this bounded reconciliation, five-hour allowance UNKNOWN; weekly allowance UNKNOWN; reset times UNKNOWN. No supported usage signal or new warning was visible. Rechecked available signals before publishing: still UNKNOWN. No reset can be scheduled responsibly; no new wake-up or timer was created. At any warning, <=15% in either window, or exhaustion risk, save safely and stop new units. On manual resume: check both allowances if visible, fetch this branch and peer branches, inspect latest checkpoint and live jobs, then perform only the next unfinished action. Do not duplicate completed trials.
 
-Implementer owns the next implementation action: acknowledge Architect commit `13fb02492b358392089d2a151a1f57cf6efb309a`, return a project-only reproducible test receipt for the installer/container changes, and choose one small reporting-projector unit from the Architect's contract with synthetic fixtures. Do not activate a scheduler, capture or pilot. Publish commands, PASS/FAIL/BLOCKED outcomes and limitations on implementer/reproducible-install; exclude private deployment details and logs. Explicitly request Architect review of the resulting commit.
+Manager's current bounded unit completed remote fetch/read, peer-source reconciliation, read-only existing-schedule inspection, user receipt/offline confirmation and publication of this status. No experiment was run and no Capture job was started by Manager. No matching Python workload was observed in Manager's local process inventory; other role machines are separate, so Capture must verify its own jobs before executing. This commit's publication is checked separately from local commit creation. The status worktree is intended to be clean and pushed; confirm from the remote branch before relying on durability.
 
-Architect owns independent review when that Implementer receipt appears. Verify the test evidence, cutoff/accounting and no-side-effect behavior, and publish an acknowledgment binding the exact Implementer commit and reviewed test scope. Separately resolve or precisely classify the unsupported clock transport question without changing criteria.
+Human input: none needed for routine synthetic work or branch handoffs. Human/platform-owner review is required if no supported clock route exists, for any new capability/permission/cost, for independent private-storage destination authorization if absent, and for a main merge. Exact scheduler timestamps should be gathered from existing receipts rather than asking the user to repeat the test. The PC-offline question is answered.
 
-Manager owns reconciliation when the peer receipts are visible. Routine coordination uses these branches and this status ledger; direct messaging is unavailable. No automatic branch-change wake-up is established. Continue only on actual supported invocations and record missing acknowledgments as BLOCKED.
-
-A supported no-extra-cost cloud-native report delivery path is still unverified. The reporting-only test has no confirmed delivered result. Do not substitute a local heartbeat, GitHub commit visibility, or report generation for receiver delivery. A proposed external scheduler also requires proof of no additional cost, access to private durable evidence and delivery/restart behavior before scheduling. Human confirmation of offline-computer delivery and platform capability review remain necessary; source review, synthetic implementation and peer reconciliation can proceed independently.
-
-Latest Architect receipt reviewed: `0e463a8b9f789ab2587086adde9108b6d83ead54`. The Architect independently names Implementer commit `886589b757d9c0aa968dab9d7d5ceeb0ea344f89`, classifies it as installation/container setup only and explicitly withholds retention/operational acceptance. Manager acknowledges and agrees. This is a concrete Implementer publication -> Architect acknowledgment -> Manager acknowledgment receipt chain. It is not a passing independent execution review, and Implementer's acknowledgment of the reporting contract remains pending. The Architect's next review trigger is the reporting patch plus sanitized synthetic test summary; the Implementer owns that action. No additional poll or automatic dispatch is assumed.
+Exact next Manager action: fetch cloud-pilot/architecture-handoff, cloud-pilot/queue-load-harness and implementer branches; record acknowledgment of this status commit, pre-run review and any new pair receipt; keep pilot stopped while gates remain unresolved.
