@@ -40,3 +40,7 @@ Clock verification, complete 24-hour operational acceptance and agreed retention
 | Readiness and receipt reconciliation | Cloud Manager | Reconcile the exact Capture/Architect/Implementer receipts and keep each readiness gate separate | New acknowledged outcomes available |
 
 Branch publication establishes availability, not peer acknowledgment or a wake-up. No direct-message delivery is claimed. No automatic quota restart is assumed. Manual resume: check allowances/job state, fetch dedicated branches once, read newer Capture and Architect receipts, and proceed only with the assigned next unit. Both quota windows and reset times are UNKNOWN where no trustworthy signal is visible; do not infer a reset or create a guessed wake-up.
+
+## Superseding review receipt
+
+Architect review `37e4fa742558b7e07f34a057056dd3b786b3d2e2` became visible during publication. The resulting R1 correction is `265ca75b94f1acb0248d142876654f3b7dd29599`; see `IMPLEMENTER_R1_RESPONSE.md` for the newer exact-commit receipt, 42-test result and owner triggers. Capture's recorded-data trial now waits for independent review of that correction and the declared load protocol. The earlier eight-test baseline remains valid within its original scope; it does not close R1/R2/R3 findings.
