@@ -1,4 +1,4 @@
-# Paired queue experiment — quota-stop checkpoint
+# Historical quota-stop checkpoint — superseded by the recorded-data result
 
 Base: 03cef5d. Dedicated branch: cloud-pilot/queue-load-harness. The measured crypto_paper package is unchanged. Public data and simulated orders only; no added spend, main merge or changes to the separate 180-day protocol.
 
@@ -17,3 +17,8 @@ Project role agents reported a usage-limit warning. Which quota window, remainin
 On a supported invocation with allowance available: verify the branch/checkpoint, rerun the focused harness tests, finish independent review, then freeze the harness and execute one bounded same-schedule pair with representative background load. Repeat in reversed order only if timing fidelity and quota allow. Keep all queue, clock and risk thresholds fixed. No collector or load job is running.
 
 The reporting-path dry run is separate from experimental acceptance. Cloud execution, report generation and actual user receipt must be recorded independently. No exact delivery timing, offline-PC state or pilot start is certified by a report appearing in chat. The pilot remains STOPPED and financial results remain unavailable.
+
+
+## Current resume pointer
+
+The recorded-data arms and independent control have now run. Read PAIRED_QUEUE_RESULT_2026-11-16.md for the current inconclusive timing outcome, exact measured versions, completed evidence and next owners. The historical quota stop above must not be interpreted as the current job state. No jobs remain active; the pilot remains stopped.
