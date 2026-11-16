@@ -52,10 +52,36 @@ def distributions(values):
 
 
 def driver_fidelity(rows, tolerance=CONFIG['driver_lateness_limit_ns']):
-    late=[r['send_start_ns']-r['planned_ns'] for r in rows if r['send_start_ns']]
+    attempted=[r for r in rows if r['send_start_ns']]
+    late=[r['send_start_ns']-r['planned_ns'] for r in attempted]
+    incomplete=sum(not r.get('send_end_ns') or r['send_end_ns']<r['send_start_ns'] for r in attempted)
     return dict(send_start_lateness_ns=distributions(late),
-                late_driver_frames=sum(v>tolerance for v in late),tolerance_ns=tolerance,
-                schedule_faithful=bool(late) and not any(v>tolerance for v in late))
+                late_driver_frames=sum(v>tolerance for v in late),
+                early_driver_frames=sum(v<0 for v in late),
+                incomplete_send_frames=incomplete,
+                complete_framed_prefix=bool(attempted) and not incomplete,
+                tolerance_ns=tolerance,
+                schedule_faithful=bool(late) and not any(v<0 or v>tolerance for v in late))
+
+
+def condition_scope(status, driver, fully_sent, fully_processed, queue_failure,
+                    worker_valid, cleanup_valid, producer_valid):
+    """No successful-prefix timing can certify a complete-window result."""
+    valid=(driver['schedule_faithful'] and driver['complete_framed_prefix'] and
+           worker_valid and cleanup_valid and producer_valid)
+    if valid and status=='DONE' and fully_sent and fully_processed:
+        return 'FULL_WINDOW'
+    if valid and status=='STOPPED_ON_FIRST_FAILURE' and queue_failure:
+        return 'FIRST_QUEUE_FAILURE_PREFIX'
+    return 'UNINTERPRETABLE'
+
+
+def refresh_evidence(services):
+    starts=[r['mono_ns'] for r in services if r['kind']=='run_begin']
+    begin=starts[0] if starts else None
+    clocks=[r for r in services if r['kind']=='clock' and begin is not None and r['mono_ns']-begin>=50*NANO]
+    return dict(observed=bool(clocks),clock_services=clocks,
+                scope='actual unchanged periodic-clock phase; no valid UTC implied')
 
 
 def select_input(manifest_path, window):
@@ -64,19 +90,23 @@ def select_input(manifest_path, window):
         raise ValueError('sealed input required')
     if digest_file(manifest_path.parent/'ledger.sqlite3') != info.get('ledger_sha256'):
         raise ValueError('sealed ledger hash mismatch')
-    selected=[]; start=None; epoch=None; previous=-1
+    selected=[]; start=None; epoch=None; previous=-1; observed_end=None
+    interruptions=[]
     ledger=Ledger(manifest_path.parent/'ledger.sqlite3',readonly=True)
     try:
         for f in frames(manifest_path.parent,parts):
-            if f['kind']!='ws': continue
-            arrival=f['received_monotonic_ns']
-            if start is None: start=arrival; epoch=f['connection_epoch']
-            if arrival-start>=window*NANO: break
             if f['capture_id']!=info['run_id']:
                 raise ValueError('source capture identity mismatch')
             expected=ledger.db.execute('SELECT digest FROM frames WHERE idx=?',(f['idx'],)).fetchone()
             if expected!=(sha(dump(f).encode()),):
                 raise ValueError('source committed frame digest mismatch')
+            observed_end=max(observed_end if observed_end is not None else f['mono'],f['mono'])
+            if f['kind'] in ('disconnect','overflow','restart','shutdown') or (f['kind']=='connect' and start is not None):
+                interruptions.append(f['mono'])
+            if f['kind']!='ws': continue
+            arrival=f['received_monotonic_ns']
+            if start is None: start=arrival; epoch=f['connection_epoch']
+            if arrival-start>=window*NANO: continue
             if arrival<previous: raise ValueError('source arrival offsets regress')
             previous=arrival
             if f['connection_epoch']!=epoch:
@@ -88,11 +118,20 @@ def select_input(manifest_path, window):
     finally:
         ledger.close()
     if not selected: raise ValueError('empty source schedule')
+    cutoff=start+window*NANO
+    if observed_end<cutoff:
+        raise ValueError('insufficient committed source observation span')
+    if any(start<=t<cutoff for t in interruptions):
+        raise ValueError('source observation window interrupted')
     books=[load(r['wire']) for r in selected if load(r['wire']).get('channel')=='book']
     if not books or books[0].get('type')!='snapshot':
         raise ValueError('initial CRC book snapshot required')
     if not any(load(r['wire']).get('channel')=='instrument' for r in selected):
         raise ValueError('initial real instrument metadata required')
+    # A quiet WS suffix is permitted only with committed observation through cutoff.
+    selected[0]['source_observation']=dict(start_mono_ns=start,cutoff_mono_ns=cutoff,
+        observed_end_mono_ns=observed_end,requested_seconds=window,
+        uninterrupted=True,scope='committed capture horizon; not operational READY')
     identity=[dict(source_idx=r['source_idx'],offset_ns=r['offset_ns'],sha256=r['sha256']) for r in selected]
     return info,parts,selected,sha(dump(identity).encode())
 
@@ -273,7 +312,7 @@ class MeasuredCapture(Capture):
             meta['emit_start_ns']=began
             kw['harness_driver']=meta
         f=super().put(kind,wire,**kw)
-        self.state.capture_services.append(dict(frame=f['idx'],kind=kind,ns=time.monotonic_ns()-began))
+        self.state.capture_services.append(dict(frame=f['idx'],kind=kind,mono_ns=f['mono'],ns=time.monotonic_ns()-began))
         return f
 
 
@@ -350,7 +389,7 @@ def trial(manifest_path,out,window,loaded,indexed=False,prepared=None,slow_secon
             try:
                 status=asyncio.run(execute())[0]
             except Exception as exc:
-                failure=_errors(exc); status='STOPPED_ON_FIRST_FAILURE' if any('TrialStopped' in s for s in failure) else 'ERROR'
+                failure=_errors(exc); status='STOPPED_ON_FIRST_FAILURE' if failure and all(s.startswith('TrialStopped:') for s in failure) else 'ERROR'
         timed_ns=time.monotonic_ns()-began
     finally:
         stop.set(); go.set()
@@ -400,8 +439,17 @@ def trial(manifest_path,out,window,loaded,indexed=False,prepared=None,slow_secon
     producer_result=load((out/'producer.json').read_bytes()) if (out/'producer.json').exists() else {'receipt_missing':True}
     worker_valid=(not loaded or (worker_results.get('compression',{}).get('input_bytes',0)>0 and worker_results.get('replay',{}).get('processed_frames',0)>0))
     cleanup_valid=all(not c['forced_termination'] and not c['alive'] and c['exitcode']==0 for c in cleanup)
-    interpretable=driver['schedule_faithful'] and worker_valid and cleanup_valid and not producer_result.get('receipt_missing') and producer_result.get('error') is None
     queue_reasons=[f.get('reason') for f in failures if f['kind']=='disconnect']
+    fully_sent=sum(bool(r['send_end_ns']) for r in rows)==len(schedule)
+    fully_processed=len(raw)==len(schedule)
+    scope=condition_scope(status,driver,fully_sent,fully_processed,
+        any(reason in ('WS queue overflow','WS queue too old') for reason in queue_reasons),
+        worker_valid,cleanup_valid,not producer_result.get('receipt_missing') and producer_result.get('error') is None)
+    refresh=refresh_evidence(state.capture_services)
+    refresh['required_for_full_window']=window>=50
+    if scope=='FULL_WINDOW' and window>=50 and not refresh['observed']:
+        scope='UNINTERPRETABLE'
+    interpretable=scope!='UNINTERPRETABLE'
     result=dict(schema_version='offline-paired-queue-v1',mode='loaded' if loaded else 'idle',indexed_background=indexed,
         status=status,errors=failure,window_seconds=window,live_sample_window_seconds=window+1,timed_wall_ns=timed_ns,
         slow_session_test_injection_seconds=slow_seconds,
@@ -412,12 +460,19 @@ def trial(manifest_path,out,window,loaded,indexed=False,prepared=None,slow_secon
         socket_read_frames=len(reads),processed_frames=len(raw),unprocessed_scheduled_frames=len(schedule)-len(raw),
         read_but_not_processed_frames=len(reads)-len(raw),intentional_source_eof=state.eof,connections=state.connections,
         driver=driver,timing_rows=rows,
-        background_work_observed=worker_valid,condition_interpretable=interpretable,producer=producer_result,
+        background_work_observed=worker_valid,condition_interpretable=interpretable,
+        condition_scope=scope,full_window_valid=scope=='FULL_WINDOW',
+        matched_prefix_required=scope=='FIRST_QUEUE_FAILURE_PREFIX',
+        source_observation=schedule[0]['source_observation'],refresh_phase=refresh,
+        load_representativeness='UNVERIFIED: activity is not sustained overlap acceptance',
+        cross_arm_financial_equivalence='NOT_EVALUATED',producer=producer_result,
         scheduled_input_fully_sent=sum(bool(r['send_end_ns']) for r in rows)==len(schedule),
         scheduled_input_fully_processed=len(raw)==len(schedule),actual_processed_input_prefix_verified=True,
         threshold_failures=dict(frame_cap=int('WS queue overflow' in queue_reasons and state.frame_full_seen),
                                 byte_cap=int('WS queue overflow' in queue_reasons and not state.frame_full_seen),
                                 age_cap=int('WS queue too old' in queue_reasons)),
+        send_end_lateness_ns=distributions([r['send_end_ns']-r['planned_ns'] for r in rows if r['send_end_ns']]),
+        send_duration_ns=distributions([r['send_end_ns']-r['send_start_ns'] for r in rows if r['send_end_ns']]),
         read_lateness_ns=distributions([r['read_ns']-r['planned_ns'] for r in rows if r['read_ns']]),
         dequeue_lateness_ns=distributions([r['dequeue_ns']-r['planned_ns'] for r in rows if r['dequeue_ns']]),
         app_queue_age_ns=distributions([r['dequeue_ns']-r['queue_received_mono'] for r in rows if r['dequeue_ns']]),
@@ -450,7 +505,9 @@ def experiment(manifest_path,out,window=20,indexed=False,repeats=2):
     receipt=dict(schema_version='offline-queue-paired-series-v1',planned_order=['loaded' if v else 'idle' for v in order],actual_order=[r['mode'] for r in results],trials=results,
         stopped_on_uninterpretable_condition=len(results)<len(order),
         input_schedule_sha256=prepared[3],harness_sha256=digest_file(Path(__file__)),operational_acceptance=False,
-        interpretation='same scheduled input, ABBA order; compare actual worker throughput and driver fidelity before causal claims')
+        full_window_series_valid=bool(results) and len(results)==len(order) and all(r['full_window_valid'] for r in results),
+        cross_arm_financial_equivalence='NOT_EVALUATED',
+        interpretation='same schedule; full windows and first-failure prefixes are distinct; load overlap and common-prefix accounting require independent review')
     write_json(out/'series.json',receipt)
     return receipt
 

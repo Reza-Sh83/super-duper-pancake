@@ -4,22 +4,27 @@ from pathlib import Path
 import tempfile
 import time
 import unittest
+from threading import Event
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from crypto_paper import live as transport
 from crypto_paper.data import NANO, MAX_FRAME, dump, load
 from crypto_paper.runtime import Capture, Session, manifest
 from crypto_paper.verify import UTC, META, market
-from tools.replay_queue_load import CONFIG, DriverState, MeasuredCapture, MeasuredSession, TrialStopped, driver_fidelity, trial, select_input, _errors
+from tools.replay_queue_load import CONFIG, DriverState, MeasuredCapture, MeasuredSession, TrialStopped, driver_fidelity, trial, select_input, _errors, condition_scope, producer, refresh_evidence
 
 
 class ReplayQueueTests(unittest.TestCase):
-    def source(self,root):
+    def source(self,root, interrupted=False):
         out=root/'source'; out.mkdir(); cap=Capture(out,'synthetic'); s=Session(out,'synthetic','observe')
         try:
             s.handle(cap.put('connect',epoch=1,utc=UTC,mono=0))
             s.handle(cap.put('ws',dump({'channel':'instrument','data':{'pairs':[META|{'symbol':'BTC/USD'}]}}).encode(),epoch=1,utc=UTC,mono=0))
             s.handle(cap.put('ws',dump(market()).encode(),epoch=1,utc=UTC+NANO//100,mono=NANO//100))
+            if interrupted:
+                s.handle(cap.put('disconnect',epoch=1,utc=UTC+NANO//2,mono=NANO//2,reason='synthetic interruption'))
+            s.handle(cap.put('shutdown',epoch=1,utc=UTC+2*NANO,mono=2*NANO))
         finally: cap.close(); s.close()
         manifest(out,'synthetic','observe',UTC,state='DIAGNOSTIC')
         return out/'manifest.json'
@@ -28,6 +33,66 @@ class ReplayQueueTests(unittest.TestCase):
         rows=[dict(planned_ns=100,send_start_ns=100+CONFIG['driver_lateness_limit_ns']+1)]
         self.assertFalse(driver_fidelity(rows)['schedule_faithful'])
         self.assertEqual(driver_fidelity(rows)['late_driver_frames'],1)
+
+    def test_source_span_is_proved_before_trial_or_children_start(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp); source=self.source(root)
+            with patch('tools.replay_queue_load.mp.get_context') as processes:
+                with self.assertRaisesRegex(ValueError,'source observation span'):
+                    trial(source,root/'rejected',60,False)
+                processes.assert_not_called()
+            prepared=select_input(source,1)
+            self.assertTrue(prepared[2][0]['source_observation']['uninterrupted'])
+            self.assertGreaterEqual(prepared[2][0]['source_observation']['observed_end_mono_ns'],NANO)
+
+    def test_interrupted_source_is_not_a_quiet_observation_window(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            source=self.source(Path(tmp),interrupted=True)
+            with self.assertRaisesRegex(ValueError,'source observation window interrupted'):
+                select_input(source,1)
+
+    def test_driver_rejects_early_send_and_incomplete_framing(self):
+        early=driver_fidelity([dict(planned_ns=100,send_start_ns=99,send_end_ns=101)])
+        self.assertFalse(early['schedule_faithful'])
+        self.assertEqual(early['early_driver_frames'],1)
+        partial=driver_fidelity([dict(planned_ns=100,send_start_ns=100,send_end_ns=0)])
+        self.assertFalse(partial['complete_framed_prefix'])
+        self.assertEqual(partial['incomplete_send_frames'],1)
+
+    def test_scope_distinguishes_full_window_failure_prefix_and_errors(self):
+        driver=driver_fidelity([dict(planned_ns=100,send_start_ns=100,send_end_ns=101),
+                                dict(planned_ns=200,send_start_ns=0,send_end_ns=0)])
+        self.assertTrue(driver['schedule_faithful'])  # attempted prefix only
+        self.assertEqual(condition_scope('DONE',driver,False,False,False,True,True,True),'UNINTERPRETABLE')
+        self.assertEqual(condition_scope('DONE',driver,True,True,False,True,True,True),'FULL_WINDOW')
+        self.assertEqual(condition_scope('STOPPED_ON_FIRST_FAILURE',driver,False,False,True,True,True,True),'FIRST_QUEUE_FAILURE_PREFIX')
+        self.assertEqual(condition_scope('ERROR',driver,True,True,False,True,True,True),'UNINTERPRETABLE')
+        self.assertEqual(condition_scope('DONE',driver,True,True,False,True,True,False),'UNINTERPRETABLE')
+
+    def test_partial_send_error_never_completes_a_frame(self):
+        class PartialSocket:
+            closed=False
+            def settimeout(self,_): pass
+            def sendall(self,_): raise OSError('synthetic partial frame')
+            def close(self): self.closed=True
+        with tempfile.TemporaryDirectory() as tmp:
+            sock=PartialSocket(); go=Event(); go.set(); times=[0,0]
+            receipt=Path(tmp)/'producer.json'
+            producer(sock,[{'wire':b'{}','offset_ns':0}],SimpleNamespace(value=0),
+                     go,Event(),Event(),times,str(receipt))
+            result=load(receipt.read_bytes())
+            self.assertEqual(result['attempted_frames'],1)
+            self.assertEqual(result['sent_frames'],0)
+            self.assertFalse(result['complete_schedule'])
+            self.assertIn('partial frame',result['error'])
+            self.assertEqual(times[1],0); self.assertTrue(sock.closed)
+
+    def test_refresh_phase_requires_actual_late_clock_service(self):
+        start={'kind':'run_begin','mono_ns':NANO,'ns':1}
+        early={'kind':'clock','mono_ns':50*NANO,'ns':1}
+        actual={'kind':'clock','mono_ns':51*NANO,'ns':1}
+        self.assertFalse(refresh_evidence([start,early])['observed'])
+        self.assertEqual(refresh_evidence([start,actual])['clock_services'],[actual])
 
     def test_real_driver_intentional_eof_no_reconnect_and_own_raw_replays(self):
         with tempfile.TemporaryDirectory() as tmp:
