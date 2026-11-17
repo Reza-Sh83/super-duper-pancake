@@ -113,7 +113,8 @@ def prepare(root,manifest,out,budget=Budget(),seconds=60):
               files=[str(p) for p in destinations],input_manifest_sha256=harness.digest_file(manifest),
               harness_sha256=harness.digest_file(Path(harness.__file__)),
               launcher_sha256=harness.digest_file(Path(__file__)),
-              prepared_charge=charge(root),reservation_bytes=reservation)
+              prepared_charge=charge(root),reservation_bytes=reservation,
+              inventory=sorted(str(p.relative_to(root)) for p in root.rglob('*')))
     write_existing(out/'plan.json',plan,budget.file_limit)
     if charge(root)+budget.reserve>budget.cap:
         raise ValueError('control-file recount failed')
@@ -208,6 +209,10 @@ def fixed_outputs(plan):
 def pair(plan,prepared):
     out=Path(plan['out']); results=[]
     for number,loaded in enumerate((False,True),1):
+        if 'budget' in plan:
+            budget=Budget(**plan['budget'])
+            if charge(Path(plan['root']))+budget.reserve>budget.cap or shutil.disk_usage(plan['root']).free<budget.floor+budget.reserve:
+                raise ValueError('global reservation lost before arm')
         result=harness.trial(Path(plan['manifest']),out/(f'{number:02d}-'+('loaded' if loaded else 'idle')),
                              plan['seconds'],loaded,False,prepared)
         results.append({k:v for k,v in result.items() if k not in ('timing_rows','stage_services','failure_frames')})
@@ -243,8 +248,16 @@ def supervise(plan,deadline=180,grace=20,command=None):
             try: code=process.wait(timeout=grace)
             except subprocess.TimeoutExpired:
                 forced=True; os.killpg(process.pid,signal.SIGKILL); code=process.wait()
-    result=dict(returncode=code,timed_out=timed_out,forced=forced,success=code==0 and not timed_out,
-                input_manifest_unchanged=harness.digest_file(Path(plan['manifest']))==plan['input_manifest_sha256'])
+    budget=Budget(**plan['budget']); root=Path(plan['root'])
+    inventory_ok=sorted(str(p.relative_to(root)) for p in root.rglob('*'))==plan['inventory']
+    extents_ok=all(Path(p).stat().st_blocks*512==budget.file_limit and
+                   Path(p).stat().st_size<=budget.file_limit for p in plan['files'])
+    capacity_ok=charge(root)+budget.reserve<=budget.cap and shutil.disk_usage(root).free>=budget.floor+budget.reserve
+    input_ok=harness.digest_file(Path(plan['manifest']))==plan['input_manifest_sha256']
+    result=dict(returncode=code,timed_out=timed_out,forced=forced,
+                inventory_unchanged=inventory_ok,reserved_extents_intact=extents_ok,
+                global_reservation_intact=capacity_ok,input_manifest_unchanged=input_ok,
+                success=code==0 and not timed_out and inventory_ok and extents_ok and capacity_ok and input_ok)
     write_existing(out/'guard.json',result,plan['budget']['file_limit'])
     return result
 
