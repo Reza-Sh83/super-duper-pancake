@@ -2,6 +2,14 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Current team decision: historical result reconciled, descriptive scope accepted
+
+Two user-requested independent in-session reviewers returned Architecture and Implementation findings to Manager in this turn. Manager acted on both; see TEAM_RECONCILIATION.md for the consolidated receipt and acceptance contract. Historical99b5bfa: scoped method/source/test PASS, nine synthetic tests independently rerun, private-data reproduction UNVERIFIED. Reported base SMA +27.67 USD/+0.276664%, staged hold +105.17 USD/+1.051737%; stress SMA +4.64 USD/+0.046446%, staged hold +98.47 USD/+0.984664%; cash0 in both. SMA underperforms staged hold; these are historical modeled outcomes, never live P&L. No duplicate benchmark.
+
+Manager explicitly ACCEPTS DESCRIPTIVE_ACTIVITY_ONLY for protocol6d41a4e. Scratch enforcement remains BLOCKED; no accepted execution SHA exists. Existing Implementer retains sole scratch-edit ownership; in-session reviewer made no edits. Architect reviews the exact completed scratch patch; Manager binds the accepted code/protocol; Capture then runs once from published approvals without another routine user relay. No unapproved pair or future-profit claim.
+
+Manager completed a private three-file local historical-artifact restore with exact hash equality and source unchanged; independent private recovery and clock route remain BLOCKED. No new timer, live orders, main merge, pilot start or 180-day change. Latest user remaining-quota snapshot80%/60%; live quota/reset UNKNOWN; warning/15% stops and bounded checkpoints preserved.
+
 ## Current five-hour coordination envelope: 2026-11-17T04:37:55.345948+00:00 to 2026-11-17T09:37:55.345948+00:00 UTC
 
 This is a wall-clock prioritization envelope for supported work, not a promise of five hours of continuous execution or quota availability. No timer, automatic wake or pilot start is created. Checkpoints and warning/15% stops override the window. Original chat and PC are not execution dependencies; GitHub publication does not itself wake any peer.
