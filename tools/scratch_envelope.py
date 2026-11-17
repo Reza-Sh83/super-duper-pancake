@@ -163,6 +163,7 @@ class IPCPool:
         self.events=[self.context.Event() for _ in range(8)]
         self.values=[self.context.Value('q',0) for _ in range(2)]
         self.arrays=[self.context.RawArray('q',count*2) for _ in range(2)]
+        self.failed=self.context.RawValue('b',0)
     def Event(self): return self.events.pop(0)
     def Value(self,*_): return self.values.pop(0)
     def RawArray(self,kind,count):
@@ -175,6 +176,7 @@ class IPCPool:
         def monitored():
             try: target(*worker_args,**worker_kwargs)
             except BaseException:
+                self.failed.value=1
                 try: os.kill(self.owner,signal.SIGUSR1)
                 except ProcessLookupError: pass
                 raise
@@ -223,13 +225,19 @@ def fixed_outputs(plan):
 
 def pair(plan,prepared):
     out=Path(plan['out']); results=[]
+    def failure_check():
+        flag=getattr(harness.mp.get_context('fork'),'failed',None)
+        if flag is not None and flag.value:
+            raise ScratchStop('latched worker failure prevents further dispatch')
     for number,loaded in enumerate((False,True),1):
+        failure_check()
         if 'budget' in plan:
             budget=Budget(**plan['budget'])
             if charge(Path(plan['root']))+budget.reserve>budget.cap or shutil.disk_usage(plan['root']).free<budget.floor+budget.reserve:
                 raise ValueError('global reservation lost before arm')
         result=harness.trial(Path(plan['manifest']),out/(f'{number:02d}-'+('loaded' if loaded else 'idle')),
                              plan['seconds'],loaded,False,prepared)
+        failure_check()
         results.append({k:v for k,v in result.items() if k not in ('timing_rows','stage_services','failure_frames')})
         if not result['full_window_valid']: break
     value=dict(schema_version='scratch-guarded-pair-v1',actual_order=[r['mode'] for r in results],
@@ -291,6 +299,7 @@ def child(plan):
         signal.signal(signal.SIGUSR1,signal.SIG_IGN)
         raise ScratchStop('worker failure invalidates scratch invocation')
     def file_cap(*_):
+        pool.failed.value=1
         if os.getpid()!=pool.owner:
             os.kill(pool.owner,signal.SIGUSR1)
         else:

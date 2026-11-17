@@ -177,9 +177,10 @@ return {'full_window_series_valid':passed}"""
         self.assertEqual(partial.read_bytes(),b'partial')
         self.assertEqual((self.root/'pair/02-loaded/raw/000001.jsonl').stat().st_size,0)
 
-    def test_worker_cap_notification_aborts_pair_before_second_arm(self):
+    def test_worker_failure_latch_blocks_second_arm_with_signal_ignored(self):
         plan=self.prepare()
-        body="""import os
+        body="""import os,signal
+signal.signal(signal.SIGUSR1,signal.SIG_IGN)
 base=Path(plan['out'])/'01-idle/compression.partial.xz'
 def cap_worker():
     fd=os.open(str(base),os.O_RDWR)
@@ -200,6 +201,38 @@ return original_pair(plan,prepared)"""
         self.assertFalse(result['timed_out'])
         self.assertEqual((self.root/'pair/01-idle/compression.partial.xz').read_bytes(),b'partial')
         self.assertEqual((self.root/'pair/02-loaded/raw/000001.jsonl').stat().st_size,0)
+
+    def test_guarded_full_journal_keeps_nonzero_fees_and_rollback(self):
+        plan=self.prepare()
+        body="""from crypto_paper.engine import Engine
+from crypto_paper.data import D,NANO
+from crypto_paper.verify import UTC,META,book_at
+s=g.harness.MeasuredSession(Path(plan['out'])/'01-idle','synthetic',g.harness.DriverState())
+e=Engine(s.ledger); f={'idx':1,'utc':UTC,'mono':0}
+try:
+    with s.ledger.transaction(1,'one'): e.order('buy',D('.1'),book_at(asks={'100':'1'}),META,f)
+    try:
+        with s.ledger.transaction(2,'two'):
+            e.on_book(book_at(2,asks={'100':'1'}),META,f|{'idx':2,'mono':NANO})
+            raise RuntimeError('rollback')
+    except RuntimeError: pass
+    assert e.val('cash')==D('10000') and e.val('btc')==0
+    with s.ledger.transaction(2,'two'):
+        e.on_book(book_at(2,asks={'100':'1'}),META,f|{'idx':2,'mono':NANO})
+        e.order('sell',D('0'),book_at(2,asks={'100':'1'}),META,f|{'idx':2,'mono':NANO})
+    with s.ledger.transaction(3,'three'):
+        e.on_book(book_at(3,asks={'100':'1'},bids={'99.9':'1'}),META,f|{'idx':3,'mono':2*NANO})
+    fills=[load(p) for _,_,kind,p in s.ledger.sequence() if kind=='fill']
+    assert sum(D(x['fee']) for x in fills)==D('1.5992')
+    assert e.val('cash')==e.val('nav')==D('9998.3008')
+    assert e.val('realized')==D('-1.6992') and e.val('btc')==0
+    assert s.ledger.reconcile()
+    assert s.ledger.db.execute('PRAGMA synchronous').fetchone()==(2,)
+    assert s.ledger.db.execute('PRAGMA journal_mode').fetchone()==('persist',)
+finally: s.close()
+return {'full_window_series_valid':True}"""
+        result=guard.supervise(plan,command=self.command(plan,body),deadline=10,grace=2)
+        if not result['success']: self.fail((self.root/'pair/stderr.log').read_text())
 
     def test_control_publication_fsyncs_and_refuses_existing_evidence(self):
         plan=self.prepare(); target=self.root/'pair/series.json'
