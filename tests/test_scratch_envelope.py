@@ -83,6 +83,12 @@ raise SystemExit(g.child(p))
         self.assertTrue(result['inventory_unchanged'])
         self.assertTrue(result['global_reservation_intact'])
         self.assertEqual(before,{p:p.read_bytes() for p in before})
+        evidence={p:p.read_bytes() for p in (self.root/'pair').rglob('*') if p.is_file()}
+        with patch.object(guard.subprocess,'Popen') as launch:
+            with self.assertRaisesRegex(ValueError,'already published'):
+                guard.supervise(plan)
+            launch.assert_not_called()
+        self.assertEqual(evidence,{p:p.read_bytes() for p in evidence})
         for arm in series['trials']:
             self.assertEqual(arm['own_raw_ordered_events_and_account_replay'],'PASS')
             self.assertFalse(arm['clock_valid'])

@@ -261,6 +261,9 @@ def sandbox_command(plan,python=sys.executable):
 
 def supervise(plan,deadline=180,grace=20,command=None):
     out=Path(plan['out'])
+    # Consume an already reserved slot before opening logs or spawning anything.
+    # This survives parent death and refuses retries of the same reservation.
+    write_existing(out/'reserved-common',{'dispatch_started':True},plan['budget']['file_limit'])
     with (out/'stdout.log').open('r+b') as stdout,(out/'stderr.log').open('r+b') as stderr:
         process=subprocess.Popen(command or sandbox_command(plan),stdout=stdout,stderr=stderr,
                                  stdin=subprocess.DEVNULL,start_new_session=True)
