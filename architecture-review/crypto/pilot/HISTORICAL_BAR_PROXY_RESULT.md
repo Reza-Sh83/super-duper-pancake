@@ -27,12 +27,14 @@ Independent initial cash10000 USD per account. Base fee .008/side, zero spread/a
 | Stress | Staged exposure-hold | 10098.47 | +98.47 | +0.984664 | 2.539743 | 13.44 | 8.48 |
 | Stress | Cash | 10000.00 | 0.00 | 0.000000 | 0.000000 | 0.00 | 0.00 |
 
-| Cost | Policy | Modeled fills | Mean gross marked exposure % | Maximum sampled gross marked exposure % |
-|---|---|---:|---:|---:|
-| Base | SMA50 | 106 | 6.088695 | 10.515545 |
-| Base | Staged hold | 23 | 9.438678 | 10.568600 |
-| Stress | SMA50 | 107 | 6.070659 | 10.484648 |
-| Stress | Staged hold | 23 | 9.410416 | 10.537585 |
+| Cost | Policy | Modeled fills | Modeled turnover USD | Mean gross marked exposure % | Maximum sampled gross marked exposure % |
+|---|---|---:|---:|---:|---:|
+| Base | SMA50 | 106 | 7646.66 | 6.088695 | 10.515545 |
+| Base | Staged hold | 23 | 1348.23 | 9.438678 | 10.568600 |
+| Stress | SMA50 | 107 | 7613.53 | 6.070659 | 10.484648 |
+| Stress | Staged hold | 23 | 1344.28 | 9.410416 | 10.537585 |
+
+Neither sampled risk lock latched in these six modeled paths. Cash turnover and fills are zero in both cost scenarios. That does not establish an absence of intraday violations.
 
 Exposure statistics average the declared pre-open/post-open/close samples, not a time-weighted or intraday path. Gross marked exposure can rise passively above10% between modeled actions; the sizing cap is conservative posttrade exposure cost with next-open reduction. This model does not certify continuous production cap compliance.
 
