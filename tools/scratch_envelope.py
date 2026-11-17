@@ -7,6 +7,7 @@ are writable. No input/evidence deletion and no private dispatch by default.
 import argparse
 from contextlib import contextmanager
 import ctypes
+import errno
 from dataclasses import dataclass
 import fcntl
 import json
@@ -150,9 +151,14 @@ def protect_extents():
         raise OSError(ctypes.get_errno(),'extent protection unavailable')
 
 
+class ScratchStop(RuntimeError):
+    pass
+
+
 class IPCPool:
     """Create bounded shared-memory objects before denying ftruncate."""
     def __init__(self,count):
+        self.owner=os.getpid()
         self.context=harness.mp.get_context('fork')
         self.events=[self.context.Event() for _ in range(8)]
         self.values=[self.context.Value('q',0) for _ in range(2)]
@@ -163,7 +169,16 @@ class IPCPool:
         value=self.arrays.pop(0)
         if kind!='q' or count!=len(value): raise ValueError('IPC declaration mismatch')
         return value
-    def Process(self,*args,**kwargs): return self.context.Process(*args,**kwargs)
+    def Process(self,*args,**kwargs):
+        target=kwargs.pop('target'); worker_args=kwargs.pop('args',())
+        worker_kwargs=kwargs.pop('kwargs',{})
+        def monitored():
+            try: target(*worker_args,**worker_kwargs)
+            except BaseException:
+                try: os.kill(self.owner,signal.SIGUSR1)
+                except ProcessLookupError: pass
+                raise
+        return self.context.Process(*args,target=monitored,**kwargs)
 
 
 @contextmanager
@@ -272,6 +287,17 @@ def child(plan):
     resource.setrlimit(resource.RLIMIT_CORE,(0,0))
     resource.setrlimit(resource.RLIMIT_FSIZE,(budget.file_limit,budget.file_limit))
     pool=IPCPool(len(prepared[2]))
+    def stopped(*_):
+        signal.signal(signal.SIGUSR1,signal.SIG_IGN)
+        raise ScratchStop('worker failure invalidates scratch invocation')
+    def file_cap(*_):
+        if os.getpid()!=pool.owner:
+            os.kill(pool.owner,signal.SIGUSR1)
+        else:
+            signal.signal(signal.SIGUSR1,signal.SIG_IGN)
+        raise OSError(errno.EFBIG,'reserved scratch slot exhausted')
+    signal.signal(signal.SIGUSR1,stopped)
+    signal.signal(signal.SIGXFSZ,file_cap)
     protect_extents()
     with fixed_outputs(plan),patch.object(harness.mp,'get_context',lambda mode:pool):
         result=pair(plan,prepared)

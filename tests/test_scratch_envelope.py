@@ -34,6 +34,7 @@ from pathlib import Path
 from tools import scratch_envelope as g
 from crypto_paper.data import load
 p=load(Path(sys.argv[1]).read_bytes())
+original_pair=g.pair
 def probe(plan,prepared):
 """+''.join('    '+line+'\n' for line in body.splitlines())+"""g.pair=probe
 raise SystemExit(g.child(p))
@@ -174,6 +175,30 @@ return {'full_window_series_valid':passed}"""
         self.assertTrue(result['timed_out']); self.assertTrue(result['forced'])
         self.assertFalse(result['success'])
         self.assertEqual(partial.read_bytes(),b'partial')
+        self.assertEqual((self.root/'pair/02-loaded/raw/000001.jsonl').stat().st_size,0)
+
+    def test_worker_cap_notification_aborts_pair_before_second_arm(self):
+        plan=self.prepare()
+        body="""import os
+base=Path(plan['out'])/'01-idle/compression.partial.xz'
+def cap_worker():
+    fd=os.open(str(base),os.O_RDWR)
+    os.pwrite(fd,b'partial',0)
+    os.pwrite(fd,b'X',plan['budget']['file_limit'])
+def trial(*args,**kwargs):
+    worker=g.harness.mp.get_context('fork').Process(target=cap_worker,args=())
+    worker.start()
+    try: worker.join(5)
+    finally:
+        worker.join(1)
+        if worker.is_alive(): worker.terminate(); worker.join()
+    return {'mode':'idle','full_window_valid':True}
+g.harness.trial=trial
+return original_pair(plan,prepared)"""
+        result=guard.supervise(plan,command=self.command(plan,body),deadline=10,grace=2)
+        self.assertFalse(result['success'])
+        self.assertFalse(result['timed_out'])
+        self.assertEqual((self.root/'pair/01-idle/compression.partial.xz').read_bytes(),b'partial')
         self.assertEqual((self.root/'pair/02-loaded/raw/000001.jsonl').stat().st_size,0)
 
     def test_control_publication_fsyncs_and_refuses_existing_evidence(self):
