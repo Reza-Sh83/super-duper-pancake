@@ -2,6 +2,54 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Current five-hour coordination envelope: 2026-11-17T04:37:55.345948+00:00 to 2026-11-17T09:37:55.345948+00:00 UTC
+
+This is a wall-clock prioritization envelope for supported work, not a promise of five hours of continuous execution or quota availability. No timer, automatic wake or pilot start is created. Checkpoints and warning/15% stops override the window. Original chat and PC are not execution dependencies; GitHub publication does not itself wake any peer.
+
+### Exact receipts reconciled
+
+Manager acknowledges Capture **05ddea02cb9426339bccc4096e2f4a9f496d290c**, protocol **6d41a4ed8436c53a818a08d8b113898847c65275**, and recorded profile **df447221814d77af9487f7a0b9d265b50fd0edef**. The protocol narrows the pair to DESCRIPTIVE_ACTIVITY_ONLY: no sustained-duty, representative-load or causal-load claim. Full private input attestation and admission arithmetic were reported passing, but the 56-file aggregate envelope remains unproved/unenforced. Per-file caps alone cannot bound an arbitrary number of files. **Scratch acceptance and pair dispatch remain BLOCKED.**
+
+The recorded idle profile is complete in counts but timing-uninterpretable: 10,062/10,062 messages and 61/61 samples, three producer starts beyond 50 ms, maximum 63.882 ms. Its observed clock refresh, unchanged source, clean children and own-raw replay do not convert it into a passing pair or live result. Fsync/FULL remain unchanged. The old pair at 35ea79b remains INCONCLUSIVE. No retry, loaded override or reversed run is requested.
+
+### Bounded work sequence: one owner and next action per item
+
+| Item | Sole owner | Next action | Trigger / handoff |
+| --- | --- | --- | --- |
+| Historical proxy decision and independent run | Architect | Finish the existing methodological decision and one independent historical benchmark if applicable; do not duplicate it | Publish exact model/code/input-scope and sanitized result receipt on architecture-handoff; Manager verifies the result next |
+| Scratch envelope | Implementer | Close only the finite aggregate bound/enforcement gap in 6d41a4e, with boundary, extra-output, temporary-file, cleanup and next-arm-stop tests | Publish exact code/launcher SHA and write census; Architect reviews that exact version |
+| Scratch/protocol acceptance | Architect | Review the resulting exact enforcement version together with 6d41a4e's descriptive-only scope | Publish PASS/FAIL/BLOCKED binding exact SHA, protocol and tests; no blanket transfer of the earlier 265ca75 safeguard PASS |
+| Single prepared pair | Capture | Read the accepted version/protocol and regenerate private preparation if code changed; execute once only after Manager's exact conditional binding | Check quota, existing jobs/output, private input, admission and source identities; preserve failure/cleanup evidence; no automatic reversal |
+| Dispatch and consolidation | Manager | Publish exact conditional dispatch receipt as soon as accepted scratch/code/protocol receipts exist; until then hold | Require explicit accepted SHA, not a moving HEAD, unseen future commit or bare branch visibility; Capture acts from that published approval without another routine user confirmation |
+| Minimal delivery correction | Implementer | Only after scratch work, use df44722's measured evidence for the smallest separately reviewed correction | Preserve capture fsync, SQLite PERSIST/FULL, ordered accounting, fees/cutoff/stale/risk behavior; exact identical-input before/after evidence; do not adopt exclusive locking or speculative batching |
+| Clock capability and private recovery route | Manager | Establish supported no-extra-cost capability/destination, then verify unchanged checks and independent recovery | Exact blockers below; keep this work separate from the historical benchmark and pair |
+
+At this read, Architect's remote branch still ended at b48f520 and Implementer's profiling branch at 03434a1; no historical-result or accepted scratch-fix receipt had been published. No such acceptance is invented. Capture's next execution code is therefore **NOT YET BOUND**: 265ca75 is the existing safeguarded candidate, but any scratch-enforcement change requires a new exact accepted version before dispatch. This replaces prior conditional language wherever its conditions have not been met.
+
+### Historical-result verification owned by Manager
+
+Do not rerun Architect's benchmark. On its publication, verify: exact model/code and chronological split; daily/input coverage and missing intervals; net USD equals final minus opening NAV; percent uses the stated opening denominator; paid fees and liquidation reserve are separate with no double deduction; comparator has the same eligible period, capital and cost assumptions; drawdown uses the stated valid NAV series and peak; after-signal fill timing, spread/slippage/partial-fill/depth and intraday-risk limitations are explicit. Confirm no tuning on holdout, no future-close leakage, and no claim that an OHLC proxy implements unchanged L2/IOC gates. Reject or qualify mismatches rather than silently repairing the result. Label all accepted numbers historical modeled results, never validated live P&L or 180-day confirmation. The existing cash-only zero-return control is not the awaited traded benchmark.
+
+### Parallel clock and private retention/recovery evidence
+
+One fresh bounded call to each original reference again returned no valid sample: time.cloudflare.com, time.google.com and time.windows.com all refused the request. Detailed network evidence is private. Approved clock gate remains BLOCKED; repeated same-path retries are not useful work.
+
+Current platform guidance documents HTTP(S) and private TCP forwarding, explicitly excluding UDP for that path. Generic SOCKS5 UDP support in other Codex deployments is not proof of a managed-cloud route. No supported request-changes capability for a UDP grant is exposed. The shortest defensible next step is platform capability clarification for outbound UDP/123 plus replies to the three unchanged references at zero extra cost, then one unchanged preflight on the actual supported route. No unapproved relay, route/proxy bypass, HTTP-time substitute, saved-policy edit or purchase. A valid clock route is not established by an inbound SSH capability.
+
+Private recovery remains BLOCKED on an authorized independent private destination and restore route with demonstrated zero incremental cost. No private off-environment evidence store, destination credential binding or recovery receipt is verified for Manager; public Git must not receive raw captures or private receipts. Local archives/copies and same-machine byte-identical rebuilds are useful but do not survive proven loss of that machine. Shortest proof after an approved existing private sink is available: retain the sole source, upload one bounded sealed representative bundle, verify remote inventory/hash receipt, restore to an independent fresh location and verify ordered frames/events/accounts and exact retained files; measure simultaneous source/archive/staging/restore peak against 5 GiB and the 2 GiB free floor. Do not delete sole evidence or presume storage is free. No source bytes are moved to an unapproved service merely to obtain a receipt.
+
+The pair's scratch envelope is a separate bounded admission problem from seven-day retention. The latest final-size snapshots are not transient peak measurements. Seven-day projection and global lifecycle/off-environment restore remain unaccepted. User dry-run receipt and offline-PC attestation remain established; exact schedule timing, restart/idempotency and regular report delivery remain unverified. No timer is recreated.
+
+### Quota and durable checkpoint
+
+Pre-unit source: cloud-pilot/status at 02182ce9f493af52efe1d78c042cdb5523715260, clean. User's last account snapshot is 100% five-hour and 63% weekly; used-versus-remaining and current values are not inferred. Supported live signals: five-hour UNKNOWN, weekly UNKNOWN, reset/timezone UNKNOWN before this unit and at handoff; no fresh warning visible. If the snapshot actually indicates a cap or a warning appears, stop new work immediately. Otherwise use short units with checkpoints; at <=15% remaining in either window or exhaustion risk, checkpoint and stop. No reset time is guessed and no wake is scheduled.
+
+Manager completed: fetched/read exact scratch and recorded-profile receipts, checked current branch availability, saved private pre-unit checkpoint, ran one unchanged bounded clock check, reviewed supported access/change guidance and recorded precise private-store blockers. No historical benchmark, pair, profiler, collector or timer started. Private pre/post receipts retain operational details outside Git. Other-role job state must be checked by its owner, not inferred from Manager's machine. Public status commit and remote push are verified separately.
+
+Exact next action on supported invocation: fetch architecture-handoff, queue-load-harness and implementer branches once; inspect the historical-result and scratch receipts; verify result arithmetic/assumptions or bind the exact accepted scratch/protocol SHA; publish the next receipt with one owner/action. If neither receipt exists, continue only an independent bounded capability/recovery task with new evidence, not busy polling or a duplicate benchmark. There is no verified automatic branch or quota wake. Five-hour wall-clock expiry does not bypass stops or release gates.
+
+Pilot STOPPED; validated live P&L/drawdown unavailable; no main merge, spend, live orders or 180-day change. Human decision is needed only for an actual new capability/private-destination/permission/cost choice or main merge, not routine scoped peer approval. No such new permission is assumed here.
+
 ## Current priority: blocked load protocol, recorded profile and historical control
 
 Manager acknowledges exact Capture **`df447221814d77af9487f7a0b9d265b50fd0edef`** and Architect **`b48f52045c22e4ad7fc111d9a9d17b80828325f6`**. This section supersedes any implication below that the load protocol is already approved. Completion-classification PASS at f88ab50 for exact 265ca75 is retained. **Representative-load protocol is BLOCKED; the conditional pair dispatch is not activated.** Old trial 35ea79b remains INCONCLUSIVE.
