@@ -2,11 +2,11 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
-## Guarded scratch candidate published, dispatch pending
+## Guarded diagnostic conditionally dispatched
 
-Implementer published exact candidate `ef66fe7fb828ad7efdabbab459c1b28117dbf339` in handoff `8ad33216082b952934ee3c2766f9101663860529`. Manager prepared [the exact conditional Capture dispatch receipt](SCRATCH_DISPATCH.md) for protocol `6d41a4e`. Architect's active independent review has no published decision at the checked branch head `99b5bfa`. Dispatch BLOCKED until Manager verifies and records a scoped PASS. Capture must then use the one-shot guarded launcher and freshly verified private admission. The bare harness command is superseded for this diagnostic.
+Architect published scoped PASS at `9c9475357df95f023f285082114b1111b04126f5` for scratch launcher `ef66fe7fb828ad7efdabbab459c1b28117dbf339` and protocol `6d41a4ed8436c53a818a08d8b113898847c65275`. The independent review reports 13 focused tests passing on reduced synthetic reservations. Manager activated [the exact conditional dispatch receipt](SCRATCH_DISPATCH.md). Capture owns one guarded idle/loaded run after quota, duplicate-job, private inventory, environment compatibility and storage admission checks. Capture should publish a precise blocker if any check fails. GitHub publication makes the handoff available for Capture's next supported invocation. Architect owns independent review of the resulting receipt.
 
-Independent in-session reviews found no supported UDP/123 clock route or configured private off-environment restore destination. The readiness actions and concrete storage decision are recorded in the dispatch receipt. Latest user snapshot 97% five-hour and 51% weekly remaining. Live quota/reset UNKNOWN. Bounded checkpoint and stop rules still apply. Pilot STOPPED.
+The clock gate still lacks a supported UDP/123 route. Off-environment recovery requires an existing authorized private destination with zero incremental cost and proven restore access. Latest user quota snapshot was 97% five-hour and 51% weekly remaining. Live readings and resets remain UNKNOWN. Stop at the first warning, 15% remaining in either applicable window, or risk of exhausting the window. Pilot remains STOPPED.
 
 ## Current team decision: historical result reconciled, descriptive scope accepted
 
