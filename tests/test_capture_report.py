@@ -11,6 +11,7 @@ from crypto_paper.engine import Ledger
 from crypto_paper.pilot_report import HOUR
 from crypto_paper.runtime import Capture, Session, digest_file, manifest
 from crypto_paper.__main__ import collect, main
+from crypto_paper.verify import META, market
 
 T = 1767225600*NANO
 
@@ -46,6 +47,32 @@ class CaptureReportTests(unittest.TestCase):
             self.assertIn('CLOCK_UNVERIFIED',r['validation_reasons'])
             self.assertFalse(r['pilot_started']); self.assertFalse(r['real_alert_sent'])
             self.assertEqual(before,{p:p.read_bytes() for p in before})
+
+    def test_marked_ledger_reconciles_canonical_account_and_respects_diagnostic_flag(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp)
+            session = Session(out, 'marked', 'observe')
+            capture = Capture(out, 'marked')
+            for kind, offset, wire, fields in (
+                ('clock', 0, b'', {'offset_ms': ['0', '0', '0']}),
+                ('connect', 0, b'', {}),
+                ('ws', 0, dump({'channel': 'instrument', 'data': {
+                    'pairs': [META | {'symbol': 'BTC/USD'}]}}).encode(), {}),
+                ('ws', 0, dump(market(utc=T)).encode(), {}),
+                ('sample', 1, b'', {}),
+            ):
+                session.handle(capture.put(kind, wire, epoch=1,
+                                           utc=T+offset*NANO, mono=offset*NANO, **fields))
+            self.assertEqual(session.ledger.state['mark_ns'], T)
+            capture.close()
+            session.close()
+            manifest(out, 'marked', 'observe', T, state='DONE',
+                     clock_unverified_diagnostic=True)
+            result = capture_report(out/'manifest.json', T+NANO, T+NANO+6*HOUR, T+NANO+6*HOUR)
+            self.assertEqual(result['replay'], 'PASS')
+            self.assertIn('CLOCK_UNVERIFIED', result['validation_reasons'])
+            self.assertIsNone(result['interval_net']['usd'])
+            self.assertIsNone(result['observed_max_drawdown_percent'])
 
     def test_raw_tamper_and_collecting_manifest_fail_closed(self):
         with tempfile.TemporaryDirectory() as tmp:

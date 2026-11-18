@@ -62,7 +62,7 @@ def snapshot_from_capture(manifest, start, end):
         if source.db.execute('SELECT count(*),max(idx) FROM frames').fetchone() != (cursor,cursor):
             raise ValueError('ledger/raw cursor mismatch')
         if (not source.reconcile() or not rebuilt.ledger.reconcile() or
-                not compare(source,rebuilt.ledger)['equal'] or source.state != rebuilt.ledger.state):
+                not compare(source,rebuilt.ledger)['equal'] or dump(source.state) != dump(rebuilt.ledger.state)):
             raise ValueError('ledger replay reconciliation failed')
         expected = (end-start)//NANO
         ready = sum(slots.values())
@@ -103,7 +103,8 @@ def capture_report(manifest, start, end, generated):
     reasons = []
     if not snap['snapshots'] or snap['snapshots'][0]['utc'] >= start: reasons.append('OPENING_HISTORY_MISSING')
     if snap['coverage']['missing']: reasons.append('INTERVAL_INCOMPLETE')
-    if not all(x['clock_valid'] for x in snap['snapshots'] if start <= x['utc'] < end):
+    if (metrics['clock_status'] == 'UNVERIFIED' or
+            not all(x['clock_valid'] for x in snap['snapshots'] if start <= x['utc'] < end)):
         reasons.append('CLOCK_UNVERIFIED')
     # Diagnostic cash balances do not establish a validated trading return.
     if reasons:
