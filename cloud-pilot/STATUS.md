@@ -4,6 +4,25 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Current acceptance progress
+
+This checkpoint governs current actions. The sections below retain historical results.
+
+| Item | Owner | Exact dependency and verdict | Single next action |
+| --- | --- | --- | --- |
+| Observe adapter | Manager | Acknowledged independent Architect PASS `ce1ff3d35875eb18440ed6d1b99679c417c5889c` for `dd2dcdcf2405cb4cd38140c7c2f8cd52756f2c96`. Eight focused tests cover canonical account comparison, sealed source preservation, tamper rejection and diagnostic clock suppression. Prior Manager tests agree | Carry the accepted sealed observe-only adapter forward to report-wrapper review |
+| Local report publication | Architect | Implementer receipt `8f0ada7571902f4e96773ecb73775ea44d853d5e`, exact patch `a5ae2add7544dbf8c1497c6abd3ace316fcaa6eb`. Manager independently passed the three focused crash/retry/conflict tests and a new concurrent process probe | Independently review exact patch and the evidence below for a single report per ID in one persistent directory |
+| Scheduled delivery | Manager | End-to-end timing and delivery dedupe BLOCKED. Local artifact reuse supplies a stable key. User's earlier PC-off web receipt covers one report. Matching scheduler and recipient acknowledgments remain missing | Reconcile a matching scheduler/worker and recipient receipt for one report ID, including restart retry and destination dedupe, if exposed on the authorized route |
+| Seven-day retention budget | Manager | Acknowledged Capture `e50657c411f98a4b1bbff13e90c4f60f7535190f`. Full archive projects above 5 GiB even at 1×. Derived archive projects 4.59 GiB at 1× and 8.13 GiB at 2×. Same-executor 10-file recovery is established for one window. Manager checked the planning arithmetic: 4,249,426,967 bytes for growth, 7,026.17 bytes/s across seven days, about 93.75 hours at twice the sampled derived rate. The sampled working peaks are estimates for admission planning rather than hard bounds | Specify and verify a hard concurrent cap for the chosen lossless format covering active raw, ledger, archive, staging, and restore before sizing a seven-day trial |
+| Independent recovery | Manager | PENDING. The same-executor result in `e50657c` does not demonstrate replacement-executor recovery. No approved independent private destination is designated | Once a user-designated existing private destination is available, read back a tiny synthetic object from an independent executor and compare its checksum |
+| Capture runtime and guarded dispatch | Manager / Capture executes | HOLD under `92a0267`, `645c752` and `f31188d`. No newer accepted runtime evidence in fetched refs | Manager verifies a newly evidenced supported managed runtime and obtains exact review before Capture resumes |
+| Clock | Manager | BLOCKED on the original UDP route | Confirm a platform-supported route to all original references before one unchanged preflight |
+| Pilot release | Manager | STOPPED. Pending readiness gates and 24-hour acceptance | Reconcile accepted readiness evidence before operational acceptance |
+
+Manager test receipt `manager-concurrent-publish-v1` at `a5ae2ad`: launched four independent CLI workers against the same sealed synthetic interval and output directory with differing generation timestamps. All exited zero. One published; three reused the same ID; one final file and zero staging files remained. Fixture checks retained sealed bytes, null P&L/drawdown and delivery NOT_ATTEMPTED. The separate three tests verified crash before link, crash after link and fail-closed conflict. These checks qualify local report publication and recovery across process exits on the tested filesystem. Recipient dedupe and restore after executor loss require separate evidence.
+
+Manager checkpoint: clean `cloud-pilot/status` started at `c218e8e444c4b11a60ea0bdb91b5e22e20a0532e`. Fetched and read the three exact receipts, independently ran the focused tests and concurrency probe, and checked the retention budget arithmetic. Remote peer refs were checked again before publication. Test fixture outputs were cleaned and no Manager process remains active. On the next invocation fetch peer refs using the queue command below, inspect any new exact review or result, and check prior process/output state before resuming an interrupted unit. Keep the independent recovery destination item pending while advancing available work.
+
 ### Reporting retry check and private recovery decision
 
 Manager resumed from clean `c5f2b3988f20ea58cb8cd273637fa1d4dd0516fb`. The fetched peer heads were Capture `92a0267`, Architect `645c752`, Implementer report handoff `90c3dda` and scratch handoff `8ad3321`. These are the same source receipts as the preceding checkpoint. No newer published runtime option or adapter verdict was observed.
