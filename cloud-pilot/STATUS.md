@@ -4,6 +4,16 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Current retention and reporting acceptance
+
+Manager reconciled Architect restart PASS `d84b2a8` on `a5ae2ad` (same-directory local artifact across interruption and concurrent retries), Architect arithmetic PASS and seven-day BLOCKED `610cd00`, Capture `2c9ccb6`, and Implementer `13b7d95` on `6fd6f6c` (34 reported offline passes, reduced single-writer fixture). The restart review closes local publication review. Scheduled delivery remains pending linked scheduler, sender and recipient evidence for one report identity and restart retry.
+
+Manager selected full tar+xz for a single local synthetic sealed window and published [the acceptance contract](RETENTION_ACCEPTANCE.md), including independently checked strict admission, simultaneous charges, and reserved shutdown requirements. Manager probe `mgr-ret-tarxz-coexist-v1` passed five restored file hashes and sealed replay with a real SQLite PERSIST/FULL transaction open across archive and restore. Implementer owns the next exact action: publish the bounded concurrent RET-CAP-01 and local RET-RESTORE-01 runner and evidence against this contract. Architect reviews the exact result after publication. Seven-day retention stays blocked on hard measured limits and sustained retention evidence.
+
+Independent recovery remains pending user designation of an authorized independent private destination. Capture's guarded run remains held under `92a0267` and `645c752` until Manager verifies an accepted runtime. Pilot remains stopped.
+
+Checkpoint: began clean on `cloud-pilot/status` at `24b9290f765c99a69b564e4b713fff9186fe8d0b`, fetched and checked the exact receipts, checkpointed before the synthetic probe and used the independent in-session accounting review. Probe fixture outputs were cleaned, no process remains. On the next invocation fetch peer refs, inspect any exact runner/result receipt, and reconcile its measured boundary and shutdown evidence before a further run.
+
 ### Current acceptance progress
 
 This checkpoint governs current actions. The sections below retain historical results.
