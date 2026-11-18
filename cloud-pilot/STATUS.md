@@ -4,6 +4,24 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Reduced retention proof and reporting linkage
+
+Manager acknowledges Implementer `b205bf77865552b53151d41382d5cd590f3cd4ca`, exact runner `0ffd360fdee99060673933aedd9468f882586b4b`, against the `b67630a` contract. **Implementer reports PASS for reduced local synthetic RET-CAP-01 and RET-RESTORE-01.** Three focused and 37 offline tests passed. Two contender orders held simultaneous reservations and rejected an extra 4 KiB before writing. Archive-first exercised actual restore and partial compression with a real PERSIST/FULL SQLite transaction. The rejected write stopped intake, preserved the synced partial and left admitted restore and database commit within their extents. The stop-to-seal write added 158 logical bytes and zero charged or allocated bytes. Charged peak was 315,992 bytes, the worker exited zero, and both threads joined. Five restored files matched exactly and replay checked five committed frames, three ordered ledger events and final accounting.
+
+Scope: the runner requires tmpfs, a working read-only Bubblewrap namespace and reduced reservations. The receipt does not establish persistent filesystem extent semantics or executor-loss recovery. Manager did not rerun the fixture. Architect owns the exact-code review next. The last checked Architect head before publication was `610cd00`, which covers projection arithmetic only.
+
+| Item | Owner | Verdict | Exact next action |
+| --- | --- | --- | --- |
+| Reduced runner review | Architect | PENDING at `0ffd360f` | Review `b205bf7` against `b67630a`, including overlap refusal, extent accounting and seal reserve |
+| Persistent retention | Manager | HOLD. No independent acceptance of the runner or authorized persistent backend proven | After a scoped PASS, verify one already-authorized persistent filesystem and compatible managed isolation, then bind an exact backend-specific runner revision for one synthetic sealed window |
+| Scheduled reporting | Manager | `mgr-report-link-v1` BLOCKED. Fresh read-only scheduler lookup found the existing one-shot disabled with no next run, linked run or result. Delivery status unknown. Last-run metadata is 229.908150 seconds before the configured schedule. The user-confirmed web receipt remains evidence for that dry run. Local restart and duplicate-artifact review at `d84b2a8` passed | Reconcile a linked planned/start/finish record and sender/recipient acknowledgment for one report identity on the existing authorized route, including retry after restart and destination dedupe before acceptance |
+| Replacement-executor recovery | Manager | PENDING authorized independent private destination | After designation, verify checksum-matched readback of a tiny synthetic object from a replacement executor |
+| Capture runtime | Manager / Capture executes | HOLD under `92a0267` / `645c752`. The tmpfs proof does not supply new runtime capability evidence for Capture | Verify a newly evidenced supported managed option under existing controls before binding any Capture attempt |
+
+Persistent test candidate, for future binding only: retain the same full PAX tar+xz format, one local synthetic sealed window and reduced physical reservations under the exact strict inequalities in `RETENTION_ACCEPTANCE.md`. First prove the target's allocation, metadata, journal and extent semantics with stop and seal capacity reserved. Repeat overlap refusal, close and exact restore/replay under the reviewed isolation on that backend. After closing the writer, use a fresh process to verify durable inventory, archive hashes and the seal. Keep executor-loss recovery separate. Do not force the tmpfs runner onto a persistent path or introduce a weaker isolation fallback. Implementer owns a backend-specific patch once the backend is verified. Architect reviews the exact patch. Manager binds any resulting executable test.
+
+Checkpoint: began clean at `b67630a` on `cloud-pilot/status`. Exact peer refs fetched. Reporting linkage was tested read-only with no send or timer. No Manager experiment process or private output remains active. Next invocation fetch peer refs, read the exact Architect review when available and check the previous attempt state before any further work. Pilot remains stopped.
+
 ### Current retention and reporting acceptance
 
 Manager reconciled Architect restart PASS `d84b2a8` on `a5ae2ad` (same-directory local artifact across interruption and concurrent retries), Architect arithmetic PASS and seven-day BLOCKED `610cd00`, Capture `2c9ccb6`, and Implementer `13b7d95` on `6fd6f6c` (34 reported offline passes, reduced single-writer fixture). The restart review closes local publication review. Scheduled delivery remains pending linked scheduler, sender and recipient evidence for one report identity and restart retry.
