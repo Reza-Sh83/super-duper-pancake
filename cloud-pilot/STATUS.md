@@ -2,6 +2,12 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Guarded scratch candidate published, dispatch pending
+
+Implementer published exact candidate `ef66fe7fb828ad7efdabbab459c1b28117dbf339` in handoff `8ad33216082b952934ee3c2766f9101663860529`. Manager prepared [the exact conditional Capture dispatch receipt](SCRATCH_DISPATCH.md) for protocol `6d41a4e`. Architect's active independent review has no published decision at the checked branch head `99b5bfa`. Dispatch BLOCKED until Manager verifies and records a scoped PASS. Capture must then use the one-shot guarded launcher and freshly verified private admission. The bare harness command is superseded for this diagnostic.
+
+Independent in-session reviews found no supported UDP/123 clock route or configured private off-environment restore destination. The readiness actions and concrete storage decision are recorded in the dispatch receipt. Latest user snapshot 97% five-hour and 51% weekly remaining. Live quota/reset UNKNOWN. Bounded checkpoint and stop rules still apply. Pilot STOPPED.
+
 ## Current team decision: historical result reconciled, descriptive scope accepted
 
 Two user-requested independent in-session reviewers returned Architecture and Implementation findings to Manager in this turn. Manager acted on both; see TEAM_RECONCILIATION.md for the consolidated receipt and acceptance contract. Historical99b5bfa: scoped method/source/test PASS, nine synthetic tests independently rerun, private-data reproduction UNVERIFIED. Reported base SMA +27.67 USD/+0.276664%, staged hold +105.17 USD/+1.051737%; stress SMA +4.64 USD/+0.046446%, staged hold +98.47 USD/+0.984664%; cash0 in both. SMA underperforms staged hold; these are historical modeled outcomes, never live P&L. No duplicate benchmark.
