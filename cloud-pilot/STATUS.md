@@ -2,6 +2,42 @@
 
 Manager reconciliation: 2026-11-16. Public project notes only. This record supersedes obsolete fixture-only assignments, not the underlying evidence. Source checkpoints were fetched and read at the exact revisions below. Private evidence remains with its owning role; Manager has not rerun recorded-data experiments or independently inspected private receipts in this unit.
 
+## Active cloud work queue
+
+This is the canonical queue. Earlier sections are historical checkpoints. Owner, dependency, receipt and next action below govern resumption. Fetch current peer receipts at the beginning of each supported invocation, reconcile any result and take the next unblocked unit. Keep private evidence outside public Git.
+
+| Item | Sole owner | Exact dependency | Acknowledgment or verdict | Next action and resume checkpoint |
+| --- | --- | --- | --- | --- |
+| Guarded recorded diagnostic | Capture | Dispatch `f31188dfb72bcf23ef6f6b38173a0dd442d8c800`; code `ef66fe7fb828ad7efdabbab459c1b28117dbf339`; review `9c9475357df95f023f285082114b1111b04126f5`; protocol `6d41a4ed8436c53a818a08d8b113898847c65275` | Manager acknowledges Capture census `d83175c3127b27150953399419f3bf76c62c1abd`. Read-only input and preliminary capacity PASS. No allocation/run in that receipt. Publish state of the existing attempt only | Capture verifies its current job/output first and owns the already delivered dispatch. Recheck complete private inventory, quota, compatibility and full-size admission if the authorized attempt has yet to begin. Publish exact result or blocker on queue-load-harness. Manager and reviewers must not launch a second attempt |
+| Diagnostic result review | Architect | `9c94753` and Capture's future exact result SHA | WAITING for Capture receipt. Synthetic acceptance is established; recorded diagnostic outcome is unverified | Review guard and series success, child cleanup, framing/fidelity/refresh, per-worker start and useful work, own-raw accounting and private input preservation. Recite any missing evidence and scope the verdict to descriptive activity |
+| Scheduled reporting | Manager | Reporting evidence below; prior receipt in `375cd20` | Independently rechecked existing scheduler metadata. One cloud report and user-attested PC-off receipt established. Exact scheduled timing and restart behavior UNVERIFIED | On a supported invocation, reconcile only a matching existing run record if it becomes accessible. Require scheduled/start/completed/receipt timestamps tied to one run plus restart/idempotency receipts before acceptance |
+| Independent clock | Manager | `f31188d`, approved three-reference preflight | BLOCKED. Supported no-extra-cost UDP/123 route has yet to be identified | Verify a platform-supported route to all three existing references before one unchanged probe |
+| Private off-environment recovery | Manager | `f31188d`, local proof in `479dbec` | BLOCKED. There is no verified authorized independent private destination | After an existing private, zero-incremental-cost destination with independent restore access is designated, prove a tiny synthetic object can be restored from a replacement executor, then qualify sealed-bundle recovery. This destination choice is user-owned and does not gate the authorized diagnostic |
+| Pilot release and 24-hour acceptance | Manager | Clock, storage, scheduled reporting and accepted operational evidence | STOPPED | Reconcile all readiness receipts before release. Keep the historical model, live paper P&L and the separate 180-day protocol distinct |
+
+Capture census charged 627,134,464 bytes. With the 4,026,531,840-byte reservation the projected charge was 4,653,666,304 bytes, 715,042,816 below the 5 GiB cap. The initial free-space threshold of 6,174,015,488 bytes passed. This point-in-time check cannot establish allocation compatibility or current occupancy. The pending approval language in that census is superseded by `f31188d`, which binds the guarded launcher and the published Architect PASS.
+
+### How this cloud coordinates
+
+Manager tested supported observation of the existing peer chats through the exposed Codex thread snapshot action. The call returned “This app tool is unavailable through dynamic tools. Use the codex_app MCP server.” No callable peer-send, peer-handoff or alternate thread-wait tool was exposed. Direct delivery to or waking an idle peer from this cloud session could not be verified. GitHub receipts remain durable inputs for a peer's next authorized invocation. Branch updates do not constitute delivery or a wake.
+
+Use in-session delegation for tightly coupled unowned units. Manager fetches exact peer refs, gives a distinct review or implementation task to an authorized collaborator, and collects and acts on its result before ending the invocation. Existing owners retain work already in progress. This invocation verified the pattern by receiving independent reporting evidence and updating its verdict and acceptance checklist here. The cloud tool, shell and GitHub path worked in this invocation. The prior dry-run web receipt and PC-off attestation apply to that one report. Idle-chat wake, periodic delivery and quota-reset resume are unverified. Resume explicitly from the last checkpoint after a quota stop and check both applicable windows and existing processes/results first.
+
+### Reporting evidence checked in-session
+
+A fresh read-only scheduler lookup found the existing one-shot disabled with no next occurrence. Its scheduled time was 2026-11-15 10:51:55 Asia/Tehran (07:21:55 UTC), and the last-run metadata was 10:48:05.091850 Asia/Tehran (07:18:05.091850 UTC), about 230 seconds earlier. The lookup supplied no matching run/result receipt and delivery status was unknown. These timestamps cannot establish the six-hour scheduled delivery. Preserve the user's observed web receipt and PC-off attestation separately. A qualifying future evidence review needs a linked dispatch and completion record, matching user receipt, and a durable checkpoint/readback after scheduler or worker restart with no duplicate report. No repeat dry run or timer was created.
+
+### Resumable checkpoint
+
+Manager, 2026-11-18T06:12:18Z. Starting branch `cloud-pilot/status`, clean at `f31188d`. Fetched peers and reconciled `d83175c`; tested peer reachability; used an in-session reviewer and checked scheduler evidence. Latest remote Capture checkpoint remained `d83175c`; Manager cannot infer a process state on Capture's separate executor. Manager launched no experiment or job. Snapshot 76% five-hour and 47% weekly remaining, with no live reader and reset times UNKNOWN. Use bounded units with before/after checkpoints. Stop at a first warning, 15% remaining in either window, or exhaustion risk. Exact resume command from the clean status checkout is:
+
+```sh
+git fetch origin '+refs/heads/cloud-pilot/*:refs/remotes/origin/cloud-pilot/*' '+refs/heads/implementer/*:refs/remotes/origin/implementer/*'
+git log -1 --oneline origin/cloud-pilot/queue-load-harness
+```
+
+Then inspect any new Capture receipt once and reconcile or advance one independent readiness unit with new evidence. Do not retry an in-flight or already completed attempt. No reset-based wake is assumed.
+
 ## Guarded diagnostic conditionally dispatched
 
 Architect published scoped PASS at `9c9475357df95f023f285082114b1111b04126f5` for scratch launcher `ef66fe7fb828ad7efdabbab459c1b28117dbf339` and protocol `6d41a4ed8436c53a818a08d8b113898847c65275`. The independent review reports 13 focused tests passing on reduced synthetic reservations. Manager activated [the exact conditional dispatch receipt](SCRATCH_DISPATCH.md). Capture owns one guarded idle/loaded run after quota, duplicate-job, private inventory, environment compatibility and storage admission checks. Capture should publish a precise blocker if any check fails. GitHub publication makes the handoff available for Capture's next supported invocation. Architect owns independent review of the resulting receipt.
