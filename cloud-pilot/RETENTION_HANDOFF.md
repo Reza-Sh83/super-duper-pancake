@@ -77,3 +77,16 @@ pilot remains gated.
 Read Manager c218e8e, Architect ce1ff3d and Implementer 8f0ada7 / 8ad3321.
 Their adapter and restart receipts cover sealed observe reporting and local
 publication. Runtime and independent storage dependencies remain open.
+
+## Peer receipt reconciliation
+
+Manager 24b9290 acknowledges the budget and retains the independent destination
+and guarded runtime dependencies. Architect 610cd00 independently passed the
+projection arithmetic and left readiness blocked. Implementer 13b7d95 reports
+34 offline passes on code 6fd6f6c19ada42594192c0111892a68a8c80da9d, including
+three reduced-reservation single-writer checks. Its separate seal allocation,
+record refusal before write and evidence preservation are the starting point
+for RET-CAP-01. The next work is the format-specific concurrent allocation
+and shutdown proof, including real SQLite and archive/restore growth. Reuse
+the existing single-writer tests. The reduced fixture has no authority to
+admit a full-size test. Manager owns binding the selected format and scope.
