@@ -17,14 +17,16 @@ T = 1767225600*NANO
 
 
 class CaptureReportTests(unittest.TestCase):
-    def fixture(self, root):
+    def fixture(self, root, *, operator_stop=False):
         out = root/'capture'; out.mkdir()
         session = Session(out,'synthetic','observe')
         cap = Capture(out,'synthetic')
-        for kind,utc,fields in [('clock',T,{'offset_ms':[]}),
-                                ('run_begin',T,{'duration':600}),
-                                ('sample',T+NANO,{}),
-                                ('shutdown',T+600*NANO,{})]:
+        records = [('clock',T,{'offset_ms':[]}), ('run_begin',T,{'duration':600}),
+                   ('sample',T+NANO,{})]
+        if operator_stop:
+            records.append(('operator',T+2*NANO,{'action':'stop','note':'synthetic fixture'}))
+        records.append(('shutdown',T+600*NANO,{}))
+        for kind,utc,fields in records:
             session.handle(cap.put(kind,utc=utc,mono=utc-T+NANO,**fields))
         cap.close(); session.close()
         manifest(out,'synthetic','observe',T,state='DIAGNOSTIC')
