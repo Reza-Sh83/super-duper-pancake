@@ -1,11 +1,13 @@
 """Read-only checks for a follow-up to the bounded tar+xz proof."""
 
 import argparse
+import hashlib
 import json
 import os
 from pathlib import Path
 import shutil
 import subprocess
+import tarfile
 
 from crypto_paper.capture_report import capture_report
 from crypto_paper.engine import Ledger
@@ -28,6 +30,23 @@ def preflight(parent, working):
     return parent
 
 
+def verify_archive(archive_path, expected):
+    """Bind the sealed archive contents to the exact ordered file inventory."""
+    names = iter(expected)
+    with tarfile.open(archive_path, mode="r|xz") as archive:
+        for member in archive:
+            name = next(names, None)
+            if (name is None or member.name != name or
+                    member.type not in (tarfile.REGTYPE, tarfile.AREGTYPE) or
+                    member.issparse() or member.size != expected[name][0]):
+                raise ValueError("archive member inventory differs from sealed source")
+            with archive.extractfile(member) as payload:
+                if hashlib.file_digest(payload, "sha256").hexdigest() != expected[name][1]:
+                    raise ValueError("archive member content differs from sealed source")
+    if next(names, None) is not None:
+        raise ValueError("archive member inventory differs from sealed source")
+
+
 def readback(root, start, end):
     """Reopen a completed local proof in a fresh process without writing files."""
     if end - start != 6 * HOUR:
@@ -43,6 +62,7 @@ def readback(root, start, end):
     expected = inventory(source)
     if not expected or inventory(restored) != expected:
         raise ValueError("restored members differ from sealed source")
+    verify_archive(root / "complete.tar.xz", expected)
     original = capture_report(source / "manifest.json", start, end, end)
     recovered = capture_report(restored / "manifest.json", start, end, end)
     if (dump(original) != dump(recovered) or recovered["replay"] != "PASS" or

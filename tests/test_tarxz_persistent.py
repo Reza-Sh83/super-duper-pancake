@@ -1,10 +1,12 @@
 """Follow-up checks only. The exact published tmpfs proof is unchanged."""
 
+import io
 import json
 from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tarfile
 from tempfile import TemporaryDirectory
 from types import SimpleNamespace
 import unittest
@@ -70,6 +72,36 @@ class PersistentRetentionTests(unittest.TestCase):
             result = subprocess.run(cmd, capture_output=True, check=True, timeout=10)
             self.assertEqual(json.loads(result.stdout), {"status": "PASS", "members": 5, "replay": "PASS"})
             self.assertEqual(inventory(root), before)
+
+            with tarfile.open(complete, "w:xz", format=tarfile.PAX_FORMAT, preset=6) as tar:
+                member = tarfile.TarInfo("unrelated")
+                member.size = 1
+                tar.addfile(member, io.BytesIO(b"x"))
+            seal = root / "shutdown.json"
+            seal.write_text(json.dumps({"status": "STOPPED", "sqlite_commit": "verified",
+                                       "archive_sha256": digest_file(complete)}))
+            unrelated = inventory(root)
+            result = subprocess.run(cmd, capture_output=True, timeout=10)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn(b"member inventory differs", result.stderr)
+            self.assertEqual(inventory(root), unrelated)
+
+            # Same ordered members and lengths, but one changed payload.
+            with tarfile.open(complete, "w:xz", format=tarfile.PAX_FORMAT, preset=6) as tar:
+                for name in inventory(source):
+                    data = (source / name).read_bytes()
+                    if name == "manifest.json":
+                        data = b"!" + data[1:]
+                    member = tarfile.TarInfo(name)
+                    member.size = len(data)
+                    tar.addfile(member, io.BytesIO(data))
+            seal.write_text(json.dumps({"status": "STOPPED", "sqlite_commit": "verified",
+                                       "archive_sha256": digest_file(complete)}))
+            changed = inventory(root)
+            result = subprocess.run(cmd, capture_output=True, timeout=10)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn(b"member content differs", result.stderr)
+            self.assertEqual(inventory(root), changed)
 
             with complete.open("ab") as stream:
                 stream.write(b"altered")
