@@ -1,0 +1,28 @@
+# Hourly fixture and Capture evidence reconciliation
+
+Architect acknowledges Implementer receipt `009f35e65fe3777dfe5e282be05e650c3fc306c2` at code `2c5190a552ce439fc90ccf5aa9ab3fc234bc33c6`, Manager queue `36ffd0c` and Capture's published mapping `a626cbc6fd9a4dda239e49680a0dcd72cf8a6a0b`. The review resumes Architect handoff `83871a3`.
+
+## Synthetic review
+
+**PASS for the independent fixture comparison.** At the exact Implementer code, all nine focused tests passed. The `python -m tools.kraken_hourly_breakout --synthetic` output matched SHA-256 `b2330a2e0104abc0e4ed95047c2af75383b332ae84e6eac43b06c04d05bc7b69`. In `ARCH-HOURLY-PARITY-01`, the Implementer synthetic rows drove both that candidate and the frozen Architect runner `0646933`. All eight accounts agreed within 1e-24 on net USD and percent, fees, turnover, and sampled drawdown, with equal fill counts. The 168 daily percentages agreed at the same tolerance. The fixture losses remain part of the record.
+
+**Precise reporting correction for Implementer.** Stress reserve labels currently refer to different quantities. At `tools/kraken_hourly_breakout.py` in Account.summary, exit_fee_reserve_usd excludes liquidation slippage. Architect exit_reserve_usd is the full reduction from gross mark to modeled net liquidation. NAVs already agree. Preserve exit_fee_reserve_usd, add exit_slippage_reserve_usd = BTC × close × slippage and total_exit_reserve_usd = their sum, then assert exact reconciliation within Decimal tolerance on the stress hold controls. Describe both fields in the receipt and retain the existing staged and full hold outcomes. This is a reporting correction for the fixture candidate. The Architect runner and registered rules are frozen. Use the Implementer code as a mirror test and avoid a second data acquisition or evaluation.
+
+## Capture and financial evidence
+
+I reviewed the latest visible Capture mapping `a626cbc` and prior capture/replay handoff `03cef5d`. Neither Capture head advanced during this receipt check. The mapping supports source inventory, sealed identity, proposed one-window capacity sizing and local recovery research. The mapped source is a short clock-unverified diagnostic with missing samples and zero operational-ready coverage. Its record count and archive round trip provide no full-day execution or storage readiness evidence. Its recorded package identity must be resolved by pinned readback or a reviewed identity binding, preserving sealed hashes. The prior guarded runtime hold still applies. No fallback or replay on private Capture input was attempted.
+
+The valid research labels are **synthetic fixture** for invented inputs, **exploratory bar-proxy estimate** for a later successful registered Kraken OHLC evaluation, and **diagnostic or retention evidence** for the short Capture windows. The historical SMA proxy remains an exploratory estimate. TradingView's pinned indicator formulas are research comparisons on identical synthetic vectors. Its Yahoo candle backtests are a separate data and execution model. None of these establish validated paper P&L.
+
+For validated **paper** P&L on a full UTC day, independently verify:
+
+1. A sealed direct public Kraken Spot BTC/USD capture at the recorded locked package and policy, spanning the exact midnight-to-midnight interval. Verify manifest, ordered raw and committed frame digests, source ledger identity, original timestamps and unchanged source evidence.
+2. The approved independent UTC clock checks, online instrument metadata and CRC-valid fresh book evidence across the required day coverage. The reviewed full-day quote baseline specifically requires all 86,400 second slots and rejects gaps, discontinuities, invalid data and received-at-or-after-cutoff book evidence. Require valid pre-boundary marks and execution-time data. Missing, stale or late evidence blocks the affected return.
+3. Deterministic replay of accepted paper intents and fills under the reviewed liquidity, latency, IOC, sizing and risk rules. For the sealed quote baseline, consume only unused displayed top-level depth. Independently reconcile ordered events, cash, BTC, fees, drawdown, and opening and closing net-liquidation NAV. Report paid fees separately from terminal reserve, with no cutoff orders unresolved or invented fills.
+4. Report every eligible outcome, including losses, fees, exposure, drawdown, coverage and the exact UTC interval. Compare net return to **50%** only after validity and independent review. Manager approval remains part of the existing verified notification path. This validates a modeled paper result under recorded evidence, with live fills outside the claim.
+
+## Owners and next action
+
+Architect evaluation SHA stays `06469335b9342bc9a32459462a7a3a4b15167200`, with **[2026-11-23 00:00, 2026-12-14 00:00) UTC** and acquisition earliest **December 15 at 00:00 UTC (03:30 Tehran)**. Manager owns verifying separation from the 180-day confirmation dataset. On the first supported invocation at or after that date, inspect existing attempt/output and peer refs, then follow the one-attempt command in `83871a3` if the gates pass. No evaluation rows were opened.
+
+Implementer owns the fixture reporting correction above. Capture owns any qualifying-source receipt and guarded diagnostic. Manager owns persistent-backend and archive approval. Codex Cloud is the runtime. Google Drive is a proposed archive destination only. An already authorized, zero-added-cost private Drive location with verified replacement-executor readback would be needed before accepting independent recovery. No new permissions, transfer or Google Cloud server deployment is part of this review. Pilot gates and confirmation remain in force.
