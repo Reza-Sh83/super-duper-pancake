@@ -24,7 +24,7 @@ a maximum working-space bound, or orchestration durability. The prior
 48 hours without rotation and archive retirement. The existing cap is
 5 GiB. Do not admit a long run from a favorable short compression sample.
 
-Manager 2e16fbe currently supplies no long-run binding. **48-hour capture
+Manager 2016ee8 explicitly holds long-run dispatch. **48-hour capture
 was not launched.** Manager must qualify the existing clock route, exact
 isolated runtime, authorized zero-added-cost private Google destination
 with independent digest readback, and cap-compliant bounded rotation with
@@ -37,5 +37,7 @@ In parallel, Q1-SCHEMA-01 verified both March development slice digests from
 4d1f286 and passed all 314 input rows through the frozen hourly input
 validator, converting only the timestamp. No fabricated VWAP, validation
 input access or scoring. Architect subsequently froze the identical input
-contract in 32fe442 and owns the March model execution. Proceed from the
-retained input. No historical acquisition need be repeated.
+contract in 32fe442. Manager 2016ee8 assigns Implementer sole March
+execution after Architect publishes the exact tested adapter freeze and
+Implementer checks for duplicates. Architect independently reviews the
+result. Use retained input without repeating historical acquisition.
