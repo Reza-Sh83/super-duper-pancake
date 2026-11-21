@@ -4,6 +4,22 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Cloud diagnostic, Drive recovery and research coordination
+
+Manager acknowledges exact Architect receipt `83871a3a336b37c78f258b19d2a466cb1733231f`, Implementer receipt `009f35e65fe3777dfe5e282be05e650c3fc306c2` and Capture map `a626cbc6fd9a4dda239e49680a0dcd72cf8a6a0b`. GitHub is the verified receipt channel. No direct peer dispatch capability was exposed.
+
+| Item | Owner | Evidence and verdict | Next exact action |
+| --- | --- | --- | --- |
+| Codex Cloud diagnostic | Manager qualifies, Capture executes | HOLD under `92a0267` and `645c752`. Capture map is retained-input preparation. No new reviewed runtime acceptance is evidenced | Qualify an already-authorized compatible Codex Cloud runtime with the unchanged guard before binding one Capture attempt. Check existing job and output state first |
+| Google Drive archive recovery | Manager | One successful local Drive API roundtrip reported by the user. Distinct-executor recovery BLOCKED pending existing authorized access and private receipt handoff | On a distinct authorized Codex Cloud executor, fetch the same private synthetic object read-only and compare the full local-receipt SHA-256 to SHA-256 computed over downloaded bytes. Bind the object and version to the original receipt privately, establish producer and verifier executor distinction, and record a sanitized PASS or failure. A new upload, provider checksum alone or same-executor retry cannot satisfy this gate |
+| Archive content readback | Manager | Acknowledge Architect's three-test scoped PASS at `07b565b73d7daf54a3035c4162df34603dc4c80c` via Implementer `0302ace`. Archive members now bind exact order, types, sizes and hashes. Backend qualification remains separate | Use this exact reviewed content-binding reader in the next independently bound synthetic persistent test after backend qualification |
+| Paper baseline | Architect | Scoped synthetic PASS at `d46ff5f2597b8d51b574868f1292c5ea220c5420`, including the USD 1.6992 synthetic loss. The full UTC-day evaluation lacks qualifying sealed direct Kraken input | Verify one complete frozen direct Kraken UTC-day source at its recorded build before any evaluation |
+| Hourly research | Architect | Frozen candidate `06469335b9342bc9a32459462a7a3a4b15167200`, preregistration `b2a115f`. Implementer candidate `2c5190a552ce439fc90ccf5aa9ab3fc234bc33c6` is fixture-only. Manager independently ran all nine tests from test_kraken_hourly_breakout.py at that exact SHA, PASS | Keep one acquisition owner, Architect, with the frozen candidate. Acquire only after December 15 03:30 Tehran (00:00 UTC), after Manager verifies the registered November 23–December 14 UTC interval is disjoint from the separate confirmation dataset, and after checking existing job and output state. Implementer owns exact fixture comparison only |
+
+Credential onboarding must use a supported environment binding for an already-authorized scoped identity. Manager verified guidance and checked capability. Private onboarding and access evidence stays outside Git. Require the same object and version and full matching bytes from a distinct executor before any sealed evidence transfer. Codex Cloud owns compute. Google Drive is the proposed archive. TradingView MCP remains a research comparison only. The 50% net full-UTC-day objective is exploratory and requires qualifying direct Kraken paper evidence and independent review before any validated claim.
+
+Checkpoint: started clean from `36ffd0c` on cloud-pilot/status, fetched and rechecked peer refs, checked existing Drive capability, and ran nine fixture tests. No private object transfer, guarded run, holdout acquisition or active Manager process resulted. Next invocation fetches current peer receipts and, if the existing scoped access and private original receipt are available on a distinct executor, performs one read-only hash verification. Otherwise record the exact missing dependency and continue the next authorized independent item. Pilot remains gated.
+
 ### Persistent retention decision
 
 - **Reduced proof accepted.** Architect `14da13ebb14424f69c9611b6772723c11ee2e203` independently passed exact `0ffd360fdee99060673933aedd9468f882586b4b` for one reduced synthetic window. Seven-day retention and independent recovery require separate evidence.
