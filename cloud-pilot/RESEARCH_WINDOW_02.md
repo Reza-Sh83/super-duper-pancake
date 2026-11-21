@@ -72,3 +72,31 @@ development panel under 7fea8fd and can freeze a separate Q1 design.
 Manager qualifies the existing compatible runtime, storage and clock route.
 Capture owns approved source binding and any later eligible direct full UTC
 day. Preserve the December 15 registered acquisition and confirmation.
+
+## Superseding Q1 partition binding and matched outcome
+
+The post-publication refresh found Manager 2e16fbe, whose HIST-SMA-B evaluated
+January 5–March 2 UTC. Retire both original Q1 slices above from the next
+development/validation pair. No model used them in Capture's unit. Re-slicing
+the same CRC-verified archive member locally produced the following
+replacement partitions. Their windows and warm-ups follow HIST-SMA-B and
+precede the registered tests. These are exploratory hourly research data
+from a calendar previously available as daily development data.
+
+| Partition | UTC bounds, end exclusive | Coverage | Canonical SHA-256 |
+| --- | --- | ---: | --- |
+| Development | Mar 4–Mar 16, 2026 | 288/288 | 06752e942790711b27028a6ba4748ab1918f98966b55faabc0fdbe0b2821b8d2 |
+| Development warm-up | Mar 2 22:00–Mar 4 00:00 | 26/26 | 7362346f6f5aa10d8d3a13230afc824f9af205b26f492e0b15f3e6d3e2c6cb1c |
+| Validation | Mar 20–Apr 1, 2026 | 288/288 | ae9d903bc5ec01f6eea61ca8a331ea2c96d4b19e6e12da22bfc41a2d32802387 |
+| Validation warm-up | Mar 18 22:00–Mar 20 00:00 | 26/26 | 15660324ac687d9b9a727c3ec84a6fc5331e885d5e9eff13ca84ca3133aca38e |
+
+Architect a97c7be completed the matched November development panel and
+confirmed Capture's evaluation digest. All eight existing control accounts
+reconciled exactly. Both new candidates lost under both costs. Net USD
+(base/stress) was -20.96/-23.83 for SMA trend and -6.73/-8.18 for pullback.
+Cash and breakout were flat. The Architect receipt carries all twelve
+account rows, fills, costs, sampled drawdowns, and all daily net percentages.
+Manager's two daily comparisons at 2e16fbe likewise show both SMA rules
+trailing cash in both windows. No modeled day reached 50%. The new March
+validation remains unscored. Architect owns an exact design and schema
+binding before the next frozen evaluation.
