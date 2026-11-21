@@ -79,6 +79,13 @@ class HourlyBreakoutTests(unittest.TestCase):
                 expected_reserve = quantity * (100*(1-slip)) * fee
                 self.assertAlmostEqual(arm["fees_usd"], expected_fee, places=27)
                 self.assertAlmostEqual(arm["exit_fee_reserve_usd"], expected_reserve, places=27)
+                slippage_reserve = quantity * 100 * slip
+                self.assertAlmostEqual(arm["exit_slippage_reserve_usd"], slippage_reserve, places=27)
+                self.assertAlmostEqual(arm["total_exit_reserve_usd"],
+                                       expected_reserve + slippage_reserve, places=27)
+                self.assertGreater(arm["mean_sampled_gross_exposure_percent"], 0)
+                self.assertLessEqual(arm["mean_sampled_gross_exposure_percent"],
+                                     arm["max_sampled_gross_exposure_percent"])
                 expected_nav = D(9750) + quantity*(100*(1-slip)) - expected_reserve
                 self.assertAlmostEqual(arm["nav_usd"], expected_nav, places=27)
                 self.assertEqual([fill["side"] for fill in arm["fills"]], ["buy"])

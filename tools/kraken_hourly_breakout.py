@@ -96,6 +96,8 @@ class Account:
     peak: Decimal = INITIAL
     drawdown: Decimal = D(0)
     exposure: Decimal = D(0)
+    exposure_total: Decimal = D(0)
+    exposure_samples: int = 0
     day_open: Decimal = INITIAL
     locks: dict = field(default_factory=dict)
     fills: list = field(default_factory=list)
@@ -111,7 +113,10 @@ class Account:
         nav = self.nav(price)
         self.peak = max(self.peak, nav)
         self.drawdown = max(self.drawdown, 100 * (self.peak - nav) / self.peak)
-        self.exposure = max(self.exposure, 100 * self.btc * price / nav)
+        exposure = 100 * self.btc * price / nav
+        self.exposure = max(self.exposure, exposure)
+        self.exposure_total += exposure
+        self.exposure_samples += 1
         if enforce_risk:
             if nav <= self.day_open * D(".99"):
                 self.locks.setdefault("daily_loss", {"utc": utc, "phase": phase})
@@ -170,12 +175,17 @@ class Account:
 
     def summary(self, final_close):
         nav = self.nav(final_close)
-        reserve = self.btc * final_close * (1 - self.slip) * self.fee
+        fee_reserve = self.btc * final_close * (1 - self.slip) * self.fee
+        slippage_reserve = self.btc * final_close * self.slip
         returns = [row["net_percent"] for row in self.days]
         return {"initial_usd": INITIAL, "cash_usd": self.cash, "btc": self.btc,
                 "nav_usd": nav, "net_usd": nav - INITIAL, "net_percent": 100 * (nav/INITIAL - 1),
                 "fees_usd": self.paid_fees, "turnover_usd": self.turnover, "fills": self.fills,
-                "exit_fee_reserve_usd": reserve, "sampled_drawdown_percent": self.drawdown,
+                "exit_fee_reserve_usd": fee_reserve,
+                "exit_slippage_reserve_usd": slippage_reserve,
+                "total_exit_reserve_usd": fee_reserve + slippage_reserve,
+                "sampled_drawdown_percent": self.drawdown,
+                "mean_sampled_gross_exposure_percent": self.exposure_total / self.exposure_samples,
                 "max_sampled_gross_exposure_percent": self.exposure, "locks": self.locks,
                 "daily_outcomes": self.days, "daily_returns_sorted_percent": sorted(returns),
                 "best_day": max(self.days, key=lambda row: row["net_percent"]),
