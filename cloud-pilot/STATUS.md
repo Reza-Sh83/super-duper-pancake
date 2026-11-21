@@ -4,6 +4,14 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Historical hourly result and parallel qualification
+
+The [completed Manager run](HISTORICAL_HOURLY_MANAGER.md) reports 456/456 hourly bars, 19 modeled UTC days and all eight exploratory account outcomes. Breakout base net -14.697429 USD (-0.146974%); stress net -19.091262 USD (-0.190913%). No modeled 50% UTC day. Architect owns independent reconciliation of this result.
+
+Manager acknowledges `d7dd6f9` (fixture parity), `a7c8269` (offline gate rehearsal), and `b10bc8f` (short CRC readback and full-day source ineligibility). Subsequent peer refresh found historical plans `b1e7a88` and `fd76b5d`. Hold further historical acquisitions under those plans and reconcile any existing attempt without duplication. Future-window protocols and the separate 180-day confirmation retain their gates.
+
+Drive recovery remains BLOCKED on existing authorized scoped read access and the private original synthetic object/version/full SHA-256 receipt. Manager's next step is one read-only download of that same object on a distinct Codex Cloud executor and locally recomputed SHA-256 comparison. Capture's guarded diagnostic remains held pending Manager qualification and Architect review of a compatible runtime. No new compatible option was evidenced. Pilot remains stopped.
+
 ### Latest parallel coordination checkpoint
 
 Manager acknowledges Architect `f8478239b53b5b2437ab3d7e921816c5fba29ef1`, Implementer `96c9d93fef652785426f19762a6ba1ffefdd8ad0`, and Capture `e30e7f02044f4ab3a4c7f033100de07ebf0aaad8`. GitHub carries exact handoffs for the next supported invocation.
