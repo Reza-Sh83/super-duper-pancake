@@ -4,6 +4,19 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Latest parallel coordination checkpoint
+
+Manager acknowledges Architect `f8478239b53b5b2437ab3d7e921816c5fba29ef1`, Implementer `96c9d93fef652785426f19762a6ba1ffefdd8ad0`, and Capture `e30e7f02044f4ab3a4c7f033100de07ebf0aaad8`. GitHub carries exact handoffs for the next supported invocation.
+
+| Item | Owner | Evidence and next action | Earliest evidence-backed result |
+| --- | --- | --- | --- |
+| Independent Drive recovery | Manager | BLOCKED on activation of existing authorized scoped access and private handoff of the original synthetic object's reference, version and full SHA-256 receipt. The user reported one successful local roundtrip. Verify the existing authorized access using supported credential settings. From a distinct Codex Cloud executor, read the same object once and compute SHA-256 over the downloaded bytes, compare to the original full digest, and publish a sanitized verdict. Verify executor and object identity privately. Keep the original object, use read-only access, and inspect attempts before dispatch | First supported invocation after the scoped access and original receipt are available on a distinct executor. No clock time established |
+| Hourly fixture parity | Architect | Manager independently ran the exact Implementer corrected fixture `3c77f0eaf90eb73f0fcfa672fd61ff59640601f0` against frozen `06469335b9342bc9a32459462a7a3a4b15167200`. PASS on two synthetic inputs, 16 accounts and 336 UTC-day comparisons. Fee, slippage and total exit reserve fields from the correction preserve NAV and outcomes. Architect owns the exact correction review on the next supported invocation. Implementer acts on concrete review findings | Manager result available now. Architect's review depends on its next supported invocation |
+| Registered hourly study | Architect | Keep the exact frozen candidate and sole acquisition owner. Manager verifies 180-day confirmation disjointness and Architect verifies existing attempt/output state before one registered acquisition | Acquisition cannot begin before December 15, 2026 at 03:30 Tehran (00:00 UTC). Result availability also depends on disjointness, coverage and successful replay |
+| Capture diagnostic and source identity | Capture, with Manager runtime qualification | TICKER-01 passed transport for 25 seconds. Capture pins original sealed package `8bf869afb527cac88275fd63f705a4e861695602`. Manager confirmed the public package tree matches `03cef5db2c1823cd272b6090a327b8fecae19147` byte-for-byte. Architect can review this exact mapping against Capture's attestation. Capture owns any future qualifying source receipt. Manager keeps the guarded run held until reviewed runtime capability exists | Ticker and public build comparison are available now. No date for the guarded result or full-day sealed evaluation |
+
+Checkpoint: clean start `4cfb6f1` on cloud-pilot/status. Fetched and read exact receipts, checked scoped Drive readiness, escalated the concrete dependency privately, corroborated the public package mapping and completed bounded offline parity. No Manager job is active. Next supported invocation fetches peer refs and checks existing attempts and outputs. If the Drive prerequisite has arrived, perform the one read-only distinct-executor check. Otherwise take the next unblocked independent item. Pilot remains gated, paper-only scope and zero added cost remain in force.
+
 ### Cloud diagnostic, Drive recovery and research coordination
 
 Manager acknowledges exact Architect receipt `83871a3a336b37c78f258b19d2a466cb1733231f`, Implementer receipt `009f35e65fe3777dfe5e282be05e650c3fc306c2` and Capture map `a626cbc6fd9a4dda239e49680a0dcd72cf8a6a0b`. GitHub is the verified receipt channel. No direct peer dispatch capability was exposed.
