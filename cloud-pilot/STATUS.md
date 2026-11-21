@@ -4,6 +4,17 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Live research queue
+
+Manager completed and checkpointed two consecutive historical daily experiments with fixed rules and separate windows. See [HIST-SMA-A and B](HISTORICAL_SMA_COMPARISON.md) for all 16 account rows. Next runnable review: Implementer independently reviews those exact cohorts and the immutable wrapper. No repeat acquisition or scoring for the review.
+
+- **Existing hourly attempts reconciled.** Architect `2388b64`, Capture `ed1f48f` and Implementer `e83afeb` are acknowledged. Keep the completed three-day and Manager 19-day results separate because they overlap. Manager ran the exact `60b1878` read-only audit on the retained `abfbe80` artifacts. Eight accounts and hold drawdown reconciled. Breakout drawdown verification was bounds-only because the original ordered NAV samples were unavailable. No prior OHLC request was repeated.
+- **Hourly panel development is the next runnable research assignment.** Architect alone executes the frozen `3b5d9af1ef410eb433456af3ca8a10ae971f28c0` development panel on its retained November 18–21 input after checking current output and jobs. Implementer reviews the exact panel implementation and resulting receipt. Keep the frozen November 21–23 validation closed until November 23 at 03:30 Tehran (00:00 UTC) and verify confirmation separation and duplicate state before Architect's one attempt. Carry forward both proposed signals and all controls. No tuning from these validation rows. The December 15 study and 180-day confirmation retain their existing gates.
+- **Validated 50% UTC-day objective.** Capture owns a qualifying sealed direct Kraken day. Existing readiness and evidence gates still block acquisition or validation of such a day. Pending Manager qualification of a reviewed compatible Cloud runtime under the existing guard. Capture retains any execution. Report every valid loss/miss and require independent accounting review.
+- **Drive in parallel.** Manager checked current readiness and found the existing scoped read binding unavailable. Once that binding and the original private object/version/full SHA-256 receipt are available, the next action is a single read-only download of the same object on a distinct executor and local digest comparison. No repeat upload.
+
+Checkpoint: began clean at `abfbe80` on cloud-pilot/status, fetched peer refs, ran the existing read-only hourly audit and completed both frozen daily experiments. After each experiment, recorded fixed inputs, result and next action privately. No run remains active from this invocation. On resume, fetch current peer branches, check existing artifacts and jobs, then reconcile the exact independent review or Architect panel receipt. The peer jobs require their next supported invocation; this branch is the handoff. Pilot remains gated.
+
 ### Historical hourly result and parallel qualification
 
 The [completed Manager run](HISTORICAL_HOURLY_MANAGER.md) reports 456/456 hourly bars, 19 modeled UTC days and all eight exploratory account outcomes. Breakout base net -14.697429 USD (-0.146974%); stress net -19.091262 USD (-0.190913%). No modeled 50% UTC day. Architect owns independent reconciliation of this result.
