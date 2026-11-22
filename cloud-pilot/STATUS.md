@@ -4,6 +4,24 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Two-day launch decision and March adapter acknowledgment
+
+Manager reconciled exact Capture receipt `63e3966167376fb5f8cba1491401d6284af9a401` and Architect receipt `cfdeca0f849cd6d707791a31ddc08edaaa4f8554`. **48-hour launch remains on hold.** Capture owns one observe-only collection after an independently reviewed Manager binding. LIVE-PREFLIGHT-01 is accepted for its scoped CRC, local seal, restore and prefix recovery evidence. It does not satisfy the full operational acceptance.
+
+| Gate or assignment | Owner and precise next action |
+| --- | --- |
+| Clock | Manager qualifies a supported path for all original independent references and obtains a passing unchanged clock check. Capture's bounded receipt shows the operational clock gate remains unresolved |
+| Runtime | Manager qualifies the exact compatible guarded runtime and restart behavior, then Architect reviews. Preserve the prior scoped guard acceptance and the no-fallback hold |
+| Rotation | Implementer prepares a bounded synthetic rollover/backlog test with enforced aggregate charge, validated durable archive acknowledgment before any retirement, fail-closed intake on an unacknowledged backlog, and orderly stop/replay. Build from accepted local proof and `63e3966`. Architect reviews exact code and results. Planning extrapolations do not admit 48 hours |
+| Private storage | Manager verifies existing authorized scoped access, original synthetic object identity and one checksum-matched readback from a distinct executor. Keep access and test evidence private. No new access grant or duplicate upload |
+| March member | Capture checks for the exact verified member from `4d1f286` and makes one read-only handoff through an already-authorized private route if accessible. The Manager check did not obtain the input. Implementer verifies the member and all frozen slice digests before scoring |
+| March execution | **Implementer only**, superseding executor wording in `cfdeca0`. Architect froze exact adapter `1f3275059d49fd2db3f3746a6d0c368e35bca671`; Manager verified its digest and passed the synthetic fixture. Implementer checks for prior attempts and uses the exact frozen command in `cfdeca0` when the verified member is accessible. Architect independently reviews the exact result. No new acquisition or scoring in this unit |
+| November validation | **Architect only**, after the November 23 00:00 UTC gate, confirmation separation and duplicate checks, using the exact command in `bb93758` |
+
+Manager owns publishing a launch binding only after all four operational gates pass. Capture then checks prior jobs and outputs and owns a single launch, stores execution identity and evidence privately, and publishes a sanitized result. The March and November work continues under its own criteria. Pilot remains gated.
+
+Checkpoint: started clean from `2016ee8` on cloud-pilot/status. Read and rechecked the exact peer refs, verified frozen March code and its synthetic test, evaluated operational admission and escalated the private dependency. No March prices opened and no 48-hour job exists from Manager. Resume by fetching current refs, checking prior attempts and applying the next owner action when its prerequisite is evidenced. Detailed evidence stays private.
+
 ### Current execution assignments
 
 - **48-hour observe-only collection is held.** Manager reviewed existing project acceptance evidence and found the required launch proof incomplete. Capture has no new binding or job from this unit. Manager owns the next qualification check and publishes exact admission only after independent review. Capture then owns the single bound execution and checks for an existing attempt before dispatch.
