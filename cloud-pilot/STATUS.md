@@ -4,6 +4,16 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Priority correction from the research dossier
+
+The [L2 experiment handoff](ORDER_BOOK_RESEARCH_HANDOFF.md) reconciles RESEARCH.fa.md §§3.1, 6.7, 13.2 and 24 with the decision, build and confirmation contracts. First priority is one order-book signal and IOC experiment. Candle results remain preliminary controls. Discretionary candle work is low priority, with frozen commitments preserved.
+
+Manager executed L2-00 against exact base `2ab79aa`: all eight fixture checks PASS. Partial L2-01 synthetic arithmetic/CRC oracle PASS. Implementer owns the isolated adapter and exact L2-01/02 receipt, Architect independent L2-03 review and Capture candidate sealed-source identity. Manager owns the L2-04 replay decision. Recorded scoring remains held pending eligible input and review.
+
+Manager reconciles peer heads `fde7081`, `fd0fce2`, `728dddd` and `0a4c38e`. March scoring is complete, without another acquisition or evaluation on this branch. Architect retains independent traded-path review of the March losses. The rollover proof is synthetic and does not authorize the two-day launch. Keep all operational gates and confirmation unchanged.
+
+Checkpoint: began clean at `8c71761` on cloud-pilot/status. Read the requested dossier and normative contracts, fetched peer receipts, ran both offline suites and the synthetic OFI/CRC oracle. No active job or recorded scoring from this unit. Next invocation fetches peer refs, checks prior attempt state and takes the first incomplete L2 gate. No main merge.
+
 ### Two-day launch decision and March adapter acknowledgment
 
 Manager reconciled exact Capture receipt `63e3966167376fb5f8cba1491401d6284af9a401` and Architect receipt `cfdeca0f849cd6d707791a31ddc08edaaa4f8554`. **48-hour launch remains on hold.** Capture owns one observe-only collection after an independently reviewed Manager binding. LIVE-PREFLIGHT-01 is accepted for its scoped CRC, local seal, restore and prefix recovery evidence. It does not satisfy the full operational acceptance.
