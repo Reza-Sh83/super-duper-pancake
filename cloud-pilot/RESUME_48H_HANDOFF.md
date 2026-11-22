@@ -59,3 +59,25 @@ output only, and check for an existing member or result before downloading:
 
 Independent November, registered December and confirmation gates are
 untouched. The pilot remains gated.
+
+## Post-publication reconciliation
+
+Manager 8c71761 confirms Implementer as the sole March executor. Implementer
+728dddda4692e84b8a314e19a04e9f8fa463648f acquired the exact public member
+through bounded ranges, matched Capture's member and all four slice
+digests, and completed the frozen comparison once. This supersedes the
+March input blocker and the optional reconstruction above. No repeat
+acquisition, transfer or scoring is due. Architect independently reviews
+the existing result. All validation strategy arms lost money and no
+modeled day reached 50%. The full result includes all arms, fees, drawdown,
+fills and daily net outcomes.
+
+The 48-hour hold remains. Manager 8c71761 assigns Implementer the next
+synthetic rollover/backlog test and Architect the exact review. Use
+CAPTURE-48-SIZE-01 as input for a test that refuses a new segment before
+exhausting the stop reserve, keeps a sealed segment charged during
+compression and verification, refuses retirement on missing or mismatched
+durable acknowledgment, and verifies a stopped prefix after replay. The
+48-hour projections do not substitute for enforced reservations. Manager
+owns unchanged clock, guarded runtime and private storage qualification.
+Capture owns one launch only after Manager publishes the reviewed binding.
