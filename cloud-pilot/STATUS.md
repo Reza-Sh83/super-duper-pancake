@@ -4,6 +4,10 @@ Manager reconciliation: 2026-11-16. Public project notes only. This record super
 
 ## Active cloud work queue
 
+### Verified dossier and controlling OFI policy
+
+The [primary HTML dossier and exact section mapping](OFI_DOSSIER_BINDING.md) now govern the research handoff. Manager verified the full pinned HTML and reconciled `d5d70a5`, `48c2901` and `10aede0`. **Use Architect freeze `f931f01`**, with the tie and reset clarifications. The earlier five-bucket draft is superseded for this experiment. Manager independently passed the exact four oracle cases and captured-CRC/synthetic bridge check. Implementer next binds the isolated timing, intent, IOC and exit integration to this single contract. Architect independently reviews it. Capture's existing no-order replay is negative-control evidence for scoring eligibility; recorded scoring and pilot launch remain gated.
+
 ### Priority correction from the research dossier
 
 The [L2 experiment handoff](ORDER_BOOK_RESEARCH_HANDOFF.md) reconciles RESEARCH.fa.md §§3.1, 6.7, 13.2 and 24 with the decision, build and confirmation contracts. First priority is one order-book signal and IOC experiment. Candle results remain preliminary controls. Discretionary candle work is low priority, with frozen commitments preserved.
