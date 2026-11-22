@@ -127,3 +127,63 @@ class IOCLedgerReplayTests(unittest.TestCase):
         self.assertEqual(D(end["cancelled"]), D(1))
         self.assertEqual(engine.val("cash"), D("9898.899"))
         self.assertTrue(ledger.reconcile())
+
+    def test_base_ioc_matches_at_latency_and_expires_before_equal_ttl_frame(self):
+        for before, boundary, expected in ((249_000_000, 250_000_000, D("1.5")),
+                                           (249_000_000, 5 * NANO, D(0))):
+            with self.subTest(boundary=boundary):
+                ledger = Ledger(":memory:")
+                self.addCleanup(ledger.close)
+                engine = Engine(ledger)
+                book = book_at()
+                with ledger.transaction(1, "intent"):
+                    engine.order("base", D(".02"), book, META, {"idx": 1, "mono": 0})
+                for index, offset, expected_btc in ((2, before, D(0)), (3, boundary, expected)):
+                    body = market(utc=UTC + offset)
+                    body["type"] = "update"
+                    self.assertTrue(book.apply(1, index, body))
+                    with ledger.transaction(index, str(index)):
+                        engine.on_book(book, META, {"idx": index, "mono": offset, "utc": UTC + offset})
+                    self.assertEqual(engine.val("btc"), expected_btc)
+                self.assertFalse(engine.s["orders"])
+                kind, terminal = ledger.db.execute(
+                    "SELECT kind,payload FROM events WHERE id='base/order/end'"
+                ).fetchone()
+                if expected:
+                    self.assertEqual((kind, D(load(terminal)["fee"])), ("ioc", D("1.2004")))
+                else:
+                    self.assertEqual((kind, load(terminal)["reason"]), ("cancel", "TTL"))
+                    self.assertEqual(engine.val("cash"), D(10000))
+                self.assertTrue(ledger.reconcile())
+
+    def test_consumed_depth_is_arm_local_and_repeated_quote_cannot_refill(self):
+        ledger = Ledger(":memory:")
+        self.addCleanup(ledger.close)
+        engine = Engine(ledger)
+        book = book_at(asks={"100": "1"})
+        control = book_at(asks={"100": "1"})
+        with ledger.transaction(1, "initial intent"):
+            engine.order("first", D(".02"), book, META, {"idx": 1, "mono": 0})
+        for index, offset in ((2, 250_000_000), (3, 500_000_000)):
+            body = market(utc=UTC + offset, asks={"100": "1"})
+            body["type"] = "update"
+            for candidate in (book, control):
+                self.assertTrue(candidate.apply(1, index, body))
+            with ledger.transaction(index, str(index)):
+                engine.on_book(book, META, {"idx": index, "mono": offset, "utc": UTC + offset})
+                if index == 2:
+                    engine.order("second", D(".02"), book, META, {"idx": index, "mono": offset})
+            self.assertEqual(book.sides, control.sides)
+            self.assertEqual(book.used["asks"][D(100)], D(1))
+            self.assertEqual(control.used["asks"][D(100)], D(0))
+            self.assertEqual(engine.val("btc"), D(1))
+            self.assertEqual(engine.val("cash"), D("9899.2"))
+        self.assertFalse(engine.s["orders"])
+        kind, terminal = ledger.db.execute(
+            "SELECT kind,payload FROM events WHERE id='second/order/end'"
+        ).fetchone()
+        self.assertEqual((kind, load(terminal)["reason"]),
+                         ("cancel", "IOC below executable minimum"))
+        self.assertEqual(ledger.db.execute(
+            "SELECT count(*) FROM events WHERE kind='fill'").fetchone()[0], 1)
+        self.assertTrue(ledger.reconcile())
