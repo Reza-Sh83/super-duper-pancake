@@ -7,9 +7,9 @@ import unittest
 
 from crypto_paper.__main__ import replay
 from crypto_paper.data import D, NANO, dump, load, parse_time
-from crypto_paper.engine import Ledger
+from crypto_paper.engine import Engine, Ledger
 from crypto_paper.runtime import Capture, Session, manifest
-from crypto_paper.verify import META, market
+from crypto_paper.verify import META, UTC, book_at, market
 
 
 class IOCLedgerReplayTests(unittest.TestCase):
@@ -102,3 +102,28 @@ class IOCLedgerReplayTests(unittest.TestCase):
                         self.assertFalse(state["orders"])
                     finally:
                         ledger.close()
+
+    def test_stress_latency_and_limit_after_adverse_rounding(self):
+        ledger = Ledger(":memory:")
+        self.addCleanup(ledger.close)
+        engine = Engine(ledger, stress=True)
+        book = book_at()
+        with ledger.transaction(1, "intent"):
+            engine.order("stress", D(".02"), book, META, {"idx": 1, "mono": 0})
+            order = engine.s["orders"]["stress/order"]
+            self.assertEqual(order["limit"], D("100.2"))
+            self.assertEqual(order["qty"], D(2))
+        for index, offset, btc in ((2, 999_000_000, D(0)), (3, NANO, D(1))):
+            book.index = index
+            with ledger.transaction(index, str(index)):
+                engine.on_book(book, META, {"idx": index, "mono": offset, "utc": UTC + offset})
+                self.assertEqual(engine.val("btc"), btc)
+        rows = ledger.db.execute("SELECT payload FROM events WHERE kind='fill'").fetchall()
+        self.assertEqual(len(rows), 1)
+        fill = load(rows[0][0])
+        self.assertEqual((D(fill["price"]), D(fill["fee"])), (D("100.1"), D("1.001")))
+        end = load(ledger.db.execute(
+            "SELECT payload FROM events WHERE id='stress/order/end'").fetchone()[0])
+        self.assertEqual(D(end["cancelled"]), D(1))
+        self.assertEqual(engine.val("cash"), D("9898.899"))
+        self.assertTrue(ledger.reconcile())
